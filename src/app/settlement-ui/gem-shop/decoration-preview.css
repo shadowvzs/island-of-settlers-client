@@ -1,0 +1,5 @@
+.settlement-ui__panel.gem-shop-preview-window { width: min(420px, calc(100vw - 24px)); }
+.gem-shop-preview { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 12px; }
+.gem-shop-preview__image { width: min(256px, 65vw); height: min(256px, 65vw); }
+.gem-shop-preview__actions { display: flex; gap: 12px; }
+.gem-shop-preview p { margin: 4px 0; }

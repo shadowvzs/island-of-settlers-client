@@ -1,0 +1,4 @@
+.building-card__tooltip p { margin: 4px 0; }
+.building-card__materials { display: flex; flex-wrap: wrap; gap: 6px 12px; padding: 0; margin: 6px 0 0; list-style: none; }
+.building-card__materials li { display: flex; align-items: center; gap: 4px; }
+.building-card__materials img { width: 32px; height: 32px; object-fit: contain; }

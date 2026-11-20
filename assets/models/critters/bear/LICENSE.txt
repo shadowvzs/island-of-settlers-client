@@ -1,0 +1,7 @@
+"Realistic Animated Bear 3D Model" by WildMesh 3D (https://sketchfab.com/WildMesh_3D)
+Source: https://sketchfab.com/3d-models/realistic-animated-bear-3d-model-bffc3c87d2d148ff8533e1cc8a11c9f1
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: simplified to about 3,150 triangles (High) and 1,600 (Minimal), its textures baked
+into vertex colours (no texture shipped), its idle, walk, trot, eating and lying clips baked
+into posed frames with the root motion removed, scaled to island units
+(tools/assets/bear-model.ts).

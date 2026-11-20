@@ -1,0 +1,60 @@
+/* Offline 3D renders (tools/bench/ui-action-icons.ts), identical at every world detail level. */
+svg.settlement-art-icon {
+  flex: 0 0 auto;
+  overflow: visible;
+  filter: drop-shadow(0 1px 0 #fff0be66) drop-shadow(0 2px 1px #49331e66);
+}
+.settings-panel__section h2,
+.settlement-ui__production-caption {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.settings-panel__section h2 > svg,
+.settlement-ui__production-caption > svg,
+.settlement-ui__cargo-controls button > svg {
+  width: 24px;
+  height: 24px;
+}
+.settlement-ui__cargo-controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+@media (max-width: 760px), (max-height: 650px) {
+  .settings-panel__section h2 > svg,
+  .settlement-ui__production-caption > svg,
+  .settlement-ui__cargo-controls button > svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+.settlement-ui__menu .settlement-ui__button > svg.settlement-art-icon {
+  width: 38px;
+  height: 38px;
+}
+@media (max-width: 760px), (max-height: 650px) {
+  .settlement-ui__menu .settlement-ui__button > svg.settlement-art-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.settlement-ui__production-toggle { min-width: 48px; min-height: 44px; justify-content: center; }
+.settlement-ui__production-toggle > svg { width: 30px; height: 30px; }
+
+img.settlement-art-icon { width: 32px; height: 32px; object-fit: contain; flex: 0 0 auto; }
+.settlement-ui__ship-portrait.settlement-art-icon { width: min(100%, 224px); height: 178px; margin: 0 auto; }
+
+.settlement-ui__menu .settlement-ui__button > img.settlement-art-icon { width: 48px; height: 48px; }
+.settlement-sail-back-icon {
+  position: relative;
+  display: inline-block;
+  width: 62px;
+  height: 48px;
+}
+.settlement-sail-back-icon > img { position: absolute; object-fit: contain; }
+.settlement-sail-back-icon > img:first-child { left: 0; top: 18px; width: 26px; height: 26px; }
+.settlement-sail-back-icon > img:last-child { right: 0; top: 0; width: 46px; height: 46px; }
+.settlement-popup__actions .settlement-popup__icon-action { width: 76px; min-height: 64px; padding: 4px; }

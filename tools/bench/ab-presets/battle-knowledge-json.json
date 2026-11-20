@@ -1,0 +1,24 @@
+{
+  "command": ["tools/bench/military-battle-tick.ts"],
+  "env": { "PHASES": "1" },
+  "rounds": 5,
+  "warmup": 1,
+  "metrics": [
+    "flat.knowledgeAvg=json:flat.knowledge.avg",
+    "flat.knowledgeP95=json:flat.knowledge.p95",
+    "flat.knowledgeMax=json:flat.knowledge.max",
+    "coastal.knowledgeAvg=json:coastal.knowledge.avg",
+    "coastal.knowledgeP95=json:coastal.knowledge.p95",
+    "flat.battleAvg=json:flat.battle.avg",
+    "flat.battleP95=json:flat.battle.p95",
+    "coastal.battleAvg=json:coastal.battle.avg",
+    "flat.commanderAvg=json:flat.commander.avg",
+    "flat.decisionP95=json:flat.commander.decisionP95"
+  ],
+  "hashes": [
+    "flat.hash=json:flat.hash",
+    "coastal.hash=json:coastal.hash",
+    "flat.endSecond=json:flat.endSecond",
+    "flat.survivors=json:flat.survivors"
+  ]
+}

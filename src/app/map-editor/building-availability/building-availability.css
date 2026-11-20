@@ -1,0 +1,52 @@
+/* Building availability section (MAP BUILDING AVAILABILITY): compact tier buttons and building icon toggles. */
+.building-availability { display: grid; gap: 6px; }
+.building-availability__row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.building-availability__label { margin-right: 4px; font-size: 12px; font-weight: 700; }
+.map-editor button.building-availability__tier,
+.map-editor button.building-availability__mode {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+.map-editor button.building-availability__mode { width: auto; padding: 0 8px; }
+.building-availability__bans { display: grid; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 3px; }
+.map-editor button.building-availability__ban {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+}
+.building-availability__ban > img { width: 28px; height: 28px; object-fit: contain; pointer-events: none; }
+/* A banned building: dimmed icon under a red diagonal stroke (the map rules' "off" look). */
+.building-availability__ban[aria-pressed="true"] > img { opacity: 0.4; filter: grayscale(0.8); }
+.building-availability__ban[aria-pressed="true"]::after {
+  content: "";
+  position: absolute;
+  inset: 15px 3px auto;
+  height: 3px;
+  border-radius: 2px;
+  background: #b3261e;
+  transform: rotate(-45deg);
+  pointer-events: none;
+}
+.building-availability__warnings { margin: 0; padding-left: 16px; font-size: 12px; color: #9a3412; }
+.building-availability__warnings > li[data-severity="error"] { color: #b3261e; font-weight: 700; }
+/* Max level mode: a building that cannot take a cap (banned, no levels, tier 1) stays visible but faded. */
+.building-availability__ban--idle > img { opacity: 0.35; }
+.building-availability__cap {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  padding: 0 3px;
+  border-radius: 6px;
+  background: #1f2937d9;
+  color: #fde68a;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13px;
+  pointer-events: none;
+}

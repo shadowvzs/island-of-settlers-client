@@ -1,0 +1,85 @@
+/* Support window: a short letter, two donation buttons and the Revolut QR code. */
+.settlement-ui__panel.settlement-ui__support-window {
+  top: 72px;
+  bottom: auto;
+  left: max(16px, calc(50vw - 260px));
+  width: min(520px, calc(100vw - 32px));
+  max-height: min(640px, calc(100dvh - 120px));
+}
+
+.support-panel {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 14px 16px 18px;
+  color: var(--hud-ink);
+  font: 13px/1.45 Georgia, serif;
+  touch-action: pan-y;
+}
+
+.support-panel p {
+  margin: 0 0 10px;
+}
+
+.support-panel__lead {
+  color: var(--hud-accent);
+  font: 600 16px/1.35 Georgia, serif;
+}
+
+.support-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.support-panel__link {
+  flex: 1 1 170px;
+  color: var(--hud-ink) !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.support-panel__qr {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 12px 0 14px;
+  padding: 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+}
+
+.support-panel__qr img {
+  flex: 0 0 auto;
+  width: 148px;
+  height: 148px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.support-panel__qr figcaption {
+  color: var(--hud-muted);
+  font-size: 12px;
+}
+
+.support-panel__thanks {
+  margin: 0 !important;
+  color: var(--hud-accent);
+  font-style: italic;
+}
+
+@media (max-width: 520px) {
+  .settlement-ui__panel.settlement-ui__support-window {
+    top: 56px;
+    left: 8px;
+    width: calc(100vw - 16px);
+    max-height: calc(100dvh - 84px);
+  }
+
+  .support-panel__qr {
+    flex-direction: column;
+    text-align: center;
+  }
+}

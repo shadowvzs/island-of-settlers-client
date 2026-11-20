@@ -1,0 +1,281 @@
+/* Trade office (TRADE-01 phase 4): market rows, place-offer sides and pickers, my offers, history. */
+.settlement-ui__panel.settlement-ui__trade-office-window {
+  left: 260px;
+  top: 12px;
+  bottom: auto;
+  width: min(560px, calc(100vw - 32px));
+  max-height: min(700px, calc(100dvh - 140px));
+  z-index: 4;
+}
+.settlement-ui__trade-office-window .trade-office-window__content {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.trade-office {
+  --trade-row: #fff6dc59;
+  --trade-row-edge: #a17c4d80;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  padding: 8px 10px 10px;
+  color: var(--hud-ink);
+  outline: none;
+}
+:root[data-hud-theme="dark"] .trade-office { --trade-row: #00000030; --trade-row-edge: #ba925b55; }
+.trade-office :is(.trade-office__market, .trade-office__place, .trade-office__offers, .trade-office__history) {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+}
+.trade-office__filters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px;
+}
+.trade-office__filters .settings-panel__select { grid-template-columns: auto minmax(0, 1fr); }
+.trade-office__search {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+}
+.trade-office__search input,
+.trade-office__amount input[type="number"] {
+  min-width: 0;
+  min-height: 32px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+  color: var(--hud-ink);
+  font: inherit;
+}
+.trade-office__list {
+  display: grid;
+  flex: 1 1 auto;
+  align-content: start;
+  gap: 6px;
+  min-height: 0;
+  margin: 0;
+  padding: 0 2px 0 0;
+  overflow-y: auto;
+  list-style: none;
+}
+.trade-office__list:empty { display: none; }
+.trade-office__row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px 10px;
+  padding: 5px 8px;
+  border: 1px solid var(--trade-row-edge);
+  border-radius: 10px;
+  background: var(--trade-row);
+}
+.trade-office__row[data-taken="true"] { opacity: .62; }
+.trade-office__pair { display: flex; align-items: center; gap: 6px; }
+.trade-office__arrow { color: var(--settlement-accent); font: 700 18px/1 Georgia, serif; }
+.trade-office__lot {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font: 700 14px/1 Georgia, serif;
+  font-variant-numeric: tabular-nums;
+}
+.trade-office__lot :is(img, svg) { width: 40px; height: 40px; object-fit: contain; }
+.trade-office__merchant {
+  display: grid;
+  min-width: 0;
+  font: 600 13px/1.25 Georgia, serif;
+  overflow-wrap: anywhere;
+}
+.trade-office__status { color: var(--settlement-muted); font: 12px/1.3 system-ui, sans-serif; }
+.trade-office__reason {
+  grid-column: 1 / -1;
+  color: var(--hud-danger);
+  font-size: 12px;
+}
+.trade-office .trade-office__buy,
+.trade-office .trade-office__cancel {
+  min-width: 64px;
+  min-height: 44px;
+  flex-direction: row;
+  padding: 4px 8px;
+  border-color: var(--hud-paper-edge);
+  background: var(--hud-control);
+  font: 700 13px/1 Georgia, serif;
+}
+.trade-office .settlement-ui__button > svg { width: 26px; height: 26px; }
+.trade-office .trade-office__buy:disabled { opacity: .5; cursor: var(--cursor-not-allowed, not-allowed); }
+.trade-office__goods { font-size: 13px; }
+.trade-office__empty,
+.trade-office__note,
+.trade-office__count,
+.trade-office__estimate { margin: 0; font-size: 13px; }
+.trade-office__empty { padding: 12px 4px; color: var(--settlement-muted); text-align: center; }
+.trade-office__note {
+  padding: 6px 8px;
+  border-left: 3px solid var(--settlement-accent);
+  border-radius: 4px;
+  background: var(--trade-row);
+}
+.trade-office__count { font-weight: 700; }
+.trade-office__sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.trade-office .trade-office__side {
+  min-height: 96px;
+  justify-content: center;
+  cursor: var(--cursor-pointer, pointer);
+  font: inherit;
+}
+.trade-office__side strong { font: 700 15px/1.2 Georgia, serif; }
+.trade-office__side .trade-office__lot { font-size: 18px; }
+.trade-office__side .trade-office__lot :is(img, svg) { width: 52px; height: 52px; }
+.trade-office__picker {
+  display: grid;
+  gap: 8px;
+  min-height: 0;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid var(--trade-row-edge);
+  border-radius: 10px;
+  background: var(--trade-row);
+  overflow-y: auto;
+}
+.trade-office__picker legend { padding: 0 4px; font: 700 14px/1.2 Georgia, serif; }
+.trade-office__wares {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(58px, 1fr));
+  gap: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.trade-office__ware {
+  display: grid;
+  justify-items: center;
+  gap: 1px;
+  padding: 3px 2px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-control);
+  color: var(--hud-ink);
+  cursor: var(--cursor-pointer, pointer);
+  font: 700 11px/1 system-ui, sans-serif;
+}
+.trade-office__ware :is(img, svg) { width: 40px; height: 40px; object-fit: contain; }
+.trade-office__ware[aria-pressed="true"] {
+  background: var(--hud-selected-control);
+  border-color: var(--hud-selected-mark);
+  color: var(--hud-selected-ink);
+}
+.trade-office__amount { display: grid; gap: 6px; }
+.trade-office__stepper { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 6px; }
+.trade-office__stepper .settlement-ui__button {
+  min-width: 44px;
+  min-height: 36px;
+  border-color: var(--hud-paper-edge);
+  background: var(--hud-control);
+  font: 700 18px/1 Georgia, serif;
+}
+.trade-office__amount input[type="number"] { text-align: center; }
+.trade-office__slider {
+  width: 100%;
+  height: 22px;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  cursor: var(--cursor-pointer, pointer);
+}
+.trade-office__slider::-webkit-slider-runnable-track {
+  height: 7px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, var(--hud-accent), var(--hud-paper-edge));
+  box-shadow: inset 0 1px 3px #0005, 0 1px #fff6;
+}
+.trade-office__slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -6px;
+  border: 1px solid #805923;
+  border-radius: 50%;
+  background: linear-gradient(#fff1ad, #d4a456 60%, #95703d);
+  box-shadow: 0 1px 3px #0006, inset 0 1px #fff9;
+}
+.trade-office__slider::-moz-range-track {
+  height: 7px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, var(--hud-accent), var(--hud-paper-edge));
+}
+.trade-office__slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #805923;
+  border-radius: 50%;
+  background: linear-gradient(#fff1ad, #d4a456 60%, #95703d);
+}
+.trade-office .trade-office__done { justify-self: end; flex-direction: row; min-height: 40px; }
+.trade-office__estimate { font-weight: 700; }
+.trade-office__estimate[data-estimate="likely"] { color: #3f6f22; }
+.trade-office__estimate[data-estimate="slowly"] { color: var(--settlement-accent); }
+.trade-office__estimate[data-estimate="unlikely"] { color: var(--hud-danger); }
+:root[data-hud-theme="dark"] .trade-office__estimate[data-estimate="likely"] { color: #b9e08f; }
+.trade-office__confirm { display: flex; justify-content: center; gap: 12px; margin-top: auto; }
+.trade-office__confirm .settlement-ui__button { min-width: 96px; flex-direction: row; }
+.trade-office__status-line { min-height: 1.2em; color: var(--settlement-accent); font-weight: 700; }
+.trade-office__status-line:empty { display: none; }
+.trade-office__footer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--trade-row-edge);
+}
+.trade-office__footer .settlement-ui__button { min-height: 58px; font-size: 12px; }
+.trade-office__footer .settlement-ui__button > :is(svg, img) { width: 30px; height: 30px; }
+/* The shown panel's button wears the selected-tab skin (same specificity trick as the HUD tab rule). */
+:root:root:root:root:root .trade-office__footer .settlement-ui__button[aria-pressed="true"] {
+  color: var(--hud-selected-ink) !important;
+  background: var(--hud-selected-tint) padding-box, var(--hud-button-face), var(--hud-selected-control);
+  background-blend-mode: normal, var(--hud-button-blend);
+  box-shadow: var(--hud-button-shadow-pressed), inset 0 0 0 1px var(--hud-selected-mark),
+    inset 0 -3px 0 var(--hud-selected-mark);
+  text-shadow: 0 1px 1px #1a0f0699;
+}
+.trade-office__dialog-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgb(20 14 8 / 45%);
+}
+.trade-office__dialog-layer .settlement-popup__actions { display: flex; justify-content: center; gap: 10px; }
+.trade-office__dialog-layer .settlement-ui__button { min-width: 88px; flex-direction: row; }
+.trade-office__dialog-layer h2 { font-size: 19px; }
+
+@media (max-width: 480px) {
+  .settlement-ui__panel.settlement-ui__trade-office-window { left: 16px; top: 80px; max-height: calc(100dvh - 180px); }
+  .trade-office__filters { grid-template-columns: 1fr; }
+  .trade-office__row { grid-template-columns: auto minmax(0, 1fr); }
+  .trade-office__row > .trade-office__buy-slot,
+  .trade-office__row > .trade-office__cancel { grid-column: 2; justify-self: end; }
+  .trade-office__row > .trade-office__merchant { grid-column: 1 / -1; grid-row: 2; }
+  .trade-office__lot :is(img, svg) { width: 34px; height: 34px; }
+  .trade-office__footer .settlement-ui__button > span { font-size: 11px; }
+}

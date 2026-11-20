@@ -1,0 +1,63 @@
+{
+  "source": "code-native canonical mature peach; native-k",
+  "flowerColour": "#ed9bb5",
+  "captureSourceHashes": "resources/project-reviews/peach-shrub-2026-11-04/native-k/source-before.json",
+  "sourceStable": true,
+  "catalogueActivation": false,
+  "assets": {
+    "peach-atlas-v0.png": {
+      "sha256": "40261353ebf34337a9dc6d4a063a14e5b097e5ea75d133b04425a7643ea94bd5",
+      "bytes": 705932,
+      "width": 2048,
+      "height": 512
+    },
+    "peach-atlas-v1.png": {
+      "sha256": "8378554cf4b4bd05a498b9f2a27f69b67576fd0bc20ad0e74d93435870406e2b",
+      "bytes": 699287,
+      "width": 2048,
+      "height": 512
+    },
+    "peach-atlas-v2.png": {
+      "sha256": "fd27974f4ca07541d423fccc924b66a065ff627e5fc68ad387a6e6b164bade36",
+      "bytes": 692522,
+      "width": 2048,
+      "height": 512
+    },
+    "peach-crowns-high-v0.png": {
+      "sha256": "83c817dc4fcb1f2e6d59d1d37401f24b5745481350237284f7d77bf879f3ef62",
+      "bytes": 951728,
+      "width": 1024,
+      "height": 2048
+    },
+    "peach-crowns-high-v1.png": {
+      "sha256": "4a07a8ce93c7f38237e70bebb9bf1e6fab11702c0a5b08f36c9f01c8dd7576e3",
+      "bytes": 981392,
+      "width": 1024,
+      "height": 2048
+    },
+    "peach-crowns-high-v2.png": {
+      "sha256": "5f339b88b9c0c6b0f9db3259e6ebeba2090e2664fb6083e14c5396d8e1667b9b",
+      "bytes": 949830,
+      "width": 1024,
+      "height": 2048
+    },
+    "peach-crowns-minimal-v0.png": {
+      "sha256": "5f89af346c728128273b54767787954e54d92b7838290164e885d1d4d52c2fa8",
+      "bytes": 971053,
+      "width": 1024,
+      "height": 2048
+    },
+    "peach-crowns-minimal-v1.png": {
+      "sha256": "2c507b7f9efce5cda93388d9b12557af41659c89e387a508d5d731aee329aaee",
+      "bytes": 1002212,
+      "width": 1024,
+      "height": 2048
+    },
+    "peach-crowns-minimal-v2.png": {
+      "sha256": "2047ad069d1765148d2e1cbd2a2b0c0805925a74638f7079eddc9e9003eee57a",
+      "bytes": 969612,
+      "width": 1024,
+      "height": 2048
+    }
+  }
+}

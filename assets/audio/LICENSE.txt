@@ -1,0 +1,27 @@
+Harbour Lanterns
+Original composition and synthesized recording for Island of Settlers, 2026-10-15.
+Dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+No third-party music, audio samples, recordings or soundfonts are used.
+The original score and reproducible synthesizer are in tools/assets/medieval-music.py.
+
+MIDI collection renders (assets/audio/midi/)
+88 compositions supplied by the project owner from resources/midi, in nine collections:
+Roman, Viking, Japanese, Nubian, Chinese, Persian, Maya and Indigenous (10 each) and
+neutral (8). Original source MIDI files stay outside the
+game checkout. The supplied compositions are not covered by the Harbour Lanterns
+CC0 dedication above. Source hashes are recorded in midi/catalog.json.
+
+Rendered offline using FluidSynth and the FluidR3 GM soundfont.
+FluidR3 GM copyright (c) 2000-2002, 2008 Frank Wen; (c) 2008 Toby Smithe.
+FluidR3 GM is distributed under the MIT licence; see midi/FLUIDR3-LICENSE.txt.
+The soundfont and MIDI synthesizer are not included in the browser runtime.
+Reproduction pipeline: tools/audio/render-midi.py.
+
+Garrison trumpet (assets/audio/sfx/garrison-first-occupation.ogg)
+Original three-note cue written for Island of Settlers, rendered offline with the same
+FluidSynth / FluidR3 GM pipeline (tools/audio/render-occupation-trumpet.py).
+
+Every shipped audio file is listed in the game's content catalog (sound and music entries
+of island-of-settlers-shared/src/catalog/data); all other game sounds are synthesized at
+run time by original code and use no samples.

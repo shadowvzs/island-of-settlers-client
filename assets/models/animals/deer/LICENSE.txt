@@ -1,0 +1,10 @@
+Deer Female by Čestmír Dammer (CDmir), Kelgar project (www.kelgar.org)
+Source: https://opengameart.org/content/deer-female
+Licence: CC0 1.0 Public Domain (https://creativecommons.org/publicdomain/zero/1.0/)
+
+Antlers from Old Deer Male by Čestmír Dammer (CDmir)
+Source: https://opengameart.org/content/old-deer-male
+Licence: CC0 1.0 Public Domain
+
+Changes: the stag's antlers grafted onto the doe's head at 45 % size, rest pose only, animation
+clips removed, textures packed into one WebP atlas, levels of detail added.

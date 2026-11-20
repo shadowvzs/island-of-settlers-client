@@ -1,0 +1,9 @@
+"Wild Boar Family" by Dakta.Grower.Nzl (https://sketchfab.com/Dakta.Grower.Nzl)
+Source: https://sketchfab.com/3d-models/wild-boar-family-7e9228685a2d46c596cefb0ba9f07250
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: the boar and the piglet of the family only, stood straight (the piglet's head turned
+forward), cut-out hair cards dropped, simplified to about 3,100 (boar) and 2,500 (piglet)
+triangles on High and half on Minimal, textures baked into vertex colours (no texture shipped;
+the boar lifted to a grizzled grey-brown with a darker winter coat, the piglet given pale
+stripes), rigged (the source is static) and posed into standing, walk, trot, gallop, rooting,
+lying and death frames, scaled to island units (tools/assets/boar-model.ts).

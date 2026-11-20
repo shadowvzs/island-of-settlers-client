@@ -1,0 +1,37 @@
+.settlement-ui__panel.language-window {
+  box-sizing: border-box;
+  width: min(420px, calc(100vw - 24px));
+  left: max(12px, calc(50vw - 210px));
+  top: 18%; bottom: auto;
+  max-height: calc(80dvh - 24px);
+}
+.language-settings { padding: 10px; display: grid; gap: 10px; overflow-y: auto; min-height: 0; }
+.language-settings p { margin: 0; }
+.language-window > div { overflow-y: auto; min-height: 0; }
+.language-settings__label-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.language-settings__label {
+  color: var(--hud-muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.language-settings__selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.language-settings__selection .language-choice { min-width: 0; }
+.language-settings .language-settings__apply {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  min-width: 0;
+  min-height: 0;
+  padding: 4px;
+}
+.language-settings__apply .settlement-art-icon { display: block; width: 22px; height: 22px; }

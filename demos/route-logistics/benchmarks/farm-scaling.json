@@ -1,0 +1,12 @@
+{
+  "note": "1 Farm vs 5 Farms on the developed island, current manual-load/unload model (0.5 s per unit). The extra four Farms are added at runtime; routes and carriers are rebuilt. 6 h simulated at 0.1 s steps, median of 3 runs. Same 6 routes / 6 carriers in every row.",
+  "baseline": { "routes": 6, "carriers": 6, "flagTotalCapacity": 18, "flagWareCapacity": 6 },
+  "rows": [
+    { "farms": 1, "cartCapacity": 8, "stepMs": 847.3, "delivered": 3529, "produced": 2245, "services": 20716, "saturated": 10, "empty": 24, "buildings": 39 },
+    { "farms": 5, "cartCapacity": 8, "stepMs": 928.0, "delivered": 1995, "produced": 1348, "services": 25297, "saturated": 16, "empty": 20, "buildings": 43 },
+    { "farms": 1, "cartCapacity": 4, "stepMs": 858.1, "delivered": 4057, "produced": 2545, "services": 20584, "saturated": 12, "empty": 21, "buildings": 39 },
+    { "farms": 5, "cartCapacity": 4, "stepMs": 951.7, "delivered": 1841, "produced": 1247, "services": 25319, "saturated": 15, "empty": 25, "buildings": 43 },
+    { "farms": 1, "cartCapacity": 2, "stepMs": 895.8, "delivered": 3991, "produced": 2473, "services": 20590, "saturated": 7, "empty": 27, "buildings": 39 },
+    { "farms": 5, "cartCapacity": 2, "stepMs": 997.3, "delivered": 1482, "produced": 1061, "services": 25415, "saturated": 16, "empty": 26, "buildings": 43 }
+  ]
+}

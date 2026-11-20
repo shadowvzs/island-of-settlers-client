@@ -1,0 +1,1931 @@
+{
+  "generatedAt": "2026-11-11T06:16:08.509Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecutedByThisScript": false,
+    "note": "No test preflight is performed by this script."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 104655780,
+      "models": 57,
+      "clips": 174
+    },
+    {
+      "quality": "minimal",
+      "bytes": 17926096,
+      "models": 57,
+      "clips": 174
+    }
+  ],
+  "buildings": [
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 19038,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 7183,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 5935,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 14643,
+      "stockTriangles": 1440,
+      "animalTriangles": 2454,
+      "residentTriangles": 2454,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 5166,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 14466,
+      "stockTriangles": 816,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 17807,
+      "stockTriangles": 1532,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [],
+      "id": 7,
+      "triangles": 42664,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 15915,
+      "stockTriangles": 2396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 12436,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 9040,
+      "stockTriangles": 304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 11838,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 11838,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 8828,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 5593,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 19511,
+      "stockTriangles": 6788,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 8828,
+      "stockTriangles": 640,
+      "animalTriangles": 10632,
+      "residentTriangles": 10632,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 9615,
+      "stockTriangles": 2016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 13383,
+      "stockTriangles": 1392,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 6799,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 16567,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 15739,
+      "stockTriangles": 2304,
+      "animalTriangles": 14724,
+      "residentTriangles": 14724,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 10799,
+      "stockTriangles": 3024,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 14179,
+      "stockTriangles": 4528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 20289,
+      "stockTriangles": 1692,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 15787,
+      "stockTriangles": 2418,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 10541,
+      "stockTriangles": 1524,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 12111,
+      "stockTriangles": 4896,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 13125,
+      "stockTriangles": 3612,
+      "animalTriangles": 19632,
+      "residentTriangles": 19632,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 15047,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 9902,
+      "stockTriangles": 3776,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 11639,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 16075,
+      "stockTriangles": 2616,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 10595,
+      "stockTriangles": 3264,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 14922,
+      "stockTriangles": 3192,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 10887,
+      "stockTriangles": 1584,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 14631,
+      "stockTriangles": 5232,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 10730,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 12052,
+      "stockTriangles": 1984,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 16819,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 16567,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 10147,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9615,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 9391,
+      "stockTriangles": 2544,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 6799,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 2544,
+        "stockDelta": 2472,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 16819,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 16567,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 11299,
+      "stockTriangles": 3456,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9615,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 3456,
+        "stockDelta": 1440,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 7207,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 6799,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 360,
+        "stockDelta": 288,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 16819,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 16567,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 10147,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9615,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 6991,
+      "stockTriangles": 144,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 6799,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 144,
+        "stockDelta": 72,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 16819,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 16567,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 10147,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9615,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 7807,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 6799,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 960,
+        "stockDelta": 888,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 6667,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 14511,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 11012,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 12215,
+      "stockTriangles": 2112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 16779,
+      "stockTriangles": 760,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 12719,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 27000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 3460,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 1280,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 1548,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 1902,
+      "stockTriangles": 108,
+      "animalTriangles": 490,
+      "residentTriangles": 490,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 1646,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 3005,
+      "stockTriangles": 576,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 2762,
+      "stockTriangles": 652,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [],
+      "id": 7,
+      "triangles": 8864,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 2112,
+      "stockTriangles": 236,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 4144,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 1030,
+      "stockTriangles": 90,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 1380,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 1380,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 1464,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 1396,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 2696,
+      "stockTriangles": 1068,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 2952,
+      "stockTriangles": 160,
+      "animalTriangles": 3012,
+      "residentTriangles": 3012,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 1818,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 2212,
+      "stockTriangles": 108,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 1228,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 2080,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 2012,
+      "stockTriangles": 240,
+      "animalTriangles": 2940,
+      "residentTriangles": 2940,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 2022,
+      "stockTriangles": 528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 2908,
+      "stockTriangles": 972,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 2772,
+      "stockTriangles": 768,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 2596,
+      "stockTriangles": 500,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 2398,
+      "stockTriangles": 708,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 2254,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 2664,
+      "stockTriangles": 738,
+      "animalTriangles": 3920,
+      "residentTriangles": 3920,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 2106,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 2427,
+      "stockTriangles": 448,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 2267,
+      "stockTriangles": 344,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 2228,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 2474,
+      "stockTriangles": 1224,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 2556,
+      "stockTriangles": 1176,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 2100,
+      "stockTriangles": 180,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 2488,
+      "stockTriangles": 672,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 1568,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 1646,
+      "stockTriangles": 340,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 2182,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2080,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 1778,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1818,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 104
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 2292,
+      "stockTriangles": 1080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1228,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 1080,
+        "stockDelta": 1008,
+        "architectureDelta": 56
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 2182,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2080,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 1922,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1818,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 432,
+        "stockDelta": 0,
+        "architectureDelta": 104
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 1428,
+      "stockTriangles": 216,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1228,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 216,
+        "stockDelta": 144,
+        "architectureDelta": 56
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 2182,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2080,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 1778,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1818,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 104
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 1332,
+      "stockTriangles": 120,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1228,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 120,
+        "stockDelta": 48,
+        "architectureDelta": 56
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 2182,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2080,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 1778,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1818,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 104
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 1452,
+      "stockTriangles": 240,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1228,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 240,
+        "stockDelta": 168,
+        "architectureDelta": 56
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 1004,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 1668,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 1531,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 2766,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 3018,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 1454,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "persian",
+      "budget": 5250
+    }
+  ]
+}

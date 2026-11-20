@@ -1,0 +1,7826 @@
+[
+ {
+  "scenario": {
+   "missingResources": false,
+   "nation": "roman"
+  },
+  "run": {
+   "experience": 20388,
+   "log": [
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.woodcutter",
+     "objective": {
+      "amount": 1,
+      "building": 17,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 12,
+       "planks": 2
+      },
+      "id": "2026-11-02-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.forester",
+     "objective": {
+      "amount": 1,
+      "building": 20,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.plant",
+     "objective": {
+      "amount": 10,
+      "event": "plant",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.logs",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "talent.apply",
+     "objective": {
+      "amount": 1,
+      "event": "talent",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-1",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.sawmill",
+     "objective": {
+      "amount": 1,
+      "building": 33,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks",
+     "objective": {
+      "amount": 30,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 2,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks-delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.quarry",
+     "objective": {
+      "amount": 1,
+      "building": 19,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 25,
+       "planks": 2
+      },
+      "id": "2026-11-03-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.residence",
+     "objective": {
+      "amount": 2,
+      "building": 57,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-2",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fishery",
+     "objective": {
+      "amount": 1,
+      "building": 18,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fish",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "fish"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.storage",
+     "objective": {
+      "amount": 1,
+      "building": 29,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.well",
+     "objective": {
+      "amount": 1,
+      "building": 35,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-3",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 4
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 18,
+       "planks": 2
+      },
+      "id": "2026-11-04-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "meat",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.hunter",
+     "objective": {
+      "amount": 1,
+      "building": 22,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.meat",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "meat"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.farm",
+     "objective": {
+      "amount": 1,
+      "building": 37,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.grain",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-4",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax",
+     "objective": {
+      "amount": 1,
+      "building": 60,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax-fibre",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.mill",
+     "objective": {
+      "amount": 1,
+      "building": 31,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-5",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 44,
+     "level": 6
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 22,
+       "stone": 2
+      },
+      "id": "2026-11-05-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bakery",
+     "objective": {
+      "amount": 1,
+      "building": 32,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread-delivery",
+     "objective": {
+      "amount": 5,
+      "kind": "deliver",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.weaver",
+     "objective": {
+      "amount": 1,
+      "building": 61,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.cloth",
+     "objective": {
+      "amount": 4,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-6",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs",
+     "objective": {
+      "amount": 1,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 1,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-second",
+     "objective": {
+      "amount": 2,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-raised",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 45,
+       "planks": 2
+      },
+      "id": "2026-11-06-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-7",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.slaughterhouse",
+     "objective": {
+      "amount": 1,
+      "building": 21,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.skinner",
+     "objective": {
+      "amount": 1,
+      "building": 3,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.hides",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-8",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 50,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tannery",
+     "objective": {
+      "amount": 1,
+      "building": 8,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leather",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-9",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 80,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.plantation",
+     "objective": {
+      "amount": 1,
+      "building": 5,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 30,
+       "stone": 3
+      },
+      "id": "2026-11-07-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.raw",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.medium-residence",
+     "objective": {
+      "amount": 1,
+      "building": 58,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-10",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.maker",
+     "objective": {
+      "amount": 1,
+      "building": 6,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.craft",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.brewery",
+     "objective": {
+      "amount": 1,
+      "building": 23,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.beer",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-11",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.survey",
+     "objective": {
+      "amount": 1,
+      "event": "survey",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 34,
+       "planks": 3
+      },
+      "id": "2026-11-08-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "hides",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.coal",
+     "objective": {
+      "amount": 1,
+      "building": 11,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron",
+     "objective": {
+      "amount": 1,
+      "building": 12,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charburner",
+     "objective": {
+      "amount": 1,
+      "building": 27,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charcoal",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coal"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-12",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.smelter",
+     "objective": {
+      "amount": 1,
+      "building": 26,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron-output",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "iron"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.mine",
+     "objective": {
+      "amount": 1,
+      "building": 10,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 13
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 36,
+       "planks": 3
+      },
+      "id": "2026-11-09-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "cloth",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-13",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.metalworks",
+     "objective": {
+      "amount": 1,
+      "building": 25,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools-reserve",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-14",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 50,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leatherworks",
+     "objective": {
+      "amount": 1,
+      "building": 15,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.armour",
+     "objective": {
+      "amount": 3,
+      "kind": "produce",
+      "ware": "armor"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.armory",
+     "objective": {
+      "amount": 1,
+      "building": 24,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.swords",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "sword"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 15
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 40,
+       "planks": 3
+      },
+      "id": "2026-11-10-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "wine",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.shields",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "shield"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-15",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tavern",
+     "objective": {
+      "amount": 1,
+      "building": 40,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.barracks",
+     "objective": {
+      "amount": 1,
+      "building": 1,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-16",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 170,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.guardhouse",
+     "objective": {
+      "amount": 1,
+      "building": 2,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison",
+     "objective": {
+      "amount": 3,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-two",
+     "objective": {
+      "amount": 2,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 17
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 44,
+       "planks": 3
+      },
+      "id": "2026-11-11-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "scythe",
+      "xp": 120
+     }
+    },
+    {
+     "before": {
+      "progress": 3,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison-five",
+     "objective": {
+      "amount": 5,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-17",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 230,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.shipyard",
+     "objective": {
+      "amount": 1,
+      "building": 36,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.ship",
+     "objective": {
+      "amount": 1,
+      "event": "ship",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.harbour",
+     "objective": {
+      "amount": 1,
+      "building": 39,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.trade-offer",
+     "objective": {
+      "amount": 1,
+      "event": "trade-offer",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.stock",
+     "objective": {
+      "amount": 30,
+      "building": 39,
+      "kind": "stock",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-18",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 780,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold",
+     "objective": {
+      "amount": 1,
+      "building": 13,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 19
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 48,
+       "marble": 3
+      },
+      "id": "2026-11-12-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "ironOre",
+      "xp": 300
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold-output",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "goldOre"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-more",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-19",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 640,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.big-residence",
+     "objective": {
+      "amount": 1,
+      "building": 59,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-20",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1070,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.mint",
+     "objective": {
+      "amount": 1,
+      "building": 34,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coins",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.soldiers",
+     "objective": {
+      "amount": 3,
+      "event": "promote:1",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-21",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1140,
+     "level": 22
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-13-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "hides",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.bows",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "bow"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.watchtower",
+     "objective": {
+      "amount": 1,
+      "building": 4,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.archers",
+     "objective": {
+      "amount": 2,
+      "kind": "garrison",
+      "troop": "archer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-22",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1040,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coin-reserve",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans-prep",
+     "objective": {
+      "amount": 3,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 35,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 6,
+      "ready": true,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": null,
+     "id": "army.garrison-six",
+     "objective": {
+      "amount": 6,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.commander-lodge",
+     "objective": {
+      "amount": 1,
+      "building": 62,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-23",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1085,
+     "level": 24
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 58,
+       "cedarPlanks": 4
+      },
+      "id": "2026-11-14-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "axe",
+      "xp": 390
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.catapult-tower",
+     "objective": {
+      "amount": 1,
+      "building": 16,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 24
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-24",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 890,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.expedition",
+     "objective": {
+      "amount": 1,
+      "event": "expedition",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.fortress",
+     "objective": {
+      "amount": 1,
+      "building": 9,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans",
+     "objective": {
+      "amount": 2,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-25",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1300,
+     "level": 26
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 26,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-26",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1500,
+     "level": 27
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 27,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-27",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1600,
+     "level": 28
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 28,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-28",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1700,
+     "level": 29
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-15-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "fishingRod",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 29,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-29",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1800,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "landmark.monument",
+     "objective": {
+      "amount": 1,
+      "building": 7,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-30",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 2443,
+     "level": 31
+    }
+   ],
+   "open": null
+  }
+ },
+ {
+  "scenario": {
+   "missingResources": false,
+   "nation": "viking"
+  },
+  "run": {
+   "experience": 20388,
+   "log": [
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.woodcutter",
+     "objective": {
+      "amount": 1,
+      "building": 17,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 12,
+       "planks": 2
+      },
+      "id": "2026-11-02-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.forester",
+     "objective": {
+      "amount": 1,
+      "building": 20,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.plant",
+     "objective": {
+      "amount": 10,
+      "event": "plant",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.logs",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "talent.apply",
+     "objective": {
+      "amount": 1,
+      "event": "talent",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-1",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.sawmill",
+     "objective": {
+      "amount": 1,
+      "building": 33,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks",
+     "objective": {
+      "amount": 30,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 2,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks-delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.quarry",
+     "objective": {
+      "amount": 1,
+      "building": 19,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 25,
+       "planks": 2
+      },
+      "id": "2026-11-03-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.residence",
+     "objective": {
+      "amount": 2,
+      "building": 57,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-2",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fishery",
+     "objective": {
+      "amount": 1,
+      "building": 18,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fish",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "fish"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.storage",
+     "objective": {
+      "amount": 1,
+      "building": 29,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.well",
+     "objective": {
+      "amount": 1,
+      "building": 35,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-3",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 4
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 18,
+       "planks": 2
+      },
+      "id": "2026-11-04-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "meat",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.hunter",
+     "objective": {
+      "amount": 1,
+      "building": 22,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.meat",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "meat"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.farm",
+     "objective": {
+      "amount": 1,
+      "building": 37,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.grain",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-4",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax",
+     "objective": {
+      "amount": 1,
+      "building": 60,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax-fibre",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.mill",
+     "objective": {
+      "amount": 1,
+      "building": 31,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-5",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 44,
+     "level": 6
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 22,
+       "stone": 2
+      },
+      "id": "2026-11-05-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bakery",
+     "objective": {
+      "amount": 1,
+      "building": 32,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread-delivery",
+     "objective": {
+      "amount": 5,
+      "kind": "deliver",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.weaver",
+     "objective": {
+      "amount": 1,
+      "building": 61,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.cloth",
+     "objective": {
+      "amount": 4,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-6",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs",
+     "objective": {
+      "amount": 1,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 1,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-second",
+     "objective": {
+      "amount": 2,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-raised",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 45,
+       "planks": 2
+      },
+      "id": "2026-11-06-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-7",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.slaughterhouse",
+     "objective": {
+      "amount": 1,
+      "building": 21,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.skinner",
+     "objective": {
+      "amount": 1,
+      "building": 3,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.hides",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-8",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 50,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tannery",
+     "objective": {
+      "amount": 1,
+      "building": 8,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leather",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-9",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 80,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.plantation",
+     "objective": {
+      "amount": 1,
+      "building": 5,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 30,
+       "stone": 3
+      },
+      "id": "2026-11-07-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.raw",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.medium-residence",
+     "objective": {
+      "amount": 1,
+      "building": 58,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-10",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.maker",
+     "objective": {
+      "amount": 1,
+      "building": 6,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.craft",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.brewery",
+     "objective": {
+      "amount": 1,
+      "building": 23,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.beer",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-11",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.survey",
+     "objective": {
+      "amount": 1,
+      "event": "survey",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 34,
+       "planks": 3
+      },
+      "id": "2026-11-08-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "hides",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.coal",
+     "objective": {
+      "amount": 1,
+      "building": 11,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron",
+     "objective": {
+      "amount": 1,
+      "building": 12,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charburner",
+     "objective": {
+      "amount": 1,
+      "building": 27,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charcoal",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coal"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-12",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.smelter",
+     "objective": {
+      "amount": 1,
+      "building": 26,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron-output",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "iron"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.mine",
+     "objective": {
+      "amount": 1,
+      "building": 10,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 13
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 36,
+       "planks": 3
+      },
+      "id": "2026-11-09-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "cloth",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-13",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.metalworks",
+     "objective": {
+      "amount": 1,
+      "building": 25,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools-reserve",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-14",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 50,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leatherworks",
+     "objective": {
+      "amount": 1,
+      "building": 15,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.armour",
+     "objective": {
+      "amount": 3,
+      "kind": "produce",
+      "ware": "armor"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.armory",
+     "objective": {
+      "amount": 1,
+      "building": 24,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.swords",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "sword"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 15
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 40,
+       "planks": 3
+      },
+      "id": "2026-11-10-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "mead",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.shields",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "shield"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-15",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tavern",
+     "objective": {
+      "amount": 1,
+      "building": 40,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.barracks",
+     "objective": {
+      "amount": 1,
+      "building": 1,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-16",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 170,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.guardhouse",
+     "objective": {
+      "amount": 1,
+      "building": 2,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison",
+     "objective": {
+      "amount": 3,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-two",
+     "objective": {
+      "amount": 2,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 17
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 44,
+       "planks": 3
+      },
+      "id": "2026-11-11-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "scythe",
+      "xp": 120
+     }
+    },
+    {
+     "before": {
+      "progress": 3,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison-five",
+     "objective": {
+      "amount": 5,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-17",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 230,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.shipyard",
+     "objective": {
+      "amount": 1,
+      "building": 36,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.ship",
+     "objective": {
+      "amount": 1,
+      "event": "ship",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.harbour",
+     "objective": {
+      "amount": 1,
+      "building": 39,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.trade-offer",
+     "objective": {
+      "amount": 1,
+      "event": "trade-offer",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.stock",
+     "objective": {
+      "amount": 30,
+      "building": 39,
+      "kind": "stock",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-18",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 780,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold",
+     "objective": {
+      "amount": 1,
+      "building": 13,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 19
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 48,
+       "marble": 3
+      },
+      "id": "2026-11-12-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "ironOre",
+      "xp": 300
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold-output",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "goldOre"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-more",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-19",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 640,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.big-residence",
+     "objective": {
+      "amount": 1,
+      "building": 59,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-20",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1070,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.mint",
+     "objective": {
+      "amount": 1,
+      "building": 34,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coins",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.soldiers",
+     "objective": {
+      "amount": 3,
+      "event": "promote:1",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-21",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1140,
+     "level": 22
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-13-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "hides",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.bows",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "bow"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.watchtower",
+     "objective": {
+      "amount": 1,
+      "building": 4,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.archers",
+     "objective": {
+      "amount": 2,
+      "kind": "garrison",
+      "troop": "archer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-22",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1040,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coin-reserve",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans-prep",
+     "objective": {
+      "amount": 3,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 35,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 6,
+      "ready": true,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": null,
+     "id": "army.garrison-six",
+     "objective": {
+      "amount": 6,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.commander-lodge",
+     "objective": {
+      "amount": 1,
+      "building": 62,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-23",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1085,
+     "level": 24
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 58,
+       "cedarPlanks": 4
+      },
+      "id": "2026-11-14-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "axe",
+      "xp": 390
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.catapult-tower",
+     "objective": {
+      "amount": 1,
+      "building": 16,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 24
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-24",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 890,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.expedition",
+     "objective": {
+      "amount": 1,
+      "event": "expedition",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.fortress",
+     "objective": {
+      "amount": 1,
+      "building": 9,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans",
+     "objective": {
+      "amount": 2,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-25",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1300,
+     "level": 26
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 26,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-26",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1500,
+     "level": 27
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 27,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-27",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1600,
+     "level": 28
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 28,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-28",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1700,
+     "level": 29
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-15-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "fishingRod",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 29,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-29",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1800,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "landmark.monument",
+     "objective": {
+      "amount": 1,
+      "building": 7,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-30",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 2443,
+     "level": 31
+    }
+   ],
+   "open": null
+  }
+ },
+ {
+  "scenario": {
+   "missingResources": true,
+   "nation": "japanese"
+  },
+  "run": {
+   "experience": 20388,
+   "log": [
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.woodcutter",
+     "objective": {
+      "amount": 1,
+      "building": 17,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 12,
+       "planks": 2
+      },
+      "id": "2026-11-02-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.forester",
+     "objective": {
+      "amount": 1,
+      "building": 20,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.plant",
+     "objective": {
+      "amount": 10,
+      "event": "plant",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 1
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.logs",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "talent.apply",
+     "objective": {
+      "amount": 1,
+      "event": "talent",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 1,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-1",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "logs"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.sawmill",
+     "objective": {
+      "amount": 1,
+      "building": 33,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks",
+     "objective": {
+      "amount": 30,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 2,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.planks-delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.quarry",
+     "objective": {
+      "amount": 1,
+      "building": 19,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 7,
+     "level": 2
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 25,
+       "planks": 2
+      },
+      "id": "2026-11-03-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "stone.delivery",
+     "objective": {
+      "amount": 10,
+      "kind": "deliver",
+      "ware": "stone"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.residence",
+     "objective": {
+      "amount": 2,
+      "building": 57,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 11,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 2,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-2",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fishery",
+     "objective": {
+      "amount": 1,
+      "building": 18,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.fish",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "fish"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "wood.storage",
+     "objective": {
+      "amount": 1,
+      "building": 29,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.well",
+     "objective": {
+      "amount": 1,
+      "building": 35,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 3
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 3,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-3",
+     "objective": {
+      "amount": 6,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 32,
+     "level": 4
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 18,
+       "planks": 2
+      },
+      "id": "2026-11-04-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "meat",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.hunter",
+     "objective": {
+      "amount": 1,
+      "building": 22,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.meat",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "meat"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.farm",
+     "objective": {
+      "amount": 1,
+      "building": 37,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.grain",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 4
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 4,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-4",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "grain"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax",
+     "objective": {
+      "amount": 1,
+      "building": 60,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.flax-fibre",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.mill",
+     "objective": {
+      "amount": 1,
+      "building": 31,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 5
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 5,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-5",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "flax"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 70,
+     "level": 6
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 22,
+       "stone": 2
+      },
+      "id": "2026-11-05-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bakery",
+     "objective": {
+      "amount": 1,
+      "building": 32,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.bread-delivery",
+     "objective": {
+      "amount": 5,
+      "kind": "deliver",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.weaver",
+     "objective": {
+      "amount": 1,
+      "building": 61,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.cloth",
+     "objective": {
+      "amount": 4,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 6
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 6,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-6",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs",
+     "objective": {
+      "amount": 1,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 1,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-second",
+     "objective": {
+      "amount": 2,
+      "building": 28,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.pigs-raised",
+     "objective": {
+      "amount": 8,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 7
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 45,
+       "planks": 2
+      },
+      "id": "2026-11-06-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "logs",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 7,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-7",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "pig"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.slaughterhouse",
+     "objective": {
+      "amount": 1,
+      "building": 21,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.skinner",
+     "objective": {
+      "amount": 1,
+      "building": 3,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.hides",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 8
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 8,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-8",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "hides"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 50,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tannery",
+     "objective": {
+      "amount": 1,
+      "building": 8,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leather",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 9
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 9,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-9",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "leather"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 80,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.plantation",
+     "objective": {
+      "amount": 1,
+      "building": 5,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 30,
+       "stone": 3
+      },
+      "id": "2026-11-07-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "stone",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.raw",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.medium-residence",
+     "objective": {
+      "amount": 1,
+      "building": 58,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 10
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 10,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-10",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "grapes"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.maker",
+     "objective": {
+      "amount": 1,
+      "building": 6,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "drink.craft",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.brewery",
+     "objective": {
+      "amount": 1,
+      "building": 23,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "food.beer",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 11
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 11,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-11",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.survey",
+     "objective": {
+      "amount": 1,
+      "event": "survey",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 34,
+       "planks": 3
+      },
+      "id": "2026-11-08-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "hides",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.coal",
+     "objective": {
+      "amount": 1,
+      "building": 11,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron",
+     "objective": {
+      "amount": 1,
+      "building": 12,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charburner",
+     "objective": {
+      "amount": 1,
+      "building": 27,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.charcoal",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coal"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 12
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 12,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-12",
+     "objective": {
+      "amount": 12,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 40,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.smelter",
+     "objective": {
+      "amount": 1,
+      "building": 26,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.iron-output",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "iron"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.mine",
+     "objective": {
+      "amount": 1,
+      "building": 10,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 13
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "granite.output",
+     "objective": {
+      "amount": 15,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 13
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 36,
+       "planks": 3
+      },
+      "id": "2026-11-09-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "cloth",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 13,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-13",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 35,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.metalworks",
+     "objective": {
+      "amount": 1,
+      "building": 25,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.tools-reserve",
+     "objective": {
+      "amount": 5,
+      "event": "tools",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 14
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 14,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-14",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "water"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 75,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.leatherworks",
+     "objective": {
+      "amount": 1,
+      "building": 15,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.armour",
+     "objective": {
+      "amount": 3,
+      "kind": "produce",
+      "ware": "armor"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.armory",
+     "objective": {
+      "amount": 1,
+      "building": 24,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.swords",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "sword"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 15
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 40,
+       "planks": 3
+      },
+      "id": "2026-11-10-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "sake",
+      "xp": 30
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.shields",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "shield"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 15
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 15,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-15",
+     "objective": {
+      "amount": 14,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.tavern",
+     "objective": {
+      "amount": 1,
+      "building": 40,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.barracks",
+     "objective": {
+      "amount": 1,
+      "building": 1,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 16
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 16,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-16",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 170,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.guardhouse",
+     "objective": {
+      "amount": 1,
+      "building": 2,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison",
+     "objective": {
+      "amount": 3,
+      "kind": "garrison"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 0,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-two",
+     "objective": {
+      "amount": 2,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 17
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 44,
+       "planks": 3
+      },
+      "id": "2026-11-11-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "scythe",
+      "xp": 120
+     }
+    },
+    {
+     "before": {
+      "progress": 3,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison-five",
+     "objective": {
+      "amount": 5,
+      "kind": "garrison"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 17
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 17,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-17",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 265,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.shipyard",
+     "objective": {
+      "amount": 1,
+      "building": 36,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.ship",
+     "objective": {
+      "amount": 1,
+      "event": "ship",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.harbour",
+     "objective": {
+      "amount": 1,
+      "building": 39,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 5,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.trade-offer",
+     "objective": {
+      "amount": 1,
+      "event": "trade-offer",
+      "kind": "event",
+      "countsBeforeUnlock": true
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 15,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.stock",
+     "objective": {
+      "amount": 30,
+      "building": 39,
+      "kind": "stock",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 18
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 18,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-18",
+     "objective": {
+      "amount": 16,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 780,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold",
+     "objective": {
+      "amount": 1,
+      "building": 13,
+      "kind": "build"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 19
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 48,
+       "marble": 3
+      },
+      "id": "2026-11-12-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "ironOre",
+      "xp": 300
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.gold-output",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "goldOre"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.recruit-more",
+     "objective": {
+      "amount": 3,
+      "event": "recruit",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 19
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 19,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-19",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 700,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "settlers.big-residence",
+     "objective": {
+      "amount": 1,
+      "building": 59,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 20
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 20,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-20",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1070,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.mint",
+     "objective": {
+      "amount": 1,
+      "building": 34,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coins",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.soldiers",
+     "objective": {
+      "amount": 3,
+      "event": "promote:1",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 21
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 21,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-21",
+     "objective": {
+      "amount": 18,
+      "kind": "produce",
+      "ware": "beer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1180,
+     "level": 22
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-13-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "hides",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "mine.bows",
+     "objective": {
+      "amount": 5,
+      "kind": "produce",
+      "ware": "bow"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.watchtower",
+     "objective": {
+      "amount": 1,
+      "building": 4,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.archers",
+     "objective": {
+      "amount": 2,
+      "kind": "garrison",
+      "troop": "archer"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 22
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 22,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-22",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1060,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.coin-reserve",
+     "objective": {
+      "amount": 10,
+      "kind": "produce",
+      "ware": "coins"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans-prep",
+     "objective": {
+      "amount": 3,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 5,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.garrison-six",
+     "objective": {
+      "amount": 6,
+      "kind": "garrison"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.commander-lodge",
+     "objective": {
+      "amount": 1,
+      "building": 62,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 23
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 23,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-23",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "wine"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1185,
+     "level": 24
+    },
+    {
+     "daily": {
+      "goods": {
+       "coins": 58,
+       "cedarPlanks": 4
+      },
+      "id": "2026-11-14-0",
+      "kind": "produce",
+      "result": true,
+      "ware": "axe",
+      "xp": 390
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.catapult-tower",
+     "objective": {
+      "amount": 1,
+      "building": 16,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 10,
+     "level": 24
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 24,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-24",
+     "objective": {
+      "amount": 20,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 890,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "sea.expedition",
+     "objective": {
+      "amount": 1,
+      "event": "expedition",
+      "kind": "event"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 30,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "army.fortress",
+     "objective": {
+      "amount": 1,
+      "building": 9,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 20,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "rank.veterans",
+     "objective": {
+      "amount": 2,
+      "event": "promote:2",
+      "kind": "event"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 0,
+     "level": 25
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 25,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-25",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "cloth"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1330,
+     "level": 26
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 26,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-26",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1500,
+     "level": 27
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 27,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-27",
+     "objective": {
+      "amount": 22,
+      "kind": "produce",
+      "ware": "bread"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1600,
+     "level": 28
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 28,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-28",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 1700,
+     "level": 29
+    },
+    {
+     "daily": {
+      "goods": {},
+      "id": "2026-11-15-0",
+      "kind": "deliver",
+      "result": "pending",
+      "ware": "fishingRod",
+      "xp": 0
+     }
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 29,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-29",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "planks"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 1800,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": false
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "landmark.monument",
+     "objective": {
+      "amount": 1,
+      "building": 7,
+      "kind": "build"
+     },
+     "ready": true,
+     "result": true,
+     "skip": false,
+     "xp": 25,
+     "level": 30
+    },
+    {
+     "before": {
+      "progress": 0,
+      "ready": false,
+      "skippable": true
+     },
+     "chapter": 30,
+     "early": "Finish this tutorial's objective first",
+     "id": "supply.reserve-30",
+     "objective": {
+      "amount": 24,
+      "kind": "produce",
+      "ware": "stone"
+     },
+     "ready": false,
+     "result": true,
+     "skip": true,
+     "xp": 2443,
+     "level": 31
+    }
+   ],
+   "open": null
+  }
+ }
+]

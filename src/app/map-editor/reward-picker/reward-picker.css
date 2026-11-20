@@ -1,0 +1,291 @@
+/*
+ * Reward picker (editor panels): selected lines with the shared icon summary, then the tabbed option grid.
+ * Colours inherit from the hosting editor (campaign editor tokens, with neutral fallbacks).
+ */
+.reward-picker {
+  --reward-picker-accent: var(--campaign-editor-accent, #d6a65c);
+  --reward-picker-border: var(--campaign-editor-border, rgb(255 255 255 / 14%));
+  --reward-picker-field: var(--campaign-editor-field, rgb(8 20 29 / 80%));
+  --reward-picker-muted: var(--campaign-editor-muted, #aebec8);
+  --reward-picker-warning: var(--campaign-editor-danger, #e07a6a);
+  /* Amount fields: 6px side padding and a border, no spin buttons (see input-sizes.css). */
+  --input-size-chrome: 14px;
+  display: grid;
+  gap: 12px;
+  /* Side by side when there is room, stacked (selected first) in narrow hosts such as the map settings card. */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  min-width: 0;
+}
+
+.reward-picker h4 {
+  margin: 0 0 8px;
+}
+
+.reward-picker__selected,
+.reward-picker__catalog {
+  border: 1px solid var(--reward-picker-border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 10px;
+}
+
+.reward-picker__hint {
+  color: var(--reward-picker-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.reward-picker__summary {
+  justify-content: flex-start;
+}
+
+.reward-picker__rows,
+.reward-picker__currencies {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Coins, XP and gems share one row; it wraps on phone width. */
+.reward-picker__currencies {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+}
+
+.reward-picker__currencies:empty {
+  display: none;
+}
+
+.reward-picker__row,
+.reward-picker__currency {
+  align-items: center;
+  background: var(--reward-picker-field);
+  border: 1px solid var(--reward-picker-border);
+  border-radius: 6px;
+  gap: 6px;
+  padding: 2px 4px;
+}
+
+.reward-picker__row {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) auto auto;
+}
+
+.reward-picker__currency {
+  display: flex;
+  gap: 4px;
+}
+
+.reward-picker__row[data-warning="true"] {
+  border-color: var(--reward-picker-warning);
+}
+
+.reward-picker__row-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 2px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.reward-picker__warning {
+  color: var(--reward-picker-warning);
+  font-size: 12px;
+}
+
+.reward-picker__amount,
+.reward-picker__search {
+  background: var(--reward-picker-field);
+  border: 1px solid var(--reward-picker-border);
+  border-radius: 6px;
+  color: inherit;
+  font: inherit;
+  min-height: 32px;
+  min-width: 0;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.reward-picker__amount {
+  appearance: textfield;
+  padding: 4px 6px;
+  text-align: right;
+}
+
+.reward-picker__amount::-webkit-inner-spin-button,
+.reward-picker__amount::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.reward-picker__remove {
+  background: transparent;
+  border: 1px solid var(--reward-picker-border);
+  border-radius: 6px;
+  color: inherit;
+  cursor: var(--cursor-pointer, pointer);
+  flex: none;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+}
+
+.reward-picker__remove:hover,
+.reward-picker__remove:focus-visible {
+  border-color: var(--reward-picker-warning);
+  color: var(--reward-picker-warning);
+}
+
+.reward-picker__picture {
+  align-items: center;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.reward-picker__picture > img {
+  height: 40px;
+  object-fit: contain;
+  width: 40px;
+}
+
+/* A settler's tool on the shared carrier portrait (building details workforce rule). */
+.reward-picker__picture { position: relative; }
+.reward-picker__badge {
+  position: absolute;
+  right: -6px;
+  bottom: -4px;
+  width: 22px;
+  height: 22px;
+}
+.reward-picker__badge > img,
+.reward-picker__badge .ware-icon { width: 22px; height: 22px; object-fit: contain; }
+
+/* An option without a picture (catalog entries without an icon): its initial in a round badge. */
+.reward-picker__initial {
+  align-items: center;
+  background: rgb(120 90 50 / 18%);
+  border-radius: 50%;
+  display: inline-flex;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 32px;
+}
+
+.reward-picker__row .reward-picker__picture,
+.reward-picker__row .reward-picker__picture > img {
+  height: 32px;
+  width: 32px;
+}
+
+.reward-picker__currency .reward-picker__picture,
+.reward-picker__currency .reward-picker__picture > img {
+  height: 24px;
+  width: 24px;
+}
+
+.reward-picker__currency .reward-picker__remove {
+  height: 26px;
+  width: 26px;
+}
+
+.reward-picker__picture > img[data-crop="soldier"] {
+  object-view-box: inset(11% 5.5% 0 5.5%);
+}
+
+.reward-picker__picture > img[data-crop="settler"] {
+  object-view-box: inset(9% 8.5% 8% 8.5%);
+}
+
+.reward-picker__tabs {
+  border-bottom: 1px solid var(--reward-picker-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.reward-picker__tab {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--reward-picker-muted);
+  cursor: var(--cursor-pointer, pointer);
+  font: inherit;
+  font-size: 14px;
+  min-height: 40px;
+  padding: 0 10px;
+}
+
+.reward-picker__tab[aria-selected="true"] {
+  border-bottom-color: var(--reward-picker-accent);
+  color: inherit;
+}
+
+.reward-picker__panel {
+  max-height: 420px;
+  overflow: auto;
+  padding-top: 8px;
+}
+
+.reward-picker__grid {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reward-picker__option {
+  align-items: center;
+  background: var(--reward-picker-field);
+  border: 1px solid var(--reward-picker-border);
+  border-radius: 6px;
+  color: inherit;
+  cursor: var(--cursor-pointer, pointer);
+  display: flex;
+  flex-direction: column;
+  font: inherit;
+  gap: 4px;
+  height: 100%;
+  min-height: 88px;
+  padding: 6px 4px;
+  width: 100%;
+}
+
+.reward-picker__option:hover,
+.reward-picker__option:focus-visible {
+  border-color: var(--reward-picker-accent);
+}
+
+.reward-picker__option[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--reward-picker-accent) 24%, transparent);
+  border-color: var(--reward-picker-accent);
+}
+
+.reward-picker__name {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  font-size: 12px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .reward-picker__grid {
+    grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  }
+}

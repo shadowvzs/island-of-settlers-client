@@ -1,0 +1,1401 @@
+{
+  "generatedAt": "2026-11-11T06:08:40.370Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecuted": true,
+    "reason": "Default entrance/support preflight."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 66511580,
+      "models": 57,
+      "clips": 174,
+      "maxTriangles": 12642,
+      "buildings": [
+        {
+          "id": 0,
+          "name": "Headquarters",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 9970,
+          "animalTriangles": 0,
+          "parts": 501
+        },
+        {
+          "id": 1,
+          "name": "Barracks",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 3952,
+          "animalTriangles": 0,
+          "parts": 348
+        },
+        {
+          "id": 2,
+          "name": "Guardhouse",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 5514,
+          "animalTriangles": 0,
+          "parts": 492
+        },
+        {
+          "id": 3,
+          "name": "Skinner",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 4828,
+          "animalTriangles": 2454,
+          "parts": 275
+        },
+        {
+          "id": 4,
+          "name": "Watchtower",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 1560,
+          "animalTriangles": 0,
+          "parts": 78
+        },
+        {
+          "id": 5,
+          "name": "Vineyard",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 12043,
+          "animalTriangles": 0,
+          "parts": 309
+        },
+        {
+          "id": 6,
+          "name": "Winery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5731,
+          "animalTriangles": 0,
+          "parts": 511
+        },
+        {
+          "id": 7,
+          "name": "Monument",
+          "clips": [],
+          "triangles": 8922,
+          "animalTriangles": 0,
+          "parts": 1
+        },
+        {
+          "id": 8,
+          "name": "Tannery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6500,
+          "animalTriangles": 0,
+          "parts": 340
+        },
+        {
+          "id": 9,
+          "name": "Fortress",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 3232,
+          "animalTriangles": 0,
+          "parts": 159
+        },
+        {
+          "id": 10,
+          "name": "Granite mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 2774,
+          "animalTriangles": 0,
+          "parts": 128
+        },
+        {
+          "id": 11,
+          "name": "Coal mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5510,
+          "animalTriangles": 0,
+          "parts": 156
+        },
+        {
+          "id": 12,
+          "name": "Iron mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5510,
+          "animalTriangles": 0,
+          "parts": 156
+        },
+        {
+          "id": 13,
+          "name": "Gold mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5510,
+          "animalTriangles": 0,
+          "parts": 156
+        },
+        {
+          "id": 14,
+          "name": "Lookout tower",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 2714,
+          "animalTriangles": 0,
+          "parts": 207
+        },
+        {
+          "id": 15,
+          "name": "Leatherworks",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9964,
+          "animalTriangles": 0,
+          "parts": 475
+        },
+        {
+          "id": 16,
+          "name": "Catapult Tower",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 12642,
+          "animalTriangles": 10632,
+          "parts": 85
+        },
+        {
+          "id": 17,
+          "name": "Woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 4668,
+          "animalTriangles": 0,
+          "parts": 132
+        },
+        {
+          "id": 18,
+          "name": "Fishery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9132,
+          "animalTriangles": 0,
+          "parts": 514
+        },
+        {
+          "id": 19,
+          "name": "Quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 2996,
+          "animalTriangles": 0,
+          "parts": 234
+        },
+        {
+          "id": 20,
+          "name": "Forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6626,
+          "animalTriangles": 0,
+          "parts": 158
+        },
+        {
+          "id": 21,
+          "name": "Slaughterhouse",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7008,
+          "animalTriangles": 14724,
+          "parts": 554
+        },
+        {
+          "id": 22,
+          "name": "Hunter",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "ambient_empty_cords"
+          ],
+          "triangles": 5740,
+          "animalTriangles": 0,
+          "parts": 199
+        },
+        {
+          "id": 23,
+          "name": "Brewery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9152,
+          "animalTriangles": 0,
+          "parts": 424
+        },
+        {
+          "id": 24,
+          "name": "Armory",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6998,
+          "animalTriangles": 0,
+          "parts": 309
+        },
+        {
+          "id": 25,
+          "name": "Metalworks",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 8952,
+          "animalTriangles": 0,
+          "parts": 432
+        },
+        {
+          "id": 26,
+          "name": "Iron smelter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 8772,
+          "animalTriangles": 0,
+          "parts": 400
+        },
+        {
+          "id": 27,
+          "name": "Charburner",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 8618,
+          "animalTriangles": 0,
+          "parts": 215
+        },
+        {
+          "id": 28,
+          "name": "Pig farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6306,
+          "animalTriangles": 19632,
+          "parts": 919
+        },
+        {
+          "id": 29,
+          "name": "Storehouse",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 4034,
+          "animalTriangles": 0,
+          "parts": 214
+        },
+        {
+          "id": 31,
+          "name": "Mill",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6258,
+          "animalTriangles": 0,
+          "parts": 338
+        },
+        {
+          "id": 32,
+          "name": "Bakery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9716,
+          "animalTriangles": 0,
+          "parts": 447
+        },
+        {
+          "id": 33,
+          "name": "Sawmill",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6448,
+          "animalTriangles": 0,
+          "parts": 271
+        },
+        {
+          "id": 34,
+          "name": "Mint",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7676,
+          "animalTriangles": 0,
+          "parts": 93
+        },
+        {
+          "id": 35,
+          "name": "Well",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7134,
+          "animalTriangles": 0,
+          "parts": 174
+        },
+        {
+          "id": 36,
+          "name": "Shipyard",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5864,
+          "animalTriangles": 0,
+          "parts": 455
+        },
+        {
+          "id": 37,
+          "name": "Farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9230,
+          "animalTriangles": 0,
+          "parts": 623
+        },
+        {
+          "id": 39,
+          "name": "Harbor building",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 9324,
+          "animalTriangles": 0,
+          "parts": 502
+        },
+        {
+          "id": 40,
+          "name": "Military Academy",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 8300,
+          "animalTriangles": 0,
+          "parts": 397
+        },
+        {
+          "id": 41,
+          "name": "Hardwood forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7494,
+          "animalTriangles": 0,
+          "parts": 266
+        },
+        {
+          "id": 42,
+          "name": "Hardwood woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6156,
+          "animalTriangles": 0,
+          "parts": 324
+        },
+        {
+          "id": 43,
+          "name": "Marble quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5588,
+          "animalTriangles": 0,
+          "parts": 246
+        },
+        {
+          "id": 45,
+          "name": "Cedar forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7494,
+          "animalTriangles": 0,
+          "parts": 266
+        },
+        {
+          "id": 46,
+          "name": "Cedar woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7308,
+          "animalTriangles": 0,
+          "parts": 324
+        },
+        {
+          "id": 47,
+          "name": "Limestone quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 3404,
+          "animalTriangles": 0,
+          "parts": 246
+        },
+        {
+          "id": 49,
+          "name": "Walnut forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7494,
+          "animalTriangles": 0,
+          "parts": 266
+        },
+        {
+          "id": 50,
+          "name": "Walnut woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6156,
+          "animalTriangles": 0,
+          "parts": 324
+        },
+        {
+          "id": 51,
+          "name": "Basalt quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 3188,
+          "animalTriangles": 0,
+          "parts": 246
+        },
+        {
+          "id": 53,
+          "name": "Mahogany forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 7494,
+          "animalTriangles": 0,
+          "parts": 266
+        },
+        {
+          "id": 54,
+          "name": "Mahogany woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6156,
+          "animalTriangles": 0,
+          "parts": 324
+        },
+        {
+          "id": 55,
+          "name": "Granite quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 4004,
+          "animalTriangles": 0,
+          "parts": 246
+        },
+        {
+          "id": 57,
+          "name": "Small residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 3470,
+          "animalTriangles": 0,
+          "parts": 365
+        },
+        {
+          "id": 58,
+          "name": "Medium residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5248,
+          "animalTriangles": 0,
+          "parts": 511
+        },
+        {
+          "id": 59,
+          "name": "Big residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 4776,
+          "animalTriangles": 0,
+          "parts": 492
+        },
+        {
+          "id": 60,
+          "name": "Flax Farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 6498,
+          "animalTriangles": 0,
+          "parts": 212
+        },
+        {
+          "id": 61,
+          "name": "Weaver",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5188,
+          "animalTriangles": 0,
+          "parts": 296
+        },
+        {
+          "id": 62,
+          "name": "Commander's Lodge",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 5140,
+          "animalTriangles": 0,
+          "parts": 278
+        }
+      ]
+    },
+    {
+      "quality": "minimal",
+      "bytes": 18700456,
+      "models": 57,
+      "clips": 174,
+      "maxTriangles": 2862,
+      "buildings": [
+        {
+          "id": 0,
+          "name": "Headquarters",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 1660,
+          "animalTriangles": 0,
+          "parts": 87
+        },
+        {
+          "id": 1,
+          "name": "Barracks",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 496,
+          "animalTriangles": 0,
+          "parts": 36
+        },
+        {
+          "id": 2,
+          "name": "Guardhouse",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 938,
+          "animalTriangles": 0,
+          "parts": 74
+        },
+        {
+          "id": 3,
+          "name": "Skinner",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 740,
+          "animalTriangles": 490,
+          "parts": 64
+        },
+        {
+          "id": 4,
+          "name": "Watchtower",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 736,
+          "animalTriangles": 0,
+          "parts": 56
+        },
+        {
+          "id": 5,
+          "name": "Vineyard",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 2370,
+          "animalTriangles": 0,
+          "parts": 112
+        },
+        {
+          "id": 6,
+          "name": "Winery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1482,
+          "animalTriangles": 0,
+          "parts": 116
+        },
+        {
+          "id": 7,
+          "name": "Monument",
+          "clips": [],
+          "triangles": 1410,
+          "animalTriangles": 0,
+          "parts": 1
+        },
+        {
+          "id": 8,
+          "name": "Tannery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1056,
+          "animalTriangles": 0,
+          "parts": 66
+        },
+        {
+          "id": 9,
+          "name": "Fortress",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "wind"
+          ],
+          "triangles": 1656,
+          "animalTriangles": 0,
+          "parts": 108
+        },
+        {
+          "id": 10,
+          "name": "Granite mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 892,
+          "animalTriangles": 0,
+          "parts": 56
+        },
+        {
+          "id": 11,
+          "name": "Coal mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1228,
+          "animalTriangles": 0,
+          "parts": 72
+        },
+        {
+          "id": 12,
+          "name": "Iron mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1228,
+          "animalTriangles": 0,
+          "parts": 72
+        },
+        {
+          "id": 13,
+          "name": "Gold mine",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1228,
+          "animalTriangles": 0,
+          "parts": 72
+        },
+        {
+          "id": 14,
+          "name": "Lookout tower",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 682,
+          "animalTriangles": 0,
+          "parts": 50
+        },
+        {
+          "id": 15,
+          "name": "Leatherworks",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1644,
+          "animalTriangles": 0,
+          "parts": 145
+        },
+        {
+          "id": 16,
+          "name": "Catapult Tower",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 2862,
+          "animalTriangles": 3012,
+          "parts": 67
+        },
+        {
+          "id": 17,
+          "name": "Woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1104,
+          "animalTriangles": 0,
+          "parts": 64
+        },
+        {
+          "id": 18,
+          "name": "Fishery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1480,
+          "animalTriangles": 0,
+          "parts": 112
+        },
+        {
+          "id": 19,
+          "name": "Quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 452,
+          "animalTriangles": 0,
+          "parts": 52
+        },
+        {
+          "id": 20,
+          "name": "Forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1278,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 21,
+          "name": "Slaughterhouse",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 920,
+          "animalTriangles": 2940,
+          "parts": 118
+        },
+        {
+          "id": 22,
+          "name": "Hunter",
+          "clips": [
+            "construction",
+            "door",
+            "working",
+            "ambient_empty_cords"
+          ],
+          "triangles": 1104,
+          "animalTriangles": 0,
+          "parts": 80
+        },
+        {
+          "id": 23,
+          "name": "Brewery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1792,
+          "animalTriangles": 0,
+          "parts": 94
+        },
+        {
+          "id": 24,
+          "name": "Armory",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1748,
+          "animalTriangles": 0,
+          "parts": 83
+        },
+        {
+          "id": 25,
+          "name": "Metalworks",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1740,
+          "animalTriangles": 0,
+          "parts": 89
+        },
+        {
+          "id": 26,
+          "name": "Iron smelter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1714,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 27,
+          "name": "Charburner",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1508,
+          "animalTriangles": 0,
+          "parts": 55
+        },
+        {
+          "id": 28,
+          "name": "Pig farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1266,
+          "animalTriangles": 3920,
+          "parts": 176
+        },
+        {
+          "id": 29,
+          "name": "Storehouse",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 846,
+          "animalTriangles": 0,
+          "parts": 60
+        },
+        {
+          "id": 31,
+          "name": "Mill",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1326,
+          "animalTriangles": 0,
+          "parts": 81
+        },
+        {
+          "id": 32,
+          "name": "Bakery",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1435,
+          "animalTriangles": 0,
+          "parts": 78
+        },
+        {
+          "id": 33,
+          "name": "Sawmill",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1200,
+          "animalTriangles": 0,
+          "parts": 88
+        },
+        {
+          "id": 34,
+          "name": "Mint",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1896,
+          "animalTriangles": 0,
+          "parts": 51
+        },
+        {
+          "id": 35,
+          "name": "Well",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1698,
+          "animalTriangles": 0,
+          "parts": 78
+        },
+        {
+          "id": 36,
+          "name": "Shipyard",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 972,
+          "animalTriangles": 0,
+          "parts": 93
+        },
+        {
+          "id": 37,
+          "name": "Farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1426,
+          "animalTriangles": 0,
+          "parts": 130
+        },
+        {
+          "id": 39,
+          "name": "Harbor building",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1562,
+          "animalTriangles": 0,
+          "parts": 80
+        },
+        {
+          "id": 40,
+          "name": "Military Academy",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1568,
+          "animalTriangles": 0,
+          "parts": 127
+        },
+        {
+          "id": 41,
+          "name": "Hardwood forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1256,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 42,
+          "name": "Hardwood woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1040,
+          "animalTriangles": 0,
+          "parts": 66
+        },
+        {
+          "id": 43,
+          "name": "Marble quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1520,
+          "animalTriangles": 0,
+          "parts": 63
+        },
+        {
+          "id": 45,
+          "name": "Cedar forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1256,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 46,
+          "name": "Cedar woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1184,
+          "animalTriangles": 0,
+          "parts": 66
+        },
+        {
+          "id": 47,
+          "name": "Limestone quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 656,
+          "animalTriangles": 0,
+          "parts": 63
+        },
+        {
+          "id": 49,
+          "name": "Walnut forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1256,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 50,
+          "name": "Walnut woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1040,
+          "animalTriangles": 0,
+          "parts": 66
+        },
+        {
+          "id": 51,
+          "name": "Basalt quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 560,
+          "animalTriangles": 0,
+          "parts": 63
+        },
+        {
+          "id": 53,
+          "name": "Mahogany forester",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1256,
+          "animalTriangles": 0,
+          "parts": 67
+        },
+        {
+          "id": 54,
+          "name": "Mahogany woodcutter",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1040,
+          "animalTriangles": 0,
+          "parts": 66
+        },
+        {
+          "id": 55,
+          "name": "Granite quarry",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 680,
+          "animalTriangles": 0,
+          "parts": 63
+        },
+        {
+          "id": 57,
+          "name": "Small residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 256,
+          "animalTriangles": 0,
+          "parts": 22
+        },
+        {
+          "id": 58,
+          "name": "Medium residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 458,
+          "animalTriangles": 0,
+          "parts": 37
+        },
+        {
+          "id": 59,
+          "name": "Big residence",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 410,
+          "animalTriangles": 0,
+          "parts": 39
+        },
+        {
+          "id": 60,
+          "name": "Flax Farm",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1962,
+          "animalTriangles": 0,
+          "parts": 80
+        },
+        {
+          "id": 61,
+          "name": "Weaver",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1396,
+          "animalTriangles": 0,
+          "parts": 74
+        },
+        {
+          "id": 62,
+          "name": "Commander's Lodge",
+          "clips": [
+            "construction",
+            "door",
+            "working"
+          ],
+          "triangles": 1032,
+          "animalTriangles": 0,
+          "parts": 76
+        }
+      ]
+    }
+  ]
+}

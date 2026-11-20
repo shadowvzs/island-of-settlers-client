@@ -1,0 +1,23 @@
+/* Content catalog version warning (map editor): a dismissible panel above the categories. */
+.map-editor__catalog-warning {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0;
+  padding: 8px 10px;
+  border: 1px solid #c9783f;
+  border-left-width: 4px;
+  border-radius: 6px;
+  background: rgb(201 120 63 / 14%);
+  color: var(--hud-ink);
+}
+
+.map-editor__catalog-warning p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.map-editor__catalog-warning-dismiss {
+  justify-self: end;
+  min-height: 32px;
+  padding: 4px 12px;
+}

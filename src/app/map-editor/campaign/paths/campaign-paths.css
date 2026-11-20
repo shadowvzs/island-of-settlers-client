@@ -1,0 +1,133 @@
+/* Campaign paths (BR3): exits with their "Leads to" toggles, start maps, the linear helper. Compact rows. */
+.campaign-paths {
+  border-top: 1px solid var(--campaign-editor-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 12px;
+}
+
+.campaign-paths__bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+}
+
+.campaign-paths__bar h4 {
+  margin: 0;
+}
+
+.campaign-paths__icon {
+  fill: none;
+  height: 18px;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  width: 18px;
+}
+
+.campaign-paths__lock {
+  align-items: center;
+  background: var(--campaign-editor-accent-soft);
+  border-radius: 8px;
+  color: var(--campaign-editor-text);
+  display: flex;
+  font-size: 12px;
+  gap: 8px;
+  margin: 0;
+  padding: 2px 4px 2px 10px;
+}
+
+.campaign-paths__exits {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.campaign-paths__exit {
+  background: rgb(255 255 255 / 3%);
+  border: 1px solid var(--campaign-editor-border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px 8px;
+}
+
+.campaign-paths__exit-head {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+
+.campaign-paths__exit-head > .campaign-editor__field--translatable {
+  flex: 1 1 220px;
+  max-width: 340px;
+}
+
+.campaign-paths__default-exit {
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+.campaign-paths .campaign-paths__sequence select {
+  width: auto;
+}
+
+.campaign-paths__delete {
+  display: inline-flex;
+  margin-left: auto;
+}
+
+.campaign-paths__targets {
+  align-items: center;
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+.campaign-paths__targets legend {
+  color: var(--campaign-editor-muted);
+  float: left;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.campaign-paths__target {
+  align-items: center;
+  border: 1px solid var(--campaign-editor-border);
+  border-radius: 999px;
+  cursor: var(--cursor-pointer, pointer);
+  display: inline-flex;
+  font-size: 12px;
+  gap: 4px;
+  padding: 1px 8px 1px 4px;
+}
+
+.campaign-paths__target:has(input:checked) {
+  background: var(--campaign-editor-accent-soft);
+  border-color: var(--campaign-editor-accent);
+}
+
+.campaign-paths__target:has(input:disabled) {
+  cursor: var(--cursor-default, default);
+  opacity: 0.45;
+}
+
+.campaign-paths__target[data-end="true"] {
+  font-style: italic;
+}
+
+.campaign-paths__target input {
+  margin: 0;
+}

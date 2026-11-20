@@ -1,0 +1,72 @@
+.army-action-rail {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 5px; pointer-events: auto;
+}
+.army-action-rail__actions { display: flex; flex-direction: column; gap: 5px; }
+.army-action-rail [hidden] { display: none !important; }
+.army-action-rail .army-action-rail__button {
+  width: 44px; height: 44px; min-width: 44px; min-height: 44px; padding: 3px !important;
+  color: var(--hud-ink); background: var(--hud-control);
+  border: 1px solid var(--hud-paper-edge); border-radius: 8px;
+  box-shadow: inset 0 1px #fff5, 0 2px 3px #17120c55;
+}
+.army-action-rail .army-action-rail__button:not(:disabled):hover { background: var(--hud-control-hover); }
+.army-action-rail .army-action-rail__button:disabled { opacity: .45; cursor: var(--cursor-default, default); }
+.army-action-rail__button :is(img, svg) { width: 36px; height: 36px; object-fit: contain; }
+.army-action-rail__button[aria-pressed="true"] { outline: 2px solid #f1ce74; }
+.army-action-rail__count {
+  color: #f7e8bf; text-align: center; text-shadow: 0 1px 3px #000;
+  background: #39352de0; border-radius: 6px;
+}
+.army-action-rail__count:empty { display: none; }
+.army-action-rail__rally {
+  position: absolute; right: 54px; top: 0; width: min(264px, calc(100vw - 84px));
+  padding: 12px; color: var(--hud-ink); background: var(--hud-paper); border: 2px solid var(--hud-paper-edge);
+  background-image: var(--hud-paper-texture);
+  border-radius: 8px; box-shadow: 0 4px 20px #0008;
+}
+.army-action-rail__types { display: flex; justify-content: space-between; gap: 4px; margin: 10px 0; }
+.army-action-rail__types label { display: flex; flex-direction: column; align-items: center; }
+.army-action-rail__types img { width: 44px; height: 44px; object-fit: contain; }
+.army-action-rail__rally button {
+  margin: 4px 3px 0 0; background: var(--hud-control); border-color: var(--hud-paper-edge);
+}
+.army-action-rail__rally-actions {
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; margin-top: 8px;
+}
+.army-action-rail__rally-actions button { margin: 0; flex-shrink: 0; }
+.army-action-rail .army-action-rail__button[aria-pressed="true"] {
+  border-color: var(--hud-accent); background: var(--hud-control-hover);
+  box-shadow: 0 0 0 2px #edc173, inset 0 1px #fff5;
+}
+.army-action-rail__instruction {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);
+}
+.army-action-rail__empty { display: block; max-width: 220px; margin: 4px 0; color: #7a4a22; line-height: 1.3; }
+.army-action-rail__rally .army-action-rail__gather {
+  display: inline-flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px;
+  width: 68px; height: 52px; padding: 4px; vertical-align: bottom;
+}
+.army-action-rail__gather img { width: 36px; height: 36px; object-fit: contain; }
+.army-action-rail__gather img:first-child { width: 18px; height: 18px; }
+/* The add-to-selection mode's drag box over the map. */
+.army-box-select {
+  position: absolute; z-index: 4; pointer-events: none;
+  border: 1.5px solid #f1ce74; border-radius: 2px; background: #f1ce7429;
+  box-shadow: 0 0 0 1px #17120c80, inset 0 0 0 1px #17120c40;
+}
+.army-box-select[hidden] { display: none; }
+
+.army-action-rail__panel-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.army-action-rail__rally .army-action-rail__close {
+  display: grid; place-items: center; width: 28px; height: 28px; min-height: 28px; padding: 3px; margin: 0;
+}
+.army-action-rail__close svg { width: 20px; height: 20px; }
+/* Control-group badges: digit and soldier count; a click recalls the group like its digit key. */
+.army-action-rail__groups { display: flex; flex-direction: column; gap: 3px; }
+.army-action-rail .army-action-rail__group {
+  min-width: 44px; min-height: 28px; padding: 1px 4px !important; font-size: 12px; font-weight: 700;
+  color: #f7e8bf; text-shadow: 0 1px 2px #000; background: #39352de0;
+  border: 1px solid var(--hud-paper-edge); border-radius: 6px;
+}
+.army-action-rail .army-action-rail__group:hover { background: #4a4438f0; }

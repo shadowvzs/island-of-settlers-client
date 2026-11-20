@@ -1,0 +1,1848 @@
+@import "../hud-paper.css";
+
+.settlement-ui {
+  --settlement-ink: var(--hud-ink);
+  --settlement-muted: var(--hud-muted);
+  --settlement-accent: var(--hud-accent);
+  position: fixed;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  color: var(--settlement-ink);
+  font:
+    13px/1.4 system-ui,
+    sans-serif;
+}
+.settlement-ui *,
+.settlement-ui *::before,
+.settlement-ui *::after {
+  box-sizing: border-box;
+}
+.settlement-ui [hidden] {
+  display: none !important;
+}
+.settlement-ui button {
+  width: auto;
+  margin: 0;
+  font: inherit;
+  cursor: var(--cursor-pointer, pointer);
+  color: inherit;
+}
+.settlement-ui small {
+  letter-spacing: normal;
+}
+.settlement-ui button:focus-visible,
+.settlement-ui [tabindex]:focus-visible {
+  outline: 2px solid #ffe4b0;
+  outline-offset: 3px;
+}
+.settlement-ui__bar,
+.settlement-ui__panel,
+.settlement-ui__placement {
+  pointer-events: auto;
+  background: linear-gradient(140deg, rgb(39 48 41 / 97%), rgb(20 29 27 / 96%));
+  border: 1px solid rgb(211 190 153 / 25%);
+  box-shadow:
+    0 12px 40px rgb(0 0 0 / 35%),
+    inset 0 1px rgb(255 255 255 / 5%);
+  backdrop-filter: blur(14px);
+}
+.settlement-ui__bar {
+  position: absolute;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 16px;
+  min-height: 70px;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.settlement-ui__launcher {
+  width: 58px !important;
+  height: 56px;
+  padding: 6px !important;
+  background: linear-gradient(145deg, #4d5749, #202a25);
+  border: 1px solid #96825b;
+  box-shadow: inset 0 1px #d5c39255, 0 3px 4px #0007;
+}
+.settlement-ui__launcher svg {
+  width: 42px !important;
+  height: 42px !important;
+  filter: drop-shadow(0 2px 1px #0009);
+}
+.settlement-ui__launcher:hover {
+  background: linear-gradient(145deg, #686f54, #333d2f);
+  transform: translateY(-2px);
+}
+.settlement-ui__actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+}
+.settlement-ui__button {
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 10px;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 5px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  transition:
+    background 150ms,
+    border-color 150ms;
+}
+.settlement-ui__button svg {
+  width: 23px;
+  height: 23px;
+}
+.settlement-ui__button span {
+  font-size: 10px;
+  white-space: nowrap;
+}
+.settlement-ui__button:hover {
+  background: rgb(255 255 255 / 8%);
+}
+.settlement-ui__button[aria-pressed="true"] {
+  background: rgb(222 174 112 / 18%);
+  border-color: var(--settlement-accent);
+}
+/* The shared paper skin paints the face, so the label takes the theme ink to stay readable. */
+.settlement-ui__button--primary {
+  background: #b57140;
+  color: var(--hud-ink) !important;
+  border-color: #deaa72;
+}
+.settlement-ui__button--primary:hover {
+  background: #c3824d;
+}
+.settlement-ui__summary {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: grid;
+  gap: 7px;
+  border-left: 1px solid rgb(255 255 255 / 12%);
+  padding-left: 18px;
+}
+.settlement-ui__resources {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  overflow-x: auto;
+}
+.settlement-ui__resources > span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+.settlement-ui__summary svg {
+  width: 16px;
+  height: 16px;
+  color: var(--settlement-accent);
+}
+.settlement-ui__summary b {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__summary small {
+  font-size: 10px;
+  color: var(--settlement-muted);
+  text-transform: capitalize;
+}
+/* Shared dialogs also mount directly on the window layer, outside the main HUD wrapper. */
+.settlement-ui__panel[hidden] { display: none !important; }
+.settlement-ui__panel {
+  position: absolute;
+  left: 24px;
+  bottom: 110px;
+  width: min(580px, calc(100vw - 32px));
+  max-height: calc(100dvh - 140px);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.settlement-ui__panel-header {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  padding: 2px 6px;
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+.settlement-ui__drag-handle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  cursor: var(--cursor-grab, grab);
+  touch-action: none;
+  user-select: none;
+  min-height: 44px;
+  padding: 0 6px;
+}
+.settlement-ui__drag-handle > svg {
+  width: 17px;
+  height: 22px;
+  color: var(--settlement-muted);
+}
+.settlement-ui__drag-handle h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 550;
+}
+.settlement-ui__panel.is-dragging .settlement-ui__drag-handle {
+  cursor: var(--cursor-grabbing, grabbing);
+}
+.settlement-ui__picker {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.settlement-ui__tabs {
+  display: flex;
+  gap: 3px;
+  flex: 0 0 auto;
+  padding: 6px 10px 4px;
+  overflow-x: auto;
+}
+.settlement-ui__tab {
+  flex: 1 1 0;
+  min-width: 0;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 9px;
+  background: transparent;
+  color: var(--settlement-muted) !important;
+  white-space: normal;
+  font-size: 11px !important;
+  min-height: 36px;
+}
+.settlement-ui__tab:hover {
+  background: rgb(255 255 255 / 6%);
+}
+.settlement-ui__tab[aria-selected="true"] {
+  color: #ffe2b5 !important;
+  background: rgb(222 174 112 / 15%);
+  box-shadow: inset 0 -2px var(--settlement-accent);
+}
+.settlement-ui__cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 4px 10px 10px;
+  overflow-y: auto;
+}
+.settlement-ui__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  background: linear-gradient(135deg, rgb(255 255 255 / 6%), rgb(255 255 255 / 2%));
+  border: 1px solid rgb(255 255 255 / 9%);
+  border-radius: 10px;
+  padding: 7px 6px 9px;
+  gap: 3px;
+  transition:
+    background 150ms,
+    border-color 150ms;
+}
+.settlement-ui__card:hover {
+  background: rgb(222 174 112 / 10%);
+  border-color: rgb(222 174 112 / 55%);
+}
+.settlement-ui__card[aria-pressed="true"] {
+  background: rgb(222 174 112 / 17%);
+  border-color: var(--settlement-accent);
+}
+.settlement-ui__card img,
+.settlement-ui__card > svg {
+  width: 100%;
+  height: 78px;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 5px rgb(0 0 0 / 24%));
+  pointer-events: none;
+}
+.settlement-ui__card > svg {
+  padding: 18px;
+  opacity: 0.6;
+}
+.settlement-ui__card > span {
+  font-size: 11px;
+  text-align: center;
+}
+.settlement-ui__card small {
+  color: var(--settlement-muted);
+  font-size: 9px;
+}
+/* A building the player's level still locks: greyed, with a "Lv N" badge; a tap explains it. */
+.settlement-ui__card--locked {
+  cursor: help;
+}
+.settlement-ui__card--locked img,
+.settlement-ui__card--locked > svg {
+  filter: grayscale(1) brightness(0.75);
+  opacity: 0.6;
+}
+.settlement-ui__card--locked > span:not(.settlement-ui__card-lock),
+.settlement-ui__card--locked small {
+  opacity: 0.6;
+}
+.settlement-ui__card > .settlement-ui__card-lock {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 1px 6px;
+  border-radius: 9px;
+  background: rgb(20 14 8 / 78%);
+  color: #f3d9a4;
+  font: 700 10px/1.4 Georgia, serif;
+}
+/* The selection line and, on the home island, the compact home sandbox toggle beside it. */
+.settlement-ui__build-footer {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 6px;
+  padding-right: 6px;
+  border-top: 1px solid rgb(255 255 255 / 8%);
+}
+.settlement-ui__selection-detail {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 7px 10px;
+  font-size: 11px;
+  color: var(--settlement-muted);
+}
+.settlement-ui__home-sandbox { --icon-button-size: 44px; }
+/* The sandbox state must read at a glance in both HUD themes: a green ring while it is on. */
+.settlement-ui__panel button.settlement-ui__home-sandbox[aria-pressed="true"] {
+  outline: 2px solid #4d9a1f;
+  outline-offset: -4px;
+}
+.settlement-ui__placement {
+  position: absolute;
+  bottom: 100px;
+  right: 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px 5px 16px;
+}
+.settlement-ui__placement-name {
+  font-size: 12px;
+  color: #ffe2b5;
+}
+.settlement-ui__overview {
+  padding: 0 10px 10px;
+  overflow-y: auto;
+}
+.settlement-ui__section-description {
+  font-size: 12px;
+  color: var(--settlement-muted);
+  margin: 8px 0;
+}
+.settlement-ui__overview-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 14px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 8%);
+  background: rgb(255 255 255 / 3%);
+  margin-top: 8px;
+  text-align: left;
+}
+.settlement-ui__overview-row > svg {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--settlement-accent);
+}
+.settlement-ui__overview-row b,
+.settlement-ui__overview-row small {
+  display: block;
+}
+.settlement-ui__overview-row b {
+  font-weight: 550;
+}
+.settlement-ui__overview-row small {
+  color: var(--settlement-muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.settlement-ui__overview-row:is(button):hover {
+  border-color: var(--settlement-accent);
+}
+.settlement-ui__empty {
+  margin: 36px 0;
+  text-align: center;
+  color: var(--settlement-muted);
+}
+@media (max-width: 1100px) {
+  .settlement-ui__bar {
+    gap: 10px;
+    padding-inline: 10px;
+  }
+  .settlement-ui__summary {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .settlement-ui__bar {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 6px;
+    padding: 8px;
+    border-radius: 12px;
+  }
+  .settlement-ui__actions {
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 2px;
+  }
+  .settlement-ui__summary {
+    display: flex;
+    gap: 12px;
+    padding-left: 0;
+    border-left: 0;
+    min-height: 20px;
+  }
+  .settlement-ui__resources {
+    gap: 8px;
+  }
+  .settlement-ui__resources {
+    flex: 1;
+  }
+  .settlement-ui__resources small {
+    display: none;
+  }
+  .settlement-ui__panel {
+    left: 16px;
+    bottom: 122px;
+    max-height: calc(100dvh - 148px);
+  }
+  .settlement-ui__placement {
+    right: 16px;
+    bottom: 120px;
+  }
+  .settlement-ui__card img,
+  .settlement-ui__card > svg {
+    height: 68px;
+  }
+}
+@media (max-width: 420px) {
+  .settlement-ui__cards {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+  .settlement-ui__summary b {
+    font-size: 11px;
+  }
+  .settlement-ui__placement-name {
+    max-width: 150px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .settlement-ui button {
+    transition: none;
+  }
+}
+
+.settlement-ui__production-mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  margin: -3px 0 8px;
+  border: 1px solid #59654b66;
+  border-radius: 8px;
+  color: #eee2c3;
+}
+.settlement-ui__cargo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+}
+.settlement-ui__production-mode select { max-width: 65%; }
+.settlement-ui__cargo-controls input {
+  background: #292823;
+  color: #f4e6c8;
+  border: 1px solid #897554;
+  border-radius: 4px;
+  max-width: 100%;
+  padding: 6px;
+}
+.settlement-ui__cargo-controls input {
+  width: 64px;
+}
+.settlement-ui__cargo-controls small {
+  flex-basis: 100%;
+}
+.settlement-ui__harbour-shuttle {
+  overflow-wrap: anywhere;
+}
+.settlement-ui__potential-settlements {
+  border-top: 1px solid #59654b66;
+  display: grid;
+  flex-basis: 100%;
+  gap: 6px;
+  padding-top: 8px;
+}
+.settlement-ui__potential-settlement-row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+.settlement-ui__potential-settlement-row small {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.settlement-ui__farm-area {
+  margin: 10px 0 18px;
+  padding: 16px;
+  border: 1px solid rgb(222 174 112 / 30%);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgb(136 111 54 / 13%), rgb(50 79 49 / 18%));
+}
+.settlement-ui__farm-area h3 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: var(--settlement-accent);
+}
+.settlement-ui__farm-area h3 svg {
+  width: 24px;
+  height: 24px;
+}
+.settlement-ui__farm-area-location {
+  margin: 0;
+  font-weight: 550;
+}
+.settlement-ui__farm-area-description {
+  margin: 6px 0 14px;
+  color: var(--settlement-muted);
+  font-size: 12px;
+}
+.settlement-ui__farm-area-counts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 8px;
+  margin: 0 0 14px;
+}
+.settlement-ui__farm-area-counts div {
+  padding: 9px;
+  border-radius: 8px;
+  background: rgb(0 0 0 / 15%);
+}
+.settlement-ui__farm-area-counts dt {
+  color: var(--settlement-muted);
+  font-size: 11px;
+}
+.settlement-ui__farm-area-counts dd {
+  margin: 4px 0 0;
+  font-size: 19px;
+  font-weight: 600;
+}
+@media (max-width: 420px) {
+  .settlement-ui__farm-area {
+    padding: 12px;
+  }
+  .settlement-ui__farm-area-counts {
+    gap: 4px;
+  }
+  .settlement-ui__farm-area-counts div {
+    padding: 7px;
+  }
+}
+
+.settlement-ui__launcher {
+  min-width: 58px;
+  min-height: 56px;
+  padding: 8px 12px;
+}
+.settlement-ui__launcher svg {
+  width: 26px;
+  height: 26px;
+}
+.settlement-ui__menu {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 10px;
+}
+.settlement-ui__menu .settlement-ui__button {
+  min-height: 78px;
+  gap: 6px;
+  border: 1px solid rgb(211 190 153 / 20%);
+  background: rgb(255 255 255 / 3%);
+}
+.settlement-ui__menu .settlement-ui__button span {
+  font-size: 13px;
+}
+.settlement-ui__build-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 6px 10px;
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+/* Paved road tiers show their 192 px ware render only; without a size it filled the toolbar. */
+.settlement-ui__build-tools > .settlement-ui__button > img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* Original parchment surfaces and carved edges; panel contents retain their own windows. */
+.settlement-ui__panel {
+  --settlement-ink: #45301f;
+  --settlement-muted: #786248;
+  --settlement-accent: #9b6232;
+  color: var(--settlement-ink);
+  border: 4px solid #72513a;
+  border-radius: 12px;
+  background-color: rgb(230 211 163 / 90%);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.66' numOctaves='3' seed='9'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.2'/%3E%3C/svg%3E"),
+    repeating-linear-gradient(0deg, transparent 0 3px, #91632a0b 3px 4px, transparent 4px 9px),
+    repeating-linear-gradient(92deg, transparent 0 7px, #eaddba24 7px 8px, transparent 8px 19px),
+    radial-gradient(ellipse at 42% 30%, rgb(246 235 204 / 22%), transparent 72%),
+    linear-gradient(100deg, #baa07322, transparent 12%, transparent 85%, #9c764633);
+  box-shadow: 0 15px 38px #17120c80, inset 0 0 0 1px #f9e6b6, inset 0 0 28px #9b653d40, inset 8px 0 12px #80502217, inset -6px 0 10px #80502220;
+  backdrop-filter: none;
+}
+.settlement-ui__panel-header {
+  color: #f8e7bd;
+  background: linear-gradient(#79563d, #493522);
+  border-bottom: 2px solid #bd935c;
+  box-shadow: inset 0 1px #c8a476;
+}
+.settlement-ui__panel h2 {
+  font: 600 17px/1.25 Georgia, serif;
+  text-shadow: 0 2px #2c1a13;
+}
+.settlement-ui__panel .settlement-ui__button,
+.settlement-ui__tab,
+.settlement-ui__overview-row {
+  color: #4c3522;
+  background: linear-gradient(150deg, #f0ddb1, #c7aa7b);
+  border: 1px solid #947044;
+  box-shadow: inset 0 1px #fff4d6, 0 2px 2px #6a4a2838;
+}
+.settlement-ui__panel .settlement-ui__button:hover,
+.settlement-ui__tab:hover,
+.settlement-ui__overview-row:is(button):hover {
+  background: linear-gradient(150deg, #fff1cb, #d5b57c);
+  border-color: #775025;
+}
+.settlement-ui__card {
+  color: #4c3522;
+  border: 1px solid #a17c4d;
+  background: linear-gradient(135deg, #fbefce, #d4b889);
+  box-shadow: inset 0 1px #fff7de, 0 3px 5px #73573729;
+}
+.settlement-ui__card:hover {
+  background: linear-gradient(135deg, #fff6dd, #e6c990);
+  border-color: #81552f;
+}
+.settlement-ui__card[aria-pressed="true"],
+.settlement-ui__tab[aria-selected="true"] {
+  color: #f9e5b9;
+  background: linear-gradient(#98704a, #61452f);
+  border-color: #57351e;
+}
+.settlement-ui__card small,
+.settlement-ui__overview-row small { color: #776246; }
+.settlement-ui__card[aria-pressed="true"] small { color: #ebd2a2; }
+/* Unlocked by the level-up whose Build button opened the picker: a warm glowing frame. */
+.settlement-ui__card--new {
+  border-color: #c4801f;
+  box-shadow: 0 0 0 2px #e0a33c, 0 0 14px #f0b24f99;
+}
+.settlement-ui__summary-window {
+  left: 100px;
+  bottom: 145px;
+  z-index: 2;
+}
+.settlement-ui__summary-window .settlement-ui__summary {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  padding: 0;
+  border: 0;
+  gap: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.settlement-ui__summary-tabs {
+  padding: 8px 10px 4px;
+}
+.settlement-ui__summary-panel {
+  display: grid;
+  gap: 12px;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 10px;
+  scrollbar-color: #a98455 transparent;
+  scrollbar-width: thin;
+}
+.settlement-ui__summary-panel[hidden] { display: none; }
+/* Goods and Settlers share one compact cell: icon, label, count, separated by the same rule. */
+.settlement-ui__summary-window :is(.settlement-ui__resources, .settlement-ui__people-grid) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+.settlement-ui__summary-window :is(.settlement-ui__resources > span, .settlement-ui__people-grid > div) {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 9px;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #a9845540;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+.settlement-ui__summary-window :is(.settlement-ui__resources, .settlement-ui__people-grid) small {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.settlement-ui__people {
+  display: grid;
+  gap: 12px;
+}
+.settlement-ui__people-group h3 {
+  margin: 0 0 5px;
+  font: 600 13px Georgia, serif;
+  color: var(--hud-ink);
+}
+.settlement-ui__people-grid > div > img {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 1px #4b381a44);
+}
+.settlement-ui__people-grid > div > svg {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  color: var(--settlement-accent);
+}
+.settlement-ui__people-worker-portrait {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+}
+.settlement-ui__people-worker-portrait > img,
+.settlement-ui__people-worker-portrait > svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.settlement-ui__people-tool {
+  position: absolute;
+  right: -3px;
+  bottom: -1px;
+  width: 15px;
+  height: 15px;
+}
+.settlement-ui__people-tool img {
+  width: 100%;
+  height: 100%;
+}
+.settlement-ui__people-empty {
+  margin: 0;
+  color: var(--hud-muted);
+  font-size: 12px;
+}
+@media (max-width: 760px) {
+  .settlement-ui__bar { flex-direction: row; align-items: center; }
+  .settlement-ui__summary-window { left: 16px; bottom: 110px; }
+}
+
+.settlement-ui__building-register-window {
+  left: 70px;
+  bottom: 145px;
+  z-index: 3;
+}
+.settlement-ui__building-details-window {
+  left: 120px;
+  bottom: 125px;
+  width: min(500px, calc(100vw - 32px));
+  z-index: 4;
+}
+.settlement-ui__building-register {
+  overflow-y: auto;
+  padding: 0 10px 10px;
+}
+.settlement-ui__building-register-tabs {
+  padding: 6px 0 4px;
+}
+.settlement-ui__building-register-panel {
+  padding: 2px 0 0;
+}
+.settlement-ui__building-register-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.settlement-ui__building-register-card {
+  cursor: var(--cursor-pointer, pointer);
+}
+.settlement-ui__building-register-card:disabled {
+  cursor: var(--cursor-default, default);
+  opacity: .65;
+}
+.settlement-ui__building-register-counts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__building-register-counts b {
+  font-size: 20px;
+  color: #4c5432;
+}
+.settlement-ui__building-register-counts small {
+  font-size: 16px;
+  color: #946933;
+}
+.settlement-ui__overview-row > img {
+  width: 76px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.settlement-ui__inventory {
+  margin: 10px 0 12px;
+}
+.settlement-ui__inventory h3 {
+  font: 600 17px Georgia, serif;
+  margin: 0 0 8px;
+}
+.settlement-ui__inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  gap: 8px;
+}
+.settlement-ui__inventory-grid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  padding: 6px 4px;
+  border: 1px solid #ad895966;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #fff0c5, #d9bd8d);
+  box-shadow: inset 0 1px #fff8df, 0 2px 3px #86653625;
+}
+.settlement-ui__inventory-grid img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 1px #4b381a44);
+}
+/* Passengers: troop renders and the settlers icon share one box (the svg icon has no own size). */
+.settlement-ui__inventory-grid .settlement-ui__passenger-icon {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+.settlement-ui__inventory-grid b {
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__inventory-grid small {
+  color: var(--hud-muted);
+  font-size: 11px;
+}
+@media (max-width: 760px) {
+  .settlement-ui__building-register-window,
+  .settlement-ui__building-details-window { left: 16px; bottom: 110px; }
+}
+@media (max-width: 420px) {
+  .settlement-ui__building-register-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .settlement-ui__inventory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* Dense content, with 44px close/drag targets retained for touch. */
+.settlement-ui__panel-header > .settlement-ui__button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 4px;
+}
+.settlement-ui__drag-handle h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.settlement-ui__drag-handle { min-width: 0; }
+.settlement-ui__summary-window .settlement-ui__resources img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+@media (max-width: 760px), (max-height: 650px) {
+  .settlement-ui__panel {
+    bottom: max(94px, calc(env(safe-area-inset-bottom) + 82px));
+    max-height: calc(100dvh - 112px - env(safe-area-inset-bottom));
+  }
+  .settlement-ui__panel-header { padding: 0 4px; }
+  .settlement-ui__panel h2 { font-size: 16px; }
+  .settlement-ui__cards, .settlement-ui__building-register-grid { gap: 5px; }
+  .settlement-ui__card { padding: 4px; }
+  .settlement-ui__card img { height: 58px; }
+  .settlement-ui__inventory-grid { gap: 5px; }
+  .settlement-ui__inventory-grid > div { gap: 2px; }
+  .settlement-ui__inventory-grid b { font-size: 14px; }
+  .settlement-ui__inventory-grid img { width: 40px; height: 40px; }
+  .settlement-ui__inventory-grid .settlement-ui__passenger-icon { width: 40px; height: 40px; }
+  .settlement-ui__menu { padding: 8px; gap: 6px; }
+}
+
+@media (max-width: 760px), (max-height: 650px) {
+  .settlement-ui__build-tools {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .settlement-ui__build-tools > button { flex: 0 0 auto; }
+}
+
+/* The same ancient paper covers launchers, headers, status and every window. */
+.settlement-ui__bar,
+.settlement-ui__panel,
+.settlement-ui__placement {
+  --settlement-ink: var(--hud-ink);
+  --settlement-muted: var(--hud-muted);
+  --settlement-accent: var(--hud-accent);
+  color: var(--hud-ink);
+  background-color: var(--hud-paper);
+  background-image: var(--hud-paper-texture);
+  border-color: var(--hud-paper-edge);
+  box-shadow: var(--hud-paper-shadow);
+  backdrop-filter: none;
+}
+.settlement-ui__bar { border: 2px solid #8c6945; }
+.settlement-ui__panel-header {
+  color: var(--hud-ink);
+  background-color: #dec493;
+  background-image: var(--hud-paper-texture), linear-gradient(#f5e5bf88, #bea07122);
+  border-bottom: 1px solid #a17c4d;
+  box-shadow: inset 0 1px #fff0c8;
+}
+.settlement-ui__panel h2 { color: var(--hud-ink); text-shadow: none; }
+.settlement-ui__launcher,
+.settlement-ui__menu .settlement-ui__button,
+.settlement-ui__placement .settlement-ui__button,
+.settlement-ui__panel .settlement-ui__button,
+.settlement-ui__tab,
+.settlement-ui__overview-row {
+  color: var(--hud-ink);
+  background: var(--hud-control);
+  border-color: var(--hud-paper-edge);
+  box-shadow: inset 0 1px #fff4d6, 0 2px 2px #6a4a2838;
+}
+.settlement-ui__launcher:hover,
+.settlement-ui__menu .settlement-ui__button:hover,
+.settlement-ui__placement .settlement-ui__button:hover,
+.settlement-ui__panel .settlement-ui__button:hover {
+  background: var(--hud-control-hover);
+  border-color: #775025;
+}
+.settlement-ui__launcher svg { filter: drop-shadow(0 2px 1px #5e442955); }
+.settlement-ui button:focus-visible,
+.settlement-ui [tabindex]:focus-visible {
+  outline-color: #355e59;
+}
+.settlement-ui__tab { color: var(--hud-muted) !important; }
+.settlement-ui__tab[aria-selected="true"],
+.settlement-ui__panel .settlement-ui__button[aria-pressed="true"],
+.settlement-ui__placement .settlement-ui__button[aria-pressed="true"] {
+  color: #3e2b1c !important;
+  background: linear-gradient(#e6cc98, #bd975f);
+  border-color: #79502b;
+  box-shadow: inset 0 -2px #79502b, inset 0 1px #fff0bd;
+}
+.settlement-ui__placement-name { color: var(--hud-ink); }
+.settlement-ui__build-tools,
+.settlement-ui__build-footer { border-color: #a17c4d55; }
+.settlement-ui__production-mode {
+  color: var(--hud-ink);
+  border-color: #a17c4d66;
+  background: #faf0d130;
+}
+.settlement-ui__cargo-controls input {
+  color: var(--hud-ink);
+  background: #f6e8c6;
+  border-color: var(--hud-paper-edge);
+  font: inherit;
+  accent-color: #805128;
+}
+.settlement-ui__farm-area {
+  border-color: #a17c4d66;
+  background: linear-gradient(135deg, #fbefca55, #c4ab7744);
+}
+.settlement-ui__farm-area-counts div { background: #8c694518; }
+.settlement-ui__section-description,
+.settlement-ui__overview-row small { color: var(--hud-muted); }
+.settlement-ui__card[aria-pressed="true"] {
+  color: var(--hud-ink);
+  background: linear-gradient(#efdbb0, #c6a56e);
+  border-color: #79502b;
+  box-shadow: inset 0 0 0 1px #79502b55, inset 0 1px #fff0bd;
+}
+.settlement-ui__card[aria-pressed="true"] small { color: #644b2f; }
+
+
+
+/* Compact window chrome keeps inventory and job lists in view on short screens. */
+.settlement-ui__panel-header { min-height: 36px; padding: 2px 6px; }
+.settlement-ui__panel-header .settlement-ui__drag-handle {
+  min-height: 32px;
+  gap: 6px;
+  padding: 0 4px;
+}
+.settlement-ui__panel-header .settlement-ui__drag-handle > svg { width: 12px; height: 18px; }
+.settlement-ui__panel-header .settlement-ui__drag-handle h2 { font-size: 15px; }
+.settlement-ui__panel-header > .settlement-ui__button {
+  position: relative;
+  min-width: 32px;
+  min-height: 32px;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 7px;
+}
+.settlement-ui__panel-header > .settlement-ui__button > svg { width: 17px; height: 17px; }
+.settlement-ui__panel-header > .settlement-ui__button > span:empty { display: none; }
+.settlement-ui__panel-header > .settlement-ui__button::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+}
+@media (max-width: 760px), (max-height: 650px) {
+  .settlement-ui__panel-header .settlement-ui__drag-handle h2 { font-size: 14px; }
+}
+
+/* Ledger pages size to their contents; long inventories cap the window and use the content scroller. */
+.settlement-ui__building-details-window:has([data-storage-page-next]) {
+  max-height: min(680px, calc(100dvh - 160px - env(safe-area-inset-bottom)));
+}
+.settlement-ui__building-details-window > .settlement-ui__overview {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.settlement-ui__building-details-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 10px 10px;
+}
+.settlement-ui__workforce-inventory .settlement-ui__inventory-grid img {
+  width: 58px;
+  height: 64px;
+}
+.settlement-ui__workforce-inventory .settlement-ui__inventory-grid small {
+  overflow-wrap: anywhere;
+}
+
+/* Fixed-equipment soldiers: the storage grid groups by type and rank; details stay read-only. */
+.settlement-ui__soldier-inventory .settlement-ui__inventory-grid {
+  grid-template-columns: repeat(auto-fit, minmax(76px, 1fr));
+}
+.settlement-ui__soldier-inventory .settlement-ui__inventory-grid small {
+  overflow-wrap: anywhere;
+}
+.settlement-ui__soldier-portrait {
+  position: relative;
+  display: inline-flex;
+  width: 58px;
+  height: 64px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.settlement-ui__soldier-portrait > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.settlement-ui__soldier-inventory .settlement-ui__soldier-wounded,
+.settlement-ui__garrison-inside-row .settlement-ui__soldier-wounded {
+  color: #8a3b2a;
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 1;
+}
+.settlement-ui__garrison-inside-row .settlement-ui__soldier-wounded { grid-area: wounded; }
+.settlement-ui__soldier-roster { margin-top: 12px; }
+.settlement-ui__soldier-roster h3 { margin: 0 0 6px; font: 600 17px Georgia, serif; }
+.settlement-ui__soldier-row {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 6px 10px;
+  align-items: center;
+  margin: 8px 0;
+}
+.settlement-ui__soldier-row .settlement-ui__soldier-portrait { --rank-chevron-width: 19px; width: 44px; height: 48px; }
+.settlement-ui__soldier-row span:last-child { font-size: 12px; line-height: 1.4; }
+
+.settlement-ui__worker-portrait {
+  position: relative;
+  display: inline-flex;
+  width: 64px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+}
+.settlement-ui__workforce-inventory .settlement-ui__worker-tool {
+  position: absolute;
+  right: -3px;
+  bottom: 0;
+  width: 26px;
+  height: 26px;
+}
+.settlement-ui__workforce-inventory .settlement-ui__worker-tool img { width: 100%; height: 100%; }
+
+
+/* Trailing actions follow farm/shipyard/production-specific controls. */
+.settlement-ui__building-actions {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(98 72 36 / 20%);
+}
+.settlement-ui__building-actions [data-demolish-building] {
+  order: 1;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+/* The sticky action row follows the dark palette instead of staying light parchment. */
+:root[data-hud-theme="dark"] .settlement-ui__building-actions { background: var(--hud-field-solid); }
+/* Demolish confirmation window: compact, camera-panel spacing; window order puts it on top. */
+.settlement-ui__panel.settlement-ui__demolish-window {
+  left: calc(50% - 160px);
+  top: 22%;
+  bottom: auto;
+  width: min(320px, calc(100vw - 32px));
+}
+.settlement-ui__demolish-confirm {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+.settlement-ui__demolish-subject {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+  color: var(--hud-ink);
+}
+.settlement-ui__demolish-subject .settlement-ui__demolish-icon {
+  display: block;
+  flex: 0 0 auto;
+  width: 56px;
+  height: 56px;
+}
+.settlement-ui__demolish-icon :is(img, svg) { width: 100%; height: 100%; object-fit: contain; }
+.settlement-ui__demolish-subject strong { font: 700 15px/1.2 Georgia, serif; }
+.settlement-ui__demolish-question {
+  margin: 2px 0 0;
+  font: 14px/1.3 Georgia, serif;
+  color: var(--hud-muted);
+}
+.settlement-ui__demolish-choices {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.settlement-ui__panel .settlement-ui__demolish-choice {
+  min-width: 96px;
+  min-height: 40px;
+  padding: 6px 16px;
+  font: 600 15px/1.2 Georgia, serif;
+}
+.settlement-ui__panel .settlement-ui__demolish-choice--danger {
+  border-color: var(--hud-danger);
+  color: var(--hud-danger) !important;
+  font-weight: 700;
+}
+
+.settlement-ui__storage-wares .settlement-ui__inventory-grid {
+  grid-template-columns: repeat(auto-fit, minmax(58px, 1fr));
+}
+.settlement-ui__storage-ware {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 4px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  /* Theme tokens: dark ink on light paper, light ink on the dark theme's leather (UI 2026-10-21). */
+  background: var(--hud-control);
+  box-shadow: inset 0 1px #fff8df55, 0 2px 3px #4b381a33;
+  cursor: var(--cursor-pointer, pointer);
+  color: var(--hud-ink);
+}
+.settlement-ui__storage-ware b { font-size: 15px; font-variant-numeric: tabular-nums; }
+.settlement-ui__storage-ware:hover { border-color: var(--hud-accent); background: var(--hud-control-hover); }
+.settlement-ui__storage-ware:disabled { cursor: var(--cursor-default, default); }
+.settlement-ui__storage-ware:focus-visible { outline: 2px solid #47749b; outline-offset: 2px; }
+.settlement-ui__storage-ware[data-collecting="true"] {
+  border-color: var(--hud-accent);
+  box-shadow: inset 0 0 0 2px var(--hud-accent), 0 2px 3px #4b381a33;
+}
+.settlement-ui__building-details-window .settlement-ui__building-actions {
+  position: static;
+  flex: 0 0 auto;
+  width: auto;
+  margin: 0 10px 10px;
+  padding: 10px 0 3px;
+  background: linear-gradient(#f0dfb7, #e1c797);
+}
+.settlement-ui__building-actions .settlement-ui__button > :is(svg, img).settlement-art-icon {
+  width: 30px;
+  height: 30px;
+}
+/* One action footprint for HQ, storehouses and harbours: the same button size in every footer. */
+.settlement-ui__building-actions .settlement-ui__button {
+  box-sizing: border-box;
+  flex: 0 0 48px;
+  width: 48px;
+  min-width: 48px;
+  height: 56px;
+  min-height: 56px;
+  padding: 4px 2px;
+}
+.settlement-ui__building-final-actions {
+  flex: 0 0 auto;
+  grid-auto-columns: 48px;
+}
+.settlement-ui__building-actions .settlement-ui__storage-tools { margin-top: 0; }
+
+.settlement-ui__panel.settlement-ui__panel--main-selection {
+  width: min(346px, calc(100vw - 24px));
+}
+.settlement-ui__menu .settlement-ui__button {
+  width: 100%; aspect-ratio: 1; min-height: 0; padding: 8px;
+}
+.settlement-ui__ship-window { width: min(360px, calc(100vw - 24px)); }
+.settlement-ui__ship-portrait { display: block; width: 84px; height: 84px; margin: 4px auto; }
+
+.settlement-ui__armory-orders { display: grid; gap: 8px; margin: 12px 0; }
+.settlement-ui__armory-order {
+  display: grid;
+  grid-template-columns: 52px 36px minmax(48px, 1fr) 36px 36px;
+  gap: 8px;
+  align-items: center;
+}
+.settlement-ui__order-ware { display: block; width: 48px; height: 48px; }
+.settlement-ui__order-ware img { width: 100%; height: 100%; object-fit: contain; }
+.settlement-ui__armory-order output { text-align: center; font-variant-numeric: tabular-nums; }
+.settlement-ui__armory-order button {
+  height: 34px; padding: 0; border: 1px solid #b28b55; border-radius: 7px;
+  background: linear-gradient(#655137, #382b1d); color: #f4dba8;
+  font-size: 24px; line-height: 1; cursor: var(--cursor-pointer, pointer);
+  box-shadow: inset 0 1px 1px #ffffff25, 0 1px 2px #0005;
+}
+.settlement-ui__armory-order button[aria-pressed="true"] { background: #806234; border-color: #efce8b; }
+.settlement-ui__armory-order button:disabled { opacity: .4; cursor: var(--cursor-default, default); }
+
+.settlement-ui__garrison {
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; align-items: center; margin: 12px 0;
+}
+.settlement-ui__garrison > b { min-width: 0; overflow-wrap: anywhere; }
+.settlement-ui__garrison-supplies {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px; min-width: 0;
+  padding: 6px 8px; border-radius: 8px; background: #00000022;
+}
+.settlement-ui__garrison-coin {
+  position: relative; width: 40px; height: 40px; padding: 2px; flex: none;
+  border: 1px solid #b28b55; border-radius: 7px; cursor: var(--cursor-pointer, pointer);
+  background: linear-gradient(#655137, #382b1d);
+  box-shadow: inset 0 1px 1px #ffffff25, 0 1px 2px #0005;
+}
+.settlement-ui__garrison-coin img { width: 100%; height: 100%; object-fit: contain; }
+.settlement-ui__garrison-coin[aria-pressed="false"] { border-color: #efce8b; }
+.settlement-ui__garrison-coin:disabled { opacity: .55; cursor: var(--cursor-default, default); }
+.settlement-ui__garrison-coin-x {
+  position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none;
+  color: #fff; font-size: 34px; font-weight: 900; line-height: 1;
+  text-shadow: 0 0 3px #000, 0 0 3px #000, 0 1px 2px #000;
+}
+.settlement-ui__garrison-supply {
+  display: flex; align-items: center; gap: 4px; min-width: 0;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__garrison-supply img { width: 32px; height: 32px; object-fit: contain; }
+.settlement-ui__garrison-supply output { font-weight: 700; }
+.settlement-ui__garrison-supply small { opacity: .8; }
+.settlement-ui__garrison-incoming { color: #efce8b; white-space: nowrap; }
+.settlement-ui__garrison-inside { display: grid; gap: 4px; }
+.settlement-ui__garrison-inside h4,
+.settlement-ui__garrison-plan-heading h4 { margin: 0; font-size: 13px; }
+.settlement-ui__garrison-inside-row {
+  display: grid; grid-template-columns: 32px minmax(0, 1fr) max-content;
+  grid-template-areas: "icon name count" "icon wounded wounded";
+  gap: 4px 8px; align-items: center; min-width: 0;
+}
+.settlement-ui__garrison-inside-row > .settlement-ui__soldier-portrait {
+  --rank-chevron-width: 15px;
+  grid-area: icon; width: 32px; height: 32px;
+}
+.settlement-ui__garrison-inside-row img { width: 32px; height: 32px; object-fit: contain; }
+.settlement-ui__garrison-inside-name { grid-area: name; min-width: 0; overflow-wrap: anywhere; }
+.settlement-ui__garrison-inside-row span { min-width: 0; overflow-wrap: anywhere; }
+.settlement-ui__garrison-inside-row small { opacity: .8; }
+.settlement-ui__garrison-inside-row output {
+  grid-area: count; font-weight: 700; font-variant-numeric: tabular-nums;
+}
+.settlement-ui__garrison-plan-heading {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px;
+}
+.settlement-ui__garrison-auto { width: auto; max-width: 80px; min-height: 34px; padding: 4px 12px; }
+.settlement-ui__garrison-auto[aria-pressed="true"] { background: #806234; border-color: #efce8b; }
+.settlement-ui__garrison-troop {
+  display: grid;
+  grid-template-columns: 40px minmax(64px, 1fr) 34px 32px 34px;
+  grid-template-areas: "icon name minus count plus" "icon free free free free" "icon move move move move";
+  column-gap: 8px; align-items: center; min-width: 0;
+}
+.settlement-ui__garrison-troop img { grid-area: icon; width: 40px; height: 40px; object-fit: contain; }
+.settlement-ui__garrison-troop span { grid-area: name; min-width: 0; overflow-wrap: anywhere; }
+.settlement-ui__garrison-troop output {
+  grid-area: count; text-align: center; font-variant-numeric: tabular-nums;
+}
+.settlement-ui__garrison-troop > small:not(.settlement-ui__garrison-movement) {
+  grid-area: free; opacity: .8;
+}
+.settlement-ui__garrison-movement { grid-area: move; opacity: .8; }
+.settlement-ui__garrison-troop button {
+  height: 34px; padding: 0; border: 1px solid #b28b55; border-radius: 7px;
+  background: linear-gradient(#655137, #382b1d); color: #f4dba8;
+  font-size: 22px; line-height: 1; cursor: var(--cursor-pointer, pointer);
+  box-shadow: inset 0 1px 1px #ffffff25, 0 1px 2px #0005;
+}
+.settlement-ui__garrison-troop button:first-of-type { grid-area: minus; }
+.settlement-ui__garrison-troop button:last-of-type { grid-area: plus; }
+.settlement-ui__garrison-troop button:disabled { opacity: .4; cursor: var(--cursor-default, default); }
+
+.settlement-ui__tavern { display: grid; gap: 10px; margin: 12px 0; }
+.settlement-ui__tavern button {
+  border: 1px solid #b28b55; border-radius: 7px;
+  background: linear-gradient(#655137, #382b1d); color: #f4dba8; cursor: var(--cursor-pointer, pointer);
+  box-shadow: inset 0 1px 1px #ffffff25, 0 1px 2px #0005;
+}
+.settlement-ui__tavern button:disabled { opacity: .4; cursor: var(--cursor-default, default); }
+.settlement-ui__tavern button[aria-pressed="true"] { background: #806234; border-color: #efce8b; }
+.settlement-ui__tavern-troops { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.settlement-ui__tavern-troops button {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px 2px; font-size: 12px;
+}
+.settlement-ui__tavern-troops img { width: 44px; height: 44px; object-fit: contain; }
+.settlement-ui__tavern-recipe { display: flex; flex-wrap: wrap; gap: 6px; }
+.settlement-ui__tavern-ingredient {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 52px;
+  padding: 4px; border-radius: 8px; background: #00000022;
+}
+.settlement-ui__tavern-ingredient img,
+.settlement-ui__tavern-ingredient svg { width: 40px; height: 40px; object-fit: contain; }
+.settlement-ui__tavern-ingredient small { font-variant-numeric: tabular-nums; }
+.settlement-ui__tavern-ingredient[data-enough="false"] small { color: #ff9a7a; font-weight: 700; }
+.settlement-ui__tavern-order {
+  display: grid; grid-template-columns: 34px 40px 34px 1fr; gap: 8px; align-items: center;
+}
+.settlement-ui__tavern-order > button:not(.settlement-ui__tavern-submit) { height: 34px; padding: 0; font-size: 22px; }
+.settlement-ui__tavern-order output { text-align: center; font-variant-numeric: tabular-nums; }
+.settlement-ui__tavern-submit { min-height: 38px; font-weight: 700; }
+.settlement-ui__tavern-schedule {
+  border: 1px solid #5a4b32;
+  border-radius: 6px;
+  background: rgba(24, 21, 15, .72);
+  padding: 8px 10px;
+}
+.settlement-ui__tavern-schedule header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.settlement-ui__tavern-schedule h4 {
+  margin: 0;
+  font-size: .95rem;
+  letter-spacing: .02em;
+}
+.settlement-ui__tavern-schedule header span {
+  color: #c9b98f;
+  font-size: .8rem;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__tavern-schedule p {
+  margin: 0;
+  color: #b8aa8b;
+  font-size: .85rem;
+}
+.settlement-ui__tavern-schedule ol {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.settlement-ui__tavern-schedule-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+  min-height: 30px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .035);
+}
+.settlement-ui__tavern-schedule-row[data-tavern-schedule-current="true"] {
+  border-left: 2px solid #d9b563;
+  background: rgba(217, 181, 99, .12);
+}
+.settlement-ui__tavern-schedule-row img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.settlement-ui__tavern-schedule-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .85rem;
+}
+/* Notifications are a narrow list: 20% narrower than the main panel (owner, 2026-10-12). */
+.settlement-ui__panel.settlement-ui__panel--notices {
+  width: min(464px, calc(100vw - 32px));
+}
+/*
+ * The minimap sits in the bottom-left corner (owner, 2026-10-12). While it is shown, windows that
+ * open from that corner start above it instead of covering it; on narrow screens the minimap
+ * launcher bar sits above it on narrow screens.
+ * The top-anchored colony tracker keeps its content height, including its collapsed handle.
+ */
+body:has(.minimap:not([hidden])) .settlement-ui__panel:not(.settlement-popup__dialog, .colony-tracker) {
+  bottom: 192px;
+  max-height: calc(100dvh - 222px);
+}
+@media (max-width: 760px), (max-height: 650px) {
+  body:has(.minimap:not([hidden])) .settlement-ui__bar {
+    bottom: max(144px, calc(env(safe-area-inset-bottom) + 136px));
+  }
+  body:has(.minimap:not([hidden])) .settlement-ui__panel:not(.settlement-popup__dialog, .colony-tracker) {
+    bottom: max(228px, calc(env(safe-area-inset-bottom) + 216px));
+    max-height: calc(100dvh - 246px - env(safe-area-inset-bottom));
+  }
+}
+
+.settlement-ui__garrison > :is(label, small) { grid-column: 1 / -1; }
+.settlement-ui__garrison label { display: grid; gap: 4px; min-width: 0; }
+.settlement-ui__garrison select { width: 100%; max-width: 100%; min-width: 0; color: var(--hud-ink);
+  background: var(--hud-control); border: 1px solid var(--hud-paper-edge); padding: 6px; }
+
+.settlement-ui__construction progress { width: 100%; accent-color: var(--settlement-accent); }
+.settlement-ui__construction-materials { width: 100%; border-collapse: collapse; }
+.settlement-ui__construction-materials caption { text-align: left; margin: 12px 0 6px; font-weight: 700; }
+.settlement-ui__construction-materials :is(th, td) { padding: 6px 4px; text-align: center; }
+.settlement-ui__construction-materials th:first-child { text-align: left; }
+.settlement-ui__construction-materials img { width: 32px; height: 32px; object-fit: contain; vertical-align: middle; }
+
+.settlement-ui__launcher:disabled,
+.settlement-ui__menu button:disabled {
+  opacity: .45;
+  cursor: var(--cursor-default, default);
+}
+
+/* Ware artwork remains fully readable regardless of its stock count or policy marks. */
+.settlement-ui__storage-ware img { opacity: 1; width: 48px; height: 48px; }
+.settlement-ui__storage-ware[data-ware="stone"] img { transform: scale(.7); }
+.settlement-ui__storage-ware[data-ware="flour"] img { transform: scale(.8); }
+@media (max-width: 760px) {
+  .settlement-ui__storage-ware img { width: 44px; height: 44px; }
+}
+
+/* Current completed level is separate from an in-progress upgrade target. */
+.settlement-ui__building-level { margin-block: 0 12px; }
+.settlement-ui__building-level strong { font-size: 1.1em; }
+
+/* Optional workshop delivery preview remains readable in the existing building panel. */
+.settlement-ui__upgrade {
+  margin-block: 12px;
+  padding: 12px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-field);
+}
+.settlement-ui__upgrade h3 { margin: 0 0 8px; }
+.settlement-ui__upgrade p { margin: 6px 0; line-height: 1.4; }
+.settlement-ui__upgrade-actions { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+/* The upgrade info button takes the standard settlement icon-button size and shape. */
+.settlement-ui__upgrade-actions .info-tooltip > .info-tooltip__button {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.settlement-ui__work-progress { display: block; width: 100%; height: .65rem; accent-color: #a5c875; }
+/* Producers reserve the caption + bar line so the window height stays put between cycles. */
+.settlement-ui__work-progress-slot { display: flex; flex-direction: column; justify-content: flex-end; gap: 3px; }
+.settlement-ui__work-progress-slot--reserved { min-height: 30px; }
+.settlement-ui__work-progress-slot:empty:not(.settlement-ui__work-progress-slot--reserved) { display: none; }
+
+/* Inputs and outputs share one row; each side is one bubble of compact ware cells. */
+.settlement-ui__ware-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin: 10px 0 12px;
+}
+.settlement-ui__ware-group {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 5px 8px 6px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-control);
+  box-shadow: inset 0 1px #fff8df55, 0 2px 3px #4b381a33;
+  color: var(--hud-ink);
+}
+/* A two-sided production row shares the available width equally around its arrow. */
+.settlement-ui__ware-flow:has(> .settlement-ui__ware-group ~ .settlement-ui__ware-group):not(
+  :has(> .settlement-ui__ware-group ~ .settlement-ui__ware-group ~ .settlement-ui__ware-group)
+) > .settlement-ui__ware-group { flex: 1 1 0; }
+.settlement-ui__ware-group h3 {
+  margin: 0;
+  font: 600 12px/1.2 Georgia, serif;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--hud-muted);
+}
+.settlement-ui__ware-group-cells { display: flex; flex-wrap: wrap; gap: 6px; }
+.settlement-ui__ware-group-cells > div {
+  display: grid;
+  grid-template: "icon count" auto "name name" auto / auto auto;
+  align-items: center;
+  column-gap: 4px;
+  max-width: 96px;
+}
+.settlement-ui__ware-group-cells img {
+  grid-area: icon;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 1px #4b381a44);
+}
+.settlement-ui__ware-group-cells .settlement-ui__ware-group-random-icon {
+  grid-area: icon;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+}
+.settlement-ui__ware-group-cells b { grid-area: count; font-size: 16px; font-variant-numeric: tabular-nums; }
+.settlement-ui__ware-group-cells small {
+  grid-area: name;
+  overflow: hidden;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--hud-muted);
+}
+.settlement-ui__ware-group-cells > [data-ware] > small { text-align: center; }
+.settlement-ui__ware-flow-arrow { font-size: 20px; color: var(--hud-accent); }
+.settlement-ui__upgrade-cost { display: flex; flex-wrap: wrap; gap: .75rem; }
+.settlement-ui__upgrade-cost-item { display: inline-flex; align-items: center; gap: .35rem; }
+.settlement-ui__upgrade-cost-item img { width: 2rem; height: 2rem; object-fit: contain; }
+
+.settlement-ui__sawmill-recipes, .settlement-ui__output-choices { flex-direction: column; align-items: stretch; gap: 8px; }
+.settlement-ui__sawmill-recipes h3, .settlement-ui__sawmill-recipes p, .settlement-ui__output-choices h3, .settlement-ui__output-choices p { margin: 0; }
+
+.settlement-ui__storage-pool {
+  display: block;
+  color: var(--hud-muted);
+  font-size: 11px;
+  line-height: 1.25;
+}
+.settlement-ui__storage-pool--badges {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1px;
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.settlement-ui__storage-held { color: var(--hud-muted); }
+.settlement-ui__storage-incoming { color: var(--hud-warning, #ffcf72); }
+
+/* Residence: its population effect as two stat bubbles (owner 2026-10-21). */
+.settlement-ui__residence { margin: 8px 0 12px; }
+.settlement-ui__residence dl { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+.settlement-ui__residence dl > div {
+  flex: 1 1 140px;
+  padding: 6px 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-control);
+  color: var(--hud-ink);
+}
+.settlement-ui__residence dt { font-size: 12px; color: var(--hud-muted); }
+.settlement-ui__residence dd {
+  margin: 2px 0 0;
+  font: 700 18px/1.2 Georgia, serif;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Contextual terrain actions reuse the shared movable settlement frame. */
+.settlement-ui__terrain-survey-window { width: min(300px, calc(100vw - 24px)); left: 24px; top: 100px; bottom: auto; }
+.settlement-ui__terrain-survey { padding: 12px; }
+.settlement-ui__terrain-survey > p { font-size: 12px; line-height: 1.5; }
+.settlement-ui__terrain-survey .settlement-ui__button { margin: 4px 6px 4px 0; }
+.settlement-ui__terrain-survey .settlement-ui__button img { width: 40px; height: 40px; object-fit: contain; }
+@media (max-width: 480px) { .settlement-ui__terrain-survey-window { left: 12px; top: 76px; } }
+
+.settlement-ui__terrain-survey-actions { display: flex; align-items: center; gap: 8px; }
+
+/* Two-mode toggles (Shipyard products, Fishery method) are explicit choices beside real stock bubbles. */
+.settlement-ui__mode-choices { display: flex; gap: 6px; }
+.settlement-ui__mode-choices > button {
+  display: grid; flex: 1; justify-items: center; gap: 3px; min-width: 0; padding: 5px 6px;
+}
+.settlement-ui__mode-choices .settlement-art-icon { width: 36px; height: 36px; object-fit: contain; }
+.settlement-ui__mode-choices > button[aria-pressed="true"] small { color: inherit; }
+.settlement-ui__mode-choices > button[aria-disabled="true"] {
+  opacity: .5;
+  cursor: var(--cursor-not-allowed, not-allowed);
+}
+.settlement-ui__fisher-mode { margin-top: 8px; }
+.settlement-ui__fisher-mode > h3 { margin: 0 0 4px; }
+.settlement-ui__shipyard-requirement, .settlement-ui__shipyard-progress, .settlement-ui__shipyard-stored, .settlement-ui__shipyard-wait {
+  margin: 6px 0 0; font-size: 12px; line-height: 1.45;
+}
+.settlement-ui__shipyard-recipe { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.settlement-ui__shipyard-recipe > span { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; }
+.settlement-ui__shipyard-recipe img { width: 28px; height: 28px; object-fit: contain; }
+.settlement-ui__shipyard-wait { color: var(--hud-warning, #ffcf72); }
+@media (max-width: 480px) {
+  .settlement-ui__mode-choices { flex-wrap: wrap; }
+  .settlement-ui__mode-choices > button { min-width: 92px; }
+}
+
+/* Real radio choices use the same native ware image size as storage inventories. */
+.settlement-ui__sawmill-recipes, .settlement-ui__output-choices { --production-choice-icon-size: 48px; }
+.settlement-ui__sawmill-recipes [role="radiogroup"], .settlement-ui__output-choices [role="radiogroup"] { display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.settlement-ui__output-choice {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 5px;
+  font-size: 11px;
+  cursor: var(--cursor-pointer, pointer);
+}
+.settlement-ui__output-choice input { margin: 0; accent-color: var(--hud-accent); }
+@media (min-width: 761px) {
+  .settlement-ui__output-choices [role="radiogroup"][data-tool-choices="true"] {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .settlement-ui__output-choices [data-tool-choices="true"] > .settlement-ui__output-choice {
+    display: grid;
+    grid-template-columns: 14px minmax(0, 1fr);
+    justify-items: center;
+    min-width: 0;
+    padding-inline: 3px;
+  }
+  .settlement-ui__output-choices [data-tool-choices="true"] > .settlement-ui__output-choice > span:last-child {
+    grid-column: 1 / -1;
+    min-height: 2.4em;
+    text-align: center;
+    overflow-wrap: normal;
+  }
+}
+.settlement-ui__output-choice-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: var(--production-choice-icon-size);
+  height: var(--production-choice-icon-size);
+  flex: 0 0 var(--production-choice-icon-size);
+}
+.settlement-ui__output-choice-icon > img {
+  width: var(--production-choice-icon-size);
+  height: var(--production-choice-icon-size);
+  object-fit: contain;
+}
+.settlement-ui__output-choice-icon:has(img + img) > img {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+}
+.settlement-ui__output-choice-icon:has(img + img) > img:nth-child(1) { left: 0; top: 0; }
+.settlement-ui__output-choice-icon:has(img + img) > img:nth-child(2) { right: 0; top: 15%; }
+.settlement-ui__output-choice-icon:has(img + img) > img:nth-child(3) { left: 15%; bottom: 0; }
+@media (max-width: 760px) {
+  .settlement-ui__sawmill-recipes, .settlement-ui__output-choices { --production-choice-icon-size: 44px; }
+}
+.settlement-ui__output-choice:has(input:checked) { border-radius: 5px; outline: 1px solid var(--hud-accent); }
+.settlement-ui__output-choice:has(input:disabled) { opacity: .5; cursor: var(--cursor-default, default); }
+
+.settlement-ui__sawmill-recipes p[role="status"] { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
+.settlement-ui__sawmill-recipes p[role="status"] > img { width: 20px; height: 20px; object-fit: contain; flex: 0 0 20px; }
+
+/* Build labels wrap in full; reserve two lines so names and size/speed captions align. */
+.settlement-ui__cards > .settlement-ui__card > .settlement-ui__build-card-name {
+  display: grid;
+  align-content: center;
+  width: 100%;
+  min-height: 2.5em;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+/* Lock state stays visible through its badge and dimmed picture; keep the name easy to read. */
+.settlement-ui__cards > .settlement-ui__card--locked > .settlement-ui__build-card-name { opacity: 1; }
+
+/* Commander's Lodge: compact single-commander card, level caret, health and readiness. */
+.settlement-ui__commander {
+  display: grid;
+  gap: 6px;
+}
+.settlement-ui__commander > b,
+.settlement-ui__commander-heading b { min-width: 0; overflow-wrap: anywhere; }
+.settlement-ui__commander-heading {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+.settlement-ui__commander-heading .settlement-ui__soldier-portrait {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+.settlement-ui__commander-heading img { width: 56px; height: 56px; object-fit: contain; }
+.settlement-ui__commander-name { display: grid; gap: 2px; min-width: 0; }
+.settlement-ui__commander-name small { opacity: .85; overflow-wrap: anywhere; }
+.settlement-ui__commander-level-text { font-size: 12px; opacity: .9; white-space: nowrap; }
+.settlement-ui__commander-health {
+  height: 8px;
+  overflow: hidden;
+  border: 1px solid #6f5a3a;
+  border-radius: 5px;
+  background: #241d14;
+}
+.settlement-ui__commander-health > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #8f2d21, #d6a33c 55%, #7fc45a);
+}
+.settlement-ui__commander-cost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+.settlement-ui__commander-cost-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 28px;
+}
+.settlement-ui__commander-cost-row img { width: 24px; height: 24px; object-fit: contain; }
+.settlement-ui__commander-warning { color: #efce8b; }
+.settlement-ui__commander-status { margin: 0; font-weight: 700; }
+.settlement-ui__commander-recruit,
+.settlement-ui__commander-level-up { width: auto; max-width: 220px; }
+.settlement-ui__commander[data-commander-status="ready"] .settlement-ui__commander-status { color: #a9d37a; }
+.settlement-ui__commander[data-commander-status="recovering"] .settlement-ui__commander-status,
+.settlement-ui__commander[data-commander-status="too-injured"] .settlement-ui__commander-status {
+  color: #efce8b;
+}
+.settlement-ui__commander[data-commander-status="incapacitated"] .settlement-ui__commander-status,
+.settlement-ui__commander[data-commander-status="missing-home"] .settlement-ui__commander-status,
+.settlement-ui__commander[data-commander-status="away"] .settlement-ui__commander-status {
+  color: #e8907a;
+}
+.settlement-ui__commander[data-commander-status="ready"] .settlement-ui__commander-heading img {
+  filter: drop-shadow(0 0 3px rgba(169, 211, 122, .55));
+}
+.settlement-ui__commander[data-commander-status="recovering"] .settlement-ui__commander-heading img,
+.settlement-ui__commander[data-commander-status="too-injured"] .settlement-ui__commander-heading img {
+  filter: drop-shadow(0 0 3px rgba(239, 206, 139, .45)) saturate(.8);
+}
+
+/* Keep all six quick actions visible on the narrowest supported phone viewport. */
+@media (max-width: 360px) {
+  .settlement-ui__bar { gap: 4px; padding-inline: 6px; }
+  .settlement-ui__launcher { min-width: 48px; width: 48px !important; height: 48px; }
+  .settlement-ui__launcher :is(svg, img) { width: 36px !important; height: 36px !important; }
+}
+
+.settlement-ui__catapult-ammo {
+  display: grid; gap: 6px; margin: 10px 0;
+}
+.settlement-ui__catapult-ammo-choices {
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.settlement-ui__catapult-ammo-choice {
+  display: inline-flex; align-items: center; gap: 5px; min-width: 0; padding: 4px 7px;
+  border: 1px solid #b28b55; border-radius: 7px; color: #f7ead0; cursor: var(--cursor-pointer, pointer);
+  background: linear-gradient(#655137, #382b1d);
+}
+.settlement-ui__catapult-ammo-choice[aria-checked="true"] {
+  border-color: #efce8b; box-shadow: inset 0 0 0 1px #efce8b88;
+  background: linear-gradient(#a37a3d, #6b4d24); font-weight: 600;
+}
+.settlement-ui__catapult-ammo-choice:disabled { cursor: var(--cursor-default, default); opacity: .6; }
+.settlement-ui__catapult-ammo-choice img { width: 28px; height: 28px; object-fit: contain; }
+.settlement-ui__catapult-ammo-description { margin: 0; font-size: .85em; line-height: 1.35; }

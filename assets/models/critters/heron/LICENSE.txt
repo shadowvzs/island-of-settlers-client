@@ -1,0 +1,8 @@
+"Great blue heron" by faerbogdan99 (https://sketchfab.com/faerbogdan99)
+Source: https://sketchfab.com/3d-models/great-blue-heron-52cffc22bf2441468739ac3ba6d599aa
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: recoloured to a grey heron (white neck and face, grey back and wings, black
+primaries), simplified to about 2,800 triangles (High) and 1,400 (Minimal), its textures baked
+into vertex colours (no texture shipped), rigged (the source is static), its folded wings copied
+into spreadable flight wings, posed into standing, alert, walking, striking and flying frames,
+scaled to island units (tools/assets/heron-model.ts).

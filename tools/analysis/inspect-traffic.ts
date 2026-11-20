@@ -1,0 +1,11 @@
+import { readFileSync } from "node:fs";
+import { stageGameSession } from "../../src/app/settlement/game-session";
+import { advanceOfflineGame } from "../../src/app/settlement/offline-progress";
+import type { GameSaveV1 } from "../../src/shared/settlement/game-save";
+const source=JSON.parse(readFileSync(process.argv[2]!,"utf8")) as GameSaveV1;
+const result=await advanceOfflineGame(structuredClone(source), source.savedAt+300_000, ()=>{}, {});
+const raw=result.settlement;
+const loaded=await stageGameSession(result);
+const ids=new Set(loaded.settlement.actors.map(a=>a.uid));
+const t=raw.storageTraffic;
+console.log(JSON.stringify({saveActors:raw.actors.map(a=>({uid:a.uid,phase:a.phase,home:a.home,visible:a.visible})), loadedUids:[...ids], trafficActors:t?.actors, owners:t?.owners, departures:t?.departures, stockTraffic:raw.stockTraffic},null,1));

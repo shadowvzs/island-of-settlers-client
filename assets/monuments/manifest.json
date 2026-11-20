@@ -1,0 +1,1337 @@
+{
+  "release": "Reference revisions v2",
+  "gameplayRole": "UNASSIGNED",
+  "allAssetsStatic": true,
+  "upAxis": "+Y",
+  "frontAxis": "+Z",
+  "byteLimitPerGLB": 10000000,
+  "coreSpecification": "Uncompressed glTF 2.0 binary with embedded PNG PBR textures; no Draco, meshopt or KTX2 dependency",
+  "buildings": [
+    {
+      "nation": "roman",
+      "main": {
+        "file": "models/roman-temple-revised.glb",
+        "nation": "roman",
+        "detail": "high",
+        "triangles": 8932,
+        "triangleLimit": 9500,
+        "bytes": 3986068,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 13,
+        "uniqueMeshes": 13,
+        "materials": 9,
+        "primitives": 13,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 86632,
+            "sha256": "1011d2fa209bd4c3e3a408fff773c497be03231f4d944febbfc57243e95a983a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 335228,
+            "sha256": "ccac0ea8eaa8f1ede6dc5e9ee6a970f26ba62e3b315d045a807bdf9f1dd5d8a6"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8404,
+            "sha256": "6942510b971bec5d10e95fc7c80e2940d2e882dbf78ca7a30b26470785a2cb5a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 119340,
+            "sha256": "5ad727dff8582da47ffd388eb5d929d5d7e83759cfd0d08d6d32e0b06f4ea019"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 322860,
+            "sha256": "1371c1906939204895c6907946af0b420c16cf0af34ad42aae580a195c3f0ffc"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "85e28b171c4bef24a50b7bffff9085112f154ff494217c454d854f9c03dffe70"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 158612,
+            "sha256": "4d747a9af976555e8c0f53e7ba6658dce4b82cd0964a52db4c9f71435725e06a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 398408,
+            "sha256": "c634600dc82425a6d6b84ae7f0de6e8631915d2735def0a3e48216171cf7cb43"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "f84777b3c3eb184c47e60c6a9da38f8cdd79d6e354c97fcdda7c8fa4828defc3"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 38273024,
+        "bounds": [
+          [
+            -4.0,
+            -0.15000000596046448,
+            -4.0
+          ],
+          [
+            4.0,
+            4.971385955810547,
+            4.0
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "754c88cde1ea4146c144292f0563f1384f8c1a98a634c9edbc258390e547de57",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "distant": {
+        "file": "models/roman-temple-revised-low.glb",
+        "nation": "roman",
+        "detail": "low",
+        "triangles": 1420,
+        "triangleLimit": 1700,
+        "bytes": 3507484,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 11,
+        "uniqueMeshes": 11,
+        "materials": 7,
+        "primitives": 11,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 86632,
+            "sha256": "1011d2fa209bd4c3e3a408fff773c497be03231f4d944febbfc57243e95a983a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 335228,
+            "sha256": "ccac0ea8eaa8f1ede6dc5e9ee6a970f26ba62e3b315d045a807bdf9f1dd5d8a6"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8404,
+            "sha256": "6942510b971bec5d10e95fc7c80e2940d2e882dbf78ca7a30b26470785a2cb5a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 119340,
+            "sha256": "5ad727dff8582da47ffd388eb5d929d5d7e83759cfd0d08d6d32e0b06f4ea019"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 322860,
+            "sha256": "1371c1906939204895c6907946af0b420c16cf0af34ad42aae580a195c3f0ffc"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "85e28b171c4bef24a50b7bffff9085112f154ff494217c454d854f9c03dffe70"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 158612,
+            "sha256": "4d747a9af976555e8c0f53e7ba6658dce4b82cd0964a52db4c9f71435725e06a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 398408,
+            "sha256": "c634600dc82425a6d6b84ae7f0de6e8631915d2735def0a3e48216171cf7cb43"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "f84777b3c3eb184c47e60c6a9da38f8cdd79d6e354c97fcdda7c8fa4828defc3"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 38273024,
+        "bounds": [
+          [
+            -4.0,
+            -0.15000000596046448,
+            -4.0
+          ],
+          [
+            4.0,
+            4.971385955810547,
+            4.0
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "45b96f1ce6c619f21e75f7f74e0ff14ea6dab89fa19d57fa4f6f501c0e76fb17",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "authoredBaseUnits": [
+        8,
+        8
+      ],
+      "role": "UNASSIGNED"
+    },
+    {
+      "nation": "viking",
+      "main": {
+        "file": "models/viking-temple-revised.glb",
+        "nation": "viking",
+        "detail": "high",
+        "triangles": 8176,
+        "triangleLimit": 14500,
+        "bytes": 3958832,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 13,
+        "uniqueMeshes": 13,
+        "materials": 8,
+        "primitives": 13,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177024,
+            "sha256": "35f4e785bfbac6b762fbf3ce6bb91695ffd558399f8f28605b324a1ae0edfb61"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 478308,
+            "sha256": "09f19e7f202debeda66859abed58fa42c8108ec80c406d85a996f63b1f86f1f9"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8396,
+            "sha256": "62f6a574a4f39a7dd65de4e7fc30a7b0ec34e4de9429e1d79abff7691c00c2fc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177060,
+            "sha256": "4642bc438dc8f9ac5e684b0a000de42af7f1dc79bcbd4f177c55e993a034f910"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 528740,
+            "sha256": "bad421b6493c82fa0e9203fafeaa8507ca7860a6c65f56b42d75b13ee0b92819"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8480,
+            "sha256": "ce96dd035e9938475d9bb0318b99a1586e6e6d0796a6c99544cb63ed40a86db7"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 31894186,
+        "bounds": [
+          [
+            -3.5999999046325684,
+            -0.15000000596046448,
+            -4.199999809265137
+          ],
+          [
+            3.5999999046325684,
+            9.369999885559082,
+            4.199999809265137
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "2872fc925217176739d35a2c338f318e06400f33698a00a77fd64d7bf4dce6e0",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "distant": {
+        "file": "models/viking-temple-revised-low.glb",
+        "nation": "viking",
+        "detail": "low",
+        "triangles": 2898,
+        "triangleLimit": 3200,
+        "bytes": 3538788,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 11,
+        "uniqueMeshes": 11,
+        "materials": 6,
+        "primitives": 11,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177024,
+            "sha256": "35f4e785bfbac6b762fbf3ce6bb91695ffd558399f8f28605b324a1ae0edfb61"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 478308,
+            "sha256": "09f19e7f202debeda66859abed58fa42c8108ec80c406d85a996f63b1f86f1f9"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8396,
+            "sha256": "62f6a574a4f39a7dd65de4e7fc30a7b0ec34e4de9429e1d79abff7691c00c2fc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177060,
+            "sha256": "4642bc438dc8f9ac5e684b0a000de42af7f1dc79bcbd4f177c55e993a034f910"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 528740,
+            "sha256": "bad421b6493c82fa0e9203fafeaa8507ca7860a6c65f56b42d75b13ee0b92819"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8480,
+            "sha256": "ce96dd035e9938475d9bb0318b99a1586e6e6d0796a6c99544cb63ed40a86db7"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 31894186,
+        "bounds": [
+          [
+            -3.5999999046325684,
+            -0.15000000596046448,
+            -4.199999809265137
+          ],
+          [
+            3.5999999046325684,
+            9.369999885559082,
+            4.199999809265137
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "c31d66d6e8bf7c9d87393592d5aaf23772c2204afc734a548a3afe03c0f45542",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "authoredBaseUnits": [
+        7.2,
+        8.4
+      ],
+      "role": "UNASSIGNED"
+    },
+    {
+      "nation": "nubian",
+      "main": {
+        "file": "models/nubian-temple-revised.glb",
+        "nation": "nubian",
+        "detail": "high",
+        "triangles": 6532,
+        "triangleLimit": 9500,
+        "bytes": 2813156,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 14,
+        "uniqueMeshes": 14,
+        "materials": 7,
+        "primitives": 14,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 187516,
+            "sha256": "92fc14e482925da481ad1df2aaac0ed01cbf6990d318819af8d9b407d8b7de52"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 245816,
+            "sha256": "0ea61cd61200142c0efd4e4c7b3f9a693ce8bc80bc710ca5b0a0dbde4ba0c0e8"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8380,
+            "sha256": "c9ab2416a6f81023fb7ff7be7d0132d97dfd532837dfc1a8dbd96bcb4cbb7fde"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 265820,
+            "sha256": "a0966aca124d19fc44897aa4d045c805b957bcb8c1fce5f1eb19032c48dd1e48"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 440436,
+            "sha256": "76f5cb818e8a4f67e88d92630a6dd5acbdb24acc1005da94a88f41f5a03bf69b"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8476,
+            "sha256": "97829a36ffc0007534ee268d0930d737e4149a1912be0845d0fbdce4ee3a48dc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 25515349,
+        "bounds": [
+          [
+            -4.0,
+            -0.15000000596046448,
+            -4.0
+          ],
+          [
+            4.0,
+            4.070000171661377,
+            4.0
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "c28052c88a5e3e14ddb7f5c5ba095ddbbfa4a8962f9d082c27af53505d8e25ef",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "distant": {
+        "file": "models/nubian-temple-revised-low.glb",
+        "nation": "nubian",
+        "detail": "low",
+        "triangles": 1230,
+        "triangleLimit": 2000,
+        "bytes": 2502716,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 10,
+        "uniqueMeshes": 10,
+        "materials": 5,
+        "primitives": 10,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 187516,
+            "sha256": "92fc14e482925da481ad1df2aaac0ed01cbf6990d318819af8d9b407d8b7de52"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 245816,
+            "sha256": "0ea61cd61200142c0efd4e4c7b3f9a693ce8bc80bc710ca5b0a0dbde4ba0c0e8"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8380,
+            "sha256": "c9ab2416a6f81023fb7ff7be7d0132d97dfd532837dfc1a8dbd96bcb4cbb7fde"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 265820,
+            "sha256": "a0966aca124d19fc44897aa4d045c805b957bcb8c1fce5f1eb19032c48dd1e48"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 440436,
+            "sha256": "76f5cb818e8a4f67e88d92630a6dd5acbdb24acc1005da94a88f41f5a03bf69b"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8476,
+            "sha256": "97829a36ffc0007534ee268d0930d737e4149a1912be0845d0fbdce4ee3a48dc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 25515349,
+        "bounds": [
+          [
+            -4.0,
+            -0.15000000596046448,
+            -4.0
+          ],
+          [
+            4.0,
+            4.070000171661377,
+            4.0
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "59f631ea106c1f3a646e842f8bc10399929fd09b053da2f6a9d7e4740a966d17",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "authoredBaseUnits": [
+        8,
+        8
+      ],
+      "role": "UNASSIGNED"
+    },
+    {
+      "nation": "japanese",
+      "main": {
+        "file": "models/japanese-temple-revised.glb",
+        "nation": "japanese",
+        "detail": "high",
+        "triangles": 21420,
+        "triangleLimit": 22000,
+        "bytes": 5396184,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 17,
+        "uniqueMeshes": 17,
+        "materials": 11,
+        "primitives": 17,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177024,
+            "sha256": "35f4e785bfbac6b762fbf3ce6bb91695ffd558399f8f28605b324a1ae0edfb61"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 478308,
+            "sha256": "09f19e7f202debeda66859abed58fa42c8108ec80c406d85a996f63b1f86f1f9"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8396,
+            "sha256": "62f6a574a4f39a7dd65de4e7fc30a7b0ec34e4de9429e1d79abff7691c00c2fc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 186704,
+            "sha256": "8d296b530b58bf6f6285be3d82f0619f4a4a39e223748b71796603d7e686e7a0"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438972,
+            "sha256": "5c3b663debbf448a175ab405288fd261d9c1c208125870bd493b3dbcd34c6171"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8428,
+            "sha256": "d0188381cfb245bc08c5862e0108a775e4e6b10ae6ef0642f34a1eb29843cf14"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "mode": "RGB",
+            "bytes": 932,
+            "sha256": "f973d88d672d4e60afd71340f004bd1c028bf03a69b18af0dfd9e36252d0211e"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "mode": "RGB",
+            "bytes": 3752,
+            "sha256": "b5428678d0f1dad1cd32a992954a8003be72be86bdebc9754eeaedf4cab13ffa"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 130272,
+            "sha256": "0a3f83fcb6ce728426452fc7e22b72042cbd0a783e27940125101f75ab0058e0"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 397348,
+            "sha256": "57b6237a0105f7bd175df34b40fa3cae7e1bf0f2bebb9cae22356cbdae90c0bb"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8432,
+            "sha256": "5333fb1658103c1e3a3ee717e82eb43e85ef634c11c2efdf7f21a8708d1d8aa3"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 38972074,
+        "bounds": [
+          [
+            -3.9000000953674316,
+            -0.1599999964237213,
+            -3.9000000953674316
+          ],
+          [
+            3.9000000953674316,
+            11.859999656677246,
+            3.9000000953674316
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "2b2b2abd5ee85f853c06472a4b45372ec05d302a53425525cf0352a7a5183485",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "distant": {
+        "file": "models/japanese-temple-revised-low.glb",
+        "nation": "japanese",
+        "detail": "low",
+        "triangles": 3934,
+        "triangleLimit": 4000,
+        "bytes": 4050092,
+        "byteLimit": 10000000,
+        "activeMeshInstances": 13,
+        "uniqueMeshes": 13,
+        "materials": 10,
+        "primitives": 13,
+        "embeddedImages": [
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 177024,
+            "sha256": "35f4e785bfbac6b762fbf3ce6bb91695ffd558399f8f28605b324a1ae0edfb61"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 478308,
+            "sha256": "09f19e7f202debeda66859abed58fa42c8108ec80c406d85a996f63b1f86f1f9"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8396,
+            "sha256": "62f6a574a4f39a7dd65de4e7fc30a7b0ec34e4de9429e1d79abff7691c00c2fc"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 260368,
+            "sha256": "a8106df96afe2fd81b87c96d0154eef5b10f91767d893808cd485823a6196247"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438564,
+            "sha256": "3cae121b1ed944160e4b81f71852e62fc893888fd965cc43a898b594782b0d39"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8344,
+            "sha256": "4eac5578c8ea946ba00278b4f86ac1190214a830e99b529ea5933dd91da08d39"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 186704,
+            "sha256": "8d296b530b58bf6f6285be3d82f0619f4a4a39e223748b71796603d7e686e7a0"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 438972,
+            "sha256": "5c3b663debbf448a175ab405288fd261d9c1c208125870bd493b3dbcd34c6171"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8428,
+            "sha256": "d0188381cfb245bc08c5862e0108a775e4e6b10ae6ef0642f34a1eb29843cf14"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "mode": "RGB",
+            "bytes": 932,
+            "sha256": "f973d88d672d4e60afd71340f004bd1c028bf03a69b18af0dfd9e36252d0211e"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "mode": "RGB",
+            "bytes": 3752,
+            "sha256": "b5428678d0f1dad1cd32a992954a8003be72be86bdebc9754eeaedf4cab13ffa"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 182032,
+            "sha256": "d3d1d50540f4aeb9f2f415239bdc8865caa44f7fa38110e30a13163d1428b45b"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 430204,
+            "sha256": "a9091230ce0faeb9f3e7fe2b7572b6281fe84734bd97f5ed5af9fde0e4669ce5"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8408,
+            "sha256": "f1cb02445336bf5e88acfb5b3ddf66b838f95eb5be6bd77a91def411d6a32df2"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 147124,
+            "sha256": "86b1d2aabeee764d1813b51f9cb0fec9fcda88a25c9b59e519faaff2e5b70f2a"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 476668,
+            "sha256": "42ae295e26b8e7eab821a3f8bcad3db1f78d5f4222fc81cd74ef29ce476bb449"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8364,
+            "sha256": "c8df061944d83b3c2b056b10c4ffc45c16a8c44f024ae9e8c19c4527a9ac1440"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 130272,
+            "sha256": "0a3f83fcb6ce728426452fc7e22b72042cbd0a783e27940125101f75ab0058e0"
+          },
+          {
+            "width": 768,
+            "height": 768,
+            "mode": "RGB",
+            "bytes": 397348,
+            "sha256": "57b6237a0105f7bd175df34b40fa3cae7e1bf0f2bebb9cae22356cbdae90c0bb"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "mode": "RGB",
+            "bytes": 8432,
+            "sha256": "5333fb1658103c1e3a3ee717e82eb43e85ef634c11c2efdf7f21a8708d1d8aa3"
+          }
+        ],
+        "uniqueTextureRGBABytesWithMipEstimate": 38972074,
+        "bounds": [
+          [
+            -3.9000000953674316,
+            -0.1599999964237213,
+            -3.9000000953674316
+          ],
+          [
+            3.9000000953674316,
+            11.867586135864258,
+            3.9000000953674316
+          ]
+        ],
+        "normalLengthRange": [
+          0.9999999403953552,
+          1.0
+        ],
+        "degenerateTriangles": 0,
+        "externalResources": 0,
+        "sha256": "83532b34d2c730432be3d4841dbf8c7f9c629f339f1598fe8fda86d940c83e99",
+        "passed": true,
+        "issues": [],
+        "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+      },
+      "authoredBaseUnits": [
+        7.8,
+        7.8
+      ],
+      "role": "UNASSIGNED"
+    }
+  ],
+  "guardian": {
+    "file": "models/nubian-lion-guardian.glb",
+    "nation": "nubian",
+    "detail": "high",
+    "triangles": 1692,
+    "triangleLimit": 1750,
+    "bytes": 1208748,
+    "byteLimit": 10000000,
+    "activeMeshInstances": 2,
+    "uniqueMeshes": 2,
+    "materials": 2,
+    "primitives": 2,
+    "embeddedImages": [
+      {
+        "width": 768,
+        "height": 768,
+        "mode": "RGB",
+        "bytes": 187516,
+        "sha256": "92fc14e482925da481ad1df2aaac0ed01cbf6990d318819af8d9b407d8b7de52"
+      },
+      {
+        "width": 768,
+        "height": 768,
+        "mode": "RGB",
+        "bytes": 245816,
+        "sha256": "0ea61cd61200142c0efd4e4c7b3f9a693ce8bc80bc710ca5b0a0dbde4ba0c0e8"
+      },
+      {
+        "width": 128,
+        "height": 128,
+        "mode": "RGB",
+        "bytes": 8380,
+        "sha256": "c9ab2416a6f81023fb7ff7be7d0132d97dfd532837dfc1a8dbd96bcb4cbb7fde"
+      },
+      {
+        "width": 768,
+        "height": 768,
+        "mode": "RGB",
+        "bytes": 265820,
+        "sha256": "a0966aca124d19fc44897aa4d045c805b957bcb8c1fce5f1eb19032c48dd1e48"
+      },
+      {
+        "width": 768,
+        "height": 768,
+        "mode": "RGB",
+        "bytes": 440436,
+        "sha256": "76f5cb818e8a4f67e88d92630a6dd5acbdb24acc1005da94a88f41f5a03bf69b"
+      },
+      {
+        "width": 128,
+        "height": 128,
+        "mode": "RGB",
+        "bytes": 8476,
+        "sha256": "97829a36ffc0007534ee268d0930d737e4149a1912be0845d0fbdce4ee3a48dc"
+      }
+    ],
+    "uniqueTextureRGBABytesWithMipEstimate": 12757674,
+    "bounds": [
+      [
+        -0.3092802166938782,
+        0.02559160627424717,
+        -0.7846117615699768
+      ],
+      [
+        0.3580000102519989,
+        0.9873664379119873,
+        0.8997275233268738
+      ]
+    ],
+    "normalLengthRange": [
+      0.9999999403953552,
+      1.0
+    ],
+    "degenerateTriangles": 0,
+    "externalResources": 0,
+    "sha256": "1f67a4e0e25f31ba21fbb77dfaa208b791fe44b29faafee16a8b933b85e04fe3",
+    "passed": true,
+    "issues": [],
+    "scope": "Custom binary checks plus independent Trimesh import; not a native-game benchmark or Khronos validator report."
+  }
+}

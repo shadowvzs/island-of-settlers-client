@@ -1,0 +1,586 @@
+{
+  "nation": "viking",
+  "generatedAt": "2026-11-11T06:09:56.205Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "viking",
+      "nodeName": "viking_0",
+      "triangles": 15896,
+      "path": "assets/building-icons/viking-0.png",
+      "sha256": "779be3784c80ecfd13656ff1058953145610980e961f77f26be2f487c7151dd4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "viking",
+      "nodeName": "viking_1",
+      "triangles": 5890,
+      "path": "assets/building-icons/viking-1.png",
+      "sha256": "c7da27b3af6be7f144183910bbf9a57906f9df212ede762127e1b924739e8711",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "viking",
+      "nodeName": "viking_2",
+      "triangles": 6730,
+      "path": "assets/building-icons/viking-2.png",
+      "sha256": "a010335950e1cf6b77a42fce25476e4b5b15d2dc4353b0dff777e816183fe3fc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "viking",
+      "nodeName": "viking_3",
+      "triangles": 7418,
+      "path": "assets/building-icons/viking-3.png",
+      "sha256": "da1c8465204c3bbedd71815f003cfd27277a2bb737279ab10f1a856f5374e9bd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "viking",
+      "nodeName": "viking_4",
+      "triangles": 2890,
+      "path": "assets/building-icons/viking-4.png",
+      "sha256": "9abb5e145a021c57ef0eebbeee16545a279726f2e0342f193adcc5dd8b33089f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "viking",
+      "nodeName": "viking_5",
+      "triangles": 5362,
+      "path": "assets/building-icons/viking-5.png",
+      "sha256": "05aa2468b3323f4b01386e80c89a1fec21bb2c43c916140740691b5da9a4e94d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "viking",
+      "nodeName": "viking_6",
+      "triangles": 6498,
+      "path": "assets/building-icons/viking-6.png",
+      "sha256": "a02d53f7f944ec727ce3275640da39c00b81dfdb3bf55533fbef236112555024",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "viking",
+      "nodeName": "viking_63",
+      "triangles": 7912,
+      "path": "assets/building-icons/viking-7.png",
+      "sha256": "37f7e252506f3d6d633cea9df958273f52707b4aa3e523f9b36149224d40e8f3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "viking",
+      "nodeName": "viking_8",
+      "triangles": 6252,
+      "path": "assets/building-icons/viking-8.png",
+      "sha256": "b5242e61bce2274c55fdc01c1206258801e95abef0d2847eb0a792bf1dae8170",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "viking",
+      "nodeName": "viking_9",
+      "triangles": 8540,
+      "path": "assets/building-icons/viking-9.png",
+      "sha256": "1a261738cb8f8d4905ae0f81c47d1bbc6f2eb403be13b7a733842da07d72dcab",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "viking",
+      "nodeName": "viking_10",
+      "triangles": 4014,
+      "path": "assets/building-icons/viking-10.png",
+      "sha256": "19c18b6c099630541ee4b5f89875c57fb9e0aaf8030cbf1357cb60de9ef6b6b3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "viking",
+      "nodeName": "viking_11",
+      "triangles": 6750,
+      "path": "assets/building-icons/viking-11.png",
+      "sha256": "09f35fd326cbdbba7297227ef8d601e382d45ab49cb4daafe38faa74435e82af",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "viking",
+      "nodeName": "viking_12",
+      "triangles": 6750,
+      "path": "assets/building-icons/viking-12.png",
+      "sha256": "3149e7215aca29e98347c9bc3e9e6a094439fd17b148c32d43a7234e9a26f9a7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "viking",
+      "nodeName": "viking_13",
+      "triangles": 6750,
+      "path": "assets/building-icons/viking-13.png",
+      "sha256": "d5562f2ee2f0134a6ad75f5a875bbddcf3a5d3de5bf9e59c1001587384dc11ec",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "viking",
+      "nodeName": "viking_14",
+      "triangles": 3574,
+      "path": "assets/building-icons/viking-14.png",
+      "sha256": "5a223b040b5a92a26b734bfb0d657737303a6fde6389aa589b9fc858d0f86063",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "viking",
+      "nodeName": "viking_15",
+      "triangles": 9860,
+      "path": "assets/building-icons/viking-15.png",
+      "sha256": "737afe35f618670642912f3a3556397e9658a000ef52228061d38aa857df17a0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "viking",
+      "nodeName": "viking_16",
+      "triangles": 18150,
+      "path": "assets/building-icons/viking-16.png",
+      "sha256": "966549b9bacee46bc66769c38ccf9a84fce6ef84feaf3d0220fd5aeaa76692e8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "viking",
+      "nodeName": "viking_17",
+      "triangles": 7462,
+      "path": "assets/building-icons/viking-17.png",
+      "sha256": "bd6bd922fc3c0b96c923fafd01555fee6ae7ce1b2f5c7deae9fd106fb8c5f1dd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "viking",
+      "nodeName": "viking_18",
+      "triangles": 9844,
+      "path": "assets/building-icons/viking-18.png",
+      "sha256": "34ce39f5301609269df09277c2a6429614a739c8a21f035988d6539564b8d6cc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "viking",
+      "nodeName": "viking_19",
+      "triangles": 3496,
+      "path": "assets/building-icons/viking-19.png",
+      "sha256": "e83a2f362d6ada1b1920f093810e02dfb5c19b59d5c42398741db3ee3271250e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "viking",
+      "nodeName": "viking_20",
+      "triangles": 8218,
+      "path": "assets/building-icons/viking-20.png",
+      "sha256": "600deac08ebd2f981c786c7514f44234df027ca05c073aea0396611694df0313",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "viking",
+      "nodeName": "viking_21",
+      "triangles": 21524,
+      "path": "assets/building-icons/viking-21.png",
+      "sha256": "9292ed9929d51daa1a39dc2573b2cbce6c39b724d33b8ee712e235605f398f2b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "viking",
+      "nodeName": "viking_22",
+      "triangles": 8228,
+      "path": "assets/building-icons/viking-22.png",
+      "sha256": "df98ddee59de2f3ac94a5e884258736b041943bbcf6bd3dec404dff3573b2710",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "viking",
+      "nodeName": "viking_23",
+      "triangles": 10220,
+      "path": "assets/building-icons/viking-23.png",
+      "sha256": "96735bbbf7ba91c12f527a3083e8814e9629fa442fbbf2c5adadba6326df2897",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "viking",
+      "nodeName": "viking_24",
+      "triangles": 8314,
+      "path": "assets/building-icons/viking-24.png",
+      "sha256": "3cf307d3df0b1798f5841e1efaf5091ed205ec3a2c0fa6c74a868c01b8bceda4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "viking",
+      "nodeName": "viking_25",
+      "triangles": 9212,
+      "path": "assets/building-icons/viking-25.png",
+      "sha256": "9eace4884c5ad67f4e15e11d60491139f82d433675463e9b41fe1008a92248a1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "viking",
+      "nodeName": "viking_26",
+      "triangles": 8404,
+      "path": "assets/building-icons/viking-26.png",
+      "sha256": "3a53593d8daef0386526aaee37fb3198e152d177f82f8af32ebe8e3a8b694135",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "viking",
+      "nodeName": "viking_27",
+      "triangles": 9074,
+      "path": "assets/building-icons/viking-27.png",
+      "sha256": "a63620cfc7ca5b967ebfa30ff8cc49d1d6b68d41a93891de8e6aa8f8e31d9db3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "viking",
+      "nodeName": "viking_28",
+      "triangles": 26702,
+      "path": "assets/building-icons/viking-28.png",
+      "sha256": "22bbea4d6f03b2927636396fca7442e402221e54aa09eb3919b577536bfe10f4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "viking",
+      "nodeName": "viking_29",
+      "triangles": 4754,
+      "path": "assets/building-icons/viking-29.png",
+      "sha256": "663c6130f4074da23c237ab33f4451b30cb12b726e04b1f9809f9c3405a2f4ed",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "viking",
+      "nodeName": "viking_31",
+      "triangles": 8034,
+      "path": "assets/building-icons/viking-31.png",
+      "sha256": "bf41c49a8d07b538b6dba60a0286afc58f37cf675f55524a5800200616e1396e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "viking",
+      "nodeName": "viking_32",
+      "triangles": 9204,
+      "path": "assets/building-icons/viking-32.png",
+      "sha256": "9265ae3ec6fcf07ad8141f15bbb7b051b236db680da8e2557698bf2cd1b9ece3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "viking",
+      "nodeName": "viking_33",
+      "triangles": 6968,
+      "path": "assets/building-icons/viking-33.png",
+      "sha256": "c6bd412d694230881bebf749b94acb12686bf84047259cfd8c9a5e1e3c82317c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "viking",
+      "nodeName": "viking_34",
+      "triangles": 8472,
+      "path": "assets/building-icons/viking-34.png",
+      "sha256": "1e2fb464cde45b9d1d375fb7c6a4186b46f0d0d62b8910c355b8e463efd11db6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "viking",
+      "nodeName": "viking_35",
+      "triangles": 4786,
+      "path": "assets/building-icons/viking-35.png",
+      "sha256": "87a7db01316d9a2796b7c785fa60b871dec5c08fc54fcf0a7a88d1f4805830f5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "viking",
+      "nodeName": "viking_36",
+      "triangles": 5784,
+      "path": "assets/building-icons/viking-36.png",
+      "sha256": "14220daf4909b50daf8839ae3e6e4cf0966e828b8bc741e730a43d09e58e130d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "viking",
+      "nodeName": "viking_37",
+      "triangles": 8980,
+      "path": "assets/building-icons/viking-37.png",
+      "sha256": "0e42f75301d3fa307525de94714be761568fa9c452d8a147b5f1e5826f3b9d08",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "viking",
+      "nodeName": "viking_39",
+      "triangles": 9618,
+      "path": "assets/building-icons/viking-39.png",
+      "sha256": "4e37ce18f6e032538c79f20692ffb30354c029c6053b896489bb55f3f35b9e3c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "viking",
+      "nodeName": "viking_40",
+      "triangles": 8346,
+      "path": "assets/building-icons/viking-40.png",
+      "sha256": "ab6357a19007e4f90d9c79dc6c23323c44ba8ab49244e0356c90ed429327eca9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "viking",
+      "nodeName": "viking_41",
+      "triangles": 8470,
+      "path": "assets/building-icons/viking-41.png",
+      "sha256": "330ebfbab5d8c5e7884c98c052b2f454ce16f7f5f5750d9cde2fd5979dd71140",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "viking",
+      "nodeName": "viking_42",
+      "triangles": 7750,
+      "path": "assets/building-icons/viking-42.png",
+      "sha256": "7548d2798d9513cccac0b705814e6df5c876b944747a72259bf8ebeb4000fc53",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "viking",
+      "nodeName": "viking_43",
+      "triangles": 6088,
+      "path": "assets/building-icons/viking-43.png",
+      "sha256": "cc5ea1ed285c488a6e6759a8517f4e8d9daf5cfa6ae4b1d2d6531bdfa4871f68",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "viking",
+      "nodeName": "viking_45",
+      "triangles": 8470,
+      "path": "assets/building-icons/viking-45.png",
+      "sha256": "330ebfbab5d8c5e7884c98c052b2f454ce16f7f5f5750d9cde2fd5979dd71140",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "viking",
+      "nodeName": "viking_46",
+      "triangles": 8902,
+      "path": "assets/building-icons/viking-46.png",
+      "sha256": "f82ac4f5a632394bb461633e7892a01ef44bd1c5369ba41c0577fee8acef88d7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "viking",
+      "nodeName": "viking_47",
+      "triangles": 3904,
+      "path": "assets/building-icons/viking-47.png",
+      "sha256": "3f069efedb22479399ea4a738f87f167292471c8094c96ac9b1e0b2c5a0d054a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "viking",
+      "nodeName": "viking_49",
+      "triangles": 8470,
+      "path": "assets/building-icons/viking-49.png",
+      "sha256": "330ebfbab5d8c5e7884c98c052b2f454ce16f7f5f5750d9cde2fd5979dd71140",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "viking",
+      "nodeName": "viking_50",
+      "triangles": 7750,
+      "path": "assets/building-icons/viking-50.png",
+      "sha256": "07702702b3450b36baf10d4f058f67ef5a7ecb9bd45bd7d9018704c2116c1ccb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "viking",
+      "nodeName": "viking_51",
+      "triangles": 3688,
+      "path": "assets/building-icons/viking-51.png",
+      "sha256": "578afbe48d620ea0849d70dbaa7fe14c704b6d7fb07e1306175dfd130b1eac7a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "viking",
+      "nodeName": "viking_53",
+      "triangles": 8470,
+      "path": "assets/building-icons/viking-53.png",
+      "sha256": "330ebfbab5d8c5e7884c98c052b2f454ce16f7f5f5750d9cde2fd5979dd71140",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "viking",
+      "nodeName": "viking_54",
+      "triangles": 7750,
+      "path": "assets/building-icons/viking-54.png",
+      "sha256": "2f2c9b8541036b0e8704a4ff608a59d31b4d5e7544a1e4713a50a5cad8b43373",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "viking",
+      "nodeName": "viking_55",
+      "triangles": 4504,
+      "path": "assets/building-icons/viking-55.png",
+      "sha256": "0e587e946caa58d88aedd30af4d85a165f2edddd446725e4cdea3f5d8eb2c034",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "viking",
+      "nodeName": "viking_57",
+      "triangles": 3526,
+      "path": "assets/building-icons/viking-57.png",
+      "sha256": "3d9571521de94ab86c958ea4d35c13769177cbb509280f14dfe312dd0ac341d5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "viking",
+      "nodeName": "viking_58",
+      "triangles": 3290,
+      "path": "assets/building-icons/viking-58.png",
+      "sha256": "67bcebfa232432c252e2a0e13df692b88c9dba80389d9d247f9e737c51f802b9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "viking",
+      "nodeName": "viking_59",
+      "triangles": 3364,
+      "path": "assets/building-icons/viking-59.png",
+      "sha256": "4cbd8e51429bde35f7b2159b7d223aece7d2c77d12b46713fde3ad4835fae7e3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "viking",
+      "nodeName": "viking_60",
+      "triangles": 7250,
+      "path": "assets/building-icons/viking-60.png",
+      "sha256": "0f4f0367f4e5db4123ffc3401c0b1b7ec3d0c6e57dc633d297899613227d56a6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "viking",
+      "nodeName": "viking_61",
+      "triangles": 5444,
+      "path": "assets/building-icons/viking-61.png",
+      "sha256": "79d87e02590f3dc88f09bc2db1fb224761a8a84501446567a17cb6bdc8dbdb6e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "viking",
+      "nodeName": "viking_62",
+      "triangles": 7044,
+      "path": "assets/building-icons/viking-62.png",
+      "sha256": "afe92a7fcf60dcc3c1e2486b44c0494e125d0051fa2a418136a8614a35873327",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    }
+  ]
+}

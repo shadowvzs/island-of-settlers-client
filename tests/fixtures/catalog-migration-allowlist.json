@@ -1,0 +1,34 @@
+{
+  "_comment": "Legacy ware lists still pending a per-file owner or sim decision (docs/plans/cat11-2026-11-11.md). Shrink only: an entry fails once its file no longer matches. Value maps and same-named non-ware vocabularies are permanent exceptions in content-catalog-single-source.test.ts.",
+  "contentLists": [
+    {
+      "file": "island-of-settlers-client/src/renderers/three/three-worker.ts",
+      "kinds": [
+        "ware"
+      ],
+      "lane": "CAT11"
+    },
+    {
+      "file": "island-of-settlers-client/src/renderers/three/worker-gpu-pose.ts",
+      "kinds": [
+        "ware"
+      ],
+      "lane": "CAT11"
+    },
+    {
+      "file": "island-of-settlers-client/src/shared/settlement/advanced-material-production.ts",
+      "kinds": [
+        "ware"
+      ],
+      "lane": "CAT7"
+    },
+    {
+      "file": "island-of-settlers-client/src/shared/settlement/catapult-ammo-kinds.ts",
+      "kinds": [
+        "ware"
+      ],
+      "lane": "CAT7"
+    }
+  ],
+  "generatedCopies": []
+}

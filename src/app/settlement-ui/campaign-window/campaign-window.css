@@ -1,0 +1,236 @@
+/* Campaign window (C8): map list with lock state, cargo chips, Set sail. Compact, one column. */
+.settlement-ui__panel.settlement-ui__campaign-window {
+  left: max(16px, calc(50vw - 190px));
+  top: 72px;
+  bottom: auto;
+  max-height: min(560px, calc(100dvh - 160px));
+  width: min(380px, calc(100vw - 32px));
+  z-index: 4;
+}
+.campaign-window {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.campaign-window__note,
+.campaign-window__hint,
+.campaign-window__status {
+  margin: 0;
+  font: 13px/1.35 Georgia, serif;
+}
+.campaign-window__status:empty {
+  display: none;
+}
+.campaign-window__maps,
+.campaign-window__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.campaign-window__maps {
+  display: grid;
+}
+.campaign-window__maps > li {
+  display: grid;
+}
+.campaign-window .campaign-window__map {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+  min-height: 44px;
+  padding: 4px 8px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: rgb(0 0 0 / 18%);
+  color: inherit;
+  font: 700 14px/1.2 Georgia, serif;
+  text-align: left;
+  cursor: var(--cursor-pointer, pointer);
+}
+.campaign-window .campaign-window__map--selected {
+  border-color: var(--settlement-accent);
+}
+.campaign-window .campaign-window__map--completed {
+  border-color: #c9a227;
+}
+.campaign-window .campaign-window__map--completed.campaign-window__map--selected {
+  box-shadow: 0 0 0 2px var(--settlement-accent);
+}
+/* Plan C13: locked maps read at 0.3 opacity; the row stays focusable so its requirements can be read. Owner Q3: a
+   closed branch keeps its name, dimmed, with the reason underneath. */
+.campaign-window__map--notAvailable > *,
+.campaign-window__map--closed > * {
+  opacity: 0.3;
+}
+.campaign-window__map--closed > .campaign-window__map-text {
+  opacity: 0.55;
+}
+.campaign-window__lock {
+  display: inline-flex;
+  flex: 0 0 32px;
+}
+.campaign-window__lock > .settlement-art-icon {
+  inline-size: 32px;
+  block-size: 32px;
+}
+.campaign-window__map-text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.campaign-window__map-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.campaign-window__map-detail {
+  font: italic 400 12px/1.25 Georgia, serif;
+  overflow-wrap: anywhere;
+}
+.campaign-window__departure {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+.campaign-window__chips {
+  grid-column: 1 / -1;
+}
+.campaign-window__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px 2px 4px;
+  border-radius: 6px;
+  background: rgb(0 0 0 / 18%);
+  font: 700 13px/1 Georgia, serif;
+}
+.campaign-window__chip > img,
+.campaign-window__chip > .settlement-art-icon {
+  inline-size: 32px;
+  block-size: 32px;
+  object-fit: contain;
+}
+.campaign-window__chip--missing {
+  outline: 2px solid var(--hud-danger);
+  color: var(--hud-danger);
+}
+/* BR4: campaign select and the path graph toggle on one line. */
+.campaign-window__toolbar {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.campaign-window__toolbar > :first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.campaign-window__toolbar > .campaign-window__graph-toggle {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+/* BR4 compact path graph: taken paths gold, open ones dashed, closed ones faint; names stay visible (owner Q3). */
+.campaign-window__path-graph {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 4px 0;
+  border-radius: 6px;
+  background: rgb(0 0 0 / 18%);
+}
+.campaign-window__path-canvas {
+  position: relative;
+  margin: 0 auto;
+}
+.campaign-window__paths {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+.campaign-window__path line,
+.campaign-window__path circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+.campaign-window__path polygon {
+  fill: currentColor;
+  stroke: none;
+}
+.campaign-window__path--taken {
+  color: #c9a227;
+}
+.campaign-window__path--taken line,
+.campaign-window__path--taken circle {
+  stroke-width: 3;
+}
+.campaign-window__path--open line {
+  stroke-dasharray: 5 4;
+}
+.campaign-window__path--closed {
+  opacity: 0.25;
+}
+.campaign-window__path--closed line {
+  stroke-dasharray: 2 4;
+}
+.campaign-window .campaign-window__path-node {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  width: 76px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: var(--cursor-pointer, pointer);
+  transform: translate(-50%, -18px);
+}
+.campaign-window__path-number {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 35%);
+  font: 700 14px/1 Georgia, serif;
+}
+.campaign-window__path-name {
+  max-width: 76px;
+  overflow: hidden;
+  font: 11px/1.2 Georgia, serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.campaign-window__path-node--available > .campaign-window__path-number {
+  border-color: var(--settlement-accent);
+}
+.campaign-window__path-node--completed > .campaign-window__path-number {
+  border-color: #c9a227;
+  background: rgb(201 162 39 / 35%);
+}
+.campaign-window__path-node--notAvailable > * {
+  opacity: 0.45;
+}
+.campaign-window__path-node--closed > * {
+  opacity: 0.3;
+}
+.campaign-window__path-node--closed > .campaign-window__path-name {
+  font-style: italic;
+}
+.campaign-window .campaign-window__path-node--selected > .campaign-window__path-number {
+  box-shadow: 0 0 0 3px var(--settlement-accent);
+}
+.campaign-window .campaign-window__path-node:focus-visible {
+  outline: 2px solid var(--settlement-accent);
+  outline-offset: 2px;
+}

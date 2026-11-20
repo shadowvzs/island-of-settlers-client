@@ -1,0 +1,23 @@
+/* Scene overlay above a hovered enemy building: under the window layer, never takes the pointer. */
+.hostile-building-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 240px;
+  padding: 6px 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-paper);
+  background-image: var(--hud-paper-texture);
+  box-shadow: 0 6px 16px #17120c55;
+  color: var(--hud-ink);
+  font: 13px/1.3 Georgia, serif;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.hostile-building-tooltip[hidden] { display: none; }
+.hostile-building-tooltip strong { color: var(--hud-danger); font-size: 14px; }

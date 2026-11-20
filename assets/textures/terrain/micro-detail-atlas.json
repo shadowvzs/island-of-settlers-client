@@ -1,0 +1,58 @@
+{
+  "classes": [
+    {
+      "albedoMean": 1.0003,
+      "albedoRange": [
+        0.6039,
+        1.2784
+      ],
+      "heightMean": 0.5,
+      "id": "blades",
+      "index": 0,
+      "slopeMean": 0.3914
+    },
+    {
+      "albedoMean": 1,
+      "albedoRange": [
+        0.8706,
+        1.1137
+      ],
+      "heightMean": 0.5,
+      "id": "soil",
+      "index": 1,
+      "slopeMean": 0.1989
+    },
+    {
+      "albedoMean": 1,
+      "albedoRange": [
+        0.7843,
+        1.1922
+      ],
+      "heightMean": 0.5,
+      "id": "grains",
+      "index": 2,
+      "slopeMean": 0.1314
+    },
+    {
+      "albedoMean": 1,
+      "albedoRange": [
+        0.949,
+        1.0588
+      ],
+      "heightMean": 0.5,
+      "id": "snow",
+      "index": 3,
+      "slopeMean": 0.0602
+    }
+  ],
+  "file": {
+    "bytes": 1280853,
+    "file": "micro-detail-atlas.ktx2",
+    "gpuBytes": 1767744,
+    "levels": 5,
+    "sha256": "2996f9ad8054a031a26347da8902ef14adbd91b1fcd20cfaf809eccd44db1c40",
+    "size": 576
+  },
+  "seed": 5281,
+  "version": 1
+}

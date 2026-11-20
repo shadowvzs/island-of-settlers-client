@@ -1,0 +1,32 @@
+{
+  "reports": [
+    {
+      "quality": "high",
+      "file": "japanese-continuous-high.glb",
+      "source": "japanese-high.glb",
+      "sourceSha256": "2b2b2abd5ee85f853c06472a4b45372ec05d302a53425525cf0352a7a5183485",
+      "sha256": "086f4ffb7d66b323768b8b708cbd35bcbb8a760e534a61158ae1e2919266ecc1",
+      "addedWallTriangles": 1216,
+      "addedTimberTriangles": 1296,
+      "addedBearingTriangles": 96,
+      "addedEaveJointTriangles": 192,
+      "triangles": 24220,
+      "bytes": 6430648,
+      "originalMeshAndTextureGroupsRetained": true
+    },
+    {
+      "quality": "minimal",
+      "file": "japanese-continuous-minimal.glb",
+      "source": "japanese-minimal.glb",
+      "sourceSha256": "83532b34d2c730432be3d4841dbf8c7f9c629f339f1598fe8fda86d940c83e99",
+      "sha256": "538fa9d54bfb8676fae39b243a546542e2b4c80ae0347729050edab785a470f7",
+      "addedWallTriangles": 704,
+      "addedTimberTriangles": 724,
+      "addedBearingTriangles": 96,
+      "addedEaveJointTriangles": 192,
+      "triangles": 5650,
+      "bytes": 4338028,
+      "originalMeshAndTextureGroupsRetained": true
+    }
+  ]
+}

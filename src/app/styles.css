@@ -1,0 +1,1202 @@
+@import "./hud-paper.css";
+@import "./startup.css";
+
+/* Clean view (hud-visibility-input.ts): only the game canvas and the loading screen stay visible. */
+:root[data-hud-hidden] body > :not(#viewport),
+:root[data-hud-hidden] #viewport > :not(#view, #loading-screen, #webgpu-view) {
+  visibility: hidden !important;
+}
+
+/* Dev-only: the stored island.renderer choice keeps the WebGPU spike active across reloads. */
+.webgpu-spike-marker {
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  z-index: 30;
+  padding: 2px 6px;
+  border: 1px solid rgba(255, 217, 138, 0.45);
+  border-radius: 3px;
+  background: rgba(11, 34, 56, 0.72);
+  color: #ffd98a;
+  font: 11px/1.4 ui-monospace, Consolas, monospace;
+  pointer-events: none;
+}
+
+/* Shift + drag worker selection (worker-box-select.ts); left / top come from the transform. */
+.selection-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 224, 140, 0.95);
+  border-radius: 2px;
+  background: rgba(255, 209, 92, 0.12);
+  box-shadow: 0 0 0 1px rgba(20, 16, 8, 0.35);
+  pointer-events: none;
+}
+
+/* Standalone Info layer; settlement windows share their parent stacking context. */
+.stats-overlay-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  pointer-events: none;
+}
+
+/* Opens beside the player portrait column, clear of the quest scrolls. */
+.settlement-ui__panel.stats-overlay {
+  top: 120px;
+  bottom: auto;
+  left: 112px;
+  width: min(440px, calc(100vw - 124px));
+  max-height: calc(100dvh - 220px);
+}
+
+.stats-overlay[hidden] {
+  display: none;
+}
+
+.stats-overlay__body {
+  position: relative;
+  overflow: auto;
+  padding: 8px 12px;
+  font: 12px/1.4 ui-monospace, Consolas, monospace;
+}
+
+.stats-overlay__copy {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  place-items: center;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 7px;
+  color: var(--hud-ink);
+  background: var(--hud-control);
+  box-shadow: inset 0 1px #fff4d6, 0 2px 2px #6a4a2838;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.stats-overlay__copy:hover { background: var(--hud-control-hover); }
+.stats-overlay__copy-icon {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.stats-overlay pre {
+  margin: 0 0 6px;
+  padding-right: 30px;
+  font: inherit;
+  white-space: pre;
+}
+
+.stats-overlay__help {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.settings {
+  position: absolute;
+  z-index: 7;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  max-width: calc(100% - 16px);
+  color: #e8f0f6;
+  font-size: 13px;
+}
+
+.settings__buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.settings__icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 8px;
+  background: rgb(0 0 0 / 55%);
+  color: inherit;
+  font-size: 22px;
+  line-height: 1;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.settings__icon:disabled {
+  opacity: 0.4;
+  cursor: var(--cursor-default, default);
+}
+
+.settings__icon-image {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.settings button.is-active {
+  border-color: #9fd3ff;
+  background: rgb(159 211 255 / 25%);
+}
+
+.settings-panel {
+  width: 360px;
+  max-width: calc(100% - 24px);
+  max-height: calc(100vh - 72px);
+  overflow-y: auto;
+  /* Scrolls on touch; no double-tap or pinch page zoom. */
+  touch-action: pan-y;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgb(10 22 34 / 88%);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 35%);
+}
+
+.settings-panel[hidden] {
+  display: none;
+}
+
+.settings-panel__section + .settings-panel__section {
+  margin-top: 12px;
+}
+
+.settings-panel h2,
+.map-editor h2 {
+  margin: 0 0 6px;
+  color: #b9c8d4;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.settings-panel__section > h2 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.settings-panel__section > h2 .info-tooltip { margin-left: 2px; }
+
+.settings-panel button,
+.map-editor button {
+  padding: 5px 9px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 5px;
+  background: rgb(255 255 255 / 8%);
+  color: inherit;
+  font: inherit;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.settings-panel button:disabled {
+  opacity: 0.55;
+  cursor: var(--cursor-not-allowed, not-allowed);
+}
+
+.settings-panel__section > button + button,
+.settings-panel__section > p + button {
+  margin-top: 6px;
+}
+
+.settings-panel__hint {
+  margin: 6px 0 0;
+  color: #b9c8d4;
+  font-size: 12px;
+}
+/* A control with its inline blue info button on the same row. */
+.settings-panel__control-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  min-width: 0;
+}
+.settings-panel__control-row > .settings-panel__check,
+.settings-panel__control-row > .settings-panel__slider { flex: 1 1 auto; min-width: 0; }
+.settings-panel__control-row > .info-tooltip { margin-left: auto; }
+.settings-panel__control-row--select { align-items: flex-end; }
+.settings-panel__control-row--select > .settings-panel__select { flex: 1 1 auto; min-width: 0; }
+.settings-panel__control-row--select > .info-tooltip { margin-bottom: 1px; }
+
+.settings-panel__check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 32px;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.settings-panel__radio-group {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.settings-panel__radio-group legend {
+  padding: 0;
+}
+
+.settings-panel__check-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.settings-panel__toggle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 12px;
+}
+
+.settings-panel__toggle-grid .settings-panel__check {
+  min-width: 0;
+}
+
+.settings-panel__toggle-grid .settings-panel__select {
+  grid-template-columns: auto minmax(0, 1fr);
+  min-width: 0;
+}
+
+.settings-panel__swatches {
+  display: grid;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.settings-panel__swatch-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.settings-panel button.settings-panel__swatch {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 2px solid rgb(255 255 255 / 30%);
+  border-radius: 50%;
+}
+
+.settings-panel button.settings-panel__swatch[aria-pressed="true"] {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 2px #9fd3ff;
+}
+
+.settings-panel button.settings-panel__swatch:focus-visible {
+  outline: 2px solid #ffd15c;
+  outline-offset: 2px;
+}
+
+.settings-panel__slider {
+  display: grid;
+  gap: 4px;
+  margin: 4px 0 8px;
+}
+
+.settings-panel__slider input {
+  width: 100%;
+  accent-color: #6fae7c;
+}
+
+/* A slider and its apply (tick) button on one row. */
+.settings-panel__apply-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.settings-panel__apply-row .settings-panel__slider,
+.settings-panel__apply-row .settings-panel__select {
+  flex: 1;
+  min-width: 0;
+}
+
+.settings-panel button.settings-panel__apply {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Resolution label, dropdown and apply tick share the same vertical centre. */
+.settings-panel__apply-row--centered {
+  align-items: center;
+}
+
+.settings-panel__apply-row--centered button.settings-panel__apply {
+  margin-bottom: 0;
+}
+
+.settings-panel button.settings-panel__apply:not(:disabled) {
+  border-color: #6fae7c;
+  background: rgb(111 174 124 / 30%);
+}
+
+.settings-panel__info {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 3px 8px;
+  margin: 0;
+}
+
+.settings-panel__info dt {
+  color: #b9c8d4;
+}
+
+.settings-panel__info dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.settings-panel__island {
+  display: grid;
+  gap: 6px;
+}
+
+.settings-panel__island .settings-panel__slider {
+  margin: 0;
+}
+
+.settings-panel__nation {
+  display: grid;
+  gap: 6px;
+}
+
+.settings-panel__select {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+}
+
+.sound-controls__divider {
+  border: 0;
+  border-top: 1px solid var(--hud-paper-edge, #9b8b60);
+  margin: 12px 0;
+  opacity: .65;
+}
+.sound-controls__layers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 10px;
+  margin-top: 4px;
+}
+
+.weather-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.weather-controls__clock {
+  min-width: 42px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+  .settlement-ui__panel.stats-overlay {
+    left: 8px;
+    width: calc(100vw - 16px);
+    max-height: calc(100dvh - 230px);
+  }
+
+  .stats-overlay__body { font-size: 10px; }
+
+  .settings-panel {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    width: auto;
+    max-height: 60vh;
+  }
+}
+
+/* Bottom-left corner (owner, 2026-10-12). */
+.minimap {
+  position: absolute;
+  left: max(8px, env(safe-area-inset-left));
+  bottom: max(8px, env(safe-area-inset-bottom));
+  padding: 6px;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 8px;
+  background: rgb(10 22 34 / 70%);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 35%);
+}
+
+.minimap[hidden] {
+  display: none;
+}
+
+.minimap__canvas {
+  display: block;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.minimap__map {
+  position: relative;
+  width: max-content;
+  line-height: 0;
+}
+
+/* Transient possessed-explorer dot: a DOM overlay, so walking never redraws the settlement map. */
+.minimap__explorer {
+  position: absolute;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border: 2px solid #1d2818;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 65%), 0 1px 4px rgb(0 0 0 / 75%);
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+.minimap__explorer[hidden] {
+  display: none;
+}
+
+/* EXPLORE-HUD-01: the one existing minimap reuses its bottom-left home in possessed mode. */
+.minimap--exploration {
+  left: max(8px, env(safe-area-inset-left)) !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: max(8px, env(safe-area-inset-bottom)) !important;
+  transform: scale(0.72);
+  transform-origin: bottom left;
+}
+
+/* Passive readout: the RTS camera is suspended, so the possessed map must not pan or drag it. */
+.app-window-layer .minimap.minimap--exploration {
+  pointer-events: none;
+}
+
+.minimap--exploration .minimap__header {
+  display: none;
+}
+
+.minimap--exploration .minimap__canvas {
+  cursor: var(--cursor-default, default);
+}
+
+@media (max-width: 600px) {
+  .minimap {
+    transform: scale(0.7);
+    transform-origin: bottom left;
+  }
+}
+
+.build-overlay,
+.brush-preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.build-overlay[hidden] {
+  display: none;
+}
+.build-overlay--harbour-spots { z-index: 1; }
+.build-overlay--mine-outline { z-index: 1; animation: mine-field-pulse 2.8s ease-in-out infinite; }
+.build-overlay__tooltip, .deposit-sign-tooltip { position: absolute; left: 0; top: 0; z-index: 3;
+  pointer-events: none; max-width: 240px; padding: 6px 9px; border: 1px solid #c7ad79;
+  border-radius: 5px; background: #332b21ed; color: #f5ead2; font-size: 12px; }
+.build-overlay__tooltip[hidden], .deposit-sign-tooltip[hidden] { display: none; }
+@keyframes mine-field-pulse { 0%,100% { opacity: .58; } 50% { opacity: .95; } }
+@media (prefers-reduced-motion: reduce) { .build-overlay--mine-outline { animation: none; } }
+.settlement-ui__notification-building { border: 0; padding: 0; background: transparent;
+  color: inherit; font: inherit; font-weight: 700; text-decoration: underline; cursor: var(--cursor-pointer, pointer); }
+.settlement-ui__notification-building:disabled { cursor: var(--cursor-default, default); opacity: .6; }
+
+.map-editor {
+  position: absolute;
+  z-index: 7;
+  bottom: 8px;
+  left: 8px;
+  box-sizing: border-box;
+  width: 420px;
+  max-width: calc(100vw - 16px);
+  height: min(74vh, 820px);
+  max-height: calc(100vh - 96px);
+  overflow-y: auto;
+  touch-action: pan-y;
+  scrollbar-color: var(--hud-accent) transparent;
+  scrollbar-width: thin;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgb(10 22 34 / 88%);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 35%);
+  color: #e8f0f6;
+  font-size: 13px;
+}
+
+.map-editor[hidden] {
+  display: none;
+}
+
+.map-editor__toolbar {
+  position: sticky;
+  z-index: 2;
+  top: -10px;
+  padding: 6px 0;
+  background-color: var(--hud-paper);
+  background-image: var(--hud-paper-texture);
+}
+
+.map-editor__header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.map-editor__header h2 {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.map-editor__header .map-editor__history { margin-bottom: 0; }
+.map-editor button.map-editor__close {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 3px;
+}
+.map-editor__close img,
+.map-editor__close svg { width: 26px; height: 26px; }
+
+.map-editor__tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.map-editor button.map-editor__tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 3px 1px;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.map-editor__tab img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.map-editor__tab:focus-visible {
+  outline: 2px solid var(--hud-ink);
+  outline-offset: 1px;
+}
+
+.map-editor__tab-panel[hidden] {
+  display: none;
+}
+
+.map-editor__status {
+  position: sticky;
+  bottom: -10px;
+  z-index: 2;
+  padding: 6px 0;
+  background: var(--hud-paper);
+}
+
+.map-editor__tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 44px);
+  gap: 5px;
+}
+
+.map-editor button.map-editor__tool {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 1px;
+  background: rgb(255 255 255 / 14%);
+  font-size: 10px;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.map-editor button.map-editor__tool:hover {
+  background: rgb(255 255 255 / 24%);
+}
+
+.map-editor button.map-editor__tool:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 1px;
+}
+
+.map-editor button.is-active {
+  border-color: #9fd3ff;
+  background: rgb(159 211 255 / 30%);
+  box-shadow: inset 0 0 0 1px #9fd3ff;
+}
+
+.map-editor__icon {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.map-editor .settings-panel__section + .settings-panel__section {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgb(255 255 255 / 14%);
+}
+
+.map-editor__subheading {
+  margin: 6px 0 4px;
+  color: #b9c8d4;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.map-editor__help,
+.map-editor__status {
+  margin: 8px 0 0;
+  color: #b9c8d4;
+  font-size: 12px;
+}
+
+.map-editor__status.is-refusal {
+  color: #ffb3a8;
+}
+
+.map-editor__name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  color: #b9c8d4;
+  font-size: 12px;
+}
+
+.map-editor__name input {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 6px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 5px;
+  background: rgb(255 255 255 / 8%);
+  color: inherit;
+  font: inherit;
+}
+
+.map-editor__slots {
+  display: grid;
+  gap: 4px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map-editor__slot {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 30px);
+  align-items: center;
+  gap: 4px;
+}
+
+.map-editor__slot-name {
+  display: grid;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-editor__slot-name small {
+  color: #b9c8d4;
+  font-size: 11px;
+}
+
+.map-editor button.map-editor__slot-button {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  font-size: 9px;
+}
+
+.map-editor__slot-button .map-editor__icon {
+  width: 26px;
+  height: 26px;
+}
+
+.map-editor button:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.map-editor__history {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.map-editor button.map-editor__history-button {
+  width: 34px;
+  height: 34px;
+}
+
+.map-editor__history-button .map-editor__icon {
+  width: 30px;
+  height: 30px;
+}
+
+.map-editor button.map-editor__history-button:disabled {
+  opacity: 0.35;
+  cursor: var(--cursor-default, default);
+}
+
+@media (max-width: 600px) {
+  .map-editor {
+    width: auto;
+    right: 8px;
+    height: min(44vh, 380px);
+    max-height: 44vh;
+  }
+
+  .map-editor__tabs {
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    grid-auto-columns: 48px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    touch-action: pan-x;
+  }
+}
+
+.settings-panel {
+  color: #493322;
+  border: 4px solid #72513a;
+  border-radius: 12px;
+  background-color: rgb(231 212 164 / 90%);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.66' numOctaves='3' seed='9'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.2'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 42% 30%, rgb(246 235 204 / 22%), transparent 72%);
+  box-shadow: 0 15px 38px #17120c80, inset 0 0 0 1px #f9e6b6, inset 0 0 28px #9b653d40;
+  backdrop-filter: none;
+}
+.settings-panel h2, .settings-panel h3 { color: #64412b; font-family: Georgia, serif; }
+.settings-panel button {
+  color: #493322;
+  border: 1px solid #947044;
+  background: linear-gradient(150deg, #f0ddb1, #c7aa7b);
+  box-shadow: inset 0 1px #fff4d6, 0 2px 2px #6a4a2838;
+}
+.settings-panel__hint, .settings-panel small { color: #796146; }
+
+/* Paper HUD frames share the selector windows' original grain and woven fibres. */
+.settings,
+.settings-panel,
+.map-editor,
+.minimap { color: var(--hud-ink); }
+.settings-panel,
+.map-editor,
+.minimap {
+  background-color: var(--hud-paper);
+  background-image: var(--hud-paper-texture);
+  border: 2px solid var(--hud-paper-edge);
+  box-shadow: var(--hud-paper-shadow);
+  backdrop-filter: none;
+}
+.settings-panel { border-width: 4px; }
+.minimap { padding: 8px; z-index: 5; }
+.minimap__canvas { border: 1px solid #947044; border-radius: 3px; }
+.settings__icon,
+.settings-panel button,
+.map-editor button,
+.map-editor input {
+  color: var(--hud-ink);
+  background: var(--hud-control);
+  border-color: var(--hud-paper-edge);
+  box-shadow: inset 0 1px #fff4d6, 0 2px 2px #6a4a2838;
+}
+.settings__icon:hover,
+.settings-panel button:not(:disabled):hover,
+.map-editor button:not(:disabled):hover { background: var(--hud-control-hover); }
+.settings button.is-active,
+.map-editor button.is-active {
+  color: #3e2b1c;
+  background: linear-gradient(#e6cc98, #bd975f);
+  border-color: #79502b;
+  box-shadow: inset 0 -2px #79502b, inset 0 1px #fff0bd;
+}
+.settings-panel h2,
+.settings-panel h3,
+.map-editor h2 { color: #64412b; font-family: Georgia, serif; }
+.settings-panel__hint,
+.settings-panel__info dt,
+.settings-panel small,
+.stats-overlay__help,
+.map-editor__subheading,
+.map-editor__help,
+.map-editor__status,
+.map-editor__name,
+.map-editor__slot-name small { color: var(--hud-muted); }
+.map-editor__status.is-refusal { color: #9b3527; }
+.map-editor .settings-panel__section + .settings-panel__section { border-color: #a17c4d55; }
+.settings-panel input { accent-color: #805128; }
+.settings-panel button.settings-panel__swatch[aria-pressed="true"] {
+  border-color: #45301f;
+  box-shadow: 0 0 0 2px #e9c480;
+}
+.settings-panel button:focus-visible,
+.settings__icon:focus-visible,
+.map-editor button:focus-visible,
+.map-editor input:focus-visible { outline: 2px solid #355e59; outline-offset: 2px; }
+@media (max-width: 600px) {
+  .has-settlement .settings-panel { bottom: 94px; max-height: calc(100dvh - 158px); }
+  .has-settlement .map-editor { bottom: 94px; }
+}
+.map-editor button.map-editor__tool { background: var(--hud-control); }
+.map-editor button.map-editor__tool:hover { background: var(--hud-control-hover); }
+.map-editor button.map-editor__tool.is-active,
+.map-editor button.map-editor__action[aria-pressed="true"] {
+  background: linear-gradient(#e6cc98, #bd975f);
+  border-color: #79502b;
+}
+.settings-panel button.settings-panel__apply:not(:disabled) {
+  color: #3d5033;
+  border-color: #6a7545;
+  background: linear-gradient(#f1e7c1, #c8c193);
+}
+.settings-panel { box-sizing: border-box; }
+.settings-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  margin: -6px -8px 10px;
+  padding: 0 4px 0 8px;
+  border-bottom: 1px solid #a17c4d;
+  color: var(--hud-ink);
+  background-color: #dec493;
+  background-image: var(--hud-paper-texture);
+}
+.settings-panel__header strong { font: 600 16px/1.25 Georgia, serif; }
+.settings-panel button.settings-panel__close {
+  width: 44px;
+  height: 44px;
+  padding: 4px;
+  font-size: 23px;
+  line-height: 1;
+}
+@media (max-height: 650px) {
+  .has-settlement .settings-panel { max-height: calc(100dvh - 158px); }
+}
+
+.settings-panel.development-menu {
+  width: 384px;
+  max-width: calc(100vw - 24px);
+}
+.development-menu__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 8px 0;
+}
+.development-menu__tabs > button {
+  flex: 1 1 95px;
+  padding: 7px 5px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 5px;
+  color: var(--hud-ink);
+  background: var(--hud-control);
+  cursor: var(--cursor-pointer, pointer);
+}
+.development-menu__tabs > button[aria-selected="true"] {
+  background: var(--hud-control-hover);
+  box-shadow: inset 0 -3px var(--hud-accent);
+  font-weight: bold;
+}
+.development-menu__tab-content[hidden] { display: none !important; }
+/* Three columns: nine tools fill three rows, with no hole left by the removed sample buttons. */
+.development-menu__items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 8px;
+  padding: 10px 0 14px;
+}
+.development-menu__item {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-content: start;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+}
+/* A tool button another feature owns (window opener, info, editor) is hosted in place. */
+/* Every tool button is the same square with its icon centred at one size (no panel padding). */
+.development-menu__item button.settings__icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+}
+.development-menu__item button.settings__icon > :is(img, svg) {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  object-fit: contain;
+}
+/* "Spawn enemy on click": the army icon tinted red as an enemy soldier. */
+.development-menu__item button.settings__icon > img.development-menu__enemy-icon {
+  filter: sepia(1) saturate(4) hue-rotate(-35deg) brightness(.85);
+}
+
+.minimap__territory-toggle {
+  width: 28px; height: 28px;
+  padding: 4px; border: 1px solid #947044; border-radius: 4px;
+  background: #ead3a4; color: #4c3926; cursor: var(--cursor-pointer, pointer);
+}
+.minimap__territory-toggle svg { width: 100%; height: 100%; }
+.minimap__territory-toggle[aria-pressed="true"] { background: #557bb5; color: #fff3d4; }
+.minimap__territory-toggle:focus-visible { outline: 2px solid #fff3d4; outline-offset: 2px; }
+
+.minimap__header { display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+  margin: -2px 0 6px;
+  min-height: 28px;
+  cursor: var(--cursor-grab, grab);
+  touch-action: none;
+  user-select: none; }
+.minimap__header strong { font-size: 12px; }
+.minimap.is-dragging .minimap__header { cursor: var(--cursor-grabbing, grabbing); }
+.minimap__header:focus-visible { outline: 2px solid #b48b4b; outline-offset: 2px; }
+
+.settings-panel.camera-controls-panel { width: 226px; max-width: calc(100vw - 24px); padding: 10px; }
+.settings-panel.camera-controls-panel:not([hidden]) {
+  display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.camera-controls-panel .settings-panel__header { align-self: stretch; }
+.camera-control-sections { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+.camera-control-row { display: flex; gap: 4px; }
+.camera-control-pad { display: grid; grid-template-columns: repeat(3, 44px); gap: 3px; }
+.camera-control-grid { display: grid; grid-template-columns: repeat(2, 44px); gap: 3px; }
+.camera-controls-panel button.camera-control-button { width: 44px; height: 44px; padding: 3px;
+  display: inline-flex; align-items: center; justify-content: center; margin: 0; }
+.camera-control-icon { width: 36px; height: 36px; object-fit: contain; pointer-events: none; }
+.camera-controls-panel button[aria-pressed="true"] { background: #8c733e; box-shadow: inset 0 0 0 2px #ead3a4; }
+
+.camera-bookmarks { width: 100%; min-width: 0; }
+.camera-bookmarks h3 { font-size: 14px; margin: 4px 0; }
+.camera-bookmarks input { box-sizing: border-box; width: 100%; min-height: 40px; }
+.camera-bookmarks p { font-size: 12px; }
+.camera-bookmarks .camera-control-row { margin-top: 4px; align-items: center; }
+.camera-bookmarks .camera-control-row button:first-child { flex: 1; min-width: 0;
+  overflow-wrap: anywhere; white-space: normal; }
+.settlement-ui__observation-window { width: min(340px, calc(100vw - 24px)); }
+.selected-route-overlay { position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 2; overflow: hidden; }
+.selected-route-overlay path { fill: none; stroke: #ffe588; stroke-width: 3;
+  stroke-dasharray: 8 4; stroke-linecap: round; filter: drop-shadow(0 1px 2px #222); }
+.settlement-ui__ship-window .settlement-ui__building-actions { display: flex;
+  flex-wrap: wrap; justify-content: flex-start; gap: 6px; align-items: stretch; }
+.settlement-ui__ship-window .settlement-ui__building-actions button { box-sizing: border-box;
+  flex: 0 0 56px; min-width: 0; width: 56px; height: 64px; min-height: 64px;
+  padding: 4px; gap: 2px; font-size: 11px; line-height: 12px;
+  white-space: normal; overflow-wrap: anywhere; }
+.settlement-ui__ship-window .settlement-ui__building-actions button > :is(img, svg) {
+  flex: 0 0 24px; width: 24px; height: 24px; object-fit: contain; }
+.settlement-ui__ship-window .settlement-ui__building-actions button > span { min-height: 24px; }
+@media (max-width: 480px) {
+  /* Leave room above the constrained window for the fixed camera/settings buttons. */
+  .settlement-ui__ship-window { max-height: calc(100dvh - 220px); }
+}
+.camera-main-controls { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+/* React content of the camera panel: its sections stay the panel's own flex / grid items. */
+.camera-panel__content { display: contents; }
+@media (min-width: 520px) and (max-height: 560px) {
+  .settings-panel.camera-controls-panel { position: fixed; top: 64px; right: 8px;
+    left: auto; bottom: auto; width: 520px; max-height: calc(100dvh - 76px); }
+  .settings-panel.camera-controls-panel:not([hidden]) { display: grid;
+    grid-template-columns: minmax(240px, 1fr) minmax(220px, 1fr); align-items: start; gap: 8px; }
+  .camera-controls-panel .settings-panel__header { grid-column: 1 / -1; }
+  .camera-main-controls { display: grid; grid-template-columns: 1fr 1fr; justify-items: center;
+    gap: 6px; max-height: calc(100dvh - 136px); overflow-y: auto; padding: 0 2px; box-sizing: border-box; }
+  .camera-zoom-controls { grid-area: 1 / 1; }
+  .camera-view-controls { grid-area: 1 / 2; }
+  .camera-control-sections { grid-area: 2 / 1 / auto / span 2; flex-direction: row; }
+  .camera-observation-controls { grid-area: 3 / 1 / auto / span 2; }
+  .camera-observation-controls button { display: flex; flex-direction: row; min-height: 44px;
+    align-items: center; justify-content: center; gap: 4px; font-size: 11px; padding: 3px 6px; }
+  .camera-observation-controls button img { width: 28px; height: 28px; }
+  .camera-controls-panel .camera-bookmarks { overflow-y: auto; max-height: calc(100dvh - 136px);
+    padding-right: 4px; box-sizing: border-box; }
+}
+
+/* Editor sections: a two-column label/field grid; actions, lists, notes and help span the full width. */
+.map-editor__authoring-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 10px;
+  align-items: end;
+}
+.map-editor__authoring-controls + .map-editor__authoring-controls,
+.map-editor__authoring-controls + .map-editor__actions,
+.map-editor__actions + .map-editor__authoring-controls,
+.map-editor .settings-panel__section + .map-editor__authoring-controls { margin-top: 8px; }
+.map-editor__authoring-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  font-size: 12px;
+}
+.map-editor__authoring-controls input,
+.map-editor__authoring-controls select {
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  min-height: 30px;
+}
+/* Number fields: the label beside its value-sized input (components/input-sizes.css); a long label wraps. */
+.map-editor__authoring-controls .map-editor__number-field {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+.map-editor__authoring-controls > select,
+.map-editor__authoring-controls > p,
+.map-editor__authoring-controls > details,
+.map-editor__authoring-controls > ul,
+.map-editor__authoring-controls > div,
+.map-editor__authoring-controls > .map-editor__wide-field { grid-column: 1 / -1; }
+.map-editor__authoring-controls > p { margin: 0; font-size: 12px; }
+.map-editor__authoring-controls label:has(> input[type="checkbox"]) {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-height: 30px;
+}
+.map-editor__authoring-controls input[type="checkbox"] { flex: 0 0 22px; width: 22px; height: 22px; min-height: 0; }
+.map-editor__authoring-controls [hidden] { display: none; }
+.map-editor [role="status"]:empty { display: contents; }
+.map-editor__actions + .map-editor__note { margin-top: 6px; }
+.map-editor__note { margin: 0; color: var(--hud-muted); font-size: 12px; }
+.map-editor__empty-state { display: grid; gap: 8px; justify-items: start; }
+
+/* One action look: icon + short caption, the same height everywhere; rows wrap on narrow panels. */
+.map-editor__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.map-editor__authoring-controls > .map-editor__actions { margin-top: 0; }
+.map-editor__authoring-controls > .map-editor__action { justify-self: start; }
+.map-editor button.map-editor__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  min-width: 0;
+  height: 36px;
+  padding: 2px 10px 2px 4px;
+  font-size: 12px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.map-editor button.map-editor__action:not(:has(img)) { padding-left: 10px; }
+.map-editor__action > .map-editor__icon { flex: 0 0 auto; width: 28px; height: 28px; object-fit: contain; }
+.map-editor button.map-editor__action:disabled { opacity: 0.45; cursor: var(--cursor-default, default); }
+.map-editor__action:focus-visible { outline: 2px solid var(--hud-accent, #d8b76a); outline-offset: 2px; }
+
+/* Long explanations sit behind the shared blue info button. */
+.map-editor__help-note {
+  display: flex;
+  align-items: center;
+  min-height: 22px;
+  margin-top: 8px;
+}
+.map-editor__authoring-controls > .map-editor__help-note { margin-top: 0; }
+
+/* Stone deposit palette: the material renders (png) fit the square tool buttons. */
+.map-editor__material-icon { width: 36px; height: 36px; object-fit: contain; pointer-events: none; }
+
+/* Connected-course transform controls keep native checkbox semantics and a full label target. */
+.map-editor__authoring-controls label.map-editor__course-toggle {
+  grid-column: 1 / -1;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+/* Decoration palette: category filter left, quick search top-right, a scrolling grid of real model icons. */
+.map-editor__palette-toolbar {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.map-editor__palette-categories { display: flex; flex: 1 1 12rem; flex-wrap: wrap; gap: 4px; }
+.map-editor button.map-editor__palette-category {
+  min-height: 26px;
+  padding: 2px 8px;
+  font-size: 11px;
+}
+.map-editor input.map-editor__palette-search {
+  flex: 0 1 9.5rem;
+  box-sizing: border-box;
+  min-width: 7rem;
+  min-height: 28px;
+  margin-left: auto;
+}
+.map-editor__palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 52px);
+  gap: 5px;
+  max-height: 232px;
+  padding: 2px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.map-editor button.map-editor__palette-tile { width: 52px; height: 52px; }
+.map-editor__palette-icon { width: 48px; height: 48px; object-fit: contain; pointer-events: none; }
+.map-editor__palette-initials { color: var(--hud-muted); font: 600 14px/1 Georgia, serif; }
+.map-editor__palette-empty { grid-column: 1 / -1; margin: 4px 0; color: var(--hud-muted); font-size: 12px; }
+.map-editor__authoring-controls > p.map-editor__palette-selected { font-weight: 600; }

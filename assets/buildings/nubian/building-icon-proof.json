@@ -1,0 +1,604 @@
+{
+  "nation": "nubian",
+  "generatedAt": "2026-11-11T06:12:00.717Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "nubian",
+      "nodeName": "nubian_0",
+      "triangles": 10142,
+      "path": "assets/building-icons/nubian-0.png",
+      "sha256": "fa66d1659bcc96361de1c8650f2341a00f11d3b41308fdc51275fb5435effc5b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "nubian",
+      "nodeName": "nubian_1",
+      "triangles": 6068,
+      "path": "assets/building-icons/nubian-1.png",
+      "sha256": "f2ce7e4d1752913250958ff14b5fe247b07bb198d440414b14133c4d57b80adb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "nubian",
+      "nodeName": "nubian_2",
+      "triangles": 8262,
+      "path": "assets/building-icons/nubian-2.png",
+      "sha256": "943fc38ff766c4204fc8e5bf72923bb07aa41f3c7a3651ffb0a5205394f1fc93",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "nubian",
+      "nodeName": "nubian_3",
+      "triangles": 9278,
+      "path": "assets/building-icons/nubian-3.png",
+      "sha256": "70d0f21c2df6f3030e87940835d8d3558cd60883944703e4b7abaacc551d6f87",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "nubian",
+      "nodeName": "nubian_4",
+      "triangles": 3054,
+      "path": "assets/building-icons/nubian-4.png",
+      "sha256": "9298fe7f7335a692d5ab23967441ddd9f135d4fc2982d560e127f3a0a243bb7c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "nubian",
+      "nodeName": "nubian_5",
+      "triangles": 7956,
+      "path": "assets/building-icons/nubian-5.png",
+      "sha256": "0c4b0defe4df17a623a397a665d521f1f0aeebd343c063df1ce86108f949b3a1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "nubian",
+      "nodeName": "nubian_6",
+      "triangles": 9094,
+      "path": "assets/building-icons/nubian-6.png",
+      "sha256": "433998019b7f2336a8e9d5843fd9ccc6cc00833ee4e5c56dddc661b51db20035",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "nubian",
+      "nodeName": "nubian_63",
+      "triangles": 6532,
+      "path": "assets/building-icons/nubian-7.png",
+      "sha256": "1391794466e60b27159c7270c023a8512fcf6d2ae14ccfba240548fdeb4638e4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "nubian",
+      "nodeName": "nubian_8",
+      "triangles": 8224,
+      "path": "assets/building-icons/nubian-8.png",
+      "sha256": "e18453a23bc42deac1c6b763d5b036cb7ff26754716cd4262070e23e5ba42959",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "nubian",
+      "nodeName": "nubian_9",
+      "triangles": 9456,
+      "path": "assets/building-icons/nubian-9.png",
+      "sha256": "7b7698c4fbc35f06d1788183a912555661ddcfc6dade0ae18bca79eec126d922",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "nubian",
+      "nodeName": "nubian_10",
+      "triangles": 5162,
+      "path": "assets/building-icons/nubian-10.png",
+      "sha256": "521397877e0c5f64859877ce0916921041f15c27bba535be1c9f92f5659137a9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "nubian",
+      "nodeName": "nubian_11",
+      "triangles": 7898,
+      "path": "assets/building-icons/nubian-11.png",
+      "sha256": "d7f7625f71a27a317b9acdaff3ac97f25dfae1a4b435fc7db9262f36db08ee58",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "nubian",
+      "nodeName": "nubian_12",
+      "triangles": 7898,
+      "path": "assets/building-icons/nubian-12.png",
+      "sha256": "c8b5f637ca82c6c19adf645fa4c074d338b8dfd36cc9e4498deef635eda84140",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "nubian",
+      "nodeName": "nubian_13",
+      "triangles": 7898,
+      "path": "assets/building-icons/nubian-13.png",
+      "sha256": "ddef5a05731a67344df2fd44c93d59d223c4cf98be756ae88f4c0923b4de6dc4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "nubian",
+      "nodeName": "nubian_14",
+      "triangles": 4622,
+      "path": "assets/building-icons/nubian-14.png",
+      "sha256": "4a9d58c8788a0a40e029e760c1dc62798d7561f4e72a3594f0be4a925f175038",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "nubian",
+      "nodeName": "nubian_15",
+      "triangles": 11596,
+      "path": "assets/building-icons/nubian-15.png",
+      "sha256": "734eda510e01f0aa00d9ca758f943eab8aa7a8ccd1aaa92284ea102e99f7c694",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "nubian",
+      "nodeName": "nubian_16",
+      "triangles": 7102,
+      "path": "assets/building-icons/nubian-16.png",
+      "sha256": "f77bb7a191931a6757cc1b78d96533e5edbeeebc6296888547e9337834b384f7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "nubian",
+      "nodeName": "nubian_17",
+      "triangles": 6902,
+      "path": "assets/building-icons/nubian-17.png",
+      "sha256": "577818bf2a3664b1b19a30cf0c2d4f503bf10e53355a854e8d28d571a8a69774",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "nubian",
+      "nodeName": "nubian_18",
+      "triangles": 8828,
+      "path": "assets/building-icons/nubian-18.png",
+      "sha256": "d6bd72e2e121bfab2c06de2933e3e651c78790de95b430354758d4611fd448b9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "nubian",
+      "nodeName": "nubian_19",
+      "triangles": 4976,
+      "path": "assets/building-icons/nubian-19.png",
+      "sha256": "a605845c7948c06a630e28266414ad5cea45d920c471857809ef0e664ca3af95",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "nubian",
+      "nodeName": "nubian_20",
+      "triangles": 9550,
+      "path": "assets/building-icons/nubian-20.png",
+      "sha256": "731cc08be106dac244e38c2f59fa18ff7c39d29f7f86692734e3ba5299545791",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "nubian",
+      "nodeName": "nubian_21",
+      "triangles": 23408,
+      "path": "assets/building-icons/nubian-21.png",
+      "sha256": "8c28e10f5329b2530c6436c070e7ce01491f3d22323f699e8076ce1257d04c58",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "nubian",
+      "nodeName": "nubian_22",
+      "triangles": 8032,
+      "path": "assets/building-icons/nubian-22.png",
+      "sha256": "60ed39289db53cdd439bc2c706b25418ca9e911cadd0202694157177746789ae",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "nubian",
+      "nodeName": "nubian_23",
+      "triangles": 9072,
+      "path": "assets/building-icons/nubian-23.png",
+      "sha256": "ea86fbf0c28756d2dc5e28dc03034be407ef2dc8c6e7f33e342613fffd380d25",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "nubian",
+      "nodeName": "nubian_24",
+      "triangles": 8738,
+      "path": "assets/building-icons/nubian-24.png",
+      "sha256": "7d8517a033805b54f1ad2ae7863fe8173468ac7c02f8365de0e923f850ceb255",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "nubian",
+      "nodeName": "nubian_25",
+      "triangles": 7128,
+      "path": "assets/building-icons/nubian-25.png",
+      "sha256": "7bda8573aa1e6caf2df7fee8f734a830de754fe21ca16f6b050ff2e6b0b939ab",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "nubian",
+      "nodeName": "nubian_26",
+      "triangles": 9980,
+      "path": "assets/building-icons/nubian-26.png",
+      "sha256": "9da4e209f23bc91945d6026363924c8f015aedb6b1ddb111b6cddb61fa26dfb9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "nubian",
+      "nodeName": "nubian_27",
+      "triangles": 7886,
+      "path": "assets/building-icons/nubian-27.png",
+      "sha256": "881d140d09bf9074e303d483f1ba541813fcb7a7e52faffb841625d2c3dec839",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "nubian",
+      "nodeName": "nubian_28",
+      "triangles": 29662,
+      "path": "assets/building-icons/nubian-28.png",
+      "sha256": "6b3649d92b3efd7807b71fcdcd8c2336a5e3c63e6f9fe0ae808eba99b8501177",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "nubian",
+      "nodeName": "nubian_29",
+      "triangles": 6410,
+      "path": "assets/building-icons/nubian-29.png",
+      "sha256": "93c0edb6357bf40680b250695f5d11b053d536b80e5979b4a99eac998b2d6061",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "nubian",
+      "nodeName": "nubian_31",
+      "triangles": 9520,
+      "path": "assets/building-icons/nubian-31.png",
+      "sha256": "081d753bdfbec5ccc668d4323405fab242180d8e52041a45a4164bcc84b4f5f3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "nubian",
+      "nodeName": "nubian_32",
+      "triangles": 8476,
+      "path": "assets/building-icons/nubian-32.png",
+      "sha256": "840a5f9db9b6b9605fda034b6316f92291d991e948f201bf16ddb45ea58874a8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "nubian",
+      "nodeName": "nubian_33",
+      "triangles": 8740,
+      "path": "assets/building-icons/nubian-33.png",
+      "sha256": "3fc8a63c2e2520fb9c382796eafa247f9cd7cfd68804587b0c82be657503b9ed",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "nubian",
+      "nodeName": "nubian_34",
+      "triangles": 10116,
+      "path": "assets/building-icons/nubian-34.png",
+      "sha256": "a9deff5d864898f5298cd1f9d2bf165952c1a5f61c771629a86ed498144728ba",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "nubian",
+      "nodeName": "nubian_35",
+      "triangles": 7242,
+      "path": "assets/building-icons/nubian-35.png",
+      "sha256": "35a66634868abb25f9c09ec3aa025e2809e6bb24aa75adfa4c9b1ae36192688d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "nubian",
+      "nodeName": "nubian_36",
+      "triangles": 6776,
+      "path": "assets/building-icons/nubian-36.png",
+      "sha256": "735bde3a34fa253712e5615faad82599fcf3b2b695cae4d5aa8f1c44e98c5175",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "nubian",
+      "nodeName": "nubian_37",
+      "triangles": 7076,
+      "path": "assets/building-icons/nubian-37.png",
+      "sha256": "3728fab2fabbea33cb7ce2497dc598b076a33cd0c2486838d6f4a62b98a2a42d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "nubian",
+      "nodeName": "nubian_39",
+      "triangles": 7426,
+      "path": "assets/building-icons/nubian-39.png",
+      "sha256": "e7f948cc3d731aee30f0ff98bdec7808286d2a28dd715c212f6b124c4e6be0d7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "nubian",
+      "nodeName": "nubian_40",
+      "triangles": 9064,
+      "path": "assets/building-icons/nubian-40.png",
+      "sha256": "588f4910ed4bf866fb0aee45cc46143cef8103bc0a85283623a85dcd53912982",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "nubian",
+      "nodeName": "nubian_41",
+      "triangles": 9802,
+      "path": "assets/building-icons/nubian-41.png",
+      "sha256": "3cc60ad8831e20f73bd26b8b0987a0052bbf4d847fda1438aa6e5ebfef724525",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "nubian",
+      "nodeName": "nubian_42",
+      "triangles": 7434,
+      "path": "assets/building-icons/nubian-42.png",
+      "sha256": "02e64e29192da9e27f1ac55dc2212c5849fd6482e0bdfffb15d79a3375160ff4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "nubian",
+      "nodeName": "nubian_43",
+      "triangles": 7568,
+      "path": "assets/building-icons/nubian-43.png",
+      "sha256": "cbff06d44d15b37b8cfad9070fb89ffee54f14ace986039f23af38421a6773f3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "nubian",
+      "nodeName": "nubian_45",
+      "triangles": 9802,
+      "path": "assets/building-icons/nubian-45.png",
+      "sha256": "3cc60ad8831e20f73bd26b8b0987a0052bbf4d847fda1438aa6e5ebfef724525",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "nubian",
+      "nodeName": "nubian_46",
+      "triangles": 8586,
+      "path": "assets/building-icons/nubian-46.png",
+      "sha256": "d641739e1a5f2be85cc9a3b4b6c1d914b1ae6313c30731244fc1b038f549ac3b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "nubian",
+      "nodeName": "nubian_47",
+      "triangles": 5384,
+      "path": "assets/building-icons/nubian-47.png",
+      "sha256": "54af6a525371b64a2fa85d379b54e25bf74fb28a5a8375409c6e326994ddee30",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "nubian",
+      "nodeName": "nubian_49",
+      "triangles": 9802,
+      "path": "assets/building-icons/nubian-49.png",
+      "sha256": "3cc60ad8831e20f73bd26b8b0987a0052bbf4d847fda1438aa6e5ebfef724525",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "nubian",
+      "nodeName": "nubian_50",
+      "triangles": 7434,
+      "path": "assets/building-icons/nubian-50.png",
+      "sha256": "f108807d6f0ebfa2c05f9e82e49b253bc1406ed210fead206b144849618dd192",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "nubian",
+      "nodeName": "nubian_51",
+      "triangles": 5168,
+      "path": "assets/building-icons/nubian-51.png",
+      "sha256": "402b119e2b6236f0d6b30a620126810bf16d9e0c5aa936e82dfb5422082c7141",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "nubian",
+      "nodeName": "nubian_53",
+      "triangles": 9802,
+      "path": "assets/building-icons/nubian-53.png",
+      "sha256": "3cc60ad8831e20f73bd26b8b0987a0052bbf4d847fda1438aa6e5ebfef724525",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "nubian",
+      "nodeName": "nubian_54",
+      "triangles": 7434,
+      "path": "assets/building-icons/nubian-54.png",
+      "sha256": "f4c46b09eecd7537fbdf8ab9b1d54bca6d8807e76b81fb2989f9991679bcee5e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "nubian",
+      "nodeName": "nubian_55",
+      "triangles": 5984,
+      "path": "assets/building-icons/nubian-55.png",
+      "sha256": "0186acdb69f255f1ee6ace4b2bb9e768c7ccb64887033fcc2362510cada48595",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "nubian",
+      "nodeName": "nubian_57",
+      "triangles": 2925,
+      "path": "assets/building-icons/nubian-57.png",
+      "sha256": "2ca66907969b8a8d1483af751ce0e5763015ed7e0941415afa85128f47066a5c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "nubian",
+      "nodeName": "nubian_58",
+      "triangles": 5741,
+      "path": "assets/building-icons/nubian-58.png",
+      "sha256": "4d8c09ac78a3d429eed6f407c11de078e8f7123af05ee72f6e1f86ac96bf505c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "nubian",
+      "nodeName": "nubian_59",
+      "triangles": 6104,
+      "path": "assets/building-icons/nubian-59.png",
+      "sha256": "4988278c556ab9c32bad3adf916328e153f9be135edf10507cbf3e16038bf88a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "nubian",
+      "nodeName": "nubian_60",
+      "triangles": 6174,
+      "path": "assets/building-icons/nubian-60.png",
+      "sha256": "89b7baecb5c237f151ca3b535af522dcc35ba31875649e1481b35bdf55247583",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "nubian",
+      "nodeName": "nubian_61",
+      "triangles": 6876,
+      "path": "assets/building-icons/nubian-61.png",
+      "sha256": "3bfb115bde6a9c77ecf23158f7170b30b112bf6466e54c79b0577e7ad5e1663f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "nubian",
+      "nodeName": "nubian_62",
+      "triangles": 8252,
+      "path": "assets/building-icons/nubian-62.png",
+      "sha256": "b7a9a5b5fcc28af50731e78bbd355271377401eea5f2840f9ccb603fc91ce900",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    },
+    {
+      "id": 16,
+      "generatedAt": "2026-11-11T15:07:59.900Z",
+      "source": "codex-nubian-export-final/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    },
+    {
+      "id": 60,
+      "generatedAt": "2026-11-11T15:07:59.900Z",
+      "source": "codex-nubian-export-final/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    },
+    {
+      "id": 61,
+      "generatedAt": "2026-11-11T15:07:59.900Z",
+      "source": "codex-nubian-export-final/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    }
+  ]
+}

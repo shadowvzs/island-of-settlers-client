@@ -1,0 +1,1931 @@
+{
+  "generatedAt": "2026-11-11T06:16:59.992Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecutedByThisScript": false,
+    "note": "No test preflight is performed by this script."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 86714712,
+      "models": 57,
+      "clips": 174
+    },
+    {
+      "quality": "minimal",
+      "bytes": 17644328,
+      "models": 57,
+      "clips": 174
+    }
+  ],
+  "buildings": [
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 16852,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 1728,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 4470,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 7884,
+      "stockTriangles": 1440,
+      "animalTriangles": 2454,
+      "residentTriangles": 2454,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 4740,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 15212,
+      "stockTriangles": 816,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 13897,
+      "stockTriangles": 1364,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [],
+      "id": 7,
+      "triangles": 5570,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 9328,
+      "stockTriangles": 2396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 16016,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 6406,
+      "stockTriangles": 304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 9142,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 9142,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 9142,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 1658,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 12824,
+      "stockTriangles": 6788,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 13080,
+      "stockTriangles": 640,
+      "animalTriangles": 10632,
+      "residentTriangles": 10632,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 8104,
+      "stockTriangles": 2016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 12007,
+      "stockTriangles": 1392,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 5664,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 13332,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 12960,
+      "stockTriangles": 2304,
+      "animalTriangles": 14724,
+      "residentTriangles": 14724,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 8891,
+      "stockTriangles": 3024,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 15388,
+      "stockTriangles": 4192,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 5010,
+      "stockTriangles": 1692,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 14296,
+      "stockTriangles": 2418,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 10696,
+      "stockTriangles": 1524,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 12010,
+      "stockTriangles": 4896,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 12378,
+      "stockTriangles": 3108,
+      "animalTriangles": 19632,
+      "residentTriangles": 19632,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 2238,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 7012,
+      "stockTriangles": 3776,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 12256,
+      "stockTriangles": 2460,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 9668,
+      "stockTriangles": 2616,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 6844,
+      "stockTriangles": 3264,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 4584,
+      "stockTriangles": 2184,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 10532,
+      "stockTriangles": 1584,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 14734,
+      "stockTriangles": 5232,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 17256,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 6980,
+      "stockTriangles": 1984,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 13584,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 13332,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 8636,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 8104,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 8256,
+      "stockTriangles": 2544,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 5664,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 2544,
+        "stockDelta": 2472,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 13584,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 13332,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 9788,
+      "stockTriangles": 3456,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 8104,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 3456,
+        "stockDelta": 1440,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 6072,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 5664,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 360,
+        "stockDelta": 288,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 13584,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 13332,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 8636,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 8104,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 5856,
+      "stockTriangles": 144,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 5664,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 144,
+        "stockDelta": 72,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 13584,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 13332,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 8636,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 8104,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 244
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 6672,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 5664,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 960,
+        "stockDelta": 888,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 5065,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 9452,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 6776,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 10625,
+      "stockTriangles": 2112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 8216,
+      "stockTriangles": 760,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 2564,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 27000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 4858,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 568,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 1286,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 1420,
+      "stockTriangles": 108,
+      "animalTriangles": 490,
+      "residentTriangles": 490,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 1164,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 3490,
+      "stockTriangles": 576,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 2407,
+      "stockTriangles": 598,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [],
+      "id": 7,
+      "triangles": 410,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 1864,
+      "stockTriangles": 236,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 3296,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 1108,
+      "stockTriangles": 90,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 1444,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 1444,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 1444,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 754,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 2384,
+      "stockTriangles": 1068,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 2960,
+      "stockTriangles": 160,
+      "animalTriangles": 3012,
+      "residentTriangles": 3012,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 1924,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 2478,
+      "stockTriangles": 108,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 1132,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 2658,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 2004,
+      "stockTriangles": 240,
+      "animalTriangles": 2940,
+      "residentTriangles": 2940,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 2018,
+      "stockTriangles": 528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 3092,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 1832,
+      "stockTriangles": 768,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 2908,
+      "stockTriangles": 500,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 2346,
+      "stockTriangles": 708,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 2176,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 2689,
+      "stockTriangles": 669,
+      "animalTriangles": 3920,
+      "residentTriangles": 3920,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 938,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 1720,
+      "stockTriangles": 448,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 2189,
+      "stockTriangles": 290,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 1940,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 1988,
+      "stockTriangles": 1224,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 1682,
+      "stockTriangles": 852,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 2068,
+      "stockTriangles": 180,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 2678,
+      "stockTriangles": 672,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 2988,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 1652,
+      "stockTriangles": 340,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 2748,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2658,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 90
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 1882,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1924,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 2200,
+      "stockTriangles": 1080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1132,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 1080,
+        "stockDelta": 1008,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 2748,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2658,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 90
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 2026,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1924,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 432,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 1336,
+      "stockTriangles": 216,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1132,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 216,
+        "stockDelta": 144,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 2748,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2658,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 90
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 1882,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1924,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 1240,
+      "stockTriangles": 120,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1132,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 120,
+        "stockDelta": 48,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 2748,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2658,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 90
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 1882,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1924,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 1360,
+      "stockTriangles": 240,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1132,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 240,
+        "stockDelta": 168,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 1216,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 1674,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 1618,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 3002,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 2407,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 594,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "maya",
+      "budget": 5250
+    }
+  ]
+}

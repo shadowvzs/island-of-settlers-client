@@ -1,0 +1,20 @@
+{
+  "name": "swash",
+  "kind": "swash",
+  "references": [
+    { "label": "air-sand", "clip": "swash shore/swash-air-sand.mp4", "camera": "static", "start": 0, "duration": 80,
+      "fps": 10, "landward": "down", "roi": { "left": 0, "top": 0.2, "width": 1, "height": 0.8 } },
+    { "label": "air2", "clip": "swash shore/swash-from-air2.mp4", "camera": "static", "start": 0, "duration": 36,
+      "fps": 10, "landward": "up", "roi": { "left": 0, "top": 0, "width": 1, "height": 0.75 } },
+    { "label": "front-dusk", "clip": "swash shore/swash-front.mp4", "camera": "slow", "start": 0, "duration": 31,
+      "fps": 10, "landward": "down", "roi": { "left": 0, "top": 0.45, "width": 1, "height": 0.55 } }
+  ],
+  "stills": [
+    { "label": "white-beach-02", "image": "white-beach/02-cream-beach-wet-band-foam-line.jpg", "landward": "left",
+      "roi": { "left": 0.15, "top": 0.6, "width": 0.6, "height": 0.25 } }
+  ],
+  "game": [
+    { "view": "iso-beach", "presets": ["high", "minimal"], "times": ["day", "dusk"], "seconds": 27, "fps": 6 },
+    { "view": "possessed-beach", "presets": ["high", "minimal"], "times": ["day", "dusk"], "seconds": 27, "fps": 6 }
+  ]
+}

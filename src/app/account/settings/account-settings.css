@@ -1,0 +1,35 @@
+/*
+ * Settings > Account (account-settings.tsx): Log out and its in-place confirmation in the settings skin.
+ */
+.account-settings {
+  display: grid;
+  gap: 8px;
+}
+.account-settings .settings-panel__hint { margin: 0; }
+.account-settings__actions,
+.account-settings__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+}
+.account-settings__panel {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+}
+.account-settings__question {
+  margin: 0;
+  font: 600 14px/1.3 Georgia, serif;
+  color: var(--hud-ink);
+}
+.settings-panel .account-settings__button {
+  min-height: 40px;
+  padding: 6px 14px;
+  color: var(--hud-ink);
+  font: 600 14px/1.1 Georgia, serif;
+}
+.account-settings__status { margin: 0; }

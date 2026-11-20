@@ -1,0 +1,62 @@
+/* Stand-in scenes behind the panels: a bright day, glaring snow and a dark night (readability checks). */
+html, body { height: 100%; margin: 0; }
+body {
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(180deg, #7fb6e0 0%, #bfe0f0 45%, #4d8a4a 46%, #2f6034 100%);
+}
+body[data-scene="snow"] {
+  background: linear-gradient(180deg, #dfefff 0%, #ffffff 40%, #f4f8fb 41%, #e2ebf2 100%);
+}
+body[data-scene="night"] {
+  background: linear-gradient(180deg, #050a18 0%, #0e1a33 45%, #08130d 46%, #030805 100%);
+}
+#review {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.review__again {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 8px 14px;
+  font: 600 14px/1.2 Georgia, serif;
+}
+.settings-panel.review__settings {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: min(360px, calc(100% - 32px));
+  padding: 12px;
+  border-radius: 12px;
+}
+.settlement-ui__panel.review__reward-gallery {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  width: min(640px, calc(100% - 32px));
+  max-height: calc(100% - 32px);
+  padding: 12px 16px;
+  overflow: auto;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.review__multiboard-tools {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  display: flex;
+  gap: 8px;
+}
+.review__multiboard-tools button {
+  padding: 8px 14px;
+  font: 600 14px/1.2 Georgia, serif;
+}
+.review__reward-gallery h3 {
+  margin: 0 0 4px;
+  font: 700 14px/1.2 Georgia, serif;
+}

@@ -1,0 +1,325 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "typescript",
+    "react",
+    "unicorn",
+    "import",
+    "oxc",
+    "jsx-a11y",
+    "promise"
+  ],
+  "jsPlugins": [
+    "eslint-plugin-simple-import-sort",
+    "eslint-plugin-sort-destructure-keys",
+    "./tools/oxlint/constants-in-one-file.cjs",
+    {
+      "name": "react-js",
+      "specifier": "eslint-plugin-react"
+    }
+  ],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2024": true
+  },
+  "ignorePatterns": [
+    "dist/**",
+    "node_modules/**",
+    "src/locales/**/messages.ts",
+    "assets/**"
+  ],
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrors": "none",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-nested-ternary": "error",
+    "unicorn/no-nested-ternary": "off",
+    "max-lines-per-function": [
+      "error",
+      {
+        "max": 300,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "max-lines": [
+      "warn",
+      {
+        "max": 400,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "complexity": [
+      "warn",
+      40
+    ],
+    "max-depth": [
+      "warn",
+      4
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "ignoreReadBeforeAssign": true
+      }
+    ],
+    "func-style": [
+      "error",
+      "expression"
+    ],
+    "react/rules-of-hooks": "error",
+    "react/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          [
+            "^node:",
+            "^@?\\w"
+          ],
+          [
+            "^"
+          ],
+          [
+            "^\\u0000"
+          ]
+        ]
+      }
+    ],
+    "simple-import-sort/exports": "error",
+    "import/no-unassigned-import": "off",
+    "no-underscore-dangle": "off",
+    "no-shadow": "off",
+    "unicorn/consistent-function-scoping": "off",
+    "unicorn/no-array-sort": "off",
+    "unicorn/no-array-reverse": "off",
+    "unicorn/prefer-add-event-listener": "off",
+    "unicorn/require-post-message-target-origin": "off",
+    "typescript/no-array-delete": "error",
+    "typescript/no-duplicate-type-constituents": "error",
+    "typescript/no-for-in-array": "error",
+    "typescript/no-implied-eval": "error",
+    "typescript/no-misused-spread": "error",
+    "typescript/no-useless-default-assignment": "error",
+    "typescript/require-array-sort-compare": "error",
+    "typescript/restrict-template-expressions": "error",
+    "typescript/await-thenable": "error",
+    "typescript/consistent-return": "off",
+    "typescript/no-base-to-string": "error",
+    "typescript/no-floating-promises": "off",
+    "typescript/no-generated-empty-object-type": "error",
+    "typescript/no-meaningless-void-operator": "error",
+    "typescript/no-redundant-type-constituents": "error",
+    "typescript/no-unnecessary-boolean-literal-compare": "off",
+    "typescript/no-unnecessary-template-expression": "error",
+    "typescript/no-unnecessary-type-arguments": "error",
+    "typescript/no-unnecessary-type-assertion": "off",
+    "typescript/no-unnecessary-type-conversion": "off",
+    "typescript/no-unnecessary-type-parameters": "error",
+    "typescript/no-unsafe-enum-comparison": "error",
+    "typescript/no-unsafe-type-assertion": "off",
+    "typescript/no-unsafe-unary-minus": "error",
+    "typescript/unbound-method": "off",
+    "jsx-a11y/heading-has-content": "error",
+    "jsx-a11y/html-has-lang": "error",
+    "jsx-a11y/alt-text": "error",
+    "jsx-a11y/anchor-has-content": "error",
+    "jsx-a11y/anchor-is-valid": "error",
+    "jsx-a11y/aria-activedescendant-has-tabindex": "error",
+    "jsx-a11y/aria-props": "error",
+    "jsx-a11y/aria-proptypes": "error",
+    "jsx-a11y/aria-role": "error",
+    "jsx-a11y/aria-unsupported-elements": "error",
+    "jsx-a11y/autocomplete-valid": "error",
+    "jsx-a11y/click-events-have-key-events": "error",
+    "jsx-a11y/control-has-associated-label": "error",
+    "jsx-a11y/iframe-has-title": "error",
+    "jsx-a11y/img-redundant-alt": "error",
+    "jsx-a11y/interactive-supports-focus": "error",
+    "jsx-a11y/label-has-associated-control": "error",
+    "jsx-a11y/lang": "error",
+    "jsx-a11y/media-has-caption": "error",
+    "jsx-a11y/mouse-events-have-key-events": "error",
+    "jsx-a11y/no-access-key": "error",
+    "jsx-a11y/no-aria-hidden-on-focusable": "error",
+    "jsx-a11y/no-autofocus": "error",
+    "jsx-a11y/no-distracting-elements": "error",
+    "jsx-a11y/no-interactive-element-to-noninteractive-role": "error",
+    "jsx-a11y/no-noninteractive-element-interactions": "error",
+    "jsx-a11y/no-noninteractive-element-to-interactive-role": "error",
+    "jsx-a11y/no-noninteractive-tabindex": [
+      "error",
+      {
+        "roles": [
+          "tabpanel",
+          "region"
+        ]
+      }
+    ],
+    "jsx-a11y/no-redundant-roles": "error",
+    "jsx-a11y/no-static-element-interactions": "error",
+    "jsx-a11y/prefer-tag-over-role": "off",
+    "jsx-a11y/role-has-required-aria-props": "error",
+    "jsx-a11y/role-supports-aria-props": "error",
+    "jsx-a11y/scope": "error",
+    "jsx-a11y/tabindex-no-positive": "error",
+    "unicorn/no-new-array": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts"
+      ],
+      "rules": {
+        "sort-destructure-keys/sort-destructure-keys": [
+          "error",
+          {
+            "caseSensitive": false
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+      ],
+      "rules": {
+        "constants/in-one-file": "warn",
+        "no-magic-numbers": [
+          "warn",
+          {
+            "detectObjects": false,
+            "enforceConst": true,
+            "ignore": [
+              -1,
+              0,
+              0.5,
+              1,
+              2
+            ],
+            "ignoreArrayIndexes": true,
+            "ignoreDefaultValues": true,
+            "ignoreEnums": true,
+            "ignoreNumericLiteralTypes": true
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "src/render-common/**/*.ts",
+        "src/render-common/**/*.tsx",
+        "src/renderers/**/*.ts",
+        "src/renderers/**/*.tsx",
+        "src/editor-icons/**/*.ts",
+        "src/**/*-data.ts"
+      ],
+      "rules": {
+        "constants/in-one-file": "off",
+        "no-magic-numbers": "off"
+      }
+    },
+    {
+      "files": [
+        "src/**/*.tsx"
+      ],
+      "rules": {
+        "no-ternary": "error",
+        "react-js/jsx-sort-props": [
+          "error",
+          {
+            "callbacksLast": true,
+            "ignoreCase": true
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "tools/**",
+        "tests/**",
+        "tests-ui/**"
+      ],
+      "rules": {
+        "max-lines-per-function": "off",
+        "max-lines": "off",
+        "complexity": "off",
+        "max-depth": "off"
+      }
+    },
+    {
+      "files": [
+        "tests/**/*.test.ts"
+      ],
+      "plugins": [
+        "vitest"
+      ],
+      "rules": {
+        "vitest/no-disabled-tests": "error",
+        "vitest/valid-title": "error",
+        "vitest/expect-expect": [
+          "error",
+          {
+            "assertFunctionNames": [
+              "expect",
+              "expectTypeOf",
+              "assert",
+              "assertType",
+              "expectWatertight",
+              "expectRejected",
+              "expectNaturalMotion",
+              "expectLikeFullRefresh",
+              "expectUndoRedo"
+            ]
+          }
+        ],
+        "vitest/hoisted-apis-on-top": "error",
+        "vitest/no-commented-out-tests": "error",
+        "vitest/no-conditional-expect": "off",
+        "vitest/no-conditional-tests": "error",
+        "vitest/no-focused-tests": "error",
+        "vitest/no-standalone-expect": "error",
+        "vitest/prefer-snapshot-hint": "error",
+        "vitest/require-awaited-expect-poll": "error",
+        "vitest/require-local-test-context-for-concurrent-snapshots": "error",
+        "vitest/require-mock-type-parameters": "off",
+        "vitest/require-to-throw-message": "error",
+        "vitest/valid-describe-callback": "error",
+        "vitest/valid-expect": [
+          "error",
+          {
+            "maxArgs": 2
+          }
+        ],
+        "vitest/valid-expect-in-promise": "error",
+        "vitest/warn-todo": "error"
+      }
+    },
+    {
+      "files": [
+        "src/render-common/**",
+        "src/renderers/**",
+        "src/shared/**",
+        "src/workers/**"
+      ],
+      "rules": {
+        "react/rules-of-hooks": "off",
+        "react/exhaustive-deps": "off"
+      }
+    }
+  ]
+}

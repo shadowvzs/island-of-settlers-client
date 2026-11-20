@@ -1,0 +1,127 @@
+/*
+ * Shared reward row (popups, campaign epilogue, quests): the blue 3D experience badge, then one pill of fixed-size
+ * reward icons. It wraps on narrow screens; phones get balanced rows of three.
+ */
+.reward-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 10px;
+  min-width: 0;
+  margin: 2px 0 0;
+}
+.reward-icons__experience {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+.reward-icons__experience > img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 2px rgb(0 0 0 / 30%));
+}
+.reward-icons__experience > span {
+  padding: 0 4px 3px;
+  font: 900 27px/1.1 Georgia, "Times New Roman", serif;
+  letter-spacing: .03em;
+  color: transparent;
+  background: linear-gradient(180deg, #f2fbff 0%, #9ad6ff 24%, #3c94f2 52%, #1d5fcf 76%, #2f7ae6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: .7px #0c2f78;
+  /* Stacked one-pixel shadows extrude the letters; the last one lifts them off the paper. */
+  filter: drop-shadow(0 1px 0 #1b4ca6) drop-shadow(0 1px 0 #143c88) drop-shadow(0 1px 0 #0d2c66)
+    drop-shadow(0 3px 3px rgb(0 0 0 / 40%));
+}
+.reward-icons__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px 10px;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 2px 12px 2px 6px;
+  list-style: none;
+  background: color-mix(in srgb, currentColor 9%, transparent);
+  border: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 3px rgb(0 0 0 / 18%);
+  box-sizing: border-box;
+}
+.reward-icons__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 28px;
+  font: 700 15px/1 Georgia, serif;
+  white-space: nowrap;
+}
+.reward-icons__item > :is(img, svg) {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+/* Full-figure renders keep headroom for their own views; crop them to the figure (heads and helmets stay whole). */
+.reward-icons__item > img[data-crop="soldier"] {
+  object-view-box: inset(11% 5.5% 0 5.5%);
+}
+.reward-icons__item > img[data-crop="settler"] {
+  object-view-box: inset(9% 8.5% 8% 8.5%);
+}
+.reward-icons__more {
+  padding: 0 4px;
+  font-size: 13px;
+  font-style: italic;
+  cursor: help;
+}
+/* Phones: too narrow for one line, so the pill keeps balanced rows of three. */
+@media (max-width: 480px) {
+  .reward-icons__items {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 3px 12px;
+    border-radius: 18px;
+  }
+}
+
+/* Compact row inside a window (quest details): small experience text, plain chips without the pill. */
+.reward-icons--compact {
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+.reward-icons--compact .reward-icons__experience {
+  gap: 2px;
+}
+.reward-icons--compact .reward-icons__experience > img {
+  width: 24px;
+  height: 24px;
+  filter: none;
+}
+.reward-icons--compact .reward-icons__experience > span {
+  padding: 0;
+  font: 700 13px/1 Georgia, serif;
+  letter-spacing: normal;
+  color: inherit;
+  background: none;
+  -webkit-text-stroke: 0;
+  filter: none;
+}
+.reward-icons--compact .reward-icons__items {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+.reward-icons--compact .reward-icons__item {
+  font-size: 13px;
+}

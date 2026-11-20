@@ -1,0 +1,16 @@
+.settlement-ui__panel.military-benchmark-window {
+  box-sizing: border-box;
+  width: min(1040px, calc(100vw - 24px));
+  max-height: calc(100dvh - 72px);
+  overflow: hidden;
+  left: max(12px, calc(50% - 520px)); top: 60px; padding: 0; pointer-events: auto;
+}
+.military-benchmark-window__body { min-height: 0; overflow-y: auto; padding: 12px; }
+.military-benchmark-window__body > p { margin: 0 0 12px; line-height: 1.5; }
+.military-benchmark-window__table { overflow-x: auto; max-width: 100%; }
+.military-benchmark-window table { border-collapse: collapse; width: 100%; font-size: 12px; }
+.military-benchmark-window caption { text-align: left; font-weight: bold; padding-bottom: 8px; }
+.military-benchmark-window th, .military-benchmark-window td {
+  padding: 8px; border: 1px solid var(--hud-paper-edge); text-align: left; white-space: nowrap;
+}
+.military-benchmark-window th { background: var(--hud-panel-soft, rgba(110, 80, 40, .1)); }

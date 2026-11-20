@@ -1,0 +1,23 @@
+{
+  "command": ["tools/bench/military-battle-tick.ts"],
+  "env": { "PHASES": "1" },
+  "rounds": 5,
+  "warmup": 1,
+  "metrics": [
+    "flat.battleAvg=/\\| flat \\| \\d+ vs \\d+ \\| [\\d.]+ \\| [\\d.]+ \\| [\\d.]+ \\| (?<value>[\\d.]+)/",
+    "flat.battleP95=/\\| flat \\| \\d+ vs \\d+ \\| [\\d.]+ \\| [\\d.]+ \\| [\\d.]+ \\| [\\d.]+ \\| (?<value>[\\d.]+)/",
+    "flat.commanderAvg=/  flat: commander ms avg\\/tick (?<value>[\\d.]+)/",
+    "flat.decisionP50=/  flat: commander ms [^,]*, decision p50 (?<value>[\\d.]+)/",
+    "flat.decisionP95=/  flat: commander ms [^,]*, [^,]*, decision p95 (?<value>[\\d.]+)/",
+    "flat.marchAvg=/  flat: .*commander\\.march ms avg\\/tick (?<value>[\\d.]+)/",
+    "coastal.battleAvg=/\\| coastal strip \\| \\d+ vs \\d+ \\| [\\d.]+ \\| [\\d.]+ \\| [\\d.]+ \\| (?<value>[\\d.]+)/",
+    "coastal.commanderAvg=/  coastal strip: commander ms avg\\/tick (?<value>[\\d.]+)/",
+    "coastal.decisionP50=/  coastal strip: commander ms [^,]*, decision p50 (?<value>[\\d.]+)/",
+    "coastal.decisionP95=/  coastal strip: commander ms [^,]*, [^,]*, decision p95 (?<value>[\\d.]+)/"
+  ],
+  "hashes": [
+    "flat.hash=/  flat: .*save hash (?<value>\\w+)/",
+    "coastal.hash=/  coastal strip: .*save hash (?<value>\\w+)/",
+    "flat.end=/\\| flat \\|(?:[^|]*\\|){7} (?<value>[^|]+?) \\|/"
+  ]
+}

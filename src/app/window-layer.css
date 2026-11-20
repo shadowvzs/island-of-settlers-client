@@ -1,0 +1,31 @@
+.app-window-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+}
+
+/* These wrappers retain styling/layout without isolating their windows' z-indices. */
+.app-window-layer > :is(.settlement-ui, .stats-overlay-layer, .credits-window-layer, .settings) {
+  position: absolute;
+  z-index: auto;
+}
+
+.app-window-layer .settings {
+  pointer-events: none;
+}
+
+.app-window-layer :is(.settings-panel, .settings__buttons, .hud-theme-popover, .map-editor, .minimap) {
+  pointer-events: auto;
+}
+
+@media (min-width: 601px) {
+  .app-window-layer .settings-panel {
+    position: relative;
+  }
+}
+
+/* A React root's host (`createReactHost`): no box of its own, so its frame keeps the parent's layout. */
+.app-react-host {
+  display: contents;
+}

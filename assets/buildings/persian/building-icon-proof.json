@@ -1,0 +1,586 @@
+{
+  "nation": "persian",
+  "generatedAt": "2026-11-11T06:16:08.505Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "persian",
+      "nodeName": "persian_0",
+      "triangles": 19038,
+      "path": "assets/building-icons/persian-0.png",
+      "sha256": "e4eb58fdf764d10af9170047236f981315ebcfbac5765f94fbfc5d3f276492b2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "persian",
+      "nodeName": "persian_1",
+      "triangles": 7183,
+      "path": "assets/building-icons/persian-1.png",
+      "sha256": "9e3d46e3c9f016eaacfac362a7f46198d3df24ca0a7fdcbbd1e127ca05e93231",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "persian",
+      "nodeName": "persian_2",
+      "triangles": 5935,
+      "path": "assets/building-icons/persian-2.png",
+      "sha256": "0eeac07d687e3e8a015cf6868753f7642fcf9ec3fefbce243a99c65804b91364",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "persian",
+      "nodeName": "persian_3",
+      "triangles": 17097,
+      "path": "assets/building-icons/persian-3.png",
+      "sha256": "940ab61cc207576ee3411048c32b939dd087224ec46361b98a4ddee4993dc690",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "persian",
+      "nodeName": "persian_4",
+      "triangles": 5166,
+      "path": "assets/building-icons/persian-4.png",
+      "sha256": "a62f2c67a7563ffd03dfc2cb3818b4dfd06acfe57df00459bce92e5408761faa",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "persian",
+      "nodeName": "persian_5",
+      "triangles": 14466,
+      "path": "assets/building-icons/persian-5.png",
+      "sha256": "c3893bdeb2334dbf8b9a89fe83127e544a2c7f5ab0bcbc2a3d4bf4a31fac9ba1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "persian",
+      "nodeName": "persian_6",
+      "triangles": 17807,
+      "path": "assets/building-icons/persian-6.png",
+      "sha256": "5272ac2b73415a6c95abcc0d00192ce2f5864b3f89345ef887e44b72f9c693cd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "persian",
+      "nodeName": "persian_7",
+      "triangles": 42664,
+      "path": "assets/building-icons/persian-7.png",
+      "sha256": "8a8c6be96330548f49b6a836d0ef8e476f127be0041d3a677c5a0c81e13430b7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "persian",
+      "nodeName": "persian_8",
+      "triangles": 15915,
+      "path": "assets/building-icons/persian-8.png",
+      "sha256": "6ed325f2a90d7d745bb2bd0549c583174b52d4966ec7d674913e302654ce566d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "persian",
+      "nodeName": "persian_9",
+      "triangles": 12436,
+      "path": "assets/building-icons/persian-9.png",
+      "sha256": "b0ff43697bf4fe5da326913269c82c36f8b99a1b60967e54421ee0d8499df916",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "persian",
+      "nodeName": "persian_10",
+      "triangles": 9040,
+      "path": "assets/building-icons/persian-10.png",
+      "sha256": "273fe566a41ec739aefe0c0597f7b059a86306bdc34da9e701d930e36230692e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "persian",
+      "nodeName": "persian_11",
+      "triangles": 11838,
+      "path": "assets/building-icons/persian-11.png",
+      "sha256": "26d5fd51a96447e99e7db5d558b6db8fe90ce03d5e6049953ec7af69c7f9dbc6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "persian",
+      "nodeName": "persian_12",
+      "triangles": 11838,
+      "path": "assets/building-icons/persian-12.png",
+      "sha256": "cf67651529e33856c1f9dc97642ae553797d3154b631f7541b065cddf1e64cf4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "persian",
+      "nodeName": "persian_13",
+      "triangles": 8828,
+      "path": "assets/building-icons/persian-13.png",
+      "sha256": "998a93f4ef6cbce1e9a8b7e7e9b1e5220316d444ed47e6027dacf1903f9cb828",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "persian",
+      "nodeName": "persian_14",
+      "triangles": 5593,
+      "path": "assets/building-icons/persian-14.png",
+      "sha256": "307395b576a290671a1daa99432d71ed3c1a7b75a2b04a68021005cb998aa0fb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "persian",
+      "nodeName": "persian_15",
+      "triangles": 19511,
+      "path": "assets/building-icons/persian-15.png",
+      "sha256": "1a5f8f078501686097e89536b475c57a0cbe3f1bbc52d1cc4642979c577e1a29",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "persian",
+      "nodeName": "persian_16",
+      "triangles": 19460,
+      "path": "assets/building-icons/persian-16.png",
+      "sha256": "4d0195de5bd3616a75652c19c20ef07ea382baf5344d44511b53814932da098a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "persian",
+      "nodeName": "persian_17",
+      "triangles": 9615,
+      "path": "assets/building-icons/persian-17.png",
+      "sha256": "c86c3b47405e92a2c634f6cc658d0e03194bc7bc56b4df15d4cd6b0df132182a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "persian",
+      "nodeName": "persian_18",
+      "triangles": 14079,
+      "path": "assets/building-icons/persian-18.png",
+      "sha256": "80071ece7a87528030cdac736ed11247a219bb71cdaf6aa2af1627d6965faeac",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "persian",
+      "nodeName": "persian_19",
+      "triangles": 6799,
+      "path": "assets/building-icons/persian-19.png",
+      "sha256": "43d9eefa60e0977b6ef77b2cf5a2da5df45f9b90f047c1c9b51f34413bfa6462",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "persian",
+      "nodeName": "persian_20",
+      "triangles": 16567,
+      "path": "assets/building-icons/persian-20.png",
+      "sha256": "837543d4d6e1684dd90631832f6c9612ff6391b4f9b271c97eae4bc2ee2e1a52",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "persian",
+      "nodeName": "persian_21",
+      "triangles": 30463,
+      "path": "assets/building-icons/persian-21.png",
+      "sha256": "51dc472a5c0f32a7b9d32b34dedbd8f741119cb6c67a7e27a9da76ae44ea3d56",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "persian",
+      "nodeName": "persian_22",
+      "triangles": 10799,
+      "path": "assets/building-icons/persian-22.png",
+      "sha256": "5f573c15ad17c1d7b0e4a023d0126de5338cc65322c64883764bf29685501191",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "persian",
+      "nodeName": "persian_23",
+      "triangles": 14179,
+      "path": "assets/building-icons/persian-23.png",
+      "sha256": "9643782071ac2b793a81fd4ba8d7997ab972240ee5722c11360d4e9dce9400dc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "persian",
+      "nodeName": "persian_24",
+      "triangles": 20289,
+      "path": "assets/building-icons/persian-24.png",
+      "sha256": "fedaf98dd5469cb88c720c68f6ba7536c13ffdc2c397fd13ed0814738ddf89b7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "persian",
+      "nodeName": "persian_25",
+      "triangles": 15787,
+      "path": "assets/building-icons/persian-25.png",
+      "sha256": "86e89fb2fe98149352353e5ba8fcbcc08444a629e4df21ae8e383a51ab776312",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "persian",
+      "nodeName": "persian_26",
+      "triangles": 10541,
+      "path": "assets/building-icons/persian-26.png",
+      "sha256": "645a104b2a173cbf102f176c5fb6e859741bf1d99af0f45e949e3418ba3f7650",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "persian",
+      "nodeName": "persian_27",
+      "triangles": 12111,
+      "path": "assets/building-icons/persian-27.png",
+      "sha256": "450acc4ecd341040d31045fbc809953ce9a9445472c890af14d95fb030604078",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "persian",
+      "nodeName": "persian_28",
+      "triangles": 32757,
+      "path": "assets/building-icons/persian-28.png",
+      "sha256": "fdc2d8def8edf0f72e2f06141dc9f09b45d8e2936d884e39ba5bde43b93452c6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "persian",
+      "nodeName": "persian_29",
+      "triangles": 15047,
+      "path": "assets/building-icons/persian-29.png",
+      "sha256": "9a5c187a1a355f23be781230b3d87bfa6c9c8cf7143913e251dfd3e92fde2499",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "persian",
+      "nodeName": "persian_31",
+      "triangles": 9902,
+      "path": "assets/building-icons/persian-31.png",
+      "sha256": "f2a375960dcc0bfb0312f377a0504c3dc22bfcaa5c8104fde1338361b1c81924",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "persian",
+      "nodeName": "persian_32",
+      "triangles": 11639,
+      "path": "assets/building-icons/persian-32.png",
+      "sha256": "6ab74192ff7bdf2fd59a3af3ae52e31cb2ef572c65d5ba5093f678c52df9bded",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "persian",
+      "nodeName": "persian_33",
+      "triangles": 16075,
+      "path": "assets/building-icons/persian-33.png",
+      "sha256": "a0eabdc90fceb6e0142bc7159aad4ee8bda78691407524efe12842390449627a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "persian",
+      "nodeName": "persian_34",
+      "triangles": 10595,
+      "path": "assets/building-icons/persian-34.png",
+      "sha256": "dc03193455b38945bd8cd3084b537b87b4560615c25b7961d44559c9f43438b7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "persian",
+      "nodeName": "persian_35",
+      "triangles": 14922,
+      "path": "assets/building-icons/persian-35.png",
+      "sha256": "ac8db50386fe3e25118a946c145ffc43990ae772adbeabd0f56eaebbb7fb41e5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "persian",
+      "nodeName": "persian_36",
+      "triangles": 10887,
+      "path": "assets/building-icons/persian-36.png",
+      "sha256": "1c6a5334c653fc1b758e193b388091a5c643c8435034523fa9448775937db578",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "persian",
+      "nodeName": "persian_37",
+      "triangles": 14631,
+      "path": "assets/building-icons/persian-37.png",
+      "sha256": "5140b19e5816d8aae0e4bfabad0ebe9886c39794bfce2403785be1138def2a44",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "persian",
+      "nodeName": "persian_39",
+      "triangles": 10730,
+      "path": "assets/building-icons/persian-39.png",
+      "sha256": "57859ae6e7e16e68e0c45de3a4ddb60a3c2498a0b4b37b6b3cc820740a905b51",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "persian",
+      "nodeName": "persian_40",
+      "triangles": 12052,
+      "path": "assets/building-icons/persian-40.png",
+      "sha256": "d89a398c476ba6337e4cd39a9c161c25550e500b7f1118a8644115de491c1cd6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "persian",
+      "nodeName": "persian_41",
+      "triangles": 16819,
+      "path": "assets/building-icons/persian-41.png",
+      "sha256": "33660b7d38cf1b304261477e7675a6811df8a34df6988416ab004d0ca5c8f0ef",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "persian",
+      "nodeName": "persian_42",
+      "triangles": 10147,
+      "path": "assets/building-icons/persian-42.png",
+      "sha256": "e4df151527fc9979bf86d48df6d2a9c74f4caa960f48e7c590243417d683abcf",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "persian",
+      "nodeName": "persian_43",
+      "triangles": 9391,
+      "path": "assets/building-icons/persian-43.png",
+      "sha256": "bfb54a0fb7f5c1fc32311449a049fc7335c3363bbebf8cb08a81adb191e53b16",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "persian",
+      "nodeName": "persian_45",
+      "triangles": 16819,
+      "path": "assets/building-icons/persian-45.png",
+      "sha256": "33660b7d38cf1b304261477e7675a6811df8a34df6988416ab004d0ca5c8f0ef",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "persian",
+      "nodeName": "persian_46",
+      "triangles": 11299,
+      "path": "assets/building-icons/persian-46.png",
+      "sha256": "a57474b16b4384723bb5d7441b8948ee8d7557f4613e1e4dd2b4e4b6f1dda47a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "persian",
+      "nodeName": "persian_47",
+      "triangles": 7207,
+      "path": "assets/building-icons/persian-47.png",
+      "sha256": "a7406cc2288fb05e876c35038e496c35dc8db84c2617f60e98198a71af6ebd99",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "persian",
+      "nodeName": "persian_49",
+      "triangles": 16819,
+      "path": "assets/building-icons/persian-49.png",
+      "sha256": "33660b7d38cf1b304261477e7675a6811df8a34df6988416ab004d0ca5c8f0ef",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "persian",
+      "nodeName": "persian_50",
+      "triangles": 10147,
+      "path": "assets/building-icons/persian-50.png",
+      "sha256": "2efdf6359ba9b2918e12749b20f86285ad6b486daebdc08d95bc79f787faa36a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "persian",
+      "nodeName": "persian_51",
+      "triangles": 6991,
+      "path": "assets/building-icons/persian-51.png",
+      "sha256": "e9648242de188735117b0847af3f1462376bff932eb27d4f6e12d288694cc33b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "persian",
+      "nodeName": "persian_53",
+      "triangles": 16819,
+      "path": "assets/building-icons/persian-53.png",
+      "sha256": "33660b7d38cf1b304261477e7675a6811df8a34df6988416ab004d0ca5c8f0ef",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "persian",
+      "nodeName": "persian_54",
+      "triangles": 10147,
+      "path": "assets/building-icons/persian-54.png",
+      "sha256": "a9cfc50c86e370183bb8e941604e4c4ac7e6fd084c2a894b56715fb395ff6b33",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "persian",
+      "nodeName": "persian_55",
+      "triangles": 7807,
+      "path": "assets/building-icons/persian-55.png",
+      "sha256": "cda35055eb92ff13ad20cc3292f5b03348fc208993e2c0c779c13f1984e1d7af",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "persian",
+      "nodeName": "persian_57",
+      "triangles": 6667,
+      "path": "assets/building-icons/persian-57.png",
+      "sha256": "12195efc39bc88ff0cb2ac9e2f5588cbecd3c87b7eb838b0dbb3644b9d994a3b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "persian",
+      "nodeName": "persian_58",
+      "triangles": 14511,
+      "path": "assets/building-icons/persian-58.png",
+      "sha256": "083dcfd9a828ea9f3e2a031f976c00ce18da33c9fa4c96f12d68467d6d33bd25",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "persian",
+      "nodeName": "persian_59",
+      "triangles": 11012,
+      "path": "assets/building-icons/persian-59.png",
+      "sha256": "fb397569bba98f48eb0880126a5c878b7ce73c35aa7cb412d52f3e02bff93981",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "persian",
+      "nodeName": "persian_60",
+      "triangles": 12215,
+      "path": "assets/building-icons/persian-60.png",
+      "sha256": "f3da8e2e2b65ddf7fd87cb844b4e047c11856a7bb2382736811f3b536aa88031",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "persian",
+      "nodeName": "persian_61",
+      "triangles": 16779,
+      "path": "assets/building-icons/persian-61.png",
+      "sha256": "c11660e7ffcc9120b83f5ed50e128f8b596325035473a44f5f1b935ff787da76",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "persian",
+      "nodeName": "persian_62",
+      "triangles": 12719,
+      "path": "assets/building-icons/persian-62.png",
+      "sha256": "8b38f55f2c2b2225fd748613475e449803825010030faed93fb586e29a4e151b",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    }
+  ]
+}

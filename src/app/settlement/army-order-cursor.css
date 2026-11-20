@@ -1,0 +1,74 @@
+/*
+ * Soldier order cursors on the map canvas (rendered from 3D models by tools/assets/game-cursors.ts). They beat
+ * the hover pointer the picking sets inline; the edge-scroll cursor (inline !important) still wins while the
+ * pointer is in the edge zone. Hotspots: the arrow and sword tips (2 2) and the rally standard's foot (3 30).
+ * siege, board, store and invalid are ready for the smart right-click modes (military-controls research
+ * 2026-11-13, sections 5-6); invalid shares the game's not-allowed cursor. sail and unload belong to a selected
+ * troop ship (section 9): its right tap and the ship window's Sail to / Unload troops target modes.
+ */
+[data-army-cursor="move"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-move.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-move.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-move@2x.png") 2x) 2 2, crosshair !important;
+}
+[data-army-cursor="attack"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-attack.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-attack.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-attack@2x.png") 2x) 2 2, crosshair !important;
+}
+/* A click on an enemy body chases that unit (targetMilitary): the attack sword with a red reticle. */
+[data-army-cursor="target"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-target.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-target.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-target@2x.png") 2x) 2 2, crosshair !important;
+}
+[data-army-cursor="siege"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-siege.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-siege.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-siege@2x.png") 2x) 2 2, crosshair !important;
+}
+[data-army-cursor="retreat"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-retreat.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-retreat.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-retreat@2x.png") 2x) 2 2, crosshair !important;
+}
+[data-army-cursor="enter"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-enter.png") 2 2, pointer !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-enter.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-enter@2x.png") 2x) 2 2, pointer !important;
+}
+[data-army-cursor="board"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-board.png") 2 2, pointer !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-board.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-board@2x.png") 2x) 2 2, pointer !important;
+}
+[data-army-cursor="store"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-store.png") 2 2, pointer !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-store.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-store@2x.png") 2x) 2 2, pointer !important;
+}
+[data-army-cursor="rally"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-rally.png") 3 30, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-rally.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-rally@2x.png") 2x) 3 30, crosshair !important;
+}
+[data-army-cursor="add"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-add.png") 2 2, copy !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-add.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-add@2x.png") 2x) 2 2, copy !important;
+}
+[data-army-cursor="invalid"] {
+  cursor: url("../../../assets/ui-icons/cursors/game-not-allowed.png") 2 2, not-allowed !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/game-not-allowed.png") 1x,
+    url("../../../assets/ui-icons/cursors/game-not-allowed@2x.png") 2x) 2 2, not-allowed !important;
+}
+[data-army-cursor="sail"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-sail.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-sail.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-sail@2x.png") 2x) 2 2, crosshair !important;
+}
+[data-army-cursor="unload"] {
+  cursor: url("../../../assets/ui-icons/cursors/army-unload.png") 2 2, crosshair !important;
+  cursor: image-set(url("../../../assets/ui-icons/cursors/army-unload.png") 1x,
+    url("../../../assets/ui-icons/cursors/army-unload@2x.png") 2x) 2 2, crosshair !important;
+}

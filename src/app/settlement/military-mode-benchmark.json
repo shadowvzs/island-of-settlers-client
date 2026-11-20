@@ -1,0 +1,165 @@
+{
+  "measured": "2026-10-14",
+  "rows": [
+    {
+      "collisions": 0.27,
+      "losses": "1:0",
+      "mode": "current",
+      "outcomeSeconds": 36.5,
+      "pathRatio": 1.07,
+      "scenario": "crossing 24x24",
+      "stuckSeconds": 1.2,
+      "tick": "0.29 / 0.63 / 5.14"
+    },
+    {
+      "collisions": 2.09,
+      "losses": "1:63 2:64",
+      "mode": "current",
+      "outcomeSeconds": 77.5,
+      "pathRatio": 1.28,
+      "scenario": "field 64v64",
+      "stuckSeconds": 15,
+      "tick": "0.22 / 1.6 / 5.64"
+    },
+    {
+      "collisions": 0.15,
+      "losses": "1:0",
+      "mode": "current",
+      "outcomeSeconds": 31.4,
+      "pathRatio": 1.06,
+      "scenario": "gate march 32",
+      "stuckSeconds": 0,
+      "tick": "0.08 / 0.34 / 9.12"
+    },
+    {
+      "collisions": 0.04,
+      "losses": "0:2 1:6",
+      "mode": "current",
+      "outcomeSeconds": 33.7,
+      "pathRatio": 1.23,
+      "scenario": "siege door",
+      "stuckSeconds": 0,
+      "tick": "0.08 / 0.27 / 17.52"
+    },
+    {
+      "collisions": 0.24,
+      "losses": "1:0",
+      "mode": "flowFields",
+      "outcomeSeconds": 36.7,
+      "pathRatio": 1.08,
+      "scenario": "crossing 24x24",
+      "stuckSeconds": 1.4,
+      "tick": "0.42 / 0.86 / 8.78"
+    },
+    {
+      "collisions": 1.44,
+      "losses": "1:64 2:60",
+      "mode": "flowFields",
+      "outcomeSeconds": 72.1,
+      "pathRatio": 1.29,
+      "scenario": "field 64v64",
+      "stuckSeconds": 2.7,
+      "tick": "0.27 / 1.7 / 14.09"
+    },
+    {
+      "collisions": 0.13,
+      "losses": "1:0",
+      "mode": "flowFields",
+      "outcomeSeconds": 31.5,
+      "pathRatio": 1.06,
+      "scenario": "gate march 32",
+      "stuckSeconds": 0,
+      "tick": "0.08 / 0.59 / 9.6"
+    },
+    {
+      "collisions": 0.03,
+      "losses": "0:2 1:6",
+      "mode": "flowFields",
+      "outcomeSeconds": 32.7,
+      "pathRatio": 1.29,
+      "scenario": "siege door",
+      "stuckSeconds": 0.8,
+      "tick": "0.08 / 0.24 / 17.71"
+    },
+    {
+      "collisions": 0.09,
+      "losses": "1:0",
+      "mode": "formations",
+      "outcomeSeconds": 43.8,
+      "pathRatio": 1.07,
+      "scenario": "crossing 24x24",
+      "stuckSeconds": 1,
+      "tick": "0.61 / 0.68 / 1.48"
+    },
+    {
+      "collisions": 1.58,
+      "losses": "1:57 2:64",
+      "mode": "formations",
+      "outcomeSeconds": 64.8,
+      "pathRatio": 1.32,
+      "scenario": "field 64v64",
+      "stuckSeconds": 5.4,
+      "tick": "0.18 / 2.4 / 9.3"
+    },
+    {
+      "collisions": 0.13,
+      "losses": "1:0",
+      "mode": "formations",
+      "outcomeSeconds": 39.4,
+      "pathRatio": 1.48,
+      "scenario": "gate march 32",
+      "stuckSeconds": 0.4,
+      "tick": "0.2 / 0.62 / 3.89"
+    },
+    {
+      "collisions": 0.16,
+      "losses": "0:2 1:6",
+      "mode": "formations",
+      "outcomeSeconds": 41,
+      "pathRatio": 1.25,
+      "scenario": "siege door",
+      "stuckSeconds": 0,
+      "tick": "0.09 / 0.23 / 15.69"
+    },
+    {
+      "collisions": 0.09,
+      "losses": "1:0",
+      "mode": "smartCommander",
+      "outcomeSeconds": 43.8,
+      "pathRatio": 1.07,
+      "scenario": "crossing 24x24",
+      "stuckSeconds": 1,
+      "tick": "0.6 / 0.69 / 1.57"
+    },
+    {
+      "collisions": 1.7,
+      "losses": "1:63 2:64",
+      "mode": "smartCommander",
+      "outcomeSeconds": 78.6,
+      "pathRatio": 1.52,
+      "scenario": "field 64v64",
+      "stuckSeconds": 13.8,
+      "tick": "0.36 / 2.53 / 8.7"
+    },
+    {
+      "collisions": 0.13,
+      "losses": "1:0",
+      "mode": "smartCommander",
+      "outcomeSeconds": 39.4,
+      "pathRatio": 1.48,
+      "scenario": "gate march 32",
+      "stuckSeconds": 0.4,
+      "tick": "0.2 / 0.62 / 3.86"
+    },
+    {
+      "collisions": 0.16,
+      "losses": "0:2 1:6",
+      "mode": "smartCommander",
+      "outcomeSeconds": 41,
+      "pathRatio": 1.25,
+      "scenario": "siege door",
+      "stuckSeconds": 0,
+      "tick": "0.09 / 0.22 / 15.75"
+    }
+  ]
+}

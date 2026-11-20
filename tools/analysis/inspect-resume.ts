@@ -1,0 +1,14 @@
+import { readFileSync } from "node:fs";
+import { stageGameSession } from "../../src/app/settlement/game-session";
+import { advanceOfflineGame } from "../../src/app/settlement/offline-progress";
+import type { GameSaveV1 } from "../../src/shared/settlement/game-save";
+const source=JSON.parse(readFileSync(process.argv[2]!,"utf8")) as GameSaveV1;
+const first=await advanceOfflineGame(structuredClone(source), source.savedAt+3_600_000, ()=>{}, {});
+const loaded=await stageGameSession(first);
+const ids=new Set(first.settlement.actors.map(a=>a.uid));
+console.log('first actors',first.settlement.actors.length,'loaded',loaded.settlement.actors.length);
+const t=first.settlement.storageTraffic;
+console.log('traffic',t?.actors?.length,t?.actors?.map(x=>x.actor));
+console.log('owners',t?.owners?.map(x=>x.actor));
+console.log('missing',t?.actors?.filter(x=>!ids.has(x.actor)),t?.owners?.filter(x=>!ids.has(x.actor)),t?.departures?.filter(x=>!ids.has(x.actor)));
+console.log('loaded ids missing traffic', [...ids].filter(id=>!t?.actors?.some(x=>x.actor===id)));

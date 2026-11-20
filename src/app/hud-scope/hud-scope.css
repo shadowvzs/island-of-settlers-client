@@ -1,0 +1,18 @@
+/*
+ * CIN3 cinematic HUD scope: while a campaign sequence owns the screen, every HUD layer is hidden, unlike the
+ * possessed view (which keeps the identity portrait). `visibility` keeps windows mounted with their layout, scroll
+ * and drafts; it also stops them from taking pointer input. The cinematic overlay lives outside these layers.
+ */
+:root[data-cinematic="on"] :is(
+  .app-window-layer,
+  .app-notification-host,
+  .settlement-ui,
+  .minimap,
+  .settings,
+  .exploration-ui-host,
+  .commander-control-host,
+  .hud-theme-popover,
+  .selected-route-overlay
+) {
+  visibility: hidden !important;
+}

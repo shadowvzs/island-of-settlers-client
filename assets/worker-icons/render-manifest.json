@@ -1,0 +1,37 @@
+[
+  {
+    "name": "carrier",
+    "job": "Carrier",
+    "variant": "roman-man-dark"
+  },
+  {
+    "name": "builder",
+    "job": "Builder",
+    "tool": "hammer",
+    "variant": "roman-man-grey"
+  },
+  {
+    "name": "woodcutter",
+    "job": "Woodcutter",
+    "tool": "axe",
+    "variant": "roman-man-white"
+  },
+  {
+    "name": "fisher",
+    "job": "Fisher",
+    "tool": "fishingRod",
+    "variant": "roman-woman-grey"
+  },
+  {
+    "name": "farmer",
+    "job": "Farmer",
+    "tool": "scythe",
+    "variant": "roman-woman-olive"
+  },
+  {
+    "name": "geologist",
+    "job": "Geologist",
+    "tool": "hammer",
+    "variant": "roman-woman-pinafore"
+  }
+]

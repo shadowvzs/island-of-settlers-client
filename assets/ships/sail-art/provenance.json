@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-10-31",
+  "use": "Original sail paintings; composite into woven cotton/linen texture.",
+  "assets": [
+    {
+      "file": "indigenous-bison-head.png",
+      "source": "/home/shadowvzs/.codex/generated_images/01a18e8c-fcd8-7d43-b3ef-db634ea1e99b/exec-d45e7898-57ba-4bab-8254-1cd776656dcd.png",
+      "generator": "built-in image_gen",
+      "promptSummary": "Premium anatomically realistic cropped American bison head; natural fur, horns, beard, painted neutral light, transparent background; original sail decal, no words or backdrop.",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: premium RTS game sail painting decal, square transparent RGBA bitmap. Paint ONLY the cropped HEAD of an American bison, front facing with a subtle natural three-quarter turn, proud calm animal, both curved ivory horns fully visible, broad shaggy dark brown forehead, realistic heavy nose and muzzle, intelligent dark eyes with tiny highlights, woolly cheeks and long beard. Anatomically credible, exceptionally detailed natural fur clumps and fine strands, painterly realism suitable for hand-painted pigment on cream cloth, warm umber/chestnut/ochre tonal modeling with strong readable silhouette at small game scale. Soft neutral illumination, no dramatic cast shadow. Head and beard fully contained with generous transparent margin, centered and occupying about 75 percent of frame. No body, no neck below beard, no landscape, no sky, no circular badge or border, no symbols, no letters, no text or watermark. Transparent background with clean natural alpha edge; do not depict a sail or fabric backdrop, as game shader supplies cloth weave."
+    },
+    {
+      "file": "maya-sun.png",
+      "source": "/home/shadowvzs/.codex/generated_images/01a18e8c-fcd8-7d43-b3ef-db634ea1e99b/exec-dcee0175-8c98-4c08-bd8a-17022d5ed9e5.png",
+      "generator": "built-in image_gen",
+      "promptSummary": "Original Maya-inspired solar emblem, stepped sun rays, golden ochre face, turquoise/vermilion painted detail, transparent background; no existing archaeological object copied.",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Asset type: premium hand-painted emblem decal for a Maya-inspired RTS merchant ship's cream cotton sail, transparent RGBA bitmap, square composition. A single majestic SUN SYMBOL in original Maya-inspired visual language: warm golden-ochre solar face in profile-like sculptural glyph styling within a bold round core, strong angular brows, elegant carved stone-like contour lines painted in pigment, eight to twelve alternating stepped geometric sun rays, small restrained jade/turquoise and vermilion inlays, intricate but readable stepped frets and incised geometric border details. Deep ochre/red shadow lines and sunlit pale gold highlights give the hand-painted design beautiful dimensional form, while it remains clearly an illustration meant to be painted onto fabric, not a photographed physical object. Professional detailed game illustration, warm earth pigments, exquisite craftsmanship, readable silhouette at small gameplay scale. The complete sun and all rays fit inside 80 percent of image with generous transparent margin. Transparent background, no canvas/fabric background, no rectangular plate, no surrounding frame, no ship, no ocean, no writing, no alphabetic text, no watermark, no modern logos. Avoid an Aztec calendar stone or copying any existing archaeological object; this is a new original Maya-inspired solar emblem."
+    }
+  ],
+  "processed": [
+    {
+      "file": "indigenous-bison-head-high.webp",
+      "source": "indigenous-bison-head.png",
+      "quality": "high",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 373550,
+      "alpha": true
+    },
+    {
+      "file": "indigenous-bison-head-minimal.webp",
+      "source": "indigenous-bison-head.png",
+      "quality": "minimal",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 29536,
+      "alpha": true
+    },
+    {
+      "file": "maya-sun-high.webp",
+      "source": "maya-sun.png",
+      "quality": "high",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 332020,
+      "alpha": true
+    },
+    {
+      "file": "maya-sun-minimal.webp",
+      "source": "maya-sun.png",
+      "quality": "minimal",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 35400,
+      "alpha": true
+    }
+  ]
+}

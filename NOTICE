@@ -1,0 +1,42 @@
+Island of Settlers — copyright and licence notice
+
+Copyright (c) 2026 shadowvzs.
+
+1. Licence
+
+The original files in this folder and its subfolders (source code, shaders, tools, tests,
+documentation, generated data, models, textures, icons, audio and other assets) are licensed under
+the Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0).
+The full legal code is in the LICENSE file and at
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Third-party material listed in CREDITS.md and in the in-game Credits window is not covered by this
+notice and remains under its own licence.
+
+2. Attribution requested by the licensor (CC BY-NC 4.0, Section 3(a))
+
+Identify the creator as "shadowvzs" and the work as "Island of Settlers". In any game, application,
+website or other work that uses or adapts this material, place the credit where its users can
+readily see it: on its credits screen if it has one, otherwise on an about page or at the start of
+its documentation. Suggested wording:
+
+    Contains work by shadowvzs (Island of Settlers), licensed under CC BY-NC 4.0.
+
+Indicate whether you modified the material, and keep this notice and the LICENSE file with copies.
+
+3. Commercial use
+
+Use for commercial purposes is not licensed. A separate written commercial licence from shadowvzs
+is required for any commercial use, including selling, monetising, or using the material in a paid
+product or service.
+Commercial licence requests: shadowvzs@hotmail.com
+
+4. Text and data mining and artificial intelligence
+
+The rightsholder expressly reserves text and data mining of this material, including for training,
+fine-tuning or evaluating artificial intelligence models, under Article 4(3) of Directive (EU)
+2019/790 and the national laws implementing it. Training, fine-tuning or evaluating a commercial
+AI model or service on this material is commercial use and requires a written licence. Code, text,
+images, models or other output that reproduces or adapts this material, whether made by a person
+or with AI tools, is an adaptation and must carry the attribution in section 2 and follow the
+NonCommercial condition.

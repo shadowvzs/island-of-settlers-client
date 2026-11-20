@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="192x192" />
+    <title>Roman buildings · Island of Settlers</title>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <small>ISLAND OF SETTLERS</small>
+        <h1>The Roman settlement</h1>
+        <p>
+          Terracotta roofs, limewashed walls and stone porticoes. Original architecture for familiar
+          occupations.
+        </p>
+        <label for="building">Building</label
+        ><select id="building"></select>
+        <label for="level">Level</label><select id="level"></select>
+        <p id="role"></p>
+        <p id="worker"></p>
+        <label for="progress">Construction progress</label
+        ><input id="progress" type="range" min="0" max="1" step="0.001" value="1" />
+        <button id="construct">Replay construction</button>
+        <label><input id="working" type="checkbox" checked /> Working</label>
+        <label><input id="door" type="checkbox" /> Open entrance door</label>
+        <button id="quality">Switch High / Minimal</button
+        ><button id="export">Download animated GLB</button>
+        <p id="status"></p>
+        <p class="note">
+          Worker actions describe the gameplay contract. This preview shows the building animations;
+          workers and resource production are driven by the island simulation.
+        </p>
+      </aside>
+      <section id="viewport"><footer>Drag to orbit · Scroll to zoom</footer></section>
+    </main>
+    <script type="module" src="/src/building-showcase/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.settlement-ui__rank-chevrons {
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  right: -3px;
+  display: block;
+  width: var(--rank-chevron-width, 23px);
+  line-height: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 1px #3b250b99);
+}
+.settlement-ui__rank-chevrons svg { display: block; width: 100%; height: auto; overflow: visible; }

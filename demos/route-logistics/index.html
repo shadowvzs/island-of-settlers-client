@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route-bound flag logistics — demo</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="panel">
+      <header>
+        <h1>Flag logistics</h1>
+        <p class="sub">Route-bound carriers + capped flag buffers.<br><span id="seed" class="muted"></span></p>
+      </header>
+
+      <section class="controls">
+        <div class="row">
+          <button id="play">Pause</button>
+          <button id="step">Step 1s</button>
+          <button id="fit">Fit</button>
+        </div>
+        <label class="slider">Speed
+          <input id="speed" type="range" min="0.25" max="8" step="0.25" value="1">
+          <output id="speedOut">1×</output>
+        </label>
+        <div class="presets">
+          <button data-preset="balanced">Balanced</button>
+          <button data-preset="backpressure">Backpressure</button>
+          <button data-preset="overcapacity">Overcapacity</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Live</h2>
+        <div id="stats" class="stats"></div>
+        <div class="legend">
+          <span><i style="background:#c9a227"></i>hub</span>
+          <span><i style="background:#4f9d5d"></i>producer</span>
+          <span><i style="background:#c0604a"></i>consumer</span>
+          <span><i style="background:#4f7fb5"></i>home</span>
+          <span><i style="background:#7c8792"></i>service</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected</h2>
+        <div id="selected" class="selected"><p class="muted">Click a building or carrier.</p></div>
+      </section>
+
+      <section>
+        <h2>Routes</h2>
+        <div id="routes" class="route-list"></div>
+        <button id="rebuild">Rebuild routes</button>
+      </section>
+
+      <section>
+        <h2>Debug</h2>
+        <div class="row">
+          <select id="buildingType"></select>
+          <button id="place">Place</button>
+        </div>
+        <div class="row">
+          <button id="addCarrier">+ carrier</button>
+          <button id="removeBuilding">Remove selected</button>
+        </div>
+        <div class="row">
+          <button id="export">Export state</button>
+          <button id="reset">Reset</button>
+        </div>
+        <p id="message" class="muted"></p>
+        <div class="checks">
+          <label><input id="labels" type="checkbox" checked> Labels</label>
+          <label><input id="routesToggle" type="checkbox" checked> Routes</label>
+          <label><input id="workersToggle" type="checkbox" checked> Workers</label>
+        </div>
+        <label class="slider">Flag cap
+          <input id="flagCap" type="range" min="4" max="40" step="1" value="18">
+          <output id="flagCapOut">18</output>
+        </label>
+        <label class="slider">Per ware
+          <input id="wareCap" type="range" min="1" max="12" step="1" value="6">
+          <output id="wareCapOut">6</output>
+        </label>
+        <label class="slider">Cart
+          <input id="cartCap" type="range" min="2" max="16" step="1" value="8">
+          <output id="cartCapOut">8</output>
+        </label>
+        <label class="slider">Production
+          <input id="prodSpeed" type="range" min="0.25" max="6" step="0.25" value="1.5">
+          <output id="prodSpeedOut">1.5×</output>
+        </label>
+      </section>
+
+      <section>
+        <h2>Events</h2>
+        <ol id="events" class="events"></ol>
+      </section>
+
+      <footer>
+        Terrain, roads and 39 placed buildings exported from
+        <code>continued-0.json</code>. The debug catalog has all 52 buildable types.
+      </footer>
+    </aside>
+
+    <main id="stage">
+      <canvas id="map"></canvas>
+      <div id="hud">
+        <div id="clock">00:00:00</div>
+        <div id="hudStats"></div>
+      </div>
+      <div id="tooltip"></div>
+    </main>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

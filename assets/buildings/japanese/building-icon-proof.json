@@ -1,0 +1,586 @@
+{
+  "nation": "japanese",
+  "generatedAt": "2026-11-11T06:10:53.751Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "japanese",
+      "nodeName": "japanese_0",
+      "triangles": 25966,
+      "path": "assets/building-icons/japanese-0.png",
+      "sha256": "00cce75e075937078177a27754956cdbc24d94a46355a95dedfa3a41c7b307ee",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "japanese",
+      "nodeName": "japanese_1",
+      "triangles": 4200,
+      "path": "assets/building-icons/japanese-1.png",
+      "sha256": "af7e8051b587a541876172c2e4c22b26640e847b6bdeb39304b0529f8aa9f99f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "japanese",
+      "nodeName": "japanese_2",
+      "triangles": 6006,
+      "path": "assets/building-icons/japanese-2.png",
+      "sha256": "95e1d70fba5a61866ad5558a7e815949dc920bbe178d721abbd6e746b17458e0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "japanese",
+      "nodeName": "japanese_3",
+      "triangles": 8266,
+      "path": "assets/building-icons/japanese-3.png",
+      "sha256": "f778eb9d99e8715183fe079233847e7be377e635a6ee903cc4ed11ae8f6981b9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "japanese",
+      "nodeName": "japanese_4",
+      "triangles": 4194,
+      "path": "assets/building-icons/japanese-4.png",
+      "sha256": "56d0cd399ffc1cafe3f133cf1f8776e3a038f7a0bbf2e9de803539ba634ed61e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "japanese",
+      "nodeName": "japanese_5",
+      "triangles": 7648,
+      "path": "assets/building-icons/japanese-5.png",
+      "sha256": "df475412f01115fb3e40ae8154e9dcf048963b97d3a369d3e910cf0f64d45838",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "japanese",
+      "nodeName": "japanese_6",
+      "triangles": 6968,
+      "path": "assets/building-icons/japanese-6.png",
+      "sha256": "4678b21c0eddf95ad6b858de779770f09d9a689d90fc51ab8619b7dc2cdbbb7c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "japanese",
+      "nodeName": "japanese_63",
+      "triangles": 24263,
+      "path": "assets/building-icons/japanese-7.png",
+      "sha256": "794a7ba6ae97ac3e5bfa07de226e2c7b50b7bdadf4be562be19a16fce1ad7422",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "japanese",
+      "nodeName": "japanese_8",
+      "triangles": 7070,
+      "path": "assets/building-icons/japanese-8.png",
+      "sha256": "eedc7f1082fe60d4bab7de0e64250c58b2aef6f31195bd49f1f81cc24b1fa213",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "japanese",
+      "nodeName": "japanese_9",
+      "triangles": 10016,
+      "path": "assets/building-icons/japanese-9.png",
+      "sha256": "5b5afd02283d7484deb29aa9a9746c90b05d20f840b6c282ba83c8d4f8195a99",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "japanese",
+      "nodeName": "japanese_10",
+      "triangles": 4074,
+      "path": "assets/building-icons/japanese-10.png",
+      "sha256": "da8656d05a2ad7e6275b3f8d85e0096f916864414ed31407e17e050d1f08e47d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "japanese",
+      "nodeName": "japanese_11",
+      "triangles": 6810,
+      "path": "assets/building-icons/japanese-11.png",
+      "sha256": "7390db049ca0f12ba3055cf5b9927dd4dcfe126102f0239385edc541e74a7ef0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "japanese",
+      "nodeName": "japanese_12",
+      "triangles": 6810,
+      "path": "assets/building-icons/japanese-12.png",
+      "sha256": "fcc2466548a579d3937fce0e0ee43dd685478dd04a8f26b75d80d362e19654df",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "japanese",
+      "nodeName": "japanese_13",
+      "triangles": 6810,
+      "path": "assets/building-icons/japanese-13.png",
+      "sha256": "1a36cc0fd1b3dd7086377ffb249d0919ed6a35af0e1fbec06f50773d47f0a8f6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "japanese",
+      "nodeName": "japanese_14",
+      "triangles": 4598,
+      "path": "assets/building-icons/japanese-14.png",
+      "sha256": "38e5f7c420aeb065561c5fd91a62d7cb3ad19600de48a88012ea724a7f2e71f2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "japanese",
+      "nodeName": "japanese_15",
+      "triangles": 10584,
+      "path": "assets/building-icons/japanese-15.png",
+      "sha256": "99e5489c94b2f310845b96b48398d14b347b318aae849fa96625e7db054c9960",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "japanese",
+      "nodeName": "japanese_16",
+      "triangles": 18806,
+      "path": "assets/building-icons/japanese-16.png",
+      "sha256": "7f4fe6aa1bcf2b982416fd45536ef472086111c216e4741604a0b7167064380d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "japanese",
+      "nodeName": "japanese_17",
+      "triangles": 9000,
+      "path": "assets/building-icons/japanese-17.png",
+      "sha256": "49a55c1856073ee19e4b669c81270c414e2910de0bf244dbc7481bc16c400165",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "japanese",
+      "nodeName": "japanese_18",
+      "triangles": 10390,
+      "path": "assets/building-icons/japanese-18.png",
+      "sha256": "6d897018a60e34458b5dff9203b812ff6aa41de40fe44bcf248e3482732840dd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "japanese",
+      "nodeName": "japanese_19",
+      "triangles": 3954,
+      "path": "assets/building-icons/japanese-19.png",
+      "sha256": "309287bb998d8e8e627a2922fb81ea6c97b71c669c2f3d24943bb4e749a7bf0c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "japanese",
+      "nodeName": "japanese_20",
+      "triangles": 12860,
+      "path": "assets/building-icons/japanese-20.png",
+      "sha256": "2cf487fa95d476836b7b3e2883e6f7cbd0391592c4220300394a4fe0a15fd3de",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "japanese",
+      "nodeName": "japanese_21",
+      "triangles": 22784,
+      "path": "assets/building-icons/japanese-21.png",
+      "sha256": "0ed3de96b8ee18e0090071b2fd8674120aff7178d2c90d0f9364b0e1abc5c7d1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "japanese",
+      "nodeName": "japanese_22",
+      "triangles": 7068,
+      "path": "assets/building-icons/japanese-22.png",
+      "sha256": "c5a47910f10342c875c3fd0fbe0d328279ccf244c9926869b99f81735f6eac91",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "japanese",
+      "nodeName": "japanese_23",
+      "triangles": 9844,
+      "path": "assets/building-icons/japanese-23.png",
+      "sha256": "f8d26b8f84ce44603678722c203a0589d7cb2b4ac9b1db8cc92537242fcd3054",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "japanese",
+      "nodeName": "japanese_24",
+      "triangles": 7790,
+      "path": "assets/building-icons/japanese-24.png",
+      "sha256": "935d23e44fddff64d1c7215e4d94ea02791041846b757c7371edfbc34828aa67",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "japanese",
+      "nodeName": "japanese_25",
+      "triangles": 9278,
+      "path": "assets/building-icons/japanese-25.png",
+      "sha256": "18ed714d0aaf955edceb046b4a407c5a0288233e06b846448537e9812bedef7f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "japanese",
+      "nodeName": "japanese_26",
+      "triangles": 9168,
+      "path": "assets/building-icons/japanese-26.png",
+      "sha256": "404ecba60975876e002c079858349ccd44cf2616ef433ce40dc539900978c5e5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "japanese",
+      "nodeName": "japanese_27",
+      "triangles": 8904,
+      "path": "assets/building-icons/japanese-27.png",
+      "sha256": "ae2c4ef95a91cf745c9c8095ec07661c2d5e9f3138c2db11226cf678ba8f37cd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "japanese",
+      "nodeName": "japanese_28",
+      "triangles": 27856,
+      "path": "assets/building-icons/japanese-28.png",
+      "sha256": "e51208943536812b69281e5a45bb6e1de0b32068ba8f741f73ea19a761fc9e32",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "japanese",
+      "nodeName": "japanese_29",
+      "triangles": 12907,
+      "path": "assets/building-icons/japanese-29.png",
+      "sha256": "8acc5612379762003f76eae09838588aacb0ec39d55013b1452283b0e742a889",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "japanese",
+      "nodeName": "japanese_31",
+      "triangles": 8930,
+      "path": "assets/building-icons/japanese-31.png",
+      "sha256": "aa6124511719c8fc51b6d1e94a7ad3de56219553023676dbff50975ac7ffd056",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "japanese",
+      "nodeName": "japanese_32",
+      "triangles": 9220,
+      "path": "assets/building-icons/japanese-32.png",
+      "sha256": "047a4af01d71696efed9f9ffb258b8d2f26e2372647b049b40e625999f19ae67",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "japanese",
+      "nodeName": "japanese_33",
+      "triangles": 7130,
+      "path": "assets/building-icons/japanese-33.png",
+      "sha256": "a6ca3753a312e27c92b458c75d7022da0c4891b90bb20474f9792c9cff686fbc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "japanese",
+      "nodeName": "japanese_34",
+      "triangles": 8488,
+      "path": "assets/building-icons/japanese-34.png",
+      "sha256": "45134eb6c47653337b150c08b0f172b5aca298ce2c6b56dd0276a3744ea1d5ff",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "japanese",
+      "nodeName": "japanese_35",
+      "triangles": 3474,
+      "path": "assets/building-icons/japanese-35.png",
+      "sha256": "9b326627d08a6e24cb49626abac61ca6990028229f4883517697c7867f8b1245",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "japanese",
+      "nodeName": "japanese_36",
+      "triangles": 6512,
+      "path": "assets/building-icons/japanese-36.png",
+      "sha256": "efd7d673f38861a41eb82a0a57b313acdcc3d64c21ec72dca7c57d05f94f5c10",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "japanese",
+      "nodeName": "japanese_37",
+      "triangles": 9580,
+      "path": "assets/building-icons/japanese-37.png",
+      "sha256": "133b57ad1f131a6bac9e3b213189450c68f130195deadd2fc6f517498ba00ea4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "japanese",
+      "nodeName": "japanese_39",
+      "triangles": 10780,
+      "path": "assets/building-icons/japanese-39.png",
+      "sha256": "030367c021c0449dc355ee3b05a5de18c71d22bc44ee03679b14fd857ff60e93",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "japanese",
+      "nodeName": "japanese_40",
+      "triangles": 7478,
+      "path": "assets/building-icons/japanese-40.png",
+      "sha256": "44b9f2f16d3a1a6bb08c652a6d76efa9e0366966ccd073d2d6160f9a18a60526",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "japanese",
+      "nodeName": "japanese_41",
+      "triangles": 12860,
+      "path": "assets/building-icons/japanese-41.png",
+      "sha256": "2cf487fa95d476836b7b3e2883e6f7cbd0391592c4220300394a4fe0a15fd3de",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "japanese",
+      "nodeName": "japanese_42",
+      "triangles": 9288,
+      "path": "assets/building-icons/japanese-42.png",
+      "sha256": "86c033a53fa7476f5d9f12496b44e59060b5c3a840a98144b61e648de6bbf90c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "japanese",
+      "nodeName": "japanese_43",
+      "triangles": 6426,
+      "path": "assets/building-icons/japanese-43.png",
+      "sha256": "572094a0bfd1ca4208bde1d5220e1cd280db7ba229c6018cb573dee912d53a8f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "japanese",
+      "nodeName": "japanese_45",
+      "triangles": 12860,
+      "path": "assets/building-icons/japanese-45.png",
+      "sha256": "2cf487fa95d476836b7b3e2883e6f7cbd0391592c4220300394a4fe0a15fd3de",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "japanese",
+      "nodeName": "japanese_46",
+      "triangles": 10440,
+      "path": "assets/building-icons/japanese-46.png",
+      "sha256": "02eeff7227c51d80693601022e3bb92f6e193072b0316a2e9420f7c56e42b7a6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "japanese",
+      "nodeName": "japanese_47",
+      "triangles": 4242,
+      "path": "assets/building-icons/japanese-47.png",
+      "sha256": "2bc843a219e3c05d79f50c7fb80600b4f23ddec1d2c0001a1a4b407c82a19052",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "japanese",
+      "nodeName": "japanese_49",
+      "triangles": 12860,
+      "path": "assets/building-icons/japanese-49.png",
+      "sha256": "2cf487fa95d476836b7b3e2883e6f7cbd0391592c4220300394a4fe0a15fd3de",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "japanese",
+      "nodeName": "japanese_50",
+      "triangles": 9288,
+      "path": "assets/building-icons/japanese-50.png",
+      "sha256": "1b619015e79615189b6ef89dcf0a251b3128c33695c860fcdd9767d780fb40a1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "japanese",
+      "nodeName": "japanese_51",
+      "triangles": 4026,
+      "path": "assets/building-icons/japanese-51.png",
+      "sha256": "e48feffb6891008e0680fa23a5d8481ad97afb9293f991786b1c3910302b4713",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "japanese",
+      "nodeName": "japanese_53",
+      "triangles": 12860,
+      "path": "assets/building-icons/japanese-53.png",
+      "sha256": "2cf487fa95d476836b7b3e2883e6f7cbd0391592c4220300394a4fe0a15fd3de",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "japanese",
+      "nodeName": "japanese_54",
+      "triangles": 9288,
+      "path": "assets/building-icons/japanese-54.png",
+      "sha256": "5492438be8e3295f9bcbb4d31fcade41b473e4be0831f5914c295558a26e2dc9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "japanese",
+      "nodeName": "japanese_55",
+      "triangles": 4842,
+      "path": "assets/building-icons/japanese-55.png",
+      "sha256": "22333970a3cd97a8d76becb1948d873b600b22eed97873dbf3bd62062ff7635d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "japanese",
+      "nodeName": "japanese_57",
+      "triangles": 2234,
+      "path": "assets/building-icons/japanese-57.png",
+      "sha256": "0b406f1b34dd5cec74005d12168f0088e630a371b7029d2f98306c00fba347b5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "japanese",
+      "nodeName": "japanese_58",
+      "triangles": 2812,
+      "path": "assets/building-icons/japanese-58.png",
+      "sha256": "ceb4541be34817524750bdefdb8b062c0570d854461d803448568744cb63f792",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "japanese",
+      "nodeName": "japanese_59",
+      "triangles": 4200,
+      "path": "assets/building-icons/japanese-59.png",
+      "sha256": "bdb3fe97637dab72300a1cc3a862e7ad82a256494919d7dc8dde6c35e9cf0385",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "japanese",
+      "nodeName": "japanese_60",
+      "triangles": 6202,
+      "path": "assets/building-icons/japanese-60.png",
+      "sha256": "632c5658401c1559ebebd79ebd815d3df966bb4a49d0d2790fc9b1310f0f842b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "japanese",
+      "nodeName": "japanese_61",
+      "triangles": 4228,
+      "path": "assets/building-icons/japanese-61.png",
+      "sha256": "acd1e232060834247c9fabc33f373e721e8370f588f8df13770d339b97a985e0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "japanese",
+      "nodeName": "japanese_62",
+      "triangles": 6362,
+      "path": "assets/building-icons/japanese-62.png",
+      "sha256": "05229a9fe76ceadacc18588cc0025d7c9b5dbebd9f806ce1fb430f35f3df9c8f",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    }
+  ]
+}

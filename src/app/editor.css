@@ -1,0 +1,122 @@
+/* Standalone map editor: keep the authoring panel, minimap and map generator; hide game chrome. */
+body.editor-mode .settings__buttons,
+body.editor-mode .settlement-ui,
+body.editor-mode .settlement-popup,
+body.editor-mode .player-hud,
+body.editor-mode .stats,
+body.editor-mode .main-panel {
+  display: none !important;
+}
+
+/* The authoring bar appears only after the loading screen has left the page. */
+body.editor-mode:not(.editor-ready) #editor-bar {
+  display: none;
+}
+
+body.editor-mode #editor-bar {
+  align-items: center;
+  background: rgb(14 28 39 / 92%);
+  border: 1px solid rgb(255 255 255 / 14%);
+  border-radius: 14px;
+  bottom: 18px;
+  box-shadow: 0 8px 28px rgb(0 0 0 / 35%);
+  display: flex;
+  gap: 8px;
+  left: 50%;
+  padding: 7px;
+  position: fixed;
+  transform: translateX(-50%);
+  z-index: 80;
+}
+
+body.editor-mode #editor-bar button {
+  align-items: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #e9f1f5;
+  cursor: var(--cursor-pointer, pointer);
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  padding: 0;
+  width: 48px;
+}
+
+body.editor-mode #editor-bar button:hover,
+body.editor-mode #editor-bar button:focus-visible {
+  background: rgb(255 255 255 / 10%);
+  border-color: rgb(255 255 255 / 18%);
+  outline: none;
+}
+
+body.editor-mode #editor-bar button[aria-pressed="true"] {
+  background: rgb(214 166 92 / 24%);
+  border-color: rgb(214 166 92 / 55%);
+}
+
+body.editor-mode #editor-bar img {
+  height: 40px;
+  object-fit: contain;
+  width: 40px;
+}
+
+body.editor-mode .map-editor {
+  bottom: 82px;
+}
+
+body.editor-mode .minimap {
+  bottom: 82px;
+}
+
+body.editor-mode .editor-unauthorized {
+  align-items: center;
+  color: #e9f1f5;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  inset: 0;
+  justify-content: center;
+  padding: 24px;
+  position: fixed;
+  text-align: center;
+}
+
+body.editor-mode .editor-unauthorized__code {
+  color: #d6a65c;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+body.editor-mode .editor-unauthorized h1 {
+  font-size: 24px;
+  margin: 12px 0 8px;
+}
+
+body.editor-mode .editor-unauthorized p {
+  color: #aebec8;
+  margin: 4px 0;
+  max-width: 46ch;
+}
+
+@media (max-width: 640px) {
+  body.editor-mode #editor-bar {
+    bottom: 10px;
+  }
+
+  body.editor-mode .map-editor,
+  body.editor-mode .minimap {
+    bottom: 68px;
+  }
+}
+
+/* Campaign mode (?mode=campaign): no 3D island; the campaign editor page replaces the viewport. */
+body.campaign-editor-mode #viewport {
+  display: none;
+}
+
+/* Script category (TRG11): the map script's Ready status in the editor panel. */
+.map-editor__script-status { font-weight: 700; color: #b3261e; }
+.map-editor__script-status[data-ready="true"] { color: #2f6b2f; }

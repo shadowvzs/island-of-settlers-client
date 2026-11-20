@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/src/app/startup.css" />
+    <script type="module" src="/src/app/loading-art-startup.ts"></script>
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="192x192" />
+    <title>Island of Settlers</title>
+  </head>
+  <body>
+    <div id="viewport">
+      <canvas id="view"></canvas>
+      <div id="loading-screen" class="loading-screen">
+        <div class="loading-screen__art">
+          <img class="loading-screen__image" fetchpriority="high" decoding="sync" alt="Sailing toward an island" draggable="false" />
+          <div class="loading-screen__sea" aria-hidden="true">
+            <img class="loading-screen__sea-image" fetchpriority="low" decoding="async" alt="" draggable="false" />
+          </div>
+          <div class="loading-screen__foreground" aria-hidden="true">
+            <img class="loading-screen__foreground-image" fetchpriority="low" decoding="async" alt="" draggable="false" />
+          </div>
+        </div>
+        <div class="loading-screen__panel">
+          <h1 class="loading-screen__title">Island of Settlers</h1>
+          <p class="loading-screen__message">Preparing the voyage...</p>
+          <div class="loading-screen__bar"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/app/main.ts"></script>
+  </body>
+</html>

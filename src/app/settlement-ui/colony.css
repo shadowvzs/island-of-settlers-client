@@ -1,0 +1,520 @@
+/* Colony planner window and the right-side expedition tracker. */
+.settlement-ui__colony-planner-window {
+  left: 140px;
+  bottom: 125px;
+  width: min(520px, calc(100vw - 32px));
+  z-index: 4;
+}
+.colony-planner {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+.colony-planner__threat {
+  margin: 0;
+  font-weight: 600;
+}
+.colony-planner .colony-planner__island[aria-checked="true"] {
+  color: #3a2614;
+  background: linear-gradient(150deg, #f7e2a8, #d9b46c);
+  border-color: #7a4a1e;
+  box-shadow: inset 0 0 0 2px #9b6232, 0 0 0 1px #fff0c0, 0 2px 4px #6a4a2866;
+}
+.colony-planner__troops {
+  display: grid;
+  gap: 4px;
+}
+.colony-planner__troop {
+  display: grid;
+  grid-template-columns: 40px 1fr auto 34px 52px 34px;
+  align-items: center;
+  gap: 6px;
+}
+.colony-planner__troop img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.colony-planner__troop small {
+  color: var(--settlement-muted);
+}
+.colony-planner__troop input {
+  width: 52px;
+  padding: 4px;
+  text-align: center;
+}
+.colony-planner .colony-planner__step {
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  min-height: 34px;
+  padding: 0 0 2px;
+  border-radius: 8px;
+  font: 700 22px/1 Georgia, serif;
+}
+.colony-planner__total,
+.colony-planner__estimate {
+  margin: 0;
+  font-weight: 600;
+}
+.colony-planner__commanders {
+  display: grid;
+  gap: 6px;
+}
+.colony-planner__commanders > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.colony-planner__commander {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  width: 76px;
+  min-width: 76px;
+  max-width: 76px;
+  height: 76px;
+  flex: 0 0 76px;
+  padding: 4px;
+}
+.colony-planner__commander[aria-checked="true"] {
+  outline: 2px solid var(--settlement-gold, #d6b164);
+  outline-offset: -2px;
+}
+.colony-planner__commander-portrait { --rank-chevron-width: 20px; width: 60px; height: 60px; }
+.colony-planner__commander-portrait img { width: 100%; height: 100%; object-fit: contain; }
+.colony-planner__commander > .settlement-art-icon { width: 38px; height: 38px; object-fit: contain; }
+.colony-planner__estimate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.colony-planner__estimate .settlement-art-icon {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 480px) {
+  .settlement-ui__colony-planner-window { left: 16px; bottom: 110px; }
+  .colony-planner__troop { grid-template-columns: 32px 1fr 34px 48px 34px; }
+  .colony-planner__troop small { display: none; }
+}
+
+.settlement-ui__panel.colony-tracker {
+  left: auto;
+  right: 16px;
+  bottom: auto;
+  top: 120px;
+  width: min(310px, calc(100vw - 32px));
+  height: auto;
+  max-height: calc(100dvh - 240px);
+  z-index: 3;
+  border-width: 3px;
+}
+/* Minimal form: only the handle, so the right-side army rail stays uncovered. */
+.settlement-ui__panel.colony-tracker.is-collapsed {
+  width: auto;
+}
+.settlement-ui__panel .colony-tracker__toggle {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  min-height: 32px;
+  margin-left: auto;
+  padding: 2px;
+  border-radius: 8px;
+}
+.colony-tracker__toggle img,
+.colony-tracker__toggle svg {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.colony-tracker__handle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 2px 8px;
+  color: #f8e7bd;
+  font: 600 14px/1.2 Georgia, serif;
+  background: linear-gradient(#79563d, #493522);
+  cursor: var(--cursor-grab, grab);
+}
+.colony-tracker__handle svg {
+  width: 18px;
+  height: 18px;
+}
+.colony-tracker__card {
+  border-bottom: 1px solid #9470444d;
+}
+.colony-tracker__summary {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 56px;
+  padding: 4px 8px;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 0;
+  cursor: var(--cursor-pointer, pointer);
+}
+.colony-tracker__summary:hover,
+.colony-tracker__summary:focus-visible {
+  background: #fff4d633;
+}
+.colony-tracker__art {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.colony-tracker__text {
+  display: grid;
+  min-width: 0;
+}
+.colony-tracker__text small {
+  color: var(--settlement-muted);
+  font-size: 11px;
+}
+.colony-tracker__countdown {
+  font: 700 17px/1 Georgia, serif;
+  font-variant-numeric: tabular-nums;
+}
+.colony-tracker__card.is-arrived .colony-tracker__countdown {
+  color: #3f7a2c;
+}
+.colony-tracker__progress {
+  display: block;
+  width: calc(100% - 16px);
+  height: 6px;
+  margin: 0 8px 6px;
+  accent-color: var(--settlement-accent);
+}
+.colony-tracker__details {
+  display: grid;
+  gap: 6px;
+  padding: 0 8px 8px;
+}
+.colony-tracker__troops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.colony-tracker__troops span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.colony-tracker__troops img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+@media (max-width: 480px) {
+  .settlement-ui__panel.colony-tracker { top: 72px; width: min(220px, calc(100vw - 32px)); }
+}
+
+.colony-planner__islands {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 96px));
+  gap: 8px;
+}
+.colony-planner__choice { position: relative; display: block; min-width: 0; }
+.colony-planner__accessible-text {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+.colony-planner .colony-planner__island {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 96px;
+  height: auto;
+  min-height: 48px;
+  max-width: 96px;
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  padding: 4px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 65%, #43879a2b, transparent 75%), var(--hud-control);
+}
+.colony-planner .colony-planner__island > :first-child {
+  position: absolute;
+  inset: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  max-width: 88px;
+  max-height: 88px;
+  margin: auto;
+  object-fit: contain;
+  object-position: center;
+  pointer-events: none;
+}
+.colony-planner .colony-planner__difficulty {
+  position: absolute; top: 4px; right: 4px; display: flex; align-items: center; gap: 1px;
+  padding: 1px 5px 1px 2px; border-radius: 8px; background: #19272bdb;
+  color: #fff; box-shadow: 0 1px 3px #0005; font: 800 15px/1 Georgia, serif;
+  pointer-events: none;
+}
+.colony-planner__difficulty > :is(img, svg) { width: 24px; height: 24px; object-fit: contain; }
+.colony-planner__resources {
+  position: absolute; inset: auto 4px 4px; display: flex; justify-content: space-between;
+  pointer-events: none;
+}
+.colony-planner__resources > img {
+  width: 34px; height: 34px; object-fit: contain; border-radius: 8px;
+  background: #f6e8c6df; box-shadow: 0 1px 3px #0004;
+}
+.colony-planner__choice-info {
+  position: absolute; top: 2px; left: 2px; display: grid; place-items: center;
+  width: 44px; min-width: 44px; height: 44px; min-height: 44px; padding: 0;
+  border: 1px solid var(--hud-paper-edge, #947044); border-radius: 50%;
+  color: var(--hud-ink, #45301f); background: var(--hud-field-solid, #f6e8c6);
+  font: 700 20px/1 Georgia, serif;
+}
+.colony-planner__choice-info:focus-visible,
+.colony-planner__choice > button:focus-visible { outline: 2px solid var(--hud-focus-ring, #355e59); outline-offset: 2px; }
+.colony-planner__island:disabled {
+  opacity: .55;
+  cursor: var(--cursor-not-allowed, not-allowed);
+}
+.colony-tracker__text strong {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.colony-tracker__text strong > :first-child {
+  width: 20px;
+  height: 20px;
+}
+/* Carved parchment counter instead of the browser's white field. */
+.colony-planner .colony-planner__troop input {
+  width: 100%;
+  height: 34px;
+  color: #45301f;
+  font: 700 16px/1 Georgia, serif;
+  background: linear-gradient(#f6ead0, #e8d5ab);
+  border: 1px solid #947044;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 3px #6a4a2840, 0 1px #fff4d6;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.colony-planner .colony-planner__troop input::-webkit-inner-spin-button,
+.colony-planner .colony-planner__troop input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+.colony-planner .colony-planner__troop input:focus-visible {
+  outline: 2px solid var(--settlement-accent);
+  outline-offset: 1px;
+}
+@media (max-width: 480px) {
+  .colony-planner__islands { gap: 5px; }
+  .colony-planner__island { height: auto; }
+  .colony-planner__resources > img { width: 28px; height: 28px; }
+}
+/* As tall as its rows; long lists scroll inside the capped panel. */
+.colony-tracker__body {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+.colony-tracker__body[hidden] {
+  display: none;
+}
+.colony-tracker__colony {
+  display: grid;
+  grid-template-columns: 32px 1fr auto auto;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-top: 1px solid #9470444d;
+}
+.colony-tracker__colony > :first-child {
+  width: 32px;
+  height: 32px;
+}
+.settlement-ui__panel .colony-tracker__colony .settlement-ui__button {
+  min-width: 0;
+  min-height: 36px;
+  padding: 2px 8px;
+  flex-direction: row;
+  font-size: 12px;
+}
+.colony-tracker__colony .settlement-ui__button svg,
+.colony-tracker__colony .settlement-ui__button img {
+  width: 22px;
+  height: 22px;
+}
+
+/*
+ * Result and confirmation popup. Modal: above every draggable window, which window-order.ts stacks
+ * at 5 + its place among all registered windows (more than 15 of them exist).
+ */
+.settlement-popup {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgb(20 14 8 / 45%);
+  pointer-events: auto;
+}
+.settlement-popup[hidden] {
+  display: none;
+}
+/*
+ * Border-box on the card itself: inside `.settlement-ui` every element already is, but a host outside it (the
+ * review page, an editor preview) sized the card content-box, so its padding and border pushed it 24 px past the
+ * backdrop's 16 px gutter on each side of a 390 px phone.
+ */
+.settlement-ui__panel.settlement-popup__dialog {
+  position: relative;
+  inset: auto;
+  box-sizing: border-box;
+  width: min(420px, 100%);
+  max-height: none;
+  padding: 18px 20px 16px;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+}
+.settlement-popup__dialog h2 {
+  margin: 0;
+  font: 700 22px/1.2 Georgia, serif;
+}
+.settlement-popup__dialog[data-tone="victory"] h2 { color: #3f6f22; }
+.settlement-popup__dialog[data-tone="defeat"] h2 { color: #8e3524; }
+.settlement-popup__dialog p {
+  margin: 0;
+  /* One paragraph per notice (several colonies lost while away). */
+  white-space: pre-line;
+}
+.settlement-popup__dialog > :first-child:not(h2) {
+  width: 96px;
+  height: 96px;
+}
+/* The 512 px victory emblem stands larger than ordinary popup art; its transparent edge overlaps the title. */
+.settlement-popup__dialog > img.settlement-popup__emblem {
+  width: 176px;
+  height: 176px;
+  margin: -18px 0 -14px;
+  filter: drop-shadow(0 6px 8px rgb(0 0 0 / .35));
+}
+/*
+ * Grows with its rewards (the shared reward row, reward-icons/reward-icons.css) from the ordinary 420 px up to
+ * 600 px, so a short level-up stays compact.
+ */
+.settlement-ui__panel.settlement-popup__dialog--rewards {
+  width: fit-content;
+  min-width: min(420px, 100%);
+  max-width: min(600px, 100%);
+}
+/* A text-only action: one line, wide enough to read as a dialog button. */
+.settlement-popup__dialog .settlement-popup__text-button {
+  min-width: 112px;
+  min-height: 40px;
+  padding: 6px 20px;
+  font: 600 15px/1.2 Georgia, serif;
+}
+.settlement-popup__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+.colony-tracker__colony .colony-tracker__disband {
+  min-width: 36px;
+  padding: 2px;
+}
+/* Long island names wrap instead of being cut off beside the visit button. */
+.colony-tracker__colony .colony-tracker__text strong {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 480px) {
+  .colony-tracker__colony {
+    grid-template-columns: 32px minmax(0, 1fr) auto;
+  }
+  .colony-tracker__colony .colony-tracker__text {
+    grid-column: 2 / -1;
+  }
+  .colony-tracker__colony > .settlement-ui__button {
+    grid-row: 2;
+  }
+  .colony-tracker__colony > .settlement-ui__button:first-of-type {
+    grid-column: 2;
+    justify-self: end;
+  }
+}
+.colony-tracker__colony .colony-tracker__text {
+  min-width: 0;
+}
+
+/* Adventures: a soldier portrait instead of an ore icon; the reward preview in the planner. */
+.colony-planner__adventure-art {
+  object-fit: contain;
+}
+.colony-planner__reward {
+  display: grid;
+  gap: 6px;
+}
+
+/* Island artwork and travel controls keep their images centred, with touch-sized actions. */
+.colony-tracker__colony > .colony-tracker__island-art {
+  display: grid; place-items: center; width: 32px; height: 44px;
+}
+.colony-tracker__island-art > :is(img, svg) {
+  width: 32px; height: 32px; object-fit: contain; object-position: center;
+}
+.settlement-ui__panel .colony-tracker__colony :is(.colony-tracker__visit, .colony-tracker__disband) {
+  display: grid; place-items: center; width: 44px; height: 44px; min-height: 44px; padding: 4px;
+}
+.colony-tracker__colony :is(.colony-tracker__visit, .colony-tracker__disband) > :is(img, svg) {
+  width: 30px; height: 30px; object-fit: contain; object-position: center;
+}
+
+.colony-tracker__incoming { grid-column: 1 / -1; display: grid; gap: 6px; min-width: 0; }
+.colony-tracker__ship-bubble {
+  display: grid; gap: 4px; padding: 7px 9px; border-radius: 10px;
+  border: 1px solid var(--settlement-accent, #ad874c); background: #9b794c18; min-width: 0;
+}
+.colony-tracker__ship-bubble > strong { display: flex; align-items: center; gap: 5px; font-size: 12px; }
+.colony-tracker__ship-bubble > strong :is(img, svg) { width: 22px; height: 22px; }
+.colony-tracker__ship-cargo { display: flex; flex-wrap: wrap; gap: 5px 10px; }
+.colony-tracker__ship-cargo > span { display: inline-flex; align-items: center; gap: 3px; font-size: 12px; }
+.colony-tracker__ship-cargo :is(img, svg) { width: 26px; height: 26px; object-fit: contain; }
+.colony-tracker__ship-schedule { grid-column: 1 / -1; color: #d4c3a3; font-size: 11px; }
+/* The React heading and toggle lay out as direct items of the handle. */
+.colony-tracker__handle-content {
+  display: contents;
+}
+/* The level-up popup's newly unlocked buildings: menu icon over the name. */
+.settlement-popup__buildings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.settlement-popup__building {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 76px;
+  font: 600 11px/1.2 Georgia, serif;
+  text-align: center;
+}
+.settlement-popup__building > :is(img, svg) {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}

@@ -1,0 +1,94 @@
+/* Map rules section (GS-MAP): compact icon toggles, content-sized inputs. */
+.map-rules {
+  /* The reward picker's colours on the editor's light parchment (it defaults to the dark campaign editor). */
+  --campaign-editor-border: rgb(80 50 20 / 28%);
+  --campaign-editor-field: rgb(255 250 235 / 85%);
+  --campaign-editor-muted: #6b5a43;
+  display: grid;
+  gap: 6px;
+}
+.map-rules__start > summary { display: flex; align-items: center; gap: 4px; cursor: var(--cursor-pointer, pointer); }
+.map-rules__start > summary .reward-icons { flex: 1 1 auto; min-width: 0; }
+.map-rules__start[open] > summary { margin-bottom: 6px; }
+.map-rules__mode {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--hud-muted);
+}
+.map-rules__mode .map-rules__badge { font-weight: 400; }
+.map-rules__badge[data-tone="pending"] { border-style: dashed; font-style: italic; }
+.map-rules__row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.map-rules__label { margin-right: 4px; font-size: 12px; font-weight: 700; }
+.map-rules__badge {
+  padding: 1px 6px;
+  border: 1px solid #79502b;
+  border-radius: 8px;
+  font-size: 11px;
+  background: #f1e7c1;
+  color: #3d3326;
+}
+.map-editor button.map-rules__button {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+}
+.map-rules__button > img { width: 24px; height: 24px; object-fit: contain; pointer-events: none; }
+.map-editor button.map-rules__button:disabled { opacity: 0.6; cursor: var(--cursor-default, default); }
+/* A rule the game settings or the map kind switch off stays recognisable: only the button dims, not the icon twice. */
+.map-rules__toggle:disabled[aria-pressed="true"] > img { opacity: 0.9; }
+/* A switched-off rule: dimmed icon under a red diagonal stroke. */
+.map-rules__toggle[aria-pressed="true"] > img { opacity: 0.55; }
+.map-rules__toggle[aria-pressed="true"]::after {
+  content: "";
+  position: absolute;
+  inset: 15px 3px auto;
+  height: 3px;
+  border-radius: 2px;
+  background: #b3261e;
+  transform: rotate(-45deg);
+  pointer-events: none;
+}
+.map-rules__level { display: inline-flex; align-items: center; gap: 4px; margin-left: 4px; font-size: 12px; }
+.map-rules__warnings { margin: 0; padding-left: 16px; font-size: 12px; color: #9a3412; }
+.map-rules__warnings > li[data-severity="error"] { color: #b3261e; font-weight: 700; }
+.map-rules__badge[data-tone="handicap"] { border-color: #9a3412; color: #9a3412; }
+
+/* Computer factions rows (enemy economy AI plan §2.3): one compact line per faction, details on demand. */
+.faction-ai { display: grid; gap: 4px; }
+.faction-ai__rows { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.faction-ai__row { display: grid; gap: 4px; }
+.faction-ai__chip {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  border: 1px solid #79502b;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  background: #f1e7c1;
+  color: #3d3326;
+}
+/* A pressed group; the pressed choice takes the shared selected skin (hud-paper.css). */
+.faction-ai__choices { display: inline-flex; gap: 2px; }
+.faction-ai__details > summary {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  cursor: var(--cursor-pointer, pointer);
+}
+.faction-ai__details > summary .reward-icons { flex: 1 1 auto; min-width: 0; }
+.faction-ai__details[open] { display: grid; gap: 4px; }
+.faction-ai__empty { font-style: italic; color: var(--campaign-editor-muted); }
+.faction-ai__field-title { min-width: 56px; font-size: 12px; font-weight: 700; }
+/* Caption above its input, so a title and three fields share one line. */
+.faction-ai__number { display: inline-grid; gap: 1px; font-size: 11px; }

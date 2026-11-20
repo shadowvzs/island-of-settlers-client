@@ -1,0 +1,7 @@
+"Dotted White Seal - Free Giveaway" by Kugatsu Tsukai 3D Models Hub (https://sketchfab.com/KugatsuT)
+Source: https://sketchfab.com/3d-models/dotted-white-seal-free-giveaway-676115a924214e8289b9e03fb9b9a4ab
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: recoloured to a harbour seal (grey with dark spots and a paler belly), simplified to
+about 3,100 triangles (High) and 1,550 (Minimal), its textures baked into vertex colours (no
+texture shipped), rigged (the source is static) and posed into lying, head up, looking,
+banana, crawling and swimming frames, scaled to island units (tools/assets/seal-model.ts).

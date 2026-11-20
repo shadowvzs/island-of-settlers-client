@@ -1,0 +1,11 @@
+{
+  "name": "forester-levels",
+  "title": "Roman forester (20), level 1 and level 5",
+  "subjects": [
+    { "kind": "building", "typeId": 20, "nation": "roman", "level": 1 },
+    { "kind": "building", "typeId": 20, "nation": "roman", "level": 5 }
+  ],
+  "views": ["iso-close", "iso-normal", "possessed-close", "possessed-normal", "spyglass"],
+  "presets": ["high", "minimal"],
+  "time": "day"
+}

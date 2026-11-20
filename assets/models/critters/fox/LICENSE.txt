@@ -1,0 +1,7 @@
+"Fox-rigged" by freddy1231 (https://sketchfab.com/freddy1231)
+Source: https://sketchfab.com/3d-models/fox-rigged-b8a7c0e7778741568dd3d4ad80a01249
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: simplified to about 3,150 triangles (High) and 1,600 (Minimal), its textures baked
+into vertex colours (no texture shipped) with a deeper winter rust, walk, run, standing,
+sniffing and sitting poses from its animation baked into posed frames, scaled to island units
+(tools/assets/fox-model.ts).

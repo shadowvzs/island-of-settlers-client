@@ -1,0 +1,586 @@
+{
+  "nation": "indigenous",
+  "generatedAt": "2026-11-11T06:14:10.888Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "indigenous",
+      "nodeName": "indigenous_0",
+      "triangles": 15438,
+      "path": "assets/building-icons/indigenous-0.png",
+      "sha256": "8af560acc34dadd6a0808f8167417cc14cc2588984c6bd3252b3da03a645c0ae",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "indigenous",
+      "nodeName": "indigenous_1",
+      "triangles": 5458,
+      "path": "assets/building-icons/indigenous-1.png",
+      "sha256": "0b6631162cdd214d5b9e084ae9978240bbf6da3220f494ca39234bb270cca771",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "indigenous",
+      "nodeName": "indigenous_2",
+      "triangles": 6779,
+      "path": "assets/building-icons/indigenous-2.png",
+      "sha256": "63a426a8979e815d348357fc1a7bdf2020e35545187367e5fda18f2539ba7835",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "indigenous",
+      "nodeName": "indigenous_3",
+      "triangles": 9948,
+      "path": "assets/building-icons/indigenous-3.png",
+      "sha256": "1001c84c0443196e515e23d77534daa5e2ceef50de7d5d6b8f3851df9bdb2b22",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "indigenous",
+      "nodeName": "indigenous_4",
+      "triangles": 5197,
+      "path": "assets/building-icons/indigenous-4.png",
+      "sha256": "a2cfcb6b2486467f35e1bad549bbdab8d80ad9f5e23b71b056c7a852371ddd67",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "indigenous",
+      "nodeName": "indigenous_5",
+      "triangles": 14416,
+      "path": "assets/building-icons/indigenous-5.png",
+      "sha256": "1ebe68a9b18537a472d36fab51ee2cdd1ba210f8bd130d3c20c4e0d7da7900a8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "indigenous",
+      "nodeName": "indigenous_6",
+      "triangles": 7414,
+      "path": "assets/building-icons/indigenous-6.png",
+      "sha256": "3d45250eb99d9df70dda124b47e515e90bf7c9f3d9c4717370d1aead6e274a9c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "indigenous",
+      "nodeName": "indigenous_7",
+      "triangles": 32332,
+      "path": "assets/building-icons/indigenous-7.png",
+      "sha256": "eccfa259476127ead31668eb3dc9629910f60bbf7be6c9240026dbcd917a5f75",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "indigenous",
+      "nodeName": "indigenous_8",
+      "triangles": 8858,
+      "path": "assets/building-icons/indigenous-8.png",
+      "sha256": "7b5bfc786b1d4142732df59da58889df83fa26ecc09a699fe23200bcf71df509",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "indigenous",
+      "nodeName": "indigenous_9",
+      "triangles": 16318,
+      "path": "assets/building-icons/indigenous-9.png",
+      "sha256": "8aee4094aa127cafdc20afac398abee3c9b6595f5f8805f02a8e1a935f159081",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "indigenous",
+      "nodeName": "indigenous_10",
+      "triangles": 3784,
+      "path": "assets/building-icons/indigenous-10.png",
+      "sha256": "ce6a46847d5d17f28daaef2f7d756fca2a5cb0ed0892850eb6a750db711ba38e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "indigenous",
+      "nodeName": "indigenous_11",
+      "triangles": 6556,
+      "path": "assets/building-icons/indigenous-11.png",
+      "sha256": "fefdbcb56195dc74d23fe43ba5cd8a028bea5a710c9ee7e643f6846d7144bd74",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "indigenous",
+      "nodeName": "indigenous_12",
+      "triangles": 6556,
+      "path": "assets/building-icons/indigenous-12.png",
+      "sha256": "6bff5e5ebbb405dcc874bd690ce9e1abe7f713f946ced786a7f56a1518741bef",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "indigenous",
+      "nodeName": "indigenous_13",
+      "triangles": 6556,
+      "path": "assets/building-icons/indigenous-13.png",
+      "sha256": "516769870c6dbfa655c955f451fd3cc1f94775d34ef0ff3566cdcb92cd576108",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "indigenous",
+      "nodeName": "indigenous_14",
+      "triangles": 5349,
+      "path": "assets/building-icons/indigenous-14.png",
+      "sha256": "e9d8a10d83a65b3be90dab60e87988cf4ca52a1f173b3cce86f68558ef5a109e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "indigenous",
+      "nodeName": "indigenous_15",
+      "triangles": 12054,
+      "path": "assets/building-icons/indigenous-15.png",
+      "sha256": "f16929531454464729426546e6b49e20334120f8dd37f36962b9cb8adcc0a005",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "indigenous",
+      "nodeName": "indigenous_16",
+      "triangles": 21529,
+      "path": "assets/building-icons/indigenous-16.png",
+      "sha256": "df274d0f355f9ca3173c2b6532add1dffa79405d887fdf4186b195054a1ce092",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "indigenous",
+      "nodeName": "indigenous_17",
+      "triangles": 6168,
+      "path": "assets/building-icons/indigenous-17.png",
+      "sha256": "cc458f0091489cd6ab410a700c9e5e824c71510c4eba6f7c22146e7e960e20a5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "indigenous",
+      "nodeName": "indigenous_18",
+      "triangles": 7792,
+      "path": "assets/building-icons/indigenous-18.png",
+      "sha256": "75fef7e42a4c47595e4d7fddf72c17caa4d6371922627fe0fd1e1dccb499a3f2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "indigenous",
+      "nodeName": "indigenous_19",
+      "triangles": 8753,
+      "path": "assets/building-icons/indigenous-19.png",
+      "sha256": "172410397c83e15116d03123ddd4f24a714f6e6f2490c24152621f485c30f9f8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "indigenous",
+      "nodeName": "indigenous_20",
+      "triangles": 7894,
+      "path": "assets/building-icons/indigenous-20.png",
+      "sha256": "d628d8d0dc678821b1322c1fc3c693e6df1f0fb54c176d00238fb8c2b9433258",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "indigenous",
+      "nodeName": "indigenous_21",
+      "triangles": 22968,
+      "path": "assets/building-icons/indigenous-21.png",
+      "sha256": "543f8384088f55513ea8dfd70f11e4735e3c662f2b3d5a4a82474c4064dd3af7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "indigenous",
+      "nodeName": "indigenous_22",
+      "triangles": 8332,
+      "path": "assets/building-icons/indigenous-22.png",
+      "sha256": "d4c5d6a939a5f7a085491659b39530df363513092283578ba593d47ada3407c1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "indigenous",
+      "nodeName": "indigenous_23",
+      "triangles": 9707,
+      "path": "assets/building-icons/indigenous-23.png",
+      "sha256": "4479234a8b9b615a118a34b066050f151cf7836b240a8ec8849cb937238b7629",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "indigenous",
+      "nodeName": "indigenous_24",
+      "triangles": 7826,
+      "path": "assets/building-icons/indigenous-24.png",
+      "sha256": "fb13f730f58fe5805db8a2af5d6beb98231e46402e65e6825eaf87a946be51d4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "indigenous",
+      "nodeName": "indigenous_25",
+      "triangles": 9048,
+      "path": "assets/building-icons/indigenous-25.png",
+      "sha256": "b3b0f595a1b795bf0afe42c91039f26a31cd8af8b52b6eb081e787a31ab1b903",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "indigenous",
+      "nodeName": "indigenous_26",
+      "triangles": 6334,
+      "path": "assets/building-icons/indigenous-26.png",
+      "sha256": "b69a5a574eeca706a02b513939d953f11286531978bfb4795d55566ba956c114",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "indigenous",
+      "nodeName": "indigenous_27",
+      "triangles": 8948,
+      "path": "assets/building-icons/indigenous-27.png",
+      "sha256": "36e135734c2953b44bae60a3e8352d9b716ebce657760570488f5a2842640a64",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "indigenous",
+      "nodeName": "indigenous_28",
+      "triangles": 28338,
+      "path": "assets/building-icons/indigenous-28.png",
+      "sha256": "102e222b81b5612f7813bdd35c0e8eefb67840f657489d00afe4a2120d6a3e9d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "indigenous",
+      "nodeName": "indigenous_29",
+      "triangles": 6090,
+      "path": "assets/building-icons/indigenous-29.png",
+      "sha256": "2c6ca3aa72efcb505dd88c751e5ef2964b037f138982e78101c1445c8780d468",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "indigenous",
+      "nodeName": "indigenous_31",
+      "triangles": 9458,
+      "path": "assets/building-icons/indigenous-31.png",
+      "sha256": "d4fadb73585659c2268845fddb59fb5a11cf436f09372dbdc0369b50c45f065f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "indigenous",
+      "nodeName": "indigenous_32",
+      "triangles": 7806,
+      "path": "assets/building-icons/indigenous-32.png",
+      "sha256": "45301553b20a40bacd41d13a65b8526173bf00cd4334a7263a2dfed7141d6eba",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "indigenous",
+      "nodeName": "indigenous_33",
+      "triangles": 7056,
+      "path": "assets/building-icons/indigenous-33.png",
+      "sha256": "4480d7d3e6b7e10fbcaaf26c917ce88d3321e8ca8498384c8d7d771942888da6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "indigenous",
+      "nodeName": "indigenous_34",
+      "triangles": 8292,
+      "path": "assets/building-icons/indigenous-34.png",
+      "sha256": "2091e2b004c85020b69bfd47e024dd6a901e253b9fee507f717361f83d75c949",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "indigenous",
+      "nodeName": "indigenous_35",
+      "triangles": 9102,
+      "path": "assets/building-icons/indigenous-35.png",
+      "sha256": "a5023687ce8c8388e420b6dc2e3d7282c91aaf8f645ff8258e84287adf018c13",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "indigenous",
+      "nodeName": "indigenous_36",
+      "triangles": 6424,
+      "path": "assets/building-icons/indigenous-36.png",
+      "sha256": "94bdcdb9a3edc22a73579daf4d40b965804b52c782e63b6263b1c79e56490a15",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "indigenous",
+      "nodeName": "indigenous_37",
+      "triangles": 9662,
+      "path": "assets/building-icons/indigenous-37.png",
+      "sha256": "e204f0d4321fd4c456c1d27716a63be5e6344b43004fbd5914708209ffb2dcfc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "indigenous",
+      "nodeName": "indigenous_39",
+      "triangles": 8470,
+      "path": "assets/building-icons/indigenous-39.png",
+      "sha256": "81d5f046c512275690e7c57b64566695a21396b5094a8f42463106a9e29e128d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "indigenous",
+      "nodeName": "indigenous_40",
+      "triangles": 7507,
+      "path": "assets/building-icons/indigenous-40.png",
+      "sha256": "9954b7394d04e6a335e5b009f7b7d3e60e8cc598fa6eadb7c5fa9efd73000814",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "indigenous",
+      "nodeName": "indigenous_41",
+      "triangles": 7844,
+      "path": "assets/building-icons/indigenous-41.png",
+      "sha256": "7f346192f35bdd2c4bca304258d4fb3b5fab453cc4083d8a87148b1db5db5f30",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "indigenous",
+      "nodeName": "indigenous_42",
+      "triangles": 6456,
+      "path": "assets/building-icons/indigenous-42.png",
+      "sha256": "10d0aeb23635bbf3a4dcff565b5d980e8a81124f0e1aac971e203df5bf551ce3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "indigenous",
+      "nodeName": "indigenous_43",
+      "triangles": 11225,
+      "path": "assets/building-icons/indigenous-43.png",
+      "sha256": "5c94455ac2a81e392e47a11f6a9b7c1cba6cf034c8f43e1cc1b8db50193434fb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "indigenous",
+      "nodeName": "indigenous_45",
+      "triangles": 7844,
+      "path": "assets/building-icons/indigenous-45.png",
+      "sha256": "7f346192f35bdd2c4bca304258d4fb3b5fab453cc4083d8a87148b1db5db5f30",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "indigenous",
+      "nodeName": "indigenous_46",
+      "triangles": 7608,
+      "path": "assets/building-icons/indigenous-46.png",
+      "sha256": "3a5c33282667715ca2f369cdfae9e442521cdb1e3f98d7fde16dd0baa19fd6d1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "indigenous",
+      "nodeName": "indigenous_47",
+      "triangles": 9041,
+      "path": "assets/building-icons/indigenous-47.png",
+      "sha256": "e4b4e85c6427a520a2c411efcded1d620aaaea57dbe122fd7b3c945124aa3edb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "indigenous",
+      "nodeName": "indigenous_49",
+      "triangles": 7844,
+      "path": "assets/building-icons/indigenous-49.png",
+      "sha256": "7f346192f35bdd2c4bca304258d4fb3b5fab453cc4083d8a87148b1db5db5f30",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "indigenous",
+      "nodeName": "indigenous_50",
+      "triangles": 6456,
+      "path": "assets/building-icons/indigenous-50.png",
+      "sha256": "b55ab4e6dba8e1388cd97052dbc8629bf670600df414be8423629fc586d1655f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "indigenous",
+      "nodeName": "indigenous_51",
+      "triangles": 8825,
+      "path": "assets/building-icons/indigenous-51.png",
+      "sha256": "d79e25f060b638b613eab5452b42788067661c2fc052b4fae3f1f7d110124777",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "indigenous",
+      "nodeName": "indigenous_53",
+      "triangles": 7844,
+      "path": "assets/building-icons/indigenous-53.png",
+      "sha256": "7f346192f35bdd2c4bca304258d4fb3b5fab453cc4083d8a87148b1db5db5f30",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "indigenous",
+      "nodeName": "indigenous_54",
+      "triangles": 6456,
+      "path": "assets/building-icons/indigenous-54.png",
+      "sha256": "1001c4557216035729d137f03b08b9d2f54365418dac75fc6e41d9fd434002d7",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "indigenous",
+      "nodeName": "indigenous_55",
+      "triangles": 9657,
+      "path": "assets/building-icons/indigenous-55.png",
+      "sha256": "e4c3ed25626577993b0809c6ccdc7d868abe5a35458c72c90889ef6de995fa05",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "indigenous",
+      "nodeName": "indigenous_57",
+      "triangles": 3896,
+      "path": "assets/building-icons/indigenous-57.png",
+      "sha256": "7003534ccb3270fca152f984ceca9b4641d281be90cede9c2052f4c334edf779",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "indigenous",
+      "nodeName": "indigenous_58",
+      "triangles": 6136,
+      "path": "assets/building-icons/indigenous-58.png",
+      "sha256": "d2a1b22817f6ef30aedc95764c0acf844c8229ce037ee985c8bddc4f26af6f74",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "indigenous",
+      "nodeName": "indigenous_59",
+      "triangles": 4336,
+      "path": "assets/building-icons/indigenous-59.png",
+      "sha256": "20f08828761c3492781a9ac74e7fe8037645a945038ea522d2ec7f5ecfd14929",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "indigenous",
+      "nodeName": "indigenous_60",
+      "triangles": 9374,
+      "path": "assets/building-icons/indigenous-60.png",
+      "sha256": "d82e24e8f62032f99c53d9a000918e2479bbf19faaaf5d33d95c18748dc53997",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "indigenous",
+      "nodeName": "indigenous_61",
+      "triangles": 8350,
+      "path": "assets/building-icons/indigenous-61.png",
+      "sha256": "bd1736c1d6f1879bba11a4146697d02782d56ce8cf2a6b42884221c4ba2ca866",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "indigenous",
+      "nodeName": "indigenous_62",
+      "triangles": 5648,
+      "path": "assets/building-icons/indigenous-62.png",
+      "sha256": "2e5fb2e40c4e5d09bc6a7466c7252bcc7eaf1b22d78e1c360b6516eb5af78280",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    }
+  ]
+}

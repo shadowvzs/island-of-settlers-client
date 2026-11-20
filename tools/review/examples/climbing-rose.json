@@ -1,0 +1,8 @@
+{
+  "name": "climbing-rose",
+  "title": "Red climbing rose arch (road decoration)",
+  "subjects": [{ "kind": "decoration", "item": "climbing-rose-red" }],
+  "views": ["iso-close", "iso-normal", "possessed-close", "possessed-normal", "spyglass"],
+  "presets": ["high", "minimal"],
+  "lift": 1
+}

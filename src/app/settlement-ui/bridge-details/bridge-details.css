@@ -1,0 +1,17 @@
+.settlement-ui__bridge-subject {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.settlement-ui__bridge-subject img {
+  flex: none;
+  height: 72px;
+  object-fit: contain;
+  width: 96px;
+}
+
+.settlement-ui__bridge-removal {
+  display: grid;
+  gap: 8px;
+}

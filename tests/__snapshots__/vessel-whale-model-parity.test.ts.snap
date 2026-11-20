@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ship, boat and whale model parity (CAT9b registry routing) > draws the same fishing skiff and lighter scene graphs 1`] = `
+{
+  "lighterJapaneseHigh": "c2a7cb9778ba3773",
+  "lighterMayaMinimal": "ddd383d76248b365",
+  "skiffNubianMinimal": "9fce840fe7a587c7",
+  "skiffRomanHigh": "249636bc968f1e7e",
+}
+`;
+
+exports[`ship, boat and whale model parity (CAT9b registry routing) > draws the same ship scene graphs 1`] = `
+{
+  "neutralPersianHigh": "da2e704ff13f10d6",
+  "raiderHigh": "3c6bb309439b467e",
+  "romanHigh": "0ec98ab530152df8",
+  "vikingMinimal": "146e904f75a20905",
+}
+`;
+
+exports[`ship, boat and whale model parity (CAT9b registry routing) > draws the same whale bodies 1`] = `
+{
+  "humpbackFull": "eead495c8760ffbc",
+  "orcaFull": "5fec2baf1a027fc3",
+  "orcaLite": "1f0f524c8eaa293f",
+}
+`;

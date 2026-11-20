@@ -1,0 +1,5 @@
+Rabbit by Čestmír Dammer (CDmir), Kelgar project (www.kelgar.org), idea by Rick Hoppmann & Keppu
+Source: https://opengameart.org/content/rabbit-0
+Licence: CC0 1.0 Public Domain (https://creativecommons.org/publicdomain/zero/1.0/)
+Changes: rest pose only, fur cards and animation clips removed, textures packed into one WebP
+atlas, levels of detail added (tools/assets/export-animal.py, build-animal-lods.ts).

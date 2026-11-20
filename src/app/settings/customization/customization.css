@@ -1,0 +1,86 @@
+.settlement-ui__panel.customization-window {
+  box-sizing: border-box;
+  width: min(460px, calc(100vw - 24px));
+  left: max(12px, calc(50vw - 230px));
+  top: 14%; bottom: auto;
+  max-height: calc(84dvh - 24px);
+}
+.customization-window__body { overflow-y: auto; min-height: 0; }
+.customization {
+  display: grid;
+  gap: 14px;
+  padding: 12px;
+}
+.customization__section {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+.customization__label-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.customization__label {
+  font: 700 15px/1.2 Georgia, serif;
+  color: var(--hud-ink);
+}
+.customization__sub-label {
+  font-size: 12px;
+  color: var(--hud-ink-muted, var(--hud-ink));
+  opacity: .82;
+}
+.customization__gender-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.customization .customization__gender-option {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 6px 10px;
+  color: var(--hud-ink);
+  font: 600 13px/1.2 Georgia, serif;
+  cursor: var(--cursor-pointer, pointer);
+}
+.customization__face {
+  display: block;
+  width: 100%;
+  max-width: 112px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 5px #17120c66);
+  transition: transform 120ms ease;
+}
+.customization__gender-option:not(:disabled):hover .customization__face {
+  transform: translateY(-2px) scale(1.04);
+}
+:root:root:root .customization .customization__gender-option[aria-checked="true"] {
+  border-color: var(--hud-accent);
+  box-shadow: var(--hud-button-shadow-pressed), 0 0 0 2px var(--hud-accent), 0 0 12px var(--hud-accent);
+  transform: translateY(var(--hud-button-press));
+}
+.customization__gender-option[aria-checked="true"] .customization__face {
+  transform: scale(1.04);
+  box-shadow: 0 0 0 3px var(--hud-accent), 0 0 16px var(--hud-accent);
+}
+.customization .customization__gender-option:focus-visible {
+  outline: 2px solid var(--hud-focus-ring);
+  outline-offset: 3px;
+}
+.customization__help { margin: 0; }
+@media (max-width: 480px) {
+  .settlement-ui__panel.customization-window {
+    top: 8%;
+    max-height: calc(90dvh - 16px);
+  }
+  .customization__face { max-width: 92px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .customization__face { transition: none; }
+}

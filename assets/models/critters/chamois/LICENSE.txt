@@ -1,0 +1,7 @@
+"Antelope" by planeta-elefante (https://sketchfab.com/planeta-elefante)
+Source: https://sketchfab.com/3d-models/antelope-c6fc5649e53e4735b30426d5423ca7fa
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: reshaped to chamois anatomy (stockier trunk, thicker neck, shorter muzzle and tail,
+short hooked horns), chamois summer and winter coats painted as vertex colours (no texture
+shipped), the idle, walk, run, graze and death clips baked into posed frames, a lying pose and
+a Minimal level of detail added, scaled to island units (tools/assets/chamois-model.ts).

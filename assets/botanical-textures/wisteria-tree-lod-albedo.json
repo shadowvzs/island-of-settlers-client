@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "source": "standalone-tree-representative-eleven-floret-albedo",
+  "raceme": {
+    "min": [
+      -0.08340345987564654,
+      -0.40320004264455894,
+      -0.06931025892459369
+    ],
+    "max": [
+      0.0745394624071018,
+      0.0469888566597087,
+      0.0909977237996838
+    ]
+  },
+  "spray": {
+    "min": [
+      -0.15301568800988913,
+      -0.0027980628603282974,
+      -0.13847988467516043
+    ],
+    "max": [
+      0.15926813579747717,
+      0.4789188662865344,
+      0.1807689080338481
+    ]
+  },
+  "racemeSpan": 0.38413184426550284,
+  "spraySpan": 0.3208187116415672,
+  "coverage": {
+    "racemeFront": 0.13714090983072916,
+    "racemeSide": 0.12171427408854167,
+    "fixedFront": 0.005579630533854167,
+    "fixedSide": 0.007085164388020833,
+    "sprayFront": 0.221954345703125,
+    "spraySide": 0.05738067626953125
+  },
+  "luminance": {
+    "racemeFront": 0.7319894922575322,
+    "racemeSide": 0.7311442141977671,
+    "fixedFront": 0.36315918041479917,
+    "fixedSide": 0.3716950766906468,
+    "sprayFront": 0.3151282072020313,
+    "spraySide": 0.3087348452655071
+  },
+  "hashes": {
+    "src/render-common/plants/wisteria-tree-graph.ts": "dcf7a5b0e19ad643acfe774c92cc8d4eaf679af7d2119ba8b58d5bde71bbfb63",
+    "src/renderers/three/plants/wisteria-tree-florets.ts": "4aace35946b3753851994ec6167591744d25d097237650c992218cbdef621038",
+    "src/renderers/three/plants/wisteria-tree-model.ts": "c9bc94196c689707fae3bf8ad14f268aee57588f4455c510c5db628dd191df8c",
+    "src/renderers/three/wisteria-botanical-templates.ts": "5d2cb2e2f4505f7a2aa90b1fb94daf05bd8330769592c35830da0dee9523a226",
+    "src/renderers/three/wisteria-botanical-atlas-geometry.ts": "bd5a4078181d817e2631f5ef84d2f9d4e0703a1952e0eb9e74b762ff61074c01",
+    "src/renderers/three/wisteria-petiole-geometry.ts": "0fb5dcbcae41a4ad14329567103ffca39e3e999773c44786e48743787810ff4b",
+    "tools/bench/wisteria-tree-atlas-bake.ts": "b73f1f4346c5f47fc81ed4938953142634149244f9d83083667a4eb9e53855e9",
+    "assets/botanical-textures/wisteria-neutral-atlas-candidate.png": "327146367d8f3c630a7476a5cd4f660e1eee34603987ee8f58e87f7477beaf5c"
+  }
+}

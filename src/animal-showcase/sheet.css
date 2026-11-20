@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  background: repeating-conic-gradient(#e4e6e1 0% 25%, #f4f5f2 0% 50%) 0 0 / 24px 24px;
+  color: #2b302b;
+  font-family: system-ui, sans-serif;
+}
+
+.sheet__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 16px;
+  background: #fafaf7;
+  border-bottom: 1px solid #d9dbd4;
+}
+
+.sheet__canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}

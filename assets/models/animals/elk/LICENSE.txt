@@ -1,0 +1,12 @@
+Body: Old Deer Male (red deer stag) by Čestmír Dammer (CDmir), Kelgar project (www.kelgar.org)
+Source: https://opengameart.org/content/old-deer-male
+Licence: CC0 1.0 Public Domain (https://creativecommons.org/publicdomain/zero/1.0/)
+
+Antlers: "Elk Animated Stylized" by WildMesh 3D
+Source: https://sketchfab.com/3d-models/elk-animated-stylized-26e54fa5c1d74edba61f5c5a97c95798
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: only the antler mesh is used, decimated to 50 %, scaled and attached to the stag's
+head; the stag's own antlers removed.
+
+Changes to the whole: rest pose only, animation clips removed, textures packed into one WebP
+atlas, levels of detail added; the game recolours the coat to elk colour zones.

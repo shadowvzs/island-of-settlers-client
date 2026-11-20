@@ -1,0 +1,6 @@
+"Realistic Mallard Duck - Game Ready Asset" by 3Dima (https://sketchfab.com/Hdjusj)
+Source: https://sketchfab.com/3d-models/realistic-mallard-duck-game-ready-asset-dd33cd2e30944a4aae2de1a06a828f4f
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: simplified to 1400 triangles, the texture baked into vertex colours (no texture
+shipped), turned and scaled to island units (tools/assets/build-critter.ts); the game poses it
+(swimming, dabbling, asleep) and recolours it for the hen and the ducklings.

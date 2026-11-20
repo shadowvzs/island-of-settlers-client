@@ -1,0 +1,355 @@
+.exploration-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  color: #fff4d6;
+  --exploration-hit: 48px;
+  --exploration-safe-top: env(safe-area-inset-top, 0px);
+  --exploration-safe-right: env(safe-area-inset-right, 0px);
+  --exploration-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --exploration-safe-left: env(safe-area-inset-left, 0px);
+}
+
+/* One round sight, black beyond it: the spyglass is an optical instrument, not just a narrower FOV. */
+.exploration-ui__spyglass-mask {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  width: min(72vmin, 680px);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 100vmax #000;
+  pointer-events: none;
+  animation: exploration-spyglass-in .18s ease-out;
+}
+@keyframes exploration-spyglass-in {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(1.04); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+.exploration-ui__spyglass-mask::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid #000000b3;
+  border-radius: inherit;
+  box-shadow: inset 0 0 46px #000000b3;
+}
+
+.exploration-ui__actions {
+  position: absolute;
+  top: calc(12px + var(--exploration-safe-top));
+  right: calc(12px + var(--exploration-safe-right));
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  pointer-events: none;
+}
+.exploration-ui__action {
+  width: 64px;
+  min-width: var(--exploration-hit);
+  height: 58px;
+  min-height: var(--exploration-hit);
+  padding: 4px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border: 2px solid #d8b06a;
+  border-radius: 13px;
+  background: linear-gradient(#4b3823f2, #251b10f2);
+  box-shadow: inset 0 1px #fff4d633, 0 4px 10px #120c0680;
+  color: #fff4d6;
+  cursor: var(--cursor-pointer, pointer);
+  font: 700 10px/1 Georgia, serif;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+.exploration-ui__action .settlement-art-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.exploration-ui__action[aria-pressed="true"]:not(.exploration-ui__spyglass) {
+  border-color: #9bd1ff;
+  background: linear-gradient(#36546df2, #172a3cf2);
+}
+/* Keep the default action background and border on the spyglass; active adds a separate ring. */
+.exploration-ui__spyglass[aria-pressed="true"] {
+  outline: 2px solid #9bd1ff;
+  outline-offset: 2px;
+}
+.exploration-ui__spyglass:not(:disabled):is(:hover, :focus-visible) .settlement-art-icon {
+  animation: exploration-spyglass-hover 700ms ease-in-out infinite;
+}
+@keyframes exploration-spyglass-hover {
+  0%, 100% { transform: scale(1) rotate(0); }
+  50% { transform: translateY(-2px) scale(1.12) rotate(-5deg); }
+}
+.exploration-ui__action:disabled {
+  opacity: .55;
+  cursor: var(--cursor-default, default);
+}
+.exploration-ui__leave {
+  border-color: #dba46d;
+}
+
+/* Possessed: the spyglass sits beside the retained portrait frame (top-left), not with Leave. */
+.exploration-ui__spyglass {
+  position: absolute;
+  top: calc(44px + var(--exploration-safe-top));
+  left: calc(150px + var(--exploration-safe-left));
+  z-index: 3;
+}
+@media (max-width: 480px) {
+  .exploration-ui__spyglass {
+    top: calc(30px + var(--exploration-safe-top));
+    left: calc(112px + var(--exploration-safe-left));
+  }
+}
+/* HUD-PORTRAIT-01 removes the avatar on phone portrait, so the spyglass takes the freed corner. */
+@media (max-width: 480px) and (orientation: portrait) {
+  .exploration-ui__spyglass { left: calc(16px + var(--exploration-safe-left)); }
+}
+
+.exploration-ui__look {
+  position: absolute;
+  top: calc(96px + var(--exploration-safe-top));
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: min(58%, 560px);
+  touch-action: none;
+  pointer-events: auto;
+  cursor: var(--cursor-grab, grab);
+}
+.exploration-ui__look:active { cursor: var(--cursor-grabbing, grabbing); }
+
+.exploration-ui__keys {
+  position: absolute;
+  right: calc(16px + var(--exploration-safe-right));
+  bottom: calc(16px + var(--exploration-safe-bottom));
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid #d8b06a55;
+  border-radius: 10px;
+  background: #120c0699;
+  box-shadow: 0 4px 12px #120c0655;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  pointer-events: none;
+}
+.exploration-ui__keys-row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.exploration-ui__keys-row span {
+  color: #fff4d6cc;
+  font: 700 10px/1.1 Georgia, serif;
+}
+.exploration-ui__keys kbd {
+  min-width: 18px;
+  padding: 3px 4px;
+  border: 1px solid #d8b06a66;
+  border-radius: 4px;
+  background: #f6e7bf1a;
+  color: #fff4d6;
+  font: 700 10px/1.1 Georgia, serif;
+  text-align: center;
+}
+
+.exploration-ui__joystick {
+  position: absolute;
+  left: calc(16px + var(--exploration-safe-left));
+  bottom: calc(16px + var(--exploration-safe-bottom));
+  z-index: 3;
+  width: 128px;
+  height: 128px;
+  touch-action: none;
+  pointer-events: auto;
+}
+/*
+ * EXPLORE-TOUCH-01: a visible second stick for turning on coarse-pointer portrait screens. It is
+ * hidden by default so desktop/landscape keep their drag-look surface and arrow keys unchanged.
+ */
+.exploration-ui__look-stick {
+  position: absolute;
+  right: calc(16px + var(--exploration-safe-right));
+  bottom: calc(20px + var(--exploration-safe-bottom));
+  z-index: 3;
+  width: 112px;
+  height: 112px;
+  display: none;
+  touch-action: none;
+  pointer-events: auto;
+}
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) and (max-width: 640px) {
+  .exploration-ui__look-stick { display: block; }
+  /* The zoom controls own this corner while the spyglass is raised. */
+  .exploration-ui[data-spyglass="true"] .exploration-ui__look-stick { display: none; }
+}
+/* Desktop gets the key legend instead of the touch joystick; touch keeps the pad. */
+@media (hover: hover) and (pointer: fine) {
+  .exploration-ui__joystick { display: none; }
+}
+@media (hover: none), (pointer: coarse) {
+  .exploration-ui__keys { display: none; }
+}
+.exploration-ui__joystick-base {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #d8b06a99;
+  border-radius: 50%;
+  background: radial-gradient(circle, #251b10b3 0%, #251b1080 62%, #120c064d 100%);
+  box-shadow: inset 0 0 18px #120c06b3;
+}
+.exploration-ui__joystick-knob {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  border: 2px solid #f0d296;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #fff4d6, #b98c4e 58%, #5a4328);
+  box-shadow: 0 4px 10px #120c0680;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.exploration-ui__notice {
+  position: absolute;
+  left: 50%;
+  bottom: calc(156px + var(--exploration-safe-bottom));
+  z-index: 4;
+  width: min(520px, calc(100vw - 32px));
+  margin: 0;
+  padding: 10px 14px;
+  transform: translateX(-50%);
+  border: 1px solid #d8b06a66;
+  border-radius: 12px;
+  background: #251b10f2;
+  box-shadow: 0 4px 14px #120c0680;
+  font: 600 12px/1.35 Georgia, serif;
+  text-align: center;
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .exploration-ui__action { width: 58px; }
+  .exploration-ui__look { top: calc(140px + var(--exploration-safe-top)); width: 52%; }
+  .exploration-ui__joystick { width: 112px; height: 112px; }
+  .exploration-ui__joystick-knob { width: 52px; height: 52px; margin: -26px 0 0 -26px; }
+  .exploration-ui__notice { bottom: calc(148px + var(--exploration-safe-bottom)); }
+}
+
+/* Short landscape: the action column becomes a top row and the play area keeps its height. */
+@media (max-height: 520px) {
+  .exploration-ui__actions {
+    top: calc(8px + var(--exploration-safe-top));
+    right: calc(8px + var(--exploration-safe-right));
+    flex-direction: row;
+    gap: 8px;
+  }
+  .exploration-ui__look { top: calc(72px + var(--exploration-safe-top)); width: min(52%, 440px); }
+  .exploration-ui__joystick {
+    left: calc(10px + var(--exploration-safe-left));
+    bottom: calc(10px + var(--exploration-safe-bottom));
+    width: 106px;
+    height: 106px;
+  }
+  .exploration-ui__joystick-knob { width: 50px; height: 50px; margin: -25px 0 0 -25px; }
+  .exploration-ui__notice { bottom: calc(12px + var(--exploration-safe-bottom)); }
+}
+
+/* EXPLORE-HUD-01: the possessed minimap owns the lower-left corner; lift the touch pad above it. */
+@media (hover: none), (pointer: coarse) {
+  .exploration-ui__joystick {
+    bottom: calc(124px + var(--exploration-safe-bottom));
+  }
+}
+
+/* Desktop uses arrow keys/mouse; the touch joystick is only for coarse-pointer devices. */
+@media (pointer: fine) and (hover: hover) {
+  .exploration-ui__joystick { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exploration-ui,
+  .exploration-ui * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.exploration-ui.is-reduced-motion,
+.exploration-ui.is-reduced-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Spyglass magnification stays reachable with the other possessed controls. */
+.exploration-ui__spyglass-zoom {
+  pointer-events: auto;
+  position: absolute;
+  left: 50%;
+  bottom: calc(22px + var(--exploration-safe-bottom));
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  transform: translateX(-50%);
+  border: 1px solid #dba46d;
+  border-radius: 10px;
+  background: #1a2633e6;
+  color: #f6e4c2;
+  box-shadow: inset 0 1px #ffffff1f, 0 3px 8px #00000055;
+}
+.exploration-ui__spyglass-zoom button {
+  touch-action: none;
+  user-select: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #9a744a;
+  border-radius: 8px;
+  background: linear-gradient(#3a5066, #1b2c3d);
+  color: inherit;
+  font: 700 22px/1 Georgia, serif;
+  cursor: var(--cursor-pointer, pointer);
+}
+.exploration-ui__spyglass-zoom button:is(:hover, :focus-visible) {
+  border-color: #e8c48c;
+  background: linear-gradient(#4a6680, #22394d);
+}
+.exploration-ui__spyglass-zoom output {
+  min-width: 54px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+@media (max-width: 760px) {
+  .exploration-ui__spyglass-zoom { bottom: calc(118px + var(--exploration-safe-bottom)); }
+}
+
+/* Touch: the zoom stays on the right, clear of the map, joystick and the bottom-left corner. */
+@media (hover: none), (pointer: coarse) {
+  .exploration-ui__spyglass-zoom {
+    left: auto;
+    right: calc(16px + var(--exploration-safe-right));
+    bottom: calc(124px + var(--exploration-safe-bottom));
+    transform: none;
+  }
+}
+
+/* Disabled configured control regions retain refs for the independent input lease, but no affordance. */
+.exploration-ui [hidden] { display: none !important; }

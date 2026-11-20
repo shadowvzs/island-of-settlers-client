@@ -1,0 +1,7 @@
+"Italian White Wolf" by SDPM Esare (https://sketchfab.com/sdpm)
+Source: https://sketchfab.com/3d-models/italian-white-wolf-1de9441cb0744c0d8459ce957b8d0a57
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: simplified to about 3,050 triangles (High) and 1,500 (Minimal), its texture baked
+into vertex colours (no texture shipped) with a paler, thicker winter coat, rigged (the source
+is static) and posed into standing, walk, trot, sniffing and lying frames, scaled to island
+units (tools/assets/wolf-model.ts).

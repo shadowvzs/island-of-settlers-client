@@ -1,0 +1,401 @@
+/* Player Market (MARKET-UI A): home stock, wallet claims, combined offer form and open offers. */
+.settlement-ui__panel.settlement-ui__player-market-window {
+  left: 260px;
+  top: 12px;
+  bottom: auto;
+  width: min(780px, calc(100vw - 32px));
+  max-height: min(780px, calc(100dvh - 140px));
+  z-index: 4;
+}
+.settlement-ui__player-market-window .player-market-window__content {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.player-market {
+  --player-market-row: #fff6dc59;
+  --player-market-edge: #a17c4d80;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  padding: 10px 12px 12px;
+  overflow-y: auto;
+  color: var(--hud-ink);
+}
+:root[data-hud-theme="dark"] .player-market {
+  --player-market-row: #00000030;
+  --player-market-edge: #ba925b55;
+}
+.player-market--notice {
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+.player-market--notice h3 {
+  margin: 0 0 8px;
+  font: 700 18px/1.25 Georgia, serif;
+}
+.player-market--notice p {
+  max-width: 560px;
+  margin: 4px auto;
+  color: var(--hud-muted);
+}
+.player-market__toolbar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+.player-market__toolbar > span {
+  flex: 1 1 auto;
+  font: 700 13px/1.3 Georgia, serif;
+}
+.player-market__toolbar .settlement-ui__button {
+  flex: 0 0 auto;
+  flex-direction: row;
+  min-height: 38px;
+  padding: 4px 10px;
+}
+.player-market__loading {
+  color: var(--hud-muted);
+}
+.player-market__columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.player-market__section,
+.player-market__pending {
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--player-market-edge);
+  border-radius: 12px;
+  background: var(--player-market-row);
+}
+.player-market__section h3,
+.player-market__pending h3 {
+  margin: 0 0 4px;
+  font: 700 15px/1.25 Georgia, serif;
+}
+.player-market__section-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.player-market__section-head h3 {
+  flex: 1 1 auto;
+}
+.player-market__section-head .settlement-ui__button {
+  flex: 0 0 auto;
+  flex-direction: row;
+  min-height: 34px;
+  padding: 3px 8px;
+}
+.player-market__note,
+.player-market__footnote {
+  margin: 4px 0 6px;
+  color: var(--hud-muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+.player-market__footnote {
+  margin: 0;
+  padding-top: 2px;
+}
+.player-market__ware-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
+  gap: 6px;
+}
+.player-market__ware {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  gap: 1px 5px;
+  padding: 5px;
+  border: 1px solid var(--player-market-edge);
+  border-radius: 8px;
+  background: var(--player-market-row);
+}
+.player-market__ware > img {
+  grid-row: 1 / 3;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.player-market__ware small {
+  overflow: hidden;
+  color: var(--hud-muted);
+  font-size: 10px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.player-market__ware b {
+  font: 700 14px/1.1 Georgia, serif;
+  font-variant-numeric: tabular-nums;
+}
+.player-market__provenance {
+  grid-column: 1 / -1;
+  color: var(--hud-muted);
+  font-size: 9px;
+  line-height: 1.15;
+}
+.player-market__claim-controls {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 24px minmax(0, 1fr) 24px;
+  align-items: center;
+  gap: 3px;
+}
+.player-market__step {
+  min-width: 24px;
+  min-height: 26px;
+  padding: 0;
+  border: 1px solid var(--player-market-edge);
+  border-radius: 5px;
+  background: var(--player-market-row);
+  color: inherit;
+  font-size: 14px;
+  line-height: 1;
+}
+.player-market__step:disabled {
+  opacity: 0.45;
+}
+.player-market__claim-amount {
+  min-width: 0;
+  min-height: 26px;
+  padding: 1px 3px;
+  border: 1px solid var(--player-market-edge);
+  border-radius: 5px;
+  background: var(--player-market-row);
+  color: inherit;
+  font-size: 11px;
+  text-align: center;
+}
+.player-market .player-market__claim {
+  grid-column: 1 / -1;
+  min-height: 26px;
+  padding: 1px 4px;
+  font-size: 11px;
+  flex-direction: row;
+}
+.player-market__form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(96px, 0.65fr);
+  align-items: end;
+  gap: 8px;
+  margin-top: 6px;
+}
+.player-market__form-row .settings-panel__select {
+  grid-template-columns: 80px minmax(0, 1fr);
+}
+.player-market__field {
+  display: grid;
+  gap: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.player-market__amount input[type="number"],
+.player-market__field input {
+  min-width: 0;
+  min-height: 32px;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 8px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+  color: var(--hud-ink);
+  font: inherit;
+}
+.player-market__amount small {
+  color: var(--hud-muted);
+  font-size: 10px;
+  font-weight: 400;
+}
+.player-market__offer-form > .settings-panel__select {
+  margin-top: 6px;
+  grid-template-columns: 80px minmax(0, 1fr);
+}
+.player-market__form-problem {
+  margin: 8px 0 0;
+  color: var(--hud-danger);
+  font-size: 12px;
+  font-weight: 600;
+}
+.player-market__offer-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.player-market__offer-submit .settlement-ui__button {
+  flex-direction: row;
+  min-height: 40px;
+  padding: 4px 16px;
+}
+.player-market__pending {
+  border-color: #c4801f;
+  background: #e0a33c24;
+}
+.player-market__pending p {
+  margin: 4px 0;
+  font-size: 12px;
+}
+.player-market__pending-goods {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+}
+.player-market__pending-goods > small {
+  color: var(--hud-muted);
+}
+.player-market__pending-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.player-market__pending-actions .settlement-ui__button {
+  flex-direction: row;
+  min-height: 38px;
+  padding: 4px 10px;
+}
+.player-market__offer-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.player-market__offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px 10px;
+  padding: 7px 8px;
+  border: 1px solid var(--player-market-edge);
+  border-radius: 10px;
+  background: var(--player-market-row);
+}
+.player-market__offer-side {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.player-market__offer-side > small {
+  color: var(--hud-muted);
+  font-size: 10px;
+}
+.player-market__offer > .settlement-ui__button {
+  flex-direction: row;
+  min-height: 36px;
+  padding: 3px 9px;
+}
+.player-market__buy-action {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: end;
+  gap: 3px;
+  min-width: 0;
+}
+.player-market__buy-action .settlement-ui__button {
+  flex-direction: row;
+  min-height: 36px;
+  padding: 3px 9px;
+}
+.player-market__buy-problem {
+  max-width: 230px;
+  color: var(--hud-danger);
+  font-size: 11px;
+  line-height: 1.25;
+  text-align: right;
+}
+.player-market__lots {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.player-market__lot {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font: 700 13px/1 Georgia, serif;
+  font-variant-numeric: tabular-nums;
+}
+.player-market__lot img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.player-market__arrow {
+  color: var(--hud-accent);
+  font: 700 18px/1 Georgia, serif;
+}
+.player-market__expiry {
+  grid-column: 1 / -1;
+  color: var(--hud-muted);
+  font-size: 11px;
+}
+.player-market__empty {
+  margin: 12px 0;
+  color: var(--hud-muted);
+  text-align: center;
+}
+.player-market__error {
+  margin: 0;
+  padding: 8px 10px;
+  border: 1px solid var(--hud-danger);
+  border-radius: 8px;
+  color: var(--hud-danger);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.player-market__status {
+  min-height: 1.2em;
+  margin: 0;
+  color: var(--hud-accent);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.player-market__status:empty {
+  display: none;
+}
+@media (max-width: 700px) {
+  .settlement-ui__panel.settlement-ui__player-market-window {
+    left: 16px;
+    top: 80px;
+    max-height: calc(100dvh - 190px);
+  }
+  .player-market__columns {
+    grid-template-columns: 1fr;
+  }
+  .player-market__form-row {
+    grid-template-columns: 1fr;
+  }
+  .player-market__offer {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+  .player-market__offer > .settlement-ui__button {
+    grid-column: 1 / -1;
+    justify-self: end;
+  }
+  .player-market__buy-action {
+    grid-column: 1 / -1;
+    justify-items: end;
+  }
+  .player-market__buy-problem {
+    max-width: none;
+    text-align: left;
+  }
+  .player-market__offer > .player-market__expiry {
+    grid-column: 1 / -1;
+  }
+}

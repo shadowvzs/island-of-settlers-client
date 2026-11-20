@@ -1,0 +1,8 @@
+"Animated Eagle" by Clement Abai (https://sketchfab.com/clement.abai)
+Source: https://sketchfab.com/3d-models/animated-eagle-de73b663acbc426e8e6c107fd25e08cd
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: recoloured from a bald eagle to a golden eagle (golden nape and crown, dark banded
+tail, dark-tipped bill), simplified to about 3,000 triangles (High) and 1,500 (Minimal), its
+texture baked into vertex colours (no texture shipped), one wing beat, the glide and two banked
+glides from its flight animation baked into posed frames, turned upright and scaled to island
+units (tools/assets/eagle-model.ts).

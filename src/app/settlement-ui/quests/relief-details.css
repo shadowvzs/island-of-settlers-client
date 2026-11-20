@@ -1,0 +1,25 @@
+.quest-relief { display: grid; gap: 8px; width: 100%; min-width: 0; }
+.quest-relief__story { display: flow-root; }
+.quest-relief__illustration {
+  float: inline-start;
+  width: 96px;
+  height: 96px;
+  margin: 0 10px 6px 0;
+  object-fit: cover;
+  border: 1px solid var(--hud-paper-edge, #947044);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.quest-relief .quest-relief__image-toggle { float: inline-end; margin: 0 0 4px 6px; }
+.quest-relief__story h3 { margin-bottom: 6px; }
+.quest-relief__status {
+  display: grid;
+  gap: 3px;
+  padding: 7px 9px;
+  border-inline-start: 3px solid var(--settlement-gold, #bd912d);
+  background: #ba925b18;
+}
+.quest-relief[data-relief-stage="ready-to-claim"] .quest-relief__status,
+.quest-relief[data-relief-stage="completed"] .quest-relief__status { border-color: #6d9c4c; }
+.quest-relief__payment { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.quest-relief__payment > img { width: 32px; height: 32px; object-fit: contain; }

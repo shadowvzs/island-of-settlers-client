@@ -1,0 +1,13 @@
+{
+  "name": "route-logistics-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Route-bound carriers + capped flag buffers, using the developed island layout.",
+  "scripts": {
+    "start": "python3 -m http.server 5199",
+    "test": "node --test test/sim.test.mjs",
+    "test:browser": "node test/browser-smoke.mjs",
+    "bench": "node tools/benchmark-caps.mjs"
+  }
+}

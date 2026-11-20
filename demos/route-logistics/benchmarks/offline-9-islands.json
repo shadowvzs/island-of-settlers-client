@@ -1,0 +1,21 @@
+{
+  "note": "Flag-model core only (no renderer, no real game workers/pathfinding/doors). 24 h simulated per island, sequential on one Node process. Home = developed fixture (39 buildings); colony = the first 20 buildings of the same layout, same roads. dt is the simulation step.",
+  "results": [
+    {
+      "dt": 0.1,
+      "allNineDeveloped39": { "totalMs": 30733, "perIslandMs": 3415, "maxIslandMs": 3504 },
+      "home39PlusEightColonies20": { "totalMs": 17783, "perIslandMs": 1976 }
+    },
+    {
+      "dt": 0.05,
+      "allNineDeveloped39": { "totalMs": 65206, "perIslandMs": 7245, "maxIslandMs": 7409 },
+      "home39PlusEightColonies20": { "totalMs": 37262, "perIslandMs": 4140 }
+    }
+  ],
+  "rulesOfThumb": {
+    "flagCoreSecondsPerBuildingPer24h": 0.185,
+    "flagCoreSecondsPerBuildingPer24hAt10Hz": 0.09,
+    "currentExactGameSecondsPerBuildingPer24h": 31.5,
+    "currentExactHomeIsland24hMinutes": 20.48
+  }
+}

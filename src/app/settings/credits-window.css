@@ -1,0 +1,183 @@
+/* Credits window (Settings > About): a settlement-style window on its own layer above the HUD. */
+.credits-window-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.settlement-ui__panel.credits-window {
+  top: 64px;
+  bottom: auto;
+  left: 112px;
+  width: min(560px, calc(100vw - 124px));
+  max-height: calc(100dvh - 88px);
+  pointer-events: auto;
+  /* Opaque: the translucent paper alone lets the settings panel beneath show through. */
+  background-color: #c9b386;
+  background-image: var(--hud-paper-texture), linear-gradient(var(--hud-paper), var(--hud-paper));
+}
+
+:root[data-hud-theme="dark"] .settlement-ui__panel.credits-window {
+  background-color: #1c1712;
+}
+
+.credits-window[hidden] {
+  display: none;
+}
+
+.credits-window__body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  padding: 10px 16px 16px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.credits-window__creator {
+  margin-bottom: 14px;
+  padding: 12px 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-field);
+  box-shadow: var(--hud-field-shadow);
+  text-align: center;
+}
+
+.credits-window__creator p {
+  margin: 0;
+}
+
+.credits-window__game {
+  color: var(--hud-muted);
+  font: italic 13px Georgia, serif;
+  letter-spacing: 0.08em;
+}
+
+.credits-window__creator-name {
+  color: var(--hud-accent);
+  font: 700 26px/1.2 Georgia, serif;
+}
+
+.credits-window__creator-role {
+  color: var(--hud-ink);
+  font-size: 13px;
+}
+
+.credits-window__category + .credits-window__category {
+  margin-top: 14px;
+}
+
+.credits-window__heading {
+  margin: 0 0 2px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--hud-paper-edge);
+  color: var(--hud-accent);
+  font: 600 15px Georgia, serif;
+}
+
+.credits-window__note {
+  margin: 0 0 4px;
+  color: var(--hud-muted);
+  font-size: 12px;
+  font-style: italic;
+}
+
+.credits-window__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credits-entry {
+  padding: 7px 0;
+  border-bottom: 1px dotted color-mix(in srgb, var(--hud-paper-edge) 55%, transparent);
+}
+
+.credits-entry:last-child {
+  border-bottom: 0;
+}
+
+.credits-entry p {
+  margin: 1px 0 0;
+}
+
+.credits-entry__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 8px;
+}
+
+.credits-entry__title {
+  color: var(--hud-ink);
+  font-weight: 650;
+}
+
+a.credits-entry__title,
+.credits-window__link {
+  color: var(--hud-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+
+.credits-entry__licence {
+  flex: 0 0 auto;
+  padding: 1px 7px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 999px;
+  background: var(--hud-control);
+  color: var(--hud-ink);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.credits-entry__licence--original {
+  border: 0;
+  background: none;
+  color: var(--hud-muted);
+  font-style: italic;
+  font-weight: 500;
+  white-space: normal;
+}
+
+.credits-entry__author,
+.credits-entry__use {
+  color: var(--hud-muted);
+  font-size: 12px;
+}
+
+.credits-entry__attribution {
+  margin-top: 4px !important;
+  padding: 4px 8px;
+  border-left: 3px solid var(--hud-accent);
+  border-radius: 0 6px 6px 0;
+  background: var(--hud-field);
+  color: var(--hud-ink);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.credits-window a:focus-visible {
+  outline: 2px solid var(--hud-focus-ring);
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .settlement-ui__panel.credits-window {
+    top: 56px;
+    left: 8px;
+    width: calc(100vw - 16px);
+    max-height: calc(100dvh - 68px);
+  }
+
+  .credits-window__body {
+    padding: 8px 12px 12px;
+  }
+}

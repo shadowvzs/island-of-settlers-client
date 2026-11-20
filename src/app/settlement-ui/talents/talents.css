@@ -1,0 +1,180 @@
+/* Talents (TALENT-01): three branch trees side by side, tier rows top to bottom. */
+.settlement-ui__panel.settlement-ui__talents-window {
+  left: max(16px, calc(50vw - 440px));
+  top: 12px;
+  bottom: auto;
+  max-height: min(780px, calc(100dvh - 140px));
+  width: min(880px, calc(100vw - 32px));
+  z-index: 4;
+}
+.settlement-ui__talents-window .talents {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+.talents {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto auto;
+  gap: 8px;
+  padding: 10px;
+}
+.talents__points {
+  margin: 0 auto 0 0;
+  font: 700 14px/1.2 Georgia, serif;
+  color: var(--settlement-accent);
+}
+.talents__branches {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.talents__branch {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+}
+.talents__branch-title {
+  margin: 0;
+  font: 700 15px/1.2 Georgia, serif;
+  text-align: center;
+}
+.talents__tiers {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* The branch spine: one line down the tiers, so the tree reads top to bottom. */
+.talents__tiers::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  bottom: 30px;
+  left: 50%;
+  width: 3px;
+  margin-left: -1.5px;
+  border-radius: 2px;
+  background: linear-gradient(var(--settlement-accent), color-mix(in srgb, var(--settlement-accent) 30%, transparent));
+}
+.talents__tier {
+  position: relative;
+  display: grid;
+  gap: 3px;
+}
+.talents__tier-label {
+  justify-self: center;
+  padding: 0 8px;
+  border-radius: 8px;
+  font: 700 11px/1.5 Georgia, serif;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--settlement-muted);
+  background: var(--hud-paper, #f3e3c0);
+  position: relative;
+}
+.talents__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.talents {
+  --talent-card-width: 84px;
+}
+.talents__card {
+  position: relative;
+  flex: none;
+  width: var(--talent-card-width);
+}
+/* Beats `.settlement-ui button { width: auto }`: every card has the same width. */
+.talents .talents__raise {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  width: var(--talent-card-width);
+  min-height: 100%;
+  padding: 4px 3px;
+  border: 1px solid #a17c4d;
+  border-radius: 10px;
+  color: #4c3522;
+  background: linear-gradient(135deg, #fbefce, #d4b889);
+  box-shadow: inset 0 1px #fff7de, 0 3px 5px #73573729;
+  cursor: var(--cursor-pointer, pointer);
+  font: inherit;
+  touch-action: manipulation;
+}
+.talents__raise:hover:not([aria-disabled="true"]) { border-color: var(--settlement-accent); }
+.talents__raise:focus-visible { outline: 2px solid var(--hud-focus-ring, #f0b75a); outline-offset: 2px; }
+.talents__icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 2px #2a1d1166);
+}
+.talents__name {
+  font: 700 11px/1.15 Georgia, serif;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.talents__rank {
+  padding: 0 6px;
+  border-radius: 7px;
+  font: 700 12px/1.4 Georgia, serif;
+  color: #fff6df;
+  background: #6d4b2b;
+}
+.talents__card--maxed .talents__rank { background: #a8741c; }
+.talents__card--pending .talents__raise {
+  border-color: #3f8b3f;
+  box-shadow: inset 0 1px #fff7de, 0 0 0 2px #3f8b3f99;
+}
+.talents__card--pending .talents__rank { background: #3f8b3f; }
+/* Locked: greyed, desaturated art and a padlock badge with the level it needs. */
+.talents__card--locked .talents__raise {
+  cursor: var(--cursor-not-allowed, not-allowed);
+  border-style: dashed;
+  background: linear-gradient(135deg, #e5dccb, #b9ad97);
+  color: #6f6455;
+}
+.talents__card--locked .talents__icon { filter: grayscale(1) brightness(.75); opacity: .7; }
+.talents__lock {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding: 1px 5px;
+  border-radius: 7px;
+  font: 700 10px/1.4 Georgia, serif;
+  color: #fff6df;
+  background: #7a2f22;
+}
+
+.talents__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.talents__actions .settlement-ui__button { min-height: 38px; padding: 0 14px; font: 700 13px/1 Georgia, serif; }
+.talents__actions .settlement-ui__button[aria-disabled="true"] {
+  cursor: var(--cursor-not-allowed, not-allowed);
+  opacity: .55;
+}
+.talents__status {
+  min-height: 1.2em;
+  color: var(--settlement-accent);
+  font-weight: 700;
+}
+.talents__status:empty { display: none; }
+@media (max-width: 700px) {
+  .talents__branches { grid-template-columns: minmax(0, 1fr); }
+  .talents { --talent-card-width: 88px; }
+}

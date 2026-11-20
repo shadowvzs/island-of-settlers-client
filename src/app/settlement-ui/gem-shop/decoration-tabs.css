@@ -1,0 +1,5 @@
+.gem-shop__catalog { grid-area: offers; display: flex; flex-direction: column; gap: 8px; min-height: 0; overflow: hidden; }
+.gem-shop__catalog > .gem-shop__offers { flex: 1 1 auto; }
+.gem-shop__decoration-tabs { display: flex; flex-wrap: wrap; gap: 4px; }
+.gem-shop__categories { flex-wrap: wrap; }
+.gem-shop__empty, .gem-shop__closed { grid-column: 1 / -1; margin: 12px 4px; }

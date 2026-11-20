@@ -1,0 +1,88 @@
+/* Save/Load slots (SAVE-SLOTS): a compact list of numbered rows with icon actions. */
+.save-slots {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+.save-slots__label {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.save-slots__list {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.save-slots__row {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 6px;
+  background: var(--hud-control);
+}
+.save-slots__row[data-save-slot-empty] {
+  opacity: 0.8;
+}
+.save-slots__number {
+  font: 700 14px/1 Georgia, serif;
+  text-align: center;
+  color: var(--hud-muted);
+}
+.save-slots__text {
+  display: grid;
+  min-width: 0;
+}
+.save-slots__title,
+.save-slots__detail,
+.save-slots__date {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.save-slots__title {
+  font: 600 14px/1.25 Georgia, serif;
+}
+.save-slots__detail,
+.save-slots__date {
+  color: var(--hud-muted);
+  font: 12px/1.3 Georgia, serif;
+}
+.save-slots__actions,
+.save-slots__confirm-actions {
+  display: flex;
+  gap: 4px;
+}
+.save-slots__confirm {
+  display: grid;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 6px;
+  background: var(--hud-field-solid);
+}
+.save-slots__question,
+.save-slots__note,
+.save-slots__status {
+  margin: 0;
+  font: 13px/1.35 Georgia, serif;
+}
+.save-slots__status:empty {
+  display: none;
+}
+.settlement-ui__panel.save-slots-window {
+  box-sizing: border-box;
+  width: min(380px, calc(100vw - 32px));
+  min-width: 0;
+}
+.save-slots-window__body {
+  min-height: 0;
+  max-height: min(70dvh, 620px);
+  padding: 8px;
+  overflow-y: auto;
+}

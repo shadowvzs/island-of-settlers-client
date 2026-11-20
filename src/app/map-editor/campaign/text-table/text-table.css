@@ -1,0 +1,130 @@
+/* Translation table (CUX-I18N-TABLE): dense rows, inputs sized to their content, missing cells red. */
+.campaign-texts {
+  gap: 8px;
+}
+
+.campaign-texts__bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.campaign-texts__bar svg {
+  fill: none;
+  height: 18px;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  width: 18px;
+}
+
+.campaign-texts__missing {
+  background: rgb(224 122 106 / 18%);
+  border-radius: 999px;
+  color: var(--campaign-editor-danger);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 8px;
+}
+
+.campaign-texts__table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.campaign-texts__table th,
+.campaign-texts__table td {
+  border-bottom: 1px solid var(--campaign-editor-border);
+  padding: 2px 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.campaign-texts__table thead th {
+  color: var(--campaign-editor-muted);
+  font-size: 12px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.campaign-texts__table thead th:first-child,
+.campaign-texts__table tbody th[scope="row"] {
+  width: 190px;
+}
+
+.campaign-texts__table tbody th[scope="row"] {
+  color: var(--campaign-editor-muted);
+  font-size: 12px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  padding-top: 7px;
+}
+
+.campaign-texts__group th {
+  background: rgb(255 255 255 / 5%);
+  color: var(--campaign-editor-accent);
+  font-size: 13px;
+  padding: 4px 6px;
+}
+
+.campaign-texts__group .campaign-texts__missing {
+  margin-left: 8px;
+}
+
+.campaign-editor .campaign-texts__table textarea {
+  background: var(--campaign-editor-field);
+  border: 1px solid var(--campaign-editor-border);
+  border-radius: 4px;
+  color: var(--campaign-editor-text);
+  display: block;
+  field-sizing: content;
+  font: inherit;
+  font-size: 13px;
+  max-height: 180px;
+  min-height: 28px;
+  padding: 4px 6px;
+  resize: none;
+  width: 100%;
+}
+
+.campaign-texts__table td[data-missing="true"] textarea {
+  background: rgb(224 122 106 / 14%);
+  border-color: var(--campaign-editor-danger);
+}
+
+.campaign-texts__table td textarea:focus-visible {
+  border-color: var(--campaign-editor-accent);
+  box-shadow: 0 0 0 2px var(--campaign-editor-accent-soft);
+  outline: none;
+}
+
+/* Phone: the three languages stack under the row label (no horizontal scroll). */
+@media (width <= 720px) {
+  .campaign-texts__table thead {
+    display: none;
+  }
+
+  .campaign-texts__table,
+  .campaign-texts__table tbody,
+  .campaign-texts__table tr,
+  .campaign-texts__table th,
+  .campaign-texts__table td {
+    display: block;
+    width: auto;
+  }
+
+  .campaign-texts__table tbody th[scope="row"] {
+    border-bottom: 0;
+    width: auto;
+  }
+
+  .campaign-texts__table td::before {
+    color: var(--campaign-editor-muted);
+    content: attr(data-language);
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+}

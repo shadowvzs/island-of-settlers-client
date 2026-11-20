@@ -1,0 +1,712 @@
+{
+  "format": "island-settlers-music",
+  "version": 1,
+  "renderer": "FluidSynth with FluidR3 GM; Ogg Vorbis q4, -20 LUFS target",
+  "soundfontSha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "tracks": [
+    {
+      "id": "chinese-a-kite-above-the-watermill-05",
+      "collection": "chinese",
+      "title": "A Kite above the Watermill",
+      "file": "chinese/chinese-a-kite-above-the-watermill-05.ogg",
+      "seconds": 249.942,
+      "sourceSha256": "7759970ac421f11bf8250926a7e0017f74da5ac94b97a18c5341105f041c0e08"
+    },
+    {
+      "id": "chinese-apricot-blossoms-by-the-canal-09",
+      "collection": "chinese",
+      "title": "Apricot Blossoms by the Canal",
+      "file": "chinese/chinese-apricot-blossoms-by-the-canal-09.ogg",
+      "seconds": 250.253,
+      "sourceSha256": "b6d59645403ec87fbc1aae40f857b4f709a7a3a067d3686403ef1f86d462855a"
+    },
+    {
+      "id": "chinese-jade-steps-in-evening-rain-06",
+      "collection": "chinese",
+      "title": "Jade Steps in Evening Rain",
+      "file": "chinese/chinese-jade-steps-in-evening-rain-06.ogg",
+      "seconds": 245.982,
+      "sourceSha256": "c86c226912d9be486e44127ac045d07fe33418cd4fa3d9e4eb2936f16e6d13fe"
+    },
+    {
+      "id": "chinese-lanterns-beside-the-willow-bridge-01",
+      "collection": "chinese",
+      "title": "Lanterns beside the Willow Bridge",
+      "file": "chinese/chinese-lanterns-beside-the-willow-bridge-01.ogg",
+      "seconds": 244.283,
+      "sourceSha256": "20636f596c23043edc685046245705f7e28974bbe1b8fd6c4663348a135a88c5"
+    },
+    {
+      "id": "chinese-last-lantern-on-the-hill-10",
+      "collection": "chinese",
+      "title": "Last Lantern on the Hill",
+      "file": "chinese/chinese-last-lantern-on-the-hill-10.ogg",
+      "seconds": 252.301,
+      "sourceSha256": "3a4913f485480aa245018c44c74ba797f497614365ea78c454ef9bf88af9940f"
+    },
+    {
+      "id": "chinese-moonlight-through-paper-windows-08",
+      "collection": "chinese",
+      "title": "Moonlight through Paper Windows",
+      "file": "chinese/chinese-moonlight-through-paper-windows-08.ogg",
+      "seconds": 249.477,
+      "sourceSha256": "8f5542f75d6f504375e3ee5eef86178090dc64d363aaafd90805845ac7e7a649"
+    },
+    {
+      "id": "chinese-rain-on-the-scholar-s-roof-02",
+      "collection": "chinese",
+      "title": "Rain on the Scholar's Roof",
+      "file": "chinese/chinese-rain-on-the-scholar-s-roof-02.ogg",
+      "seconds": 256.283,
+      "sourceSha256": "2639402c97adba04a87442c1d02bad3d9d4150db469b5dc2c06796391e0a73be"
+    },
+    {
+      "id": "chinese-silk-boats-at-dawn-04",
+      "collection": "chinese",
+      "title": "Silk Boats at Dawn",
+      "file": "chinese/chinese-silk-boats-at-dawn-04.ogg",
+      "seconds": 260.717,
+      "sourceSha256": "677b4a139012f323b6b9e7ea4d8ebbfac3e1b77bb0f1b68a423d941a3ea4ff9c"
+    },
+    {
+      "id": "chinese-the-potter-s-unhurried-morning-07",
+      "collection": "chinese",
+      "title": "The Potter's Unhurried Morning",
+      "file": "chinese/chinese-the-potter-s-unhurried-morning-07.ogg",
+      "seconds": 255.192,
+      "sourceSha256": "ce3ba638baf349c09efd403b8e7a0bab5678e581e0bff73e2b389e2685ca10fe"
+    },
+    {
+      "id": "chinese-the-tea-seller-s-quiet-garden-03",
+      "collection": "chinese",
+      "title": "The Tea Seller's Quiet Garden",
+      "file": "chinese/chinese-the-tea-seller-s-quiet-garden-03.ogg",
+      "seconds": 242.042,
+      "sourceSha256": "2d70f215a5e53c59635165ec3ff78c4dcc42b20d749478872b917f06dd0dd1e8"
+    },
+    {
+      "id": "indigenous-fictional-a-small-feast-beneath-the-leaves-09",
+      "collection": "indigenous",
+      "title": "A Small Feast beneath the Leaves",
+      "file": "indigenous/indigenous-fictional-a-small-feast-beneath-the-leaves-09.ogg",
+      "seconds": 247.959,
+      "sourceSha256": "197c160ab178b8d0df9725eab7eb9d66fdfad49fc3a0654db41cb4752082893a"
+    },
+    {
+      "id": "indigenous-fictional-canoes-beyond-the-river-bend-04",
+      "collection": "indigenous",
+      "title": "Canoes beyond the River Bend",
+      "file": "indigenous/indigenous-fictional-canoes-beyond-the-river-bend-04.ogg",
+      "seconds": 246.197,
+      "sourceSha256": "aacabe26b6d75ac7f7d33995c99715045822b9eb947ad081759a3f7e6c05d2c6"
+    },
+    {
+      "id": "indigenous-fictional-cedar-shade-and-small-voices-03",
+      "collection": "indigenous",
+      "title": "Cedar Shade and Small Voices",
+      "file": "indigenous/indigenous-fictional-cedar-shade-and-small-voices-03.ogg",
+      "seconds": 252.5,
+      "sourceSha256": "fc2420acf088a38e2a05fab348a6ae3b9ce9c125b94cee77cb8b03b9df1b6c27"
+    },
+    {
+      "id": "indigenous-fictional-firelight-beneath-the-pines-05",
+      "collection": "indigenous",
+      "title": "Firelight beneath the Pines",
+      "file": "indigenous/indigenous-fictional-firelight-beneath-the-pines-05.ogg",
+      "seconds": 258.968,
+      "sourceSha256": "26ed0b09da24dafb4ddcb2ca4dd549a064e0d3deefe1cb187e0594f7abf0301a"
+    },
+    {
+      "id": "indigenous-fictional-footsteps-beside-still-water-01",
+      "collection": "indigenous",
+      "title": "Footsteps beside Still Water",
+      "file": "indigenous/indigenous-fictional-footsteps-beside-still-water-01.ogg",
+      "seconds": 245.123,
+      "sourceSha256": "2a31aa5cf71eb7e5ca1cb5397794465ee87f1b7097ff2ea1307d58fe901d922f"
+    },
+    {
+      "id": "indigenous-fictional-meadow-paths-after-rain-08",
+      "collection": "indigenous",
+      "title": "Meadow Paths after Rain",
+      "file": "indigenous/indigenous-fictional-meadow-paths-after-rain-08.ogg",
+      "seconds": 251.574,
+      "sourceSha256": "ecf3d85dd8d36dede11127299c7d06daf218058fdac0717526f3c58dd1e82eba"
+    },
+    {
+      "id": "indigenous-fictional-pebbles-in-the-quiet-stream-06",
+      "collection": "indigenous",
+      "title": "Pebbles in the Quiet Stream",
+      "file": "indigenous/indigenous-fictional-pebbles-in-the-quiet-stream-06.ogg",
+      "seconds": 249.874,
+      "sourceSha256": "979bbedf32dce22d98b2366592aa3494066eef6f368930fa904e9463b8cb89b1"
+    },
+    {
+      "id": "indigenous-fictional-returning-under-the-stars-10",
+      "collection": "indigenous",
+      "title": "Returning under the Stars",
+      "file": "indigenous/indigenous-fictional-returning-under-the-stars-10.ogg",
+      "seconds": 255.287,
+      "sourceSha256": "69aac73d25afeb9f3bd88883ce1127b45bc72d162aaeed5f56e76a1d7242e452"
+    },
+    {
+      "id": "indigenous-fictional-the-basket-maker-s-afternoon-07",
+      "collection": "indigenous",
+      "title": "The Basket Maker's Afternoon",
+      "file": "indigenous/indigenous-fictional-the-basket-maker-s-afternoon-07.ogg",
+      "seconds": 254.417,
+      "sourceSha256": "f197d17686bcabda62a7bdfe3ec4f51ef6123a44da01a0ab04236a147cb537e5"
+    },
+    {
+      "id": "indigenous-fictional-the-reed-weaver-s-rest-02",
+      "collection": "indigenous",
+      "title": "The Reed Weaver's Rest",
+      "file": "indigenous/indigenous-fictional-the-reed-weaver-s-rest-02.ogg",
+      "seconds": 260.592,
+      "sourceSha256": "29a5b22b470d0a0cb49f3e2a79e497ddcd70895e3e77482993a2c30f6e88a53e"
+    },
+    {
+      "id": "japanese-biwa-beneath-the-moon-pavilion-15",
+      "collection": "japanese",
+      "title": "Biwa Beneath the Moon Pavilion",
+      "file": "japanese/japanese-biwa-beneath-the-moon-pavilion-15.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "568502c633574c4726eb3ef658b73fcda2ed0d26d5f5942e81b199fcfa816f1c"
+    },
+    {
+      "id": "japanese-fans-flutes-and-the-minstrel-parade-16",
+      "collection": "japanese",
+      "title": "Fans Flutes and the Minstrel Parade",
+      "file": "japanese/japanese-fans-flutes-and-the-minstrel-parade-16.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "864af28755ab0a2a5e4c08a5e8d6c39e718537fd87ef9ae03a0b833bff2ec58f"
+    },
+    {
+      "id": "japanese-koto-strings-and-castle-bells-14",
+      "collection": "japanese",
+      "title": "Koto Strings and Castle Bells",
+      "file": "japanese/japanese-koto-strings-and-castle-bells-14.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "3ea3fb0f96c4a48cd57aa0618da1bb8cd324b8e17284fb69e16e8bb75916a4d3"
+    },
+    {
+      "id": "japanese-nine-lanterns-and-a-ladder-08",
+      "collection": "japanese",
+      "title": "Nine Lanterns and a Ladder",
+      "file": "japanese/japanese-nine-lanterns-and-a-ladder-08.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "cb3d2392dbdcb9fb7d67b0173f84f3e930e03b6d255702fc6d5e8aadac843373"
+    },
+    {
+      "id": "japanese-ryuteki-at-the-lantern-gate-13",
+      "collection": "japanese",
+      "title": "Ryuteki at the Lantern Gate",
+      "file": "japanese/japanese-ryuteki-at-the-lantern-gate-13.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "771e46aed6a2adb884db821d2bbd174b7694c89dbdadb8dfd65d7b68cf49a990"
+    },
+    {
+      "id": "japanese-the-bamboo-gate-opens-twice-10",
+      "collection": "japanese",
+      "title": "The Bamboo Gate Opens Twice",
+      "file": "japanese/japanese-the-bamboo-gate-opens-twice-10.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "33cc537c6065b7eaada7fbf9b74a5fbe239aaecbaa4cdd11b117ccb49b8c3e2d"
+    },
+    {
+      "id": "japanese-the-carp-steals-the-ribbon-07",
+      "collection": "japanese",
+      "title": "The Carp Steals the Ribbon",
+      "file": "japanese/japanese-the-carp-steals-the-ribbon-07.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "706f3f3c0db13fb11a72fbda8ebd8bb233069c70c059945e59d346956aff0122"
+    },
+    {
+      "id": "japanese-the-paper-fan-parade-06",
+      "collection": "japanese",
+      "title": "The Paper Fan Parade",
+      "file": "japanese/japanese-the-paper-fan-parade-06.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "b5a66ea10f75cc1d9ff0cd5a75fa6fbf941345970fbfba703558bffe09007c6e"
+    },
+    {
+      "id": "japanese-the-sandal-makers-holiday-09",
+      "collection": "japanese",
+      "title": "The Sandal Maker\u2019s Holiday",
+      "file": "japanese/japanese-the-sandal-makers-holiday-09.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "109d0f8e9ff12fb32adaf3880fb81d98c20b42853f075a10b2f4dffffc589ca8"
+    },
+    {
+      "id": "japanese-the-tea-stall-kite-chase-05",
+      "collection": "japanese",
+      "title": "The Tea Stall Kite Chase",
+      "file": "japanese/japanese-the-tea-stall-kite-chase-05.ogg",
+      "seconds": 244.0,
+      "sourceSha256": "16680f2e44bac310d02df5f8c99a8f4dc1f9901b0bfb280ce68ec25fa38cc509"
+    },
+    {
+      "id": "maya-a-terrace-above-the-green-canopy-09",
+      "collection": "maya",
+      "title": "A Terrace above the Green Canopy",
+      "file": "maya/maya-a-terrace-above-the-green-canopy-09.ogg",
+      "seconds": 236.002,
+      "sourceSha256": "24e907539b303f575a6c1a74ea6340e0db5aba31d51811bcb157801948e1be1d"
+    },
+    {
+      "id": "maya-a-weaver-s-courtyard-at-dusk-04",
+      "collection": "maya",
+      "title": "A Weaver's Courtyard at Dusk",
+      "file": "maya/maya-a-weaver-s-courtyard-at-dusk-04.ogg",
+      "seconds": 242.001,
+      "sourceSha256": "46c71b5897c27b294cde69f0797352381f8116960b47c353384cb67560ec24e8"
+    },
+    {
+      "id": "maya-clay-flutes-by-the-cacao-garden-02",
+      "collection": "maya",
+      "title": "Clay Flutes by the Cacao Garden",
+      "file": "maya/maya-clay-flutes-by-the-cacao-garden-02.ogg",
+      "seconds": 238.099,
+      "sourceSha256": "37f2fa3e56ac8568bdb4a695172f0cfc79f04caa1d7be124032956e27c96345e"
+    },
+    {
+      "id": "maya-dawn-over-the-limestone-court-01",
+      "collection": "maya",
+      "title": "Dawn over the Limestone Court",
+      "file": "maya/maya-dawn-over-the-limestone-court-01.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "8382ec93a0219bc650bfb0ccce2c8231ada8258a2a7611f4f2f77ac45695cedb"
+    },
+    {
+      "id": "maya-little-whistles-at-the-market-06",
+      "collection": "maya",
+      "title": "Little Whistles at the Market",
+      "file": "maya/maya-little-whistles-at-the-market-06.ogg",
+      "seconds": 244.087,
+      "sourceSha256": "c5d84c5b78a405a28ff1b5867b755be1d8cb1023539922244664e081ec5b56de"
+    },
+    {
+      "id": "maya-quiet-steps-beside-the-reservoir-05",
+      "collection": "maya",
+      "title": "Quiet Steps beside the Reservoir",
+      "file": "maya/maya-quiet-steps-beside-the-reservoir-05.ogg",
+      "seconds": 246.001,
+      "sourceSha256": "9e33c1427acc73ccd939765bb235ab043f406e0f927cd1f84fc316e7439bcea9"
+    },
+    {
+      "id": "maya-rain-beyond-the-ceiba-shade-03",
+      "collection": "maya",
+      "title": "Rain beyond the Ceiba Shade",
+      "file": "maya/maya-rain-beyond-the-ceiba-shade-03.ogg",
+      "seconds": 250.088,
+      "sourceSha256": "c393a100de43d3665f80a11551654a6febd1384bb165355abfc8c9f4fcfa9d17"
+    },
+    {
+      "id": "maya-the-last-lamp-in-the-courtyard-10",
+      "collection": "maya",
+      "title": "The Last Lamp in the Courtyard",
+      "file": "maya/maya-the-last-lamp-in-the-courtyard-10.ogg",
+      "seconds": 252.07,
+      "sourceSha256": "dde23a1394dc841472b3adef3c03b6c13b7dce7a8c3d33d5fb833c9c26d86945"
+    },
+    {
+      "id": "maya-the-potter-and-the-passing-clouds-08",
+      "collection": "maya",
+      "title": "The Potter and the Passing Clouds",
+      "file": "maya/maya-the-potter-and-the-passing-clouds-08.ogg",
+      "seconds": 248.081,
+      "sourceSha256": "b8a553ec29b3382293455de94ec1aecb62fd6d39bd6579083856051eb06511f2"
+    },
+    {
+      "id": "maya-waterlight-on-the-temple-steps-07",
+      "collection": "maya",
+      "title": "Waterlight on the Temple Steps",
+      "file": "maya/maya-waterlight-on-the-temple-steps-07.ogg",
+      "seconds": 240.001,
+      "sourceSha256": "159f7ea334a6ece3b2a8de33d23f08902be1903ee464fa243c864586310cdf75"
+    },
+    {
+      "id": "neutral-a-feast-for-the-smallest-knight-08",
+      "collection": "neutral",
+      "title": "A Feast for the Smallest Knight",
+      "file": "neutral/neutral-a-feast-for-the-smallest-knight-08.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "67d52c4c4daf5af11154ed813fd0deffc9c9aeaabb3e752df9d9fed64c6175c6"
+    },
+    {
+      "id": "neutral-closing-time-one-more-dance-04",
+      "collection": "neutral",
+      "title": "Closing Time One More Dance",
+      "file": "neutral/neutral-closing-time-one-more-dance-04.ogg",
+      "seconds": 247.419,
+      "sourceSha256": "725610b7939d91a7f4575999cf311316fcd2667cca9af6378adbc17d6c437f2e"
+    },
+    {
+      "id": "neutral-everyone-knows-a-shortcut-03",
+      "collection": "neutral",
+      "title": "Everyone Knows a Shortcut",
+      "file": "neutral/neutral-everyone-knows-a-shortcut-03.ogg",
+      "seconds": 247.792,
+      "sourceSha256": "829817f34b97ed8f43f30ae4eeacf7e5b0cf47b13abad4dd48770295c8626896"
+    },
+    {
+      "id": "neutral-flour-on-the-minstrels-hat-06",
+      "collection": "neutral",
+      "title": "Flour on the Minstrel\u2019s Hat",
+      "file": "neutral/neutral-flour-on-the-minstrels-hat-06.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "5d059bfbd1f28ff1b069e1b0cc535426156705e7bf733197a97b36a91ada700f"
+    },
+    {
+      "id": "neutral-the-cart-with-the-square-wheel-01",
+      "collection": "neutral",
+      "title": "The Cart with the Square Wheel",
+      "file": "neutral/neutral-the-cart-with-the-square-wheel-01.ogg",
+      "seconds": 244.0,
+      "sourceSha256": "32c41fd5ef850c2779bd258c4ace35d967cd844808ccecb6c355e6273c58cf2a"
+    },
+    {
+      "id": "neutral-the-great-turnip-auction-02",
+      "collection": "neutral",
+      "title": "The Great Turnip Auction",
+      "file": "neutral/neutral-the-great-turnip-auction-02.ogg",
+      "seconds": 248.024,
+      "sourceSha256": "d55b14cb9ebd16991e303fbc85edbb849471756c53e02b28fe407054b6f029a0"
+    },
+    {
+      "id": "neutral-the-jester-borrows-the-bell-05",
+      "collection": "neutral",
+      "title": "The Jester Borrows the Bell",
+      "file": "neutral/neutral-the-jester-borrows-the-bell-05.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "6b043d7ef63ac7a1aebc202cfc61727f9d7c2939d27b4e715feb5f9a888b7654"
+    },
+    {
+      "id": "neutral-the-millwheels-secret-dance-07",
+      "collection": "neutral",
+      "title": "The Millwheel\u2019s Secret Dance",
+      "file": "neutral/neutral-the-millwheels-secret-dance-07.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "9d30871b4d1166dc61e839ded2d43e1f5c0647b78de7f1ea2c5d9e7e2e13a0cd"
+    },
+    {
+      "id": "nubian-a-basket-for-the-moon-07",
+      "collection": "nubian",
+      "title": "A Basket for the Moon",
+      "file": "nubian/nubian-a-basket-for-the-moon-07.ogg",
+      "seconds": 248.825,
+      "sourceSha256": "a221963b2443167d1824099940c03a9df339003bef56bdada358ba3b3e339b4c"
+    },
+    {
+      "id": "nubian-five-strings-for-the-harvest-feast-16",
+      "collection": "nubian",
+      "title": "Five Strings for the Harvest Feast",
+      "file": "nubian/nubian-five-strings-for-the-harvest-feast-16.ogg",
+      "seconds": 249.041,
+      "sourceSha256": "9455021c37a88fb7a8840ae7916e6ffa219eaa6206979e3e1c08558b83635df8"
+    },
+    {
+      "id": "nubian-palm-shadows-on-the-courtyard-wall-15",
+      "collection": "nubian",
+      "title": "Palm Shadows on the Courtyard Wall",
+      "file": "nubian/nubian-palm-shadows-on-the-courtyard-wall-15.ogg",
+      "seconds": 248.512,
+      "sourceSha256": "c2dafd90c21a5309bbfa4f826f7033e2d966605ab533d84c9e44a91a134bb837"
+    },
+    {
+      "id": "nubian-river-lyre-at-the-lantern-fair-13",
+      "collection": "nubian",
+      "title": "River Lyre at the Lantern Fair",
+      "file": "nubian/nubian-river-lyre-at-the-lantern-fair-13.ogg",
+      "seconds": 248.979,
+      "sourceSha256": "4416cb900f9f632a55e3bb7a621273b22185683ebf6aba3b0d26adcac1486e8b"
+    },
+    {
+      "id": "nubian-the-date-sellers-dancing-scales-10",
+      "collection": "nubian",
+      "title": "The Date Seller\u2019s Dancing Scales",
+      "file": "nubian/nubian-the-date-sellers-dancing-scales-10.ogg",
+      "seconds": 248.976,
+      "sourceSha256": "b5fb9dd1d6f4343c9502c9fb46011e0cbd353278d8614c8c35c9c30d38046ee7"
+    },
+    {
+      "id": "nubian-the-ferry-leaves-with-the-picnic-05",
+      "collection": "nubian",
+      "title": "The Ferry Leaves with the Picnic",
+      "file": "nubian/nubian-the-ferry-leaves-with-the-picnic-05.ogg",
+      "seconds": 246.428,
+      "sourceSha256": "d482b561b3ffdbacc717fd742574e5e4d963ea45416b16e9748c2da58a6bee3a"
+    },
+    {
+      "id": "nubian-the-ferryman-and-the-wandering-lute-14",
+      "collection": "nubian",
+      "title": "The Ferryman and the Wandering Lute",
+      "file": "nubian/nubian-the-ferryman-and-the-wandering-lute-14.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "cad171a117a09460b52b412d4bd79beb74c0248357ec5435ee42721f3c995b95"
+    },
+    {
+      "id": "nubian-the-potters-spinning-courtyard-06",
+      "collection": "nubian",
+      "title": "The Potter\u2019s Spinning Courtyard",
+      "file": "nubian/nubian-the-potters-spinning-courtyard-06.ogg",
+      "seconds": 248.007,
+      "sourceSha256": "0ed32bf52a3572ebe4e631ebaaa2c60bb653bed6713542b6f587df5551247569"
+    },
+    {
+      "id": "nubian-the-river-market-riddle-08",
+      "collection": "nubian",
+      "title": "The River Market Riddle",
+      "file": "nubian/nubian-the-river-market-riddle-08.ogg",
+      "seconds": 247.306,
+      "sourceSha256": "da978650fdf3ced7544d684c5052fd0fee8b21b78d4666094d91f14701d2d4fc"
+    },
+    {
+      "id": "nubian-the-weavers-victory-dance-09",
+      "collection": "nubian",
+      "title": "The Weaver\u2019s Victory Dance",
+      "file": "nubian/nubian-the-weavers-victory-dance-09.ogg",
+      "seconds": 246.696,
+      "sourceSha256": "31bd84b233502888feaaa9ea4dd8756d65a3caa55c472ff2953ca326c54fb57b"
+    },
+    {
+      "id": "persian-a-garden-after-the-rain-04",
+      "collection": "persian",
+      "title": "A Garden after the Rain",
+      "file": "persian/persian-a-garden-after-the-rain-04.ogg",
+      "seconds": 244.399,
+      "sourceSha256": "295760b547f56b9d2a88953162639382e2d4f850b2a8af6cf216ed6598dcb879"
+    },
+    {
+      "id": "persian-a-lantern-for-the-returning-caravan-08",
+      "collection": "persian",
+      "title": "A Lantern for the Returning Caravan",
+      "file": "persian/persian-a-lantern-for-the-returning-caravan-08.ogg",
+      "seconds": 252.098,
+      "sourceSha256": "d187a0f7e3aa0619feded3b56d1c65a68183683dd5f88f43ed2c6f69efb64fab"
+    },
+    {
+      "id": "persian-pomegranate-shade-at-noon-06",
+      "collection": "persian",
+      "title": "Pomegranate Shade at Noon",
+      "file": "persian/persian-pomegranate-shade-at-noon-06.ogg",
+      "seconds": 248.528,
+      "sourceSha256": "28dc50cab1ea420c8b97a26d90a0d0d4b55b57eedf3e66d0e8e59f1f16089b49"
+    },
+    {
+      "id": "persian-silk-shadows-in-the-caravanserai-03",
+      "collection": "persian",
+      "title": "Silk Shadows in the Caravanserai",
+      "file": "persian/persian-silk-shadows-in-the-caravanserai-03.ogg",
+      "seconds": 246.544,
+      "sourceSha256": "43a3bed44f0672aadf5a603332956550d572c91a2c484e68395602cef2535e94"
+    },
+    {
+      "id": "persian-soft-footsteps-on-the-courtyard-tiles-07",
+      "collection": "persian",
+      "title": "Soft Footsteps on the Courtyard Tiles",
+      "file": "persian/persian-soft-footsteps-on-the-courtyard-tiles-07.ogg",
+      "seconds": 236.561,
+      "sourceSha256": "f4b4929fd3a6cddf1995f276f3a3fcb960a820f8e6e5acfcb2d302ab4bf3071f"
+    },
+    {
+      "id": "persian-stars-above-the-rose-garden-09",
+      "collection": "persian",
+      "title": "Stars above the Rose Garden",
+      "file": "persian/persian-stars-above-the-rose-garden-09.ogg",
+      "seconds": 244.545,
+      "sourceSha256": "77fdf4531929f362deeb456ff45a54328a4d7f64b8c99a1b34983ae4a14f1434"
+    },
+    {
+      "id": "persian-the-glassmaker-s-evening-02",
+      "collection": "persian",
+      "title": "The Glassmaker's Evening",
+      "file": "persian/persian-the-glassmaker-s-evening-02.ogg",
+      "seconds": 242.276,
+      "sourceSha256": "2415b2c6c806ccc6b76cafeea1b80ca27cb9e136bc3296d90872bfe275f9fa4b"
+    },
+    {
+      "id": "persian-the-last-cup-before-dawn-10",
+      "collection": "persian",
+      "title": "The Last Cup before Dawn",
+      "file": "persian/persian-the-last-cup-before-dawn-10.ogg",
+      "seconds": 238.557,
+      "sourceSha256": "fb9234949075d69dd952faebdb7f2d4fde5620e91b94c344afb2f88a656c7c5d"
+    },
+    {
+      "id": "persian-the-ney-answers-the-fountain-05",
+      "collection": "persian",
+      "title": "The Ney Answers the Fountain",
+      "file": "persian/persian-the-ney-answers-the-fountain-05.ogg",
+      "seconds": 240.611,
+      "sourceSha256": "67c47139bb9d2a706cbe1972fe24f2bbf4374232a2c7bbb50fc92de1e0f28ed5"
+    },
+    {
+      "id": "persian-water-beneath-the-cypress-trees-01",
+      "collection": "persian",
+      "title": "Water beneath the Cypress Trees",
+      "file": "persian/persian-water-beneath-the-cypress-trees-01.ogg",
+      "seconds": 250.527,
+      "sourceSha256": "5fc98b108b855eb92bcb7a3f9529144201bb6648ff8bbc8d4e4293e8a5fb2883"
+    },
+    {
+      "id": "roman-a-market-day-in-miniature-08",
+      "collection": "roman",
+      "title": "A Market Day in Miniature",
+      "file": "roman/roman-a-market-day-in-miniature-08.ogg",
+      "seconds": 247.71,
+      "sourceSha256": "64b1178fabfca04a8ed8cc90e2d5d57c99886b1f70e09690a854340e7bf49fb4"
+    },
+    {
+      "id": "roman-kithara-and-the-castle-jester-14",
+      "collection": "roman",
+      "title": "Kithara and the Castle Jester",
+      "file": "roman/roman-kithara-and-the-castle-jester-14.ogg",
+      "seconds": 248.752,
+      "sourceSha256": "c79839abc56212800f4c113c1ea65f1252cc1073c7cf131d5ca326f61fc8b0b3"
+    },
+    {
+      "id": "roman-laurel-leaves-and-lanterns-15",
+      "collection": "roman",
+      "title": "Laurel Leaves and Lanterns",
+      "file": "roman/roman-laurel-leaves-and-lanterns-15.ogg",
+      "seconds": 244.0,
+      "sourceSha256": "203361e7d91380c5e9ead4b28f06725edaafb154e2f760d52e3c49f03cfabbaf"
+    },
+    {
+      "id": "roman-mosaic-makers-on-the-march-07",
+      "collection": "roman",
+      "title": "Mosaic Makers on the March",
+      "file": "roman/roman-mosaic-makers-on-the-march-07.ogg",
+      "seconds": 244.0,
+      "sourceSha256": "f7f5a2eb0ef8455d92620c1d7a3c5f16527eebbbf4e2c57dc5cb9b88de31b08a"
+    },
+    {
+      "id": "roman-the-cobbler-and-the-emperors-boots-10",
+      "collection": "roman",
+      "title": "The Cobbler and the Emperor\u2019s Boots",
+      "file": "roman/roman-the-cobbler-and-the-emperors-boots-10.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "061fe9919f35a74093281067425c329e5717d53266693e981e79556a3a9cc2f8"
+    },
+    {
+      "id": "roman-the-consul-joins-the-village-dance-16",
+      "collection": "roman",
+      "title": "The Consul Joins the Village Dance",
+      "file": "roman/roman-the-consul-joins-the-village-dance-16.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "2ce0dd869d00679d3dd382c594688d14fc829e4750003b6265cd4b71cea1a583"
+    },
+    {
+      "id": "roman-the-fountain-has-opinions-09",
+      "collection": "roman",
+      "title": "The Fountain Has Opinions",
+      "file": "roman/roman-the-fountain-has-opinions-09.ogg",
+      "seconds": 247.306,
+      "sourceSha256": "06695b868d1542a4140203a2da7d806efa2cd2ce2dc2483fbc3c49504665b1a2"
+    },
+    {
+      "id": "roman-the-senators-dancing-sandals-06",
+      "collection": "roman",
+      "title": "The Senator\u2019s Dancing Sandals",
+      "file": "roman/roman-the-senators-dancing-sandals-06.ogg",
+      "seconds": 248.072,
+      "sourceSha256": "a79c7672937f93f84b215c2a0df5087c4e8ac78cc27754c0951af187af811d73"
+    },
+    {
+      "id": "roman-the-tax-collector-loses-count-05",
+      "collection": "roman",
+      "title": "The Tax Collector Loses Count",
+      "file": "roman/roman-the-tax-collector-loses-count-05.ogg",
+      "seconds": 247.293,
+      "sourceSha256": "cb526d2fb5583b148e623747972ba7e9dccd770154a12e1974394bf5847923bb"
+    },
+    {
+      "id": "roman-two-pipes-at-the-minstrel-fair-13",
+      "collection": "roman",
+      "title": "Two Pipes at the Minstrel Fair",
+      "file": "roman/roman-two-pipes-at-the-minstrel-fair-13.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "a3c2e6f05c02090a653427461360ec90fe3f258f8d467f2e2843225af1570131"
+    },
+    {
+      "id": "viking-bone-flute-over-the-bridge-14",
+      "collection": "viking",
+      "title": "Bone Flute Over the Bridge",
+      "file": "viking/viking-bone-flute-over-the-bridge-14.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "dc7f30f797e25f544582d2ca41bd316c862dd3a0d862c93aaf91182cd5b28f9b"
+    },
+    {
+      "id": "viking-embers-beneath-the-longhouse-roof-15",
+      "collection": "viking",
+      "title": "Embers Beneath the Longhouse Roof",
+      "file": "viking/viking-embers-beneath-the-longhouse-roof-15.ogg",
+      "seconds": 248.609,
+      "sourceSha256": "4ad42c806fee7c26d2b21a9a9e6f4b73911e8ce34f7643473298c437e006ae52"
+    },
+    {
+      "id": "viking-oars-horns-and-a-crooked-dance-16",
+      "collection": "viking",
+      "title": "Oars Horns and a Crooked Dance",
+      "file": "viking/viking-oars-horns-and-a-crooked-dance-16.ogg",
+      "seconds": 244.003,
+      "sourceSha256": "8c2612cad4d9a80ab9b78d76692f7f2f0ac1dd5ff2d2bddacd6a2a4f332d20f7"
+    },
+    {
+      "id": "viking-seven-oars-and-a-stowaway-05",
+      "collection": "viking",
+      "title": "Seven Oars and a Stowaway",
+      "file": "viking/viking-seven-oars-and-a-stowaway-05.ogg",
+      "seconds": 248.214,
+      "sourceSha256": "5bd61179007eca2c2abba0e66a74efde91713af477693556bb1a8cf4b2bb7350"
+    },
+    {
+      "id": "viking-the-bellows-borrow-a-tune-08",
+      "collection": "viking",
+      "title": "The Bellows Borrow a Tune",
+      "file": "viking/viking-the-bellows-borrow-a-tune-08.ogg",
+      "seconds": 248.378,
+      "sourceSha256": "a654e3867c9e7ce9fa940829cab2b5080c891a64adcf9d4108040a0f0abe7706"
+    },
+    {
+      "id": "viking-the-jarl-arrives-backwards-09",
+      "collection": "viking",
+      "title": "The Jarl Arrives Backwards",
+      "file": "viking/viking-the-jarl-arrives-backwards-09.ogg",
+      "seconds": 247.769,
+      "sourceSha256": "e68ff5eaa06d57deef6795cf2f2711d95332e90ad4b655e73e2115bdf2bff4d8"
+    },
+    {
+      "id": "viking-the-longhouse-butter-chase-10",
+      "collection": "viking",
+      "title": "The Longhouse Butter Chase",
+      "file": "viking/viking-the-longhouse-butter-chase-10.ogg",
+      "seconds": 248.033,
+      "sourceSha256": "b2b63a9e854909a8fcc650f4a06db598ff9e8912d73717a9467929b79609791e"
+    },
+    {
+      "id": "viking-the-longship-laundry-line-06",
+      "collection": "viking",
+      "title": "The Longship Laundry Line",
+      "file": "viking/viking-the-longship-laundry-line-06.ogg",
+      "seconds": 247.403,
+      "sourceSha256": "5fa2456b237c6fb3143a3b8e5e91f6635f630dc8b41067cfd397641b7ed39889"
+    },
+    {
+      "id": "viking-the-lyre-maker-and-the-merry-fiddler-13",
+      "collection": "viking",
+      "title": "The Lyre Maker and the Merry Fiddler",
+      "file": "viking/viking-the-lyre-maker-and-the-merry-fiddler-13.ogg",
+      "seconds": 248.928,
+      "sourceSha256": "4871657bcb0f83f017206b98915648dc00c7762916447799ef3b92ca6f6d8dc5"
+    },
+    {
+      "id": "viking-two-goats-guard-the-bridge-07",
+      "collection": "viking",
+      "title": "Two Goats Guard the Bridge",
+      "file": "viking/viking-two-goats-guard-the-bridge-07.ogg",
+      "seconds": 248.197,
+      "sourceSha256": "5f5a3b670cc1df725ecec1b4cd815d61191a8241bfe7d5986117bf51c4c62416"
+    }
+  ]
+}

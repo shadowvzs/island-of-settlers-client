@@ -1,0 +1,22 @@
+/* Captionless actions stay square even inside stretching grids or full-width panel sections. */
+button.settlement-ui__button.settlement-ui__icon-button--compact {
+  --compact-icon-button-size: clamp(44px, var(--icon-button-size, 48px), 96px);
+  box-sizing: border-box;
+  inline-size: var(--compact-icon-button-size);
+  min-inline-size: var(--compact-icon-button-size);
+  max-inline-size: var(--compact-icon-button-size);
+  block-size: var(--compact-icon-button-size);
+  min-block-size: var(--compact-icon-button-size);
+  max-block-size: var(--compact-icon-button-size);
+  aspect-ratio: 1;
+  flex: 0 0 var(--compact-icon-button-size);
+  justify-self: start;
+  align-self: center;
+  padding: 4px;
+}
+button.settlement-ui__button.settlement-ui__icon-button--compact > .settlement-art-icon {
+  inline-size: 32px;
+  block-size: 32px;
+  max-inline-size: 32px;
+  max-block-size: 32px;
+}

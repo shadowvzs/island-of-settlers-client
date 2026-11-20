@@ -1,0 +1,24 @@
+.hotkey-settings__group { margin: 12px 0; padding: 10px; border: 1px solid var(--hud-paper-edge); border-radius: 6px; }
+.hotkey-settings__group legend { padding: 0 5px; font-weight: 600; }
+.hotkey-settings__row { display: grid; grid-template-columns: minmax(0, 1fr) 105px; align-items: center; gap: 8px; margin: 7px 0; }
+.hotkey-settings__row input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 4px;
+  background: var(--hud-control);
+  color: var(--hud-ink);
+  cursor: var(--cursor-pointer, pointer);
+  text-align: center;
+}
+.hotkey-settings__row input:focus { outline: 2px solid var(--hud-accent); outline-offset: 1px; }
+.hotkey-settings__error { min-height: 1.3em; color: var(--hud-ink); font-size: 12px; }
+.hotkey-settings__reset {
+  padding: 8px 12px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 5px;
+  background: var(--hud-control);
+  color: var(--hud-ink);
+  cursor: var(--cursor-pointer, pointer);
+}

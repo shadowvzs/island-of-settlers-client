@@ -1,0 +1,7 @@
+/* Settings > Misc > Game: compact Save/Load icon buttons beside Exit game. */
+.game-section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}

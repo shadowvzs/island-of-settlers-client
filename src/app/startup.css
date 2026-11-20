@@ -1,0 +1,341 @@
+/* Critical viewport and loader layout, available before the application module graph. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0b2238;
+  font-family: system-ui, sans-serif;
+}
+
+#viewport {
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+}
+
+#view {
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  /* Long press is the touch right click: no iOS callout. */
+  -webkit-touch-callout: none;
+}
+
+.loading-screen {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  overflow: hidden;
+  background: #0d1b2a;
+  color: #f2ede2;
+  transition: opacity 450ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.loading-screen.is-done {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-screen__art {
+  --voyage-aspect: 1.7777777778;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100vw, calc(100vh * var(--voyage-aspect)));
+  aspect-ratio: var(--voyage-aspect);
+  transform: translate(-50%, -50%) scale(1.025);
+}
+
+.loading-screen__image,
+.loading-screen__sea-image,
+.loading-screen__foreground-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+.loading-screen__sea,
+.loading-screen__foreground {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  pointer-events: none;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+}
+
+.loading-screen__sea {
+  mask-image: var(--voyage-water-mask);
+}
+
+.loading-screen__foreground {
+  mask-image: var(--voyage-foreground-mask);
+  transform-origin: 43% 90%;
+  animation: voyage-sway 8s ease-in-out infinite;
+}
+
+.loading-screen__art[data-nation] .loading-screen__sea,
+.loading-screen__art[data-nation] .loading-screen__foreground {
+  visibility: visible;
+}
+
+.loading-screen__sea-image {
+  opacity: .9;
+  transform-origin: 50% 48%;
+  animation: voyage-water 5.6s ease-in-out -1.4s infinite;
+}
+
+.loading-screen__atmosphere { position: absolute; inset: 0; pointer-events: none; }
+.loading-screen__cloud, .loading-screen__smoke {
+  position: absolute;
+  display: block;
+  height: auto;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+.loading-screen__cloud {
+  width: 24%;
+  left: 2%;
+  top: 7%;
+  opacity: .16;
+  animation: loading-cloud-drift 48s ease-in-out infinite alternate;
+}
+.loading-screen__cloud--1 {
+  width: 18%;
+  left: 28%;
+  top: 1%;
+  opacity: .12;
+  animation-duration: 64s;
+  animation-delay: -22s;
+}
+.loading-screen__smoke {
+  width: 1.1%;
+  transform-origin: 50% 100%;
+  opacity: 0;
+  animation: loading-chimney-smoke 6s linear infinite;
+}
+.loading-screen:is(.is-done, .is-failed, .is-registering) .loading-screen__atmosphere img {
+  animation-play-state: paused;
+}
+
+@keyframes loading-cloud-drift {
+  from { transform: translateX(-5%); }
+  to { transform: translateX(16%); }
+}
+@keyframes loading-chimney-smoke {
+  0% { transform: translate(-50%, -85%) scale(.55); opacity: 0; }
+  20% { opacity: .32; }
+  65% { opacity: .20; }
+  100% { transform: translate(-8%, -170%) scale(1.2); opacity: 0; }
+}
+
+.loading-screen:is(.is-done, .is-failed, .is-registering) .loading-screen__foreground,
+.loading-screen:is(.is-done, .is-failed, .is-registering) .loading-screen__sea-image {
+  animation-play-state: paused;
+}
+
+.loading-screen__panel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 48px 24px 28px;
+  background: linear-gradient(to top, rgb(8 16 26 / 88%), rgb(8 16 26 / 0%));
+  text-align: center;
+}
+
+/* Title page (GS3b): the moving painted scene stays as its background; the step caption steps aside. */
+.loading-screen.is-title .loading-screen__panel {
+  display: none;
+}
+
+/* First screen: the language choice is usable before registration or island work. */
+.loading-screen__language {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin: 0 0 14px;
+}
+.loading-screen__language-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 4px 10px;
+  border: 1px solid rgb(233 196 106 / 65%);
+  border-radius: 999px;
+  color: #f2ede2;
+  background: rgb(8 16 26 / 55%);
+  font: 600 12px/1 system-ui, sans-serif;
+  cursor: var(--cursor-pointer, pointer);
+}
+.loading-screen__language-button:hover { background: rgb(233 196 106 / 18%); }
+.loading-screen__language-button:focus-visible {
+  outline: 2px solid #e7b959;
+  outline-offset: 2px;
+}
+.loading-screen__language-button[aria-checked="true"] {
+  border-color: #e9c46a;
+  background: rgb(233 196 106 / 24%);
+  box-shadow: inset 0 0 0 1px #e9c46a66;
+}
+.loading-screen__language-flag {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 12px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 42%);
+}
+
+.loading-screen__title {
+  margin: 0 0 6px;
+  font-size: clamp(24px, 4vw, 40px);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 60%);
+}
+
+.loading-screen__message {
+  margin: 0 0 12px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.loading-screen__bar {
+  width: min(320px, 70%);
+  height: 4px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, #e9c46a, transparent) 0 0 / 40% 100% no-repeat
+    rgb(255 255 255 / 15%);
+  animation: loading-sweep 1.4s ease-in-out infinite;
+}
+
+.loading-screen__bar.is-determinate {
+  overflow: hidden;
+  background: rgb(255 255 255 / 15%);
+  animation: none;
+}
+
+.loading-screen__bar.is-determinate::after {
+  display: block;
+  width: var(--loading-progress, 0%);
+  height: 100%;
+  border-radius: 2px;
+  background: #e9c46a;
+  content: "";
+  transition: width 200ms linear;
+}
+
+.loading-screen__skip {
+  width: min(100%, 360px);
+  min-height: 44px;
+  margin-top: 14px;
+  padding: 8px 22px;
+  color: #f2ede2;
+  font: inherit;
+  line-height: 1.3;
+  white-space: normal;
+  background: rgb(8 16 26 / 72%);
+  border: 1px solid #e9c46a;
+  border-radius: 6px;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.loading-screen__skip:hover {
+  background: rgb(233 196 106 / 18%);
+}
+
+.loading-screen__skip:focus-visible {
+  outline: 3px solid #e7b959;
+  outline-offset: 3px;
+}
+
+.loading-screen__skip:disabled {
+  opacity: 0.65;
+  cursor: var(--cursor-default, default);
+}
+
+.loading-screen.is-failed .loading-screen__skip {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-screen__atmosphere { display: none; }
+  .loading-screen__atmosphere img { animation: none; }
+  .loading-screen__art {
+    animation: none;
+    transform: translate(-50%, -50%);
+  }
+
+  .loading-screen__sea,
+  .loading-screen__foreground {
+    display: none;
+    animation: none;
+  }
+
+  .loading-screen__sea-image {
+    animation: none;
+  }
+
+  .loading-screen__bar.is-determinate::after {
+    transition: none;
+  }
+}
+
+@keyframes voyage-sway {
+  0%, 100% {
+    transform: translateY(.6px) scale(1.012) rotate(-.06deg);
+  }
+  25% {
+    transform: translateY(1px) scale(1.012) rotate(.02deg);
+  }
+  50% {
+    transform: translateY(-.6px) scale(1.012) rotate(.06deg);
+  }
+  75% {
+    transform: translateY(-1px) scale(1.012) rotate(-.02deg);
+  }
+}
+
+@keyframes voyage-water {
+  0%, 100% {
+    transform: translate(-.08%, .1%) scale(1.008);
+  }
+  50% {
+    transform: translate(.12%, -.14%) scale(1.01, 1.015);
+  }
+}
+
+@keyframes loading-sweep {
+  from {
+    background-position: -40% 0;
+  }
+
+  to {
+    background-position: 140% 0;
+  }
+}
+
+/* The failure state is shown by the small entry too (a game chunk that fails to load). */
+.loading-screen__retry {
+  margin-top: 1rem;
+  min-height: 44px;
+  padding: 0.65rem 1.25rem;
+  color: #302313;
+  background: #ead6ac;
+  border: 1px solid #8e7043;
+  border-radius: 6px;
+  cursor: var(--cursor-pointer, pointer);
+}
+.loading-screen__retry:focus-visible { outline: 3px solid #e7b959; outline-offset: 3px; }
+
+.loading-screen.is-failed .loading-screen__bar { display: none; }

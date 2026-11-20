@@ -1,0 +1,1931 @@
+{
+  "generatedAt": "2026-11-11T06:15:16.262Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecutedByThisScript": false,
+    "note": "No test preflight is performed by this script."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 113962540,
+      "models": 57,
+      "clips": 174
+    },
+    {
+      "quality": "minimal",
+      "bytes": 19215208,
+      "models": 57,
+      "clips": 174
+    }
+  ],
+  "buildings": [
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 44650,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 9758,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 15734,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 12998,
+      "stockTriangles": 1440,
+      "animalTriangles": 2454,
+      "residentTriangles": 2454,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 4454,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 26148,
+      "stockTriangles": 816,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 14415,
+      "stockTriangles": 2528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [],
+      "id": 7,
+      "triangles": 28464,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 14638,
+      "stockTriangles": 2396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 20052,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 48000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 8244,
+      "stockTriangles": 304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 10980,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 10980,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 10980,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 6886,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 17956,
+      "stockTriangles": 6788,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 7880,
+      "stockTriangles": 640,
+      "animalTriangles": 10632,
+      "residentTriangles": 10632,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 9480,
+      "stockTriangles": 2016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 14918,
+      "stockTriangles": 1392,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 7050,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 12448,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 14324,
+      "stockTriangles": 2304,
+      "animalTriangles": 14724,
+      "residentTriangles": 14724,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 10348,
+      "stockTriangles": 3024,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 18352,
+      "stockTriangles": 4304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 14466,
+      "stockTriangles": 1692,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 13140,
+      "stockTriangles": 2418,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 12344,
+      "stockTriangles": 1524,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 11468,
+      "stockTriangles": 4896,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 15978,
+      "stockTriangles": 3276,
+      "animalTriangles": 19632,
+      "residentTriangles": 19632,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 13054,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 14070,
+      "stockTriangles": 3776,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 15274,
+      "stockTriangles": 2516,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 11104,
+      "stockTriangles": 2616,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 13578,
+      "stockTriangles": 3264,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 8534,
+      "stockTriangles": 2520,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 9076,
+      "stockTriangles": 1584,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 23122,
+      "stockTriangles": 5232,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 18406,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 10232,
+      "stockTriangles": 1984,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 12672,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12448,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 224
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 10010,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9480,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 242
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 9636,
+      "stockTriangles": 2544,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 7050,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 2544,
+        "stockDelta": 2472,
+        "architectureDelta": 114
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 12672,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12448,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 224
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 11162,
+      "stockTriangles": 3456,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9480,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 3456,
+        "stockDelta": 1440,
+        "architectureDelta": 242
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 7452,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 7050,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 360,
+        "stockDelta": 288,
+        "architectureDelta": 114
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 12672,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12448,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 224
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 10010,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9480,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 242
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 7236,
+      "stockTriangles": 144,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 7050,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 144,
+        "stockDelta": 72,
+        "architectureDelta": 114
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 12672,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12448,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 224
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 10010,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9480,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 242
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 8052,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 7050,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 960,
+        "stockDelta": 888,
+        "architectureDelta": 114
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 8518,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 13376,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 14208,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 13966,
+      "stockTriangles": 2112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 16560,
+      "stockTriangles": 760,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 8965,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 27000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 8908,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 1703,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 3281,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 2006,
+      "stockTriangles": 108,
+      "animalTriangles": 490,
+      "residentTriangles": 490,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 1128,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 3928,
+      "stockTriangles": 576,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 3517,
+      "stockTriangles": 1016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [],
+      "id": 7,
+      "triangles": 5652,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 2350,
+      "stockTriangles": 236,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 5142,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 9000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 1964,
+      "stockTriangles": 90,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 2300,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 2300,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 2300,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 1554,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 2928,
+      "stockTriangles": 1068,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 2784,
+      "stockTriangles": 160,
+      "animalTriangles": 3012,
+      "residentTriangles": 3012,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 1669,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 2526,
+      "stockTriangles": 108,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 1177,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 2103,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 2309,
+      "stockTriangles": 240,
+      "animalTriangles": 2940,
+      "residentTriangles": 2940,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 2050,
+      "stockTriangles": 528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 3724,
+      "stockTriangles": 900,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 3114,
+      "stockTriangles": 768,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 2763,
+      "stockTriangles": 500,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 2479,
+      "stockTriangles": 708,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 2168,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 3168,
+      "stockTriangles": 672,
+      "animalTriangles": 3920,
+      "residentTriangles": 3920,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 2535,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 3051,
+      "stockTriangles": 448,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 2528,
+      "stockTriangles": 308,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 2045,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 2940,
+      "stockTriangles": 1224,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 2512,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 1920,
+      "stockTriangles": 180,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 4747,
+      "stockTriangles": 672,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 3364,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 2410,
+      "stockTriangles": 340,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 2177,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2103,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 74
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 1627,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1669,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 2235,
+      "stockTriangles": 1080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1177,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 1080,
+        "stockDelta": 1008,
+        "architectureDelta": 50
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 2177,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2103,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 74
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 1771,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1669,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 432,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 1371,
+      "stockTriangles": 216,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1177,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 216,
+        "stockDelta": 144,
+        "architectureDelta": 50
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 2177,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2103,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 74
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 1627,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1669,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 1275,
+      "stockTriangles": 120,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1177,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 120,
+        "stockDelta": 48,
+        "architectureDelta": 50
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 2177,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2103,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 74
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 1627,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1669,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 1395,
+      "stockTriangles": 240,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1177,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 240,
+        "stockDelta": 168,
+        "architectureDelta": 50
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 1470,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 2304,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 2488,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 3306,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 3309,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 2056,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "chinese",
+      "budget": 5250
+    }
+  ]
+}

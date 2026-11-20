@@ -1,0 +1,1931 @@
+{
+  "generatedAt": "2026-11-11T06:09:56.213Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecutedByThisScript": false,
+    "note": "No test preflight is performed by this script."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 72887408,
+      "models": 57,
+      "clips": 174
+    },
+    {
+      "quality": "minimal",
+      "bytes": 19630132,
+      "models": 57,
+      "clips": 174
+    }
+  ],
+  "buildings": [
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 15896,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 25500
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 5890,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 6730,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 4964,
+      "stockTriangles": 1440,
+      "animalTriangles": 2454,
+      "residentTriangles": 2454,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 2890,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 5362,
+      "stockTriangles": 816,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 6498,
+      "stockTriangles": 1308,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [],
+      "id": 7,
+      "triangles": 7912,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 21750
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 6252,
+      "stockTriangles": 2396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 8540,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 4014,
+      "stockTriangles": 304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 6750,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 6750,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 6750,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 3574,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 9860,
+      "stockTriangles": 6788,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 18000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 7518,
+      "stockTriangles": 640,
+      "animalTriangles": 10632,
+      "residentTriangles": 10632,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 7462,
+      "stockTriangles": 2016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 9148,
+      "stockTriangles": 1392,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 3496,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 8218,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 6800,
+      "stockTriangles": 2304,
+      "animalTriangles": 14724,
+      "residentTriangles": 14724,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 8228,
+      "stockTriangles": 3024,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 10220,
+      "stockTriangles": 4080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 8314,
+      "stockTriangles": 1692,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 9212,
+      "stockTriangles": 2418,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 8404,
+      "stockTriangles": 1524,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 9074,
+      "stockTriangles": 4896,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 7070,
+      "stockTriangles": 2940,
+      "animalTriangles": 19632,
+      "residentTriangles": 19632,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 4754,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 8034,
+      "stockTriangles": 3776,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 9204,
+      "stockTriangles": 2404,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 6968,
+      "stockTriangles": 2616,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 8472,
+      "stockTriangles": 3264,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 4786,
+      "stockTriangles": 1848,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 5784,
+      "stockTriangles": 1584,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 8980,
+      "stockTriangles": 5232,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 9618,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 8346,
+      "stockTriangles": 1984,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 8470,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 8218,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 7750,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 7462,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 6088,
+      "stockTriangles": 2544,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3496,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 2544,
+        "stockDelta": 2472,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 8470,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 8218,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 8902,
+      "stockTriangles": 3456,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 7462,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 3456,
+        "stockDelta": 1440,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 3904,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3496,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 360,
+        "stockDelta": 288,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 8470,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 8218,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 7750,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 7462,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 3688,
+      "stockTriangles": 144,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3496,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 144,
+        "stockDelta": 72,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 8470,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 8218,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 252
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 7750,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 7462,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 4504,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3496,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 960,
+        "stockDelta": 888,
+        "architectureDelta": 120
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 3526,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 3290,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 3364,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 7250,
+      "stockTriangles": 2112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 5444,
+      "stockTriangles": 760,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 7044,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 15000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 3240,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 6000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 1714,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 1652,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 1024,
+      "stockTriangles": 108,
+      "animalTriangles": 490,
+      "residentTriangles": 490,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 526,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 1638,
+      "stockTriangles": 576,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 1872,
+      "stockTriangles": 652,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [],
+      "id": 7,
+      "triangles": 2826,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4800
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 1340,
+      "stockTriangles": 236,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 1652,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 1224,
+      "stockTriangles": 90,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 1560,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 1560,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 1560,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 942,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 1928,
+      "stockTriangles": 1068,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 2546,
+      "stockTriangles": 160,
+      "animalTriangles": 3012,
+      "residentTriangles": 3012,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 1814,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 2020,
+      "stockTriangles": 108,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 1232,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 2162,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 1272,
+      "stockTriangles": 240,
+      "animalTriangles": 2940,
+      "residentTriangles": 2940,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 1680,
+      "stockTriangles": 528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 2408,
+      "stockTriangles": 972,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 2492,
+      "stockTriangles": 768,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 2032,
+      "stockTriangles": 500,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 1818,
+      "stockTriangles": 708,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 1792,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 1858,
+      "stockTriangles": 738,
+      "animalTriangles": 3920,
+      "residentTriangles": 3920,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 1446,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 1734,
+      "stockTriangles": 448,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 1647,
+      "stockTriangles": 344,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 1296,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 2212,
+      "stockTriangles": 1224,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 2284,
+      "stockTriangles": 1176,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 1404,
+      "stockTriangles": 180,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 1768,
+      "stockTriangles": 672,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 1986,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 2268,
+      "stockTriangles": 340,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 2264,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2162,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 1670,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1814,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 2300,
+      "stockTriangles": 1080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1232,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 1080,
+        "stockDelta": 1008,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 2264,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2162,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 1814,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1814,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 432,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 1436,
+      "stockTriangles": 216,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1232,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 216,
+        "stockDelta": 144,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 2264,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2162,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 1670,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1814,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 1340,
+      "stockTriangles": 120,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1232,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 120,
+        "stockDelta": 48,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 2264,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 2162,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 102
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 1670,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1814,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 1460,
+      "stockTriangles": 240,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 1232,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 240,
+        "stockDelta": 168,
+        "architectureDelta": 60
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 1044,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 626,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 644,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 1790,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 1144,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 1787,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "viking",
+      "budget": 3450
+    }
+  ]
+}

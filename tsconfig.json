@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    // Vite native config loading requires explicit TypeScript file extensions.
+    "allowImportingTsExtensions": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable", "WebWorker"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUncheckedIndexedAccess": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["vite/client", "node"],
+    // The worker characters repo inside the game workspace (vite.config.ts WORKER_REPO).
+    // The single content catalog of the shared package (island-of-settlers-shared/src/catalog/README.md).
+    "paths": {
+      "@shared/catalog": ["../island-of-settlers-shared/src/catalog/index.ts"],
+      "@shared/catalog/ai/*": ["../island-of-settlers-shared/src/catalog/ai/*"],
+      "@shared/catalog/balance": ["../island-of-settlers-shared/src/catalog/balance/index.ts"],
+      "@shared/catalog/building-data/*": ["../island-of-settlers-shared/src/catalog/building-data/*"],
+      "@shared/catalog/tuning/*": ["../island-of-settlers-shared/src/catalog/tuning/*"],
+      "@workers/*": ["../island-of-settlers-worker-generation/src/*"]
+    }
+  },
+  "include": ["src", "tests", "tests-ui", "tools", "playwright.config.ts", "vite.config.ts"]
+}

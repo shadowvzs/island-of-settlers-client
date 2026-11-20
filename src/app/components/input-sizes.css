@@ -1,0 +1,35 @@
+/*
+ * Input widths by expected value length (owner 2026-11-11): small values never get a full-width field.
+ *   .input-narrow  4 characters: levels, ranks, quarter turns, factions, percentages
+ *   .input-count   7 characters: counts, amounts, coordinates (6 digits plus a sign or decimal point)
+ *   .input-long   11 characters: seeds and other long numbers
+ *   .input-short  13 characters: dates and short choice lists (Left/Right, Home/Adventure)
+ * `--input-size-chrome` is the host's padding, border and spin-button/picker room; hosts with other paddings
+ * set it once. Host editors stretch their fields to the column with higher-specificity selectors, so the
+ * widths use !important (utility-class contract) and never exceed the available space.
+ */
+.input-narrow,
+.input-count,
+.input-long,
+.input-short {
+  box-sizing: border-box;
+  flex: none !important;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.input-narrow {
+  width: calc(4ch + var(--input-size-chrome, 2.75em)) !important;
+}
+
+.input-count {
+  width: calc(7ch + var(--input-size-chrome, 2.75em)) !important;
+}
+
+.input-long {
+  width: calc(11ch + var(--input-size-chrome, 2.75em)) !important;
+}
+
+.input-short {
+  width: calc(13ch + var(--input-size-chrome, 2.75em)) !important;
+}

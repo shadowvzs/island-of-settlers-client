@@ -1,0 +1,604 @@
+{
+  "nation": "roman",
+  "generatedAt": "2026-11-11T06:08:51.322Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "roman",
+      "nodeName": "roman_0",
+      "triangles": 9970,
+      "path": "assets/building-icons/roman-0.png",
+      "sha256": "008c4a0c1406e5fc6d823d865574f5ca7f18ed6e87c7545b60694c860f9beee9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "roman",
+      "nodeName": "roman_1",
+      "triangles": 3952,
+      "path": "assets/building-icons/roman-1.png",
+      "sha256": "f552c43f302c39ba1223e8b90bb39fb97c461e3701c99b0eca559be65ab7e2c2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "roman",
+      "nodeName": "roman_2",
+      "triangles": 5514,
+      "path": "assets/building-icons/roman-2.png",
+      "sha256": "2aa8c8a59f3ab42e273644d379c61d4e72ac650e09cfd005d2d9897f99484da3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "roman",
+      "nodeName": "roman_3",
+      "triangles": 7282,
+      "path": "assets/building-icons/roman-3.png",
+      "sha256": "ce8f9cf3873b62d32d39081fea6573afb275050b508abd64d6264ee7916f0411",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "roman",
+      "nodeName": "roman_4",
+      "triangles": 1560,
+      "path": "assets/building-icons/roman-4.png",
+      "sha256": "fc5f4ba52bc2ce54e2927e7a22e08572dbfe533d60699080f690d24c857ccf73",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "roman",
+      "nodeName": "roman_5",
+      "triangles": 12043,
+      "path": "assets/building-icons/roman-5.png",
+      "sha256": "b703dc2660f78cf8d01b34b7a6fc71a02f749bc19ad7f0081a911691d1d06892",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "roman",
+      "nodeName": "roman_6",
+      "triangles": 5731,
+      "path": "assets/building-icons/roman-6.png",
+      "sha256": "dbfbb7ad3005203e94d11c808b3dc01c003f7ca3f35ab40d8c8c8f8bc6a018f3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "roman",
+      "nodeName": "roman_63",
+      "triangles": 8922,
+      "path": "assets/building-icons/roman-7.png",
+      "sha256": "633428f2eb7c9ec3dedc97765ba18886b950a0f81fa781b3649b4ada75eccbf1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "roman",
+      "nodeName": "roman_8",
+      "triangles": 6500,
+      "path": "assets/building-icons/roman-8.png",
+      "sha256": "9bbb5540ad5e5dcc769d9e7278c6f06325c3c2755864a7f06cc8ecc136b88abd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "roman",
+      "nodeName": "roman_9",
+      "triangles": 3232,
+      "path": "assets/building-icons/roman-9.png",
+      "sha256": "92cb7e086ffd61f6d132cd54de7a2ed6aa8ee0a3b2bd3dd1b68c5510608565e4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "roman",
+      "nodeName": "roman_10",
+      "triangles": 2774,
+      "path": "assets/building-icons/roman-10.png",
+      "sha256": "6a6d9e03b8d31df6eceac454152def902193c72141a38e73df4c8917a0a98758",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "roman",
+      "nodeName": "roman_11",
+      "triangles": 5510,
+      "path": "assets/building-icons/roman-11.png",
+      "sha256": "2709d9349b16620a12d517b8fa38691ef2a5d7e54ce14920b0b041adfcb0984f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "roman",
+      "nodeName": "roman_12",
+      "triangles": 5510,
+      "path": "assets/building-icons/roman-12.png",
+      "sha256": "6069789529d6cd81b67b63a94dc85bcd9b179cfefb06586c2c34bbc5c901c744",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "roman",
+      "nodeName": "roman_13",
+      "triangles": 5510,
+      "path": "assets/building-icons/roman-13.png",
+      "sha256": "1664604b18509e772cb263027da8ee1966776e402ee281fa469ff150318fe709",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "roman",
+      "nodeName": "roman_14",
+      "triangles": 2714,
+      "path": "assets/building-icons/roman-14.png",
+      "sha256": "4f59e18f24ee21993370b1d1551824c8234b0abd30daa8a4f57f5367ab963c70",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "roman",
+      "nodeName": "roman_15",
+      "triangles": 9964,
+      "path": "assets/building-icons/roman-15.png",
+      "sha256": "4675dfe2fc3b258b90a6bfced761af8f9eb523619196c8e6ac3ca8181f49f756",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "roman",
+      "nodeName": "roman_16",
+      "triangles": 23274,
+      "path": "assets/building-icons/roman-16.png",
+      "sha256": "d051992f51f4de920d9c679100a4d7acadf652d0f3dcebfb14baa46bd12127fa",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "roman",
+      "nodeName": "roman_17",
+      "triangles": 4668,
+      "path": "assets/building-icons/roman-17.png",
+      "sha256": "134cd0a1f43c15a71b1e666c4f0f1ad5cb49d79bcf353de8bc8fe6b72cf97d7a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "roman",
+      "nodeName": "roman_18",
+      "triangles": 9828,
+      "path": "assets/building-icons/roman-18.png",
+      "sha256": "6f6d802926f4f14f149b3a7d0b4557839e690dec46c4e9b6586d10d7f0b3d74b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "roman",
+      "nodeName": "roman_19",
+      "triangles": 2996,
+      "path": "assets/building-icons/roman-19.png",
+      "sha256": "7800f35e7696cc8c33ec44247339c147034ccdf4df628365235d616b9d4b277f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "roman",
+      "nodeName": "roman_20",
+      "triangles": 6626,
+      "path": "assets/building-icons/roman-20.png",
+      "sha256": "591710f51195d7ab8355c0c8f58c8e80ff3ee11981f828772d4988dfc26734a2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "roman",
+      "nodeName": "roman_21",
+      "triangles": 21732,
+      "path": "assets/building-icons/roman-21.png",
+      "sha256": "d15fbaf08d784d4bc07d085fc47ff38c68dcbaa0fe3d2f3a7ddb056f44c886b4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "roman",
+      "nodeName": "roman_22",
+      "triangles": 5740,
+      "path": "assets/building-icons/roman-22.png",
+      "sha256": "36a6860e0fa65a9edd12bda2e00f5f16acfb670b9db949fa9643d49398d1a530",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "roman",
+      "nodeName": "roman_23",
+      "triangles": 9152,
+      "path": "assets/building-icons/roman-23.png",
+      "sha256": "86e3d11a317c83d870c161321927d5e79ff9568ca009bd6b574ce24417b1e0dd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "roman",
+      "nodeName": "roman_24",
+      "triangles": 6998,
+      "path": "assets/building-icons/roman-24.png",
+      "sha256": "82b2ab32fbe3c0fbd4569b83a78f2c1226496330400a088b8c6094201773a304",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "roman",
+      "nodeName": "roman_25",
+      "triangles": 8952,
+      "path": "assets/building-icons/roman-25.png",
+      "sha256": "6a756b67f0b316307e388e39c31ae53a1ac359907a75754c0e79bfcb0bc41612",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "roman",
+      "nodeName": "roman_26",
+      "triangles": 8772,
+      "path": "assets/building-icons/roman-26.png",
+      "sha256": "920267c8dd701cfb4a70145bbf9effb9673d915318ce9b191c5af4777dbc05c1",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "roman",
+      "nodeName": "roman_27",
+      "triangles": 8618,
+      "path": "assets/building-icons/roman-27.png",
+      "sha256": "84900b356c78b20e4a8bbc345263d940d6f0d21136d993e8d312046f9b712ab9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "roman",
+      "nodeName": "roman_28",
+      "triangles": 25938,
+      "path": "assets/building-icons/roman-28.png",
+      "sha256": "b967fc85949eb16689216f824a0eb01f93f0e0a8e4590c30d8adaf054f91faec",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "roman",
+      "nodeName": "roman_29",
+      "triangles": 4034,
+      "path": "assets/building-icons/roman-29.png",
+      "sha256": "4aefc4ea0e4e1b4fe62d91187899129f57fe476b987bf9363f1120d41963774c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "roman",
+      "nodeName": "roman_31",
+      "triangles": 6258,
+      "path": "assets/building-icons/roman-31.png",
+      "sha256": "b1d65eed264d31f97f354072b46c9973f1c9705a6d782524daf15cb1f66506bf",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "roman",
+      "nodeName": "roman_32",
+      "triangles": 9716,
+      "path": "assets/building-icons/roman-32.png",
+      "sha256": "3b7a5c8b54cde8b588eb230679461db43421c4d050c1219744a12d8b40857534",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "roman",
+      "nodeName": "roman_33",
+      "triangles": 6448,
+      "path": "assets/building-icons/roman-33.png",
+      "sha256": "f9e139cfcc5dc5aafa5360096a2e744476d91014bb7c9febe2a1920d75fd4a41",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "roman",
+      "nodeName": "roman_34",
+      "triangles": 7676,
+      "path": "assets/building-icons/roman-34.png",
+      "sha256": "ea0f2ab893fdb4b4ce377ddacc179804c4436d53f12ceb85fe23ae7bd39046c2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "roman",
+      "nodeName": "roman_35",
+      "triangles": 7134,
+      "path": "assets/building-icons/roman-35.png",
+      "sha256": "dcbe2045aabfc7b44e7d5cbff67b46e03fbd042f1286d68e31b1db9a437c3fd2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "roman",
+      "nodeName": "roman_36",
+      "triangles": 5864,
+      "path": "assets/building-icons/roman-36.png",
+      "sha256": "14ab0643456e972a801e2d419f2d218121d898e343269b6e534464d9dd40faf6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "roman",
+      "nodeName": "roman_37",
+      "triangles": 9230,
+      "path": "assets/building-icons/roman-37.png",
+      "sha256": "3e9cef9d2ff22b1f96445c43b16d963f44c4327a7bc359bf650ce4015ac0cdf4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "roman",
+      "nodeName": "roman_39",
+      "triangles": 9324,
+      "path": "assets/building-icons/roman-39.png",
+      "sha256": "b619ece9f99da2ed066377e99c3929ede9b5a89b7286b20ced8e44e72356444d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "roman",
+      "nodeName": "roman_40",
+      "triangles": 8300,
+      "path": "assets/building-icons/roman-40.png",
+      "sha256": "69919b51ee32a6dac09bdd8f0a757c559b58bd51a5f70b8474cc52cf65aae98f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "roman",
+      "nodeName": "roman_41",
+      "triangles": 7494,
+      "path": "assets/building-icons/roman-41.png",
+      "sha256": "b6323d6bb4a46c0d30fc96300da94dc6e0fe4c2abafe09c813e0560c99ca69ce",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "roman",
+      "nodeName": "roman_42",
+      "triangles": 6156,
+      "path": "assets/building-icons/roman-42.png",
+      "sha256": "9df16f114d37f49e9bdeae72c7ee2bdbf8a544687b38fec31954e92d566b4501",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "roman",
+      "nodeName": "roman_43",
+      "triangles": 5588,
+      "path": "assets/building-icons/roman-43.png",
+      "sha256": "4b1138aaf53ff6b2c04b882f047ec2fb89ad2e14d6adf42481b2bf010c1ad247",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "roman",
+      "nodeName": "roman_45",
+      "triangles": 7494,
+      "path": "assets/building-icons/roman-45.png",
+      "sha256": "b6323d6bb4a46c0d30fc96300da94dc6e0fe4c2abafe09c813e0560c99ca69ce",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "roman",
+      "nodeName": "roman_46",
+      "triangles": 7308,
+      "path": "assets/building-icons/roman-46.png",
+      "sha256": "4e88d88e2467955b4b198ddb16777b8143cc92b3a0ac191afb9051dcc47b76b6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "roman",
+      "nodeName": "roman_47",
+      "triangles": 3404,
+      "path": "assets/building-icons/roman-47.png",
+      "sha256": "d4eb100aa94f62dfd873cd72cff515d272b8219932e9540bb5ceaf44c40b8141",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "roman",
+      "nodeName": "roman_49",
+      "triangles": 7494,
+      "path": "assets/building-icons/roman-49.png",
+      "sha256": "b6323d6bb4a46c0d30fc96300da94dc6e0fe4c2abafe09c813e0560c99ca69ce",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "roman",
+      "nodeName": "roman_50",
+      "triangles": 6156,
+      "path": "assets/building-icons/roman-50.png",
+      "sha256": "c2a8288a151671701d24bf975017b2aa1afc160b934446e1b8ee1f780ddd368d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "roman",
+      "nodeName": "roman_51",
+      "triangles": 3188,
+      "path": "assets/building-icons/roman-51.png",
+      "sha256": "43b00e7a11736278b15d893d584c54a38d9540497e4d628bbe351db6ca34ac20",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "roman",
+      "nodeName": "roman_53",
+      "triangles": 7494,
+      "path": "assets/building-icons/roman-53.png",
+      "sha256": "b6323d6bb4a46c0d30fc96300da94dc6e0fe4c2abafe09c813e0560c99ca69ce",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "roman",
+      "nodeName": "roman_54",
+      "triangles": 6156,
+      "path": "assets/building-icons/roman-54.png",
+      "sha256": "a44c4acf3cf0f76b1ac41dc9e14f6356a346867a4844d6513fc9b35a597c31b9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "roman",
+      "nodeName": "roman_55",
+      "triangles": 4004,
+      "path": "assets/building-icons/roman-55.png",
+      "sha256": "fff5a4227578e72deca6bb0687a94fe87dd9fc78c473a108bed1f8e0c525bb3d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "roman",
+      "nodeName": "roman_57",
+      "triangles": 3470,
+      "path": "assets/building-icons/roman-57.png",
+      "sha256": "9d7a539bca461c658ce7df4bc798569681857c77cffb36d628cc8026dfccdf8f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "roman",
+      "nodeName": "roman_58",
+      "triangles": 5248,
+      "path": "assets/building-icons/roman-58.png",
+      "sha256": "940285c5e6ef5e40bf9610e4141d54070caffd4adca107bc28a87ac1df842a9d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "roman",
+      "nodeName": "roman_59",
+      "triangles": 4776,
+      "path": "assets/building-icons/roman-59.png",
+      "sha256": "de0daca629d069aeb188dc95db3b063a6e2bd4d0acd8253564b7f0b8a417cdfc",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "roman",
+      "nodeName": "roman_60",
+      "triangles": 6498,
+      "path": "assets/building-icons/roman-60.png",
+      "sha256": "24b16914553f09a9c8f5ba746400c0bd5b1b96812d9e828f5edd86886949b2bd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "roman",
+      "nodeName": "roman_61",
+      "triangles": 5188,
+      "path": "assets/building-icons/roman-61.png",
+      "sha256": "468ef2f9ebbe6c8b16ccf93959292105591ea2229c540ce3e0f042a459d5633c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "roman",
+      "nodeName": "roman_62",
+      "triangles": 5140,
+      "path": "assets/building-icons/roman-62.png",
+      "sha256": "223ffa4257ee4954853e710e1171801e37106c7c3dd8e809c25009fb852e9158",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    },
+    {
+      "id": 0,
+      "generatedAt": "2026-11-11T15:07:06.419Z",
+      "source": "codex-door-export/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    },
+    {
+      "id": 29,
+      "generatedAt": "2026-11-11T15:07:06.419Z",
+      "source": "codex-door-export/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    },
+    {
+      "id": 39,
+      "generatedAt": "2026-11-11T15:07:06.419Z",
+      "source": "codex-door-export/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    }
+  ]
+}

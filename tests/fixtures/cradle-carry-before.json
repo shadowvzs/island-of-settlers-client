@@ -1,0 +1,191 @@
+[
+  {
+    "ware": "fish",
+    "direction": "pickup",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "3ec63d1f10b0fefbc72a0b6ec4c009a90e2497ff946a4b54d80d6f340b60e3de"
+  },
+  {
+    "ware": "fish",
+    "direction": "pickup",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "91e2f440957e0849440f752542fe56a0af309e3f2d5c9f4e92ac43358fe583c5"
+  },
+  {
+    "ware": "fish",
+    "direction": "pickup",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "47f03093cc12319afd90e67ad996de0ba86b3c46de45679a05f11358682e8628"
+  },
+  {
+    "ware": "fish",
+    "direction": "pickup",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "20e2c33055b4c4778e28c95e5b2bb74a200d4e4970a5bfb08db02c5f5d1fab42"
+  },
+  {
+    "ware": "fish",
+    "direction": "putdown",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "78347db1dd2cd0c47674e458baafcfb90db6aaae62ec3ebdf2c1a3fcf20978da"
+  },
+  {
+    "ware": "fish",
+    "direction": "putdown",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "bc726913cf94ac232faf95070dd1753d438577dfd134835856d8d5a8a84a86ae"
+  },
+  {
+    "ware": "fish",
+    "direction": "putdown",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "7c57f8eac8cebbceaebc4a6e779d94f0ada2b4a6403e8fe1a34f6f807ffd7aa1"
+  },
+  {
+    "ware": "fish",
+    "direction": "putdown",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "030e96f52e1e20c791bb76629a6bb6791673412577ae1e6c03d13ffb8dd28672"
+  },
+  {
+    "ware": "fish",
+    "direction": "pickup",
+    "progress": 1,
+    "carryOnly": true,
+    "digest": "e287181f02e08cc858cd550eca767701be00aa1ad554c3180c74f7451573f17e"
+  },
+  {
+    "ware": "stone",
+    "direction": "pickup",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "b235fa0581bf1d16b0a2de25d65fb14b7e4d1c45be535274c0781feabbd2b291"
+  },
+  {
+    "ware": "stone",
+    "direction": "pickup",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "fa76f61ee60f82a0b84d309aecdfb5ea3d090d810d88b0f8748db6aa842d940d"
+  },
+  {
+    "ware": "stone",
+    "direction": "pickup",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "65ad18a5d41e57248d67bb101f49a1f23f07c7806204bf34d2faceb7fddc23d3"
+  },
+  {
+    "ware": "stone",
+    "direction": "pickup",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "8bf56f4c42247fa3e54991f9fef9671ed975e2b15f968af70f7e29a34c47bccc"
+  },
+  {
+    "ware": "stone",
+    "direction": "putdown",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "42ec7fcda61c039f641ae9e55aae1132a91d0d2f4dbec4e4af2fa46cdb349489"
+  },
+  {
+    "ware": "stone",
+    "direction": "putdown",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "49fbda063296f6db4fe377d90bebeb1025d3244e05a4edeb53c5ec84c0c54cba"
+  },
+  {
+    "ware": "stone",
+    "direction": "putdown",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "0e4ea51a605737211f097f22e3e73408c3f8a1b4fe2201cda02f98fa678884ad"
+  },
+  {
+    "ware": "stone",
+    "direction": "putdown",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "030e96f52e1e20c791bb76629a6bb6791673412577ae1e6c03d13ffb8dd28672"
+  },
+  {
+    "ware": "stone",
+    "direction": "pickup",
+    "progress": 1,
+    "carryOnly": true,
+    "digest": "5343ebb56a045c2e8298e6a97a07c151727e8504263083beb39c61ff945c25e2"
+  },
+  {
+    "ware": "flour",
+    "direction": "pickup",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "b235fa0581bf1d16b0a2de25d65fb14b7e4d1c45be535274c0781feabbd2b291"
+  },
+  {
+    "ware": "flour",
+    "direction": "pickup",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "fa76f61ee60f82a0b84d309aecdfb5ea3d090d810d88b0f8748db6aa842d940d"
+  },
+  {
+    "ware": "flour",
+    "direction": "pickup",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "65ad18a5d41e57248d67bb101f49a1f23f07c7806204bf34d2faceb7fddc23d3"
+  },
+  {
+    "ware": "flour",
+    "direction": "pickup",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "8bf56f4c42247fa3e54991f9fef9671ed975e2b15f968af70f7e29a34c47bccc"
+  },
+  {
+    "ware": "flour",
+    "direction": "putdown",
+    "progress": 0.15,
+    "carryOnly": false,
+    "digest": "42ec7fcda61c039f641ae9e55aae1132a91d0d2f4dbec4e4af2fa46cdb349489"
+  },
+  {
+    "ware": "flour",
+    "direction": "putdown",
+    "progress": 0.55,
+    "carryOnly": false,
+    "digest": "49fbda063296f6db4fe377d90bebeb1025d3244e05a4edeb53c5ec84c0c54cba"
+  },
+  {
+    "ware": "flour",
+    "direction": "putdown",
+    "progress": 0.69,
+    "carryOnly": false,
+    "digest": "0e4ea51a605737211f097f22e3e73408c3f8a1b4fe2201cda02f98fa678884ad"
+  },
+  {
+    "ware": "flour",
+    "direction": "putdown",
+    "progress": 0.9,
+    "carryOnly": false,
+    "digest": "030e96f52e1e20c791bb76629a6bb6791673412577ae1e6c03d13ffb8dd28672"
+  },
+  {
+    "ware": "flour",
+    "direction": "pickup",
+    "progress": 1,
+    "carryOnly": true,
+    "digest": "5343ebb56a045c2e8298e6a97a07c151727e8504263083beb39c61ff945c25e2"
+  }
+]

@@ -1,0 +1,2270 @@
+{
+  "roadDecoration:plant-bonsai-maple-roadside-pot-0:native": {
+    "image": "plant-bonsai-maple-roadside-pot-0-native.png",
+    "width": 1.3845165879074852,
+    "height": 1.3845165879074852,
+    "pivot": [
+      0.4813596517027156,
+      0.23922805108729767
+    ]
+  },
+  "roadDecoration:plant-bonsai-maple-roadside-pot-1:native": {
+    "image": "plant-bonsai-maple-roadside-pot-1-native.png",
+    "width": 1.6159253488194092,
+    "height": 1.6159253488194092,
+    "pivot": [
+      0.4278728615038168,
+      0.3070619215781648
+    ]
+  },
+  "roadDecoration:plant-bonsai-maple-roadside-pot-2:native": {
+    "image": "plant-bonsai-maple-roadside-pot-2-native.png",
+    "width": 1.567159781058925,
+    "height": 1.567159781058925,
+    "pivot": [
+      0.39250271019954536,
+      0.3871382701122374
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-ground-0:native": {
+    "image": "plant-round-boxwood-roadside-ground-0-native.png",
+    "width": 0.9005400573326025,
+    "height": 0.9005400573326025,
+    "pivot": [
+      0.49886724936381677,
+      0.2610438881905078
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-pot-0:native": {
+    "image": "plant-round-boxwood-roadside-pot-0-native.png",
+    "width": 1.246152977754236,
+    "height": 1.246152977754236,
+    "pivot": [
+      0.4991871105572455,
+      0.2386395252235997
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-ground-1:native": {
+    "image": "plant-round-myrtle-roadside-ground-1-native.png",
+    "width": 1.3130110661921242,
+    "height": 1.3130110661921242,
+    "pivot": [
+      0.5015330274068199,
+      0.2526324371116696
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-pot-1:native": {
+    "image": "plant-round-myrtle-roadside-pot-1-native.png",
+    "width": 1.6586238968231142,
+    "height": 1.6586238968231142,
+    "pivot": [
+      0.5,
+      0.23641816267628585
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-ground-2:native": {
+    "image": "plant-myrtle-roadside-ground-2-native.png",
+    "width": 1.0124790892717732,
+    "height": 1.0124790892717732,
+    "pivot": [
+      0.504337207314008,
+      0.2516909268394227
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-pot-2:native": {
+    "image": "plant-myrtle-roadside-pot-2-native.png",
+    "width": 1.35809209948405,
+    "height": 1.35809209948405,
+    "pivot": [
+      0.5032088113637821,
+      0.23348202338886748
+    ]
+  },
+  "roadDecoration:plant-red-maple-standalone-ground-0:native": {
+    "image": "plant-red-maple-standalone-ground-0-native.png",
+    "width": 9.475283253737112,
+    "height": 9.475283253737112,
+    "pivot": [
+      0.48892144261773535,
+      0.23807140233288754
+    ]
+  },
+  "roadDecoration:plant-red-maple-standalone-ground-1:native": {
+    "image": "plant-red-maple-standalone-ground-1-native.png",
+    "width": 9.114678732505226,
+    "height": 9.114678732505226,
+    "pivot": [
+      0.4866014114970463,
+      0.2638771262106387
+    ]
+  },
+  "roadDecoration:plant-red-maple-standalone-ground-2:native": {
+    "image": "plant-red-maple-standalone-ground-2-native.png",
+    "width": 10.326261145975291,
+    "height": 10.326261145975291,
+    "pivot": [
+      0.5109227555750252,
+      0.26748164583069495
+    ]
+  },
+  "roadDecoration:plant-red-maple-yellow-standalone-ground-0:native": {
+    "image": "plant-red-maple-yellow-standalone-ground-0-native.png",
+    "width": 9.475283253737112,
+    "height": 9.475283253737112,
+    "pivot": [
+      0.48892144261773535,
+      0.23807140233288754
+    ]
+  },
+  "roadDecoration:plant-red-maple-yellow-standalone-ground-1:native": {
+    "image": "plant-red-maple-yellow-standalone-ground-1-native.png",
+    "width": 9.114678732505226,
+    "height": 9.114678732505226,
+    "pivot": [
+      0.4866014114970463,
+      0.2638771262106387
+    ]
+  },
+  "roadDecoration:plant-red-maple-yellow-standalone-ground-2:native": {
+    "image": "plant-red-maple-yellow-standalone-ground-2-native.png",
+    "width": 10.326261145975291,
+    "height": 10.326261145975291,
+    "pivot": [
+      0.5109227555750252,
+      0.26748164583069495
+    ]
+  },
+  "roadDecoration:plant-red-maple-orange-standalone-ground-0:native": {
+    "image": "plant-red-maple-orange-standalone-ground-0-native.png",
+    "width": 9.475283253737112,
+    "height": 9.475283253737112,
+    "pivot": [
+      0.48892144261773535,
+      0.23807140233288754
+    ]
+  },
+  "roadDecoration:plant-red-maple-orange-standalone-ground-1:native": {
+    "image": "plant-red-maple-orange-standalone-ground-1-native.png",
+    "width": 9.114678732505226,
+    "height": 9.114678732505226,
+    "pivot": [
+      0.4866014114970463,
+      0.2638771262106387
+    ]
+  },
+  "roadDecoration:plant-red-maple-orange-standalone-ground-2:native": {
+    "image": "plant-red-maple-orange-standalone-ground-2-native.png",
+    "width": 10.326261145975291,
+    "height": 10.326261145975291,
+    "pivot": [
+      0.5109227555750252,
+      0.26748164583069495
+    ]
+  },
+  "roadDecoration:plant-pink-peach-standalone-ground-0:native": {
+    "image": "plant-pink-peach-standalone-ground-0-native.png",
+    "width": 9.6854978978687,
+    "height": 9.6854978978687,
+    "pivot": [
+      0.5071245152016527,
+      0.24898625948959185
+    ]
+  },
+  "roadDecoration:plant-pink-peach-standalone-ground-1:native": {
+    "image": "plant-pink-peach-standalone-ground-1-native.png",
+    "width": 9.396889377608797,
+    "height": 9.396889377608797,
+    "pivot": [
+      0.52181594850286,
+      0.24843721822522913
+    ]
+  },
+  "roadDecoration:plant-pink-peach-standalone-ground-2:native": {
+    "image": "plant-pink-peach-standalone-ground-2-native.png",
+    "width": 9.737479048147858,
+    "height": 9.737479048147858,
+    "pivot": [
+      0.4729571199309732,
+      0.2588896240404063
+    ]
+  },
+  "roadDecoration:japanese-hanging-lantern-torii:native": {
+    "image": "japanese-hanging-lantern-torii-native.png",
+    "width": 5.151356034849518,
+    "height": 5.151356034849518,
+    "pivot": [
+      0.5084005664310584,
+      0.23539512452873024
+    ]
+  },
+  "roadDecoration:chinese-hanging-lantern-pailou:native": {
+    "image": "chinese-hanging-lantern-pailou-native.png",
+    "width": 4.98953348368228,
+    "height": 4.98953348368228,
+    "pivot": [
+      0.50132750501271,
+      0.19760321455506624
+    ]
+  },
+  "roadDecoration:wisteria-curved:native": {
+    "image": "wisteria-curved-native.png",
+    "width": 4.601692879269768,
+    "height": 4.601692879269768,
+    "pivot": [
+      0.4870853658892873,
+      0.1469807288909652
+    ]
+  },
+  "roadDecoration:wisteria-lattice:native": {
+    "image": "wisteria-lattice-native.png",
+    "width": 4.470456486574825,
+    "height": 4.470456486574825,
+    "pivot": [
+      0.5079535429592452,
+      0.15178982312758016
+    ]
+  },
+  "roadDecoration:wisteria-pergola:native": {
+    "image": "wisteria-pergola-native.png",
+    "width": 4.533761398115836,
+    "height": 4.533761398115836,
+    "pivot": [
+      0.5041137051534494,
+      0.14688018616884085
+    ]
+  },
+  "roadDecoration:japanese-wooden-lantern:native": {
+    "image": "japanese-wooden-lantern-native.png",
+    "width": 1.5541722792222339,
+    "height": 1.5541722792222339,
+    "pivot": [
+      0.5,
+      0.1497104123934297
+    ]
+  },
+  "roadDecoration:chinese-wooden-lantern:native": {
+    "image": "chinese-wooden-lantern-native.png",
+    "width": 1.5878853107154085,
+    "height": 1.5878853107154085,
+    "pivot": [
+      0.5,
+      0.14971041239158
+    ]
+  },
+  "roadDecoration:wisteria-tree-0:native": {
+    "image": "wisteria-tree-0-native.png",
+    "width": 5.855300827552324,
+    "height": 5.855300827552324,
+    "pivot": [
+      0.4910684949406689,
+      0.2629290365254614
+    ]
+  },
+  "roadDecoration:wisteria-tree-1:native": {
+    "image": "wisteria-tree-1-native.png",
+    "width": 5.872459639910005,
+    "height": 5.872459639910005,
+    "pivot": [
+      0.5118920777547384,
+      0.23357442441386256
+    ]
+  },
+  "roadDecoration:wisteria-tree-2:native": {
+    "image": "wisteria-tree-2-native.png",
+    "width": 5.132417010009293,
+    "height": 5.132417010009293,
+    "pivot": [
+      0.4850158903034122,
+      0.26191097459378865
+    ]
+  },
+  "roadDecoration:plant-compact-willow-standalone-ground-0:native": {
+    "image": "plant-compact-willow-standalone-ground-0-native.png",
+    "width": 6.329116994735027,
+    "height": 6.329116994735027,
+    "pivot": [
+      0.4942180351674169,
+      0.24469536963856758
+    ]
+  },
+  "roadDecoration:plant-compact-willow-standalone-ground-1:native": {
+    "image": "plant-compact-willow-standalone-ground-1-native.png",
+    "width": 6.049595848770899,
+    "height": 6.049595848770899,
+    "pivot": [
+      0.4911947647624029,
+      0.24839887444725023
+    ]
+  },
+  "roadDecoration:plant-compact-willow-standalone-ground-2:native": {
+    "image": "plant-compact-willow-standalone-ground-2-native.png",
+    "width": 6.577879457922533,
+    "height": 6.577879457922533,
+    "pivot": [
+      0.49712417219489846,
+      0.24363056274938694
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-ground-0:native": {
+    "image": "plant-columnar-cypress-roadside-ground-0-native.png",
+    "width": 6.929610895840849,
+    "height": 6.929610895840849,
+    "pivot": [
+      0.49914220603920595,
+      0.24222301618247805
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-ground-1:native": {
+    "image": "plant-columnar-cypress-roadside-ground-1-native.png",
+    "width": 7.080254453956197,
+    "height": 7.080254453956197,
+    "pivot": [
+      0.4992051187404233,
+      0.24166754605020435
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-ground-2:native": {
+    "image": "plant-columnar-cypress-roadside-ground-2-native.png",
+    "width": 7.230898012071544,
+    "height": 7.230898012071544,
+    "pivot": [
+      0.5002619728696157,
+      0.24146793968264713
+    ]
+  },
+  "roadDecoration:roman-doric-column:limestone": {
+    "image": "roman-doric-column-limestone.png",
+    "width": 4.180419763307602,
+    "height": 4.180419763307602,
+    "pivot": [
+      0.5,
+      0.14971041230631488
+    ]
+  },
+  "roadDecoration:roman-doric-column:marble": {
+    "image": "roman-doric-column-marble.png",
+    "width": 4.180419763307602,
+    "height": 4.180419763307602,
+    "pivot": [
+      0.5,
+      0.14971041230631488
+    ]
+  },
+  "roadDecoration:roman-ionic-column:limestone": {
+    "image": "roman-ionic-column-limestone.png",
+    "width": 4.402926253431798,
+    "height": 4.402926253431798,
+    "pivot": [
+      0.5000000000000001,
+      0.14971041230631477
+    ]
+  },
+  "roadDecoration:roman-ionic-column:marble": {
+    "image": "roman-ionic-column-marble.png",
+    "width": 4.402926253431798,
+    "height": 4.402926253431798,
+    "pivot": [
+      0.5000000000000001,
+      0.14971041230631477
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-roadside-ground-0:native": {
+    "image": "plant-cherry-blossom-roadside-ground-0-native.png",
+    "width": 4.849147155193681,
+    "height": 4.849147155193681,
+    "pivot": [
+      0.4992187979337967,
+      0.23840345161938553
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-roadside-ground-1:native": {
+    "image": "plant-cherry-blossom-roadside-ground-1-native.png",
+    "width": 4.709721332953754,
+    "height": 4.709721332953754,
+    "pivot": [
+      0.4981041689537295,
+      0.24414157700176847
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-roadside-ground-2:native": {
+    "image": "plant-cherry-blossom-roadside-ground-2-native.png",
+    "width": 4.96858165188933,
+    "height": 4.96858165188933,
+    "pivot": [
+      0.5041256100549176,
+      0.2467595169909032
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-standalone-ground-0:native": {
+    "image": "plant-cherry-blossom-standalone-ground-0-native.png",
+    "width": 4.895247905017803,
+    "height": 4.895247905017803,
+    "pivot": [
+      0.4958045007329952,
+      0.23580601036080384
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-standalone-ground-1:native": {
+    "image": "plant-cherry-blossom-standalone-ground-1-native.png",
+    "width": 4.7577601520829305,
+    "height": 4.7577601520829305,
+    "pivot": [
+      0.5044523685140072,
+      0.24576717519813285
+    ]
+  },
+  "roadDecoration:plant-cherry-blossom-standalone-ground-2:native": {
+    "image": "plant-cherry-blossom-standalone-ground-2-native.png",
+    "width": 4.940118798012251,
+    "height": 4.940118798012251,
+    "pivot": [
+      0.5124649695747675,
+      0.252180088075312
+    ]
+  },
+  "roadDecoration:plant-white-cherry-roadside-ground-0:native": {
+    "image": "plant-white-cherry-roadside-ground-0-native.png",
+    "width": 4.631057562987356,
+    "height": 4.631057562987356,
+    "pivot": [
+      0.5099123812592556,
+      0.24199579555699746
+    ]
+  },
+  "roadDecoration:plant-white-cherry-roadside-ground-1:native": {
+    "image": "plant-white-cherry-roadside-ground-1-native.png",
+    "width": 4.49860771612505,
+    "height": 4.49860771612505,
+    "pivot": [
+      0.5009678956984202,
+      0.25102486513850764
+    ]
+  },
+  "roadDecoration:plant-white-cherry-roadside-ground-2:native": {
+    "image": "plant-white-cherry-roadside-ground-2-native.png",
+    "width": 4.7512989184039025,
+    "height": 4.7512989184039025,
+    "pivot": [
+      0.4966990454028935,
+      0.24169048154898842
+    ]
+  },
+  "roadDecoration:plant-white-cherry-standalone-ground-0:native": {
+    "image": "plant-white-cherry-standalone-ground-0-native.png",
+    "width": 4.676295716548738,
+    "height": 4.676295716548738,
+    "pivot": [
+      0.5272656199230548,
+      0.23759112673400717
+    ]
+  },
+  "roadDecoration:plant-white-cherry-standalone-ground-1:native": {
+    "image": "plant-white-cherry-standalone-ground-1-native.png",
+    "width": 4.545781840135197,
+    "height": 4.545781840135197,
+    "pivot": [
+      0.5045486630693025,
+      0.2671866081673262
+    ]
+  },
+  "roadDecoration:plant-white-cherry-standalone-ground-2:native": {
+    "image": "plant-white-cherry-standalone-ground-2-native.png",
+    "width": 4.720418429007698,
+    "height": 4.720418429007698,
+    "pivot": [
+      0.49326468334275486,
+      0.23846474562748698
+    ]
+  },
+  "roadDecoration:plant-pink-peach-roadside-ground-0:native": {
+    "image": "plant-pink-peach-roadside-ground-0-native.png",
+    "width": 4.64440754604593,
+    "height": 4.64440754604593,
+    "pivot": [
+      0.5003385264513838,
+      0.24510375499650805
+    ]
+  },
+  "roadDecoration:plant-pink-peach-roadside-ground-1:native": {
+    "image": "plant-pink-peach-roadside-ground-1-native.png",
+    "width": 4.507897349456826,
+    "height": 4.507897349456826,
+    "pivot": [
+      0.5047961404728607,
+      0.24206167671956624
+    ]
+  },
+  "roadDecoration:plant-pink-peach-roadside-ground-2:native": {
+    "image": "plant-pink-peach-roadside-ground-2-native.png",
+    "width": 4.770677490150484,
+    "height": 4.770677490150484,
+    "pivot": [
+      0.48952311059523007,
+      0.2480491729212116
+    ]
+  },
+  "roadDecoration:plant-white-peach-roadside-ground-0:native": {
+    "image": "plant-white-peach-roadside-ground-0-native.png",
+    "width": 4.50287486492725,
+    "height": 4.50287486492725,
+    "pivot": [
+      0.5003491875985074,
+      0.24537728864540803
+    ]
+  },
+  "roadDecoration:plant-white-peach-roadside-ground-1:native": {
+    "image": "plant-white-peach-roadside-ground-1-native.png",
+    "width": 4.369394204643853,
+    "height": 4.369394204643853,
+    "pivot": [
+      0.5049487878742323,
+      0.24224129358615415
+    ]
+  },
+  "roadDecoration:plant-white-peach-roadside-ground-2:native": {
+    "image": "plant-white-peach-roadside-ground-2-native.png",
+    "width": 4.626277614209224,
+    "height": 4.626277614209224,
+    "pivot": [
+      0.48919641851415424,
+      0.2484118529812202
+    ]
+  },
+  "roadDecoration:plant-white-peach-standalone-ground-0:native": {
+    "image": "plant-white-peach-standalone-ground-0-native.png",
+    "width": 4.5154259020653695,
+    "height": 4.5154259020653695,
+    "pivot": [
+      0.5040954645186525,
+      0.2517484210342976
+    ]
+  },
+  "roadDecoration:plant-white-peach-standalone-ground-1:native": {
+    "image": "plant-white-peach-standalone-ground-1-native.png",
+    "width": 4.411941680563598,
+    "height": 4.411941680563598,
+    "pivot": [
+      0.5166663662434652,
+      0.24350106665037424
+    ]
+  },
+  "roadDecoration:plant-white-peach-standalone-ground-2:native": {
+    "image": "plant-white-peach-standalone-ground-2-native.png",
+    "width": 4.618329559715078,
+    "height": 4.618329559715078,
+    "pivot": [
+      0.4748259579669226,
+      0.2591719721799238
+    ]
+  },
+  "roadDecoration:plant-double-peach-roadside-ground-0:native": {
+    "image": "plant-double-peach-roadside-ground-0-native.png",
+    "width": 4.661181515706329,
+    "height": 4.661181515706329,
+    "pivot": [
+      0.4989773952924048,
+      0.2420858900915116
+    ]
+  },
+  "roadDecoration:plant-double-peach-roadside-ground-1:native": {
+    "image": "plant-double-peach-roadside-ground-1-native.png",
+    "width": 4.548475896149791,
+    "height": 4.548475896149791,
+    "pivot": [
+      0.5082644201265438,
+      0.2398808801493642
+    ]
+  },
+  "roadDecoration:plant-double-peach-roadside-ground-2:native": {
+    "image": "plant-double-peach-roadside-ground-2-native.png",
+    "width": 4.834599089969336,
+    "height": 4.834599089969336,
+    "pivot": [
+      0.4898584476431691,
+      0.24811567697869652
+    ]
+  },
+  "roadDecoration:plant-double-peach-standalone-ground-0:native": {
+    "image": "plant-double-peach-standalone-ground-0-native.png",
+    "width": 4.583450934284068,
+    "height": 4.583450934284068,
+    "pivot": [
+      0.5089380276375709,
+      0.2521454336662918
+    ]
+  },
+  "roadDecoration:plant-double-peach-standalone-ground-1:native": {
+    "image": "plant-double-peach-standalone-ground-1-native.png",
+    "width": 4.53686093769214,
+    "height": 4.53686093769214,
+    "pivot": [
+      0.5216491774203181,
+      0.24041281116409213
+    ]
+  },
+  "roadDecoration:plant-double-peach-standalone-ground-2:native": {
+    "image": "plant-double-peach-standalone-ground-2-native.png",
+    "width": 4.828491743663305,
+    "height": 4.828491743663305,
+    "pivot": [
+      0.47674067414649435,
+      0.25909128489365607
+    ]
+  },
+  "roadDecoration:plant-compact-willow-roadside-ground-0:native": {
+    "image": "plant-compact-willow-roadside-ground-0-native.png",
+    "width": 5.588111461199153,
+    "height": 5.588111461199153,
+    "pivot": [
+      0.49319404302010394,
+      0.24369384443585956
+    ]
+  },
+  "roadDecoration:plant-compact-willow-roadside-ground-1:native": {
+    "image": "plant-compact-willow-roadside-ground-1-native.png",
+    "width": 5.581616342776102,
+    "height": 5.581616342776102,
+    "pivot": [
+      0.5091925667731434,
+      0.240863177532757
+    ]
+  },
+  "roadDecoration:plant-compact-willow-roadside-ground-2:native": {
+    "image": "plant-compact-willow-roadside-ground-2-native.png",
+    "width": 5.5850672946305,
+    "height": 5.5850672946305,
+    "pivot": [
+      0.4919848936784258,
+      0.24852637754069778
+    ]
+  },
+  "roadDecoration:plant-silver-willow-roadside-ground-0:native": {
+    "image": "plant-silver-willow-roadside-ground-0-native.png",
+    "width": 5.26470783203036,
+    "height": 5.26470783203036,
+    "pivot": [
+      0.49261541534258607,
+      0.24427645216614258
+    ]
+  },
+  "roadDecoration:plant-silver-willow-roadside-ground-1:native": {
+    "image": "plant-silver-willow-roadside-ground-1-native.png",
+    "width": 5.272159355490763,
+    "height": 5.272159355490763,
+    "pivot": [
+      0.5098465869951225,
+      0.24112444835490143
+    ]
+  },
+  "roadDecoration:plant-silver-willow-roadside-ground-2:native": {
+    "image": "plant-silver-willow-roadside-ground-2-native.png",
+    "width": 5.240297802301785,
+    "height": 5.240297802301785,
+    "pivot": [
+      0.4914980161012973,
+      0.24934325623774278
+    ]
+  },
+  "roadDecoration:plant-silver-willow-standalone-ground-0:native": {
+    "image": "plant-silver-willow-standalone-ground-0-native.png",
+    "width": 5.196504279176991,
+    "height": 5.196504279176991,
+    "pivot": [
+      0.4801182354813607,
+      0.241283719578046
+    ]
+  },
+  "roadDecoration:plant-silver-willow-standalone-ground-1:native": {
+    "image": "plant-silver-willow-standalone-ground-1-native.png",
+    "width": 5.24798856170749,
+    "height": 5.24798856170749,
+    "pivot": [
+      0.5161222715438142,
+      0.2427711662572053
+    ]
+  },
+  "roadDecoration:plant-silver-willow-standalone-ground-2:native": {
+    "image": "plant-silver-willow-standalone-ground-2-native.png",
+    "width": 5.1890211157386466,
+    "height": 5.1890211157386466,
+    "pivot": [
+      0.4987054183103791,
+      0.255800167626814
+    ]
+  },
+  "roadDecoration:plant-golden-willow-roadside-ground-0:native": {
+    "image": "plant-golden-willow-roadside-ground-0-native.png",
+    "width": 5.514272664406597,
+    "height": 5.514272664406597,
+    "pivot": [
+      0.4873324469626442,
+      0.24450168870890077
+    ]
+  },
+  "roadDecoration:plant-golden-willow-roadside-ground-1:native": {
+    "image": "plant-golden-willow-roadside-ground-1-native.png",
+    "width": 5.512646712989649,
+    "height": 5.512646712989649,
+    "pivot": [
+      0.5091330975183892,
+      0.23762951422074996
+    ]
+  },
+  "roadDecoration:plant-golden-willow-roadside-ground-2:native": {
+    "image": "plant-golden-willow-roadside-ground-2-native.png",
+    "width": 5.511451178633384,
+    "height": 5.511451178633384,
+    "pivot": [
+      0.49918330687087703,
+      0.24876570816645754
+    ]
+  },
+  "roadDecoration:plant-golden-willow-standalone-ground-0:native": {
+    "image": "plant-golden-willow-standalone-ground-0-native.png",
+    "width": 5.4345622610301385,
+    "height": 5.4345622610301385,
+    "pivot": [
+      0.4797645254649628,
+      0.24522913375204486
+    ]
+  },
+  "roadDecoration:plant-golden-willow-standalone-ground-1:native": {
+    "image": "plant-golden-willow-standalone-ground-1-native.png",
+    "width": 5.488411629105758,
+    "height": 5.488411629105758,
+    "pivot": [
+      0.5091742389914927,
+      0.230540365938818
+    ]
+  },
+  "roadDecoration:plant-golden-willow-standalone-ground-2:native": {
+    "image": "plant-golden-willow-standalone-ground-2-native.png",
+    "width": 5.437834220848987,
+    "height": 5.437834220848987,
+    "pivot": [
+      0.5095811355587576,
+      0.2557822018838348
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-roadside-ground-0:native": {
+    "image": "plant-narrow-willow-roadside-ground-0-native.png",
+    "width": 5.761867490068335,
+    "height": 5.761867490068335,
+    "pivot": [
+      0.49608297273912183,
+      0.2433766900483767
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-roadside-ground-1:native": {
+    "image": "plant-narrow-willow-roadside-ground-1-native.png",
+    "width": 5.761442219133898,
+    "height": 5.761442219133898,
+    "pivot": [
+      0.5069827321252742,
+      0.24115342965819636
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-roadside-ground-2:native": {
+    "image": "plant-narrow-willow-roadside-ground-2-native.png",
+    "width": 5.759671306335221,
+    "height": 5.759671306335221,
+    "pivot": [
+      0.4920348471360579,
+      0.24687169207793064
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-standalone-ground-0:native": {
+    "image": "plant-narrow-willow-standalone-ground-0-native.png",
+    "width": 5.671904072712144,
+    "height": 5.671904072712144,
+    "pivot": [
+      0.49071674437956986,
+      0.24340652112899552
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-standalone-ground-1:native": {
+    "image": "plant-narrow-willow-standalone-ground-1-native.png",
+    "width": 5.6709531336802055,
+    "height": 5.6709531336802055,
+    "pivot": [
+      0.5122521189595753,
+      0.24378096368126223
+    ]
+  },
+  "roadDecoration:plant-narrow-willow-standalone-ground-2:native": {
+    "image": "plant-narrow-willow-standalone-ground-2-native.png",
+    "width": 5.668281906936676,
+    "height": 5.668281906936676,
+    "pivot": [
+      0.4973659915640592,
+      0.25000273501942705
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-pot-0:native": {
+    "image": "plant-columnar-cypress-roadside-pot-0-native.png",
+    "width": 4.2948520433972295,
+    "height": 4.2948520433972295,
+    "pivot": [
+      0.5012286123954764,
+      0.2365899270352309
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-pot-1:native": {
+    "image": "plant-columnar-cypress-roadside-pot-1-native.png",
+    "width": 4.2948520433972295,
+    "height": 4.2948520433972295,
+    "pivot": [
+      0.5012991555973836,
+      0.23640801288138807
+    ]
+  },
+  "roadDecoration:plant-columnar-cypress-roadside-pot-2:native": {
+    "image": "plant-columnar-cypress-roadside-pot-2-native.png",
+    "width": 4.2948520433972295,
+    "height": 4.2948520433972295,
+    "pivot": [
+      0.5009451905012804,
+      0.23716827457795592
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-ground-0:native": {
+    "image": "plant-italian-poplar-roadside-ground-0-native.png",
+    "width": 4.283015622603169,
+    "height": 4.283015622603169,
+    "pivot": [
+      0.49887076258812185,
+      0.24333388114280696
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-ground-1:native": {
+    "image": "plant-italian-poplar-roadside-ground-1-native.png",
+    "width": 4.24333008875337,
+    "height": 4.24333008875337,
+    "pivot": [
+      0.502634366067169,
+      0.24396051186195566
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-ground-2:native": {
+    "image": "plant-italian-poplar-roadside-ground-2-native.png",
+    "width": 4.235186863072132,
+    "height": 4.235186863072132,
+    "pivot": [
+      0.4988681043737238,
+      0.2429139080715249
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-pot-0:native": {
+    "image": "plant-italian-poplar-roadside-pot-0-native.png",
+    "width": 4.638644613526593,
+    "height": 4.638644613526593,
+    "pivot": [
+      0.49895984977657454,
+      0.23654188845540464
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-pot-1:native": {
+    "image": "plant-italian-poplar-roadside-pot-1-native.png",
+    "width": 4.59822661250389,
+    "height": 4.59822661250389,
+    "pivot": [
+      0.5024251315099839,
+      0.23698563191816768
+    ]
+  },
+  "roadDecoration:plant-italian-poplar-roadside-pot-2:native": {
+    "image": "plant-italian-poplar-roadside-pot-2-native.png",
+    "width": 4.589707635428006,
+    "height": 4.589707635428006,
+    "pivot": [
+      0.49895816850796465,
+      0.2359647730505337
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-ground-0:native": {
+    "image": "plant-juniper-spire-roadside-ground-0-native.png",
+    "width": 2.9621965612906935,
+    "height": 2.9621965612906935,
+    "pivot": [
+      0.5026018406097529,
+      0.2461532117818626
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-ground-1:native": {
+    "image": "plant-juniper-spire-roadside-ground-1-native.png",
+    "width": 2.95644627308975,
+    "height": 2.95644627308975,
+    "pivot": [
+      0.5015725102144221,
+      0.2457712747517189
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-ground-2:native": {
+    "image": "plant-juniper-spire-roadside-ground-2-native.png",
+    "width": 2.937743258083952,
+    "height": 2.937743258083952,
+    "pivot": [
+      0.5017877066942376,
+      0.24721867969140304
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-pot-0:native": {
+    "image": "plant-juniper-spire-roadside-pot-0-native.png",
+    "width": 3.3190802417685874,
+    "height": 3.3190802417685874,
+    "pivot": [
+      0.5023141542142111,
+      0.23652899089975682
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-pot-1:native": {
+    "image": "plant-juniper-spire-roadside-pot-1-native.png",
+    "width": 3.3127209092459013,
+    "height": 3.3127209092459013,
+    "pivot": [
+      0.5013984806342905,
+      0.23608028733611797
+    ]
+  },
+  "roadDecoration:plant-juniper-spire-roadside-pot-2:native": {
+    "image": "plant-juniper-spire-roadside-pot-2-native.png",
+    "width": 3.293705765128168,
+    "height": 3.293705765128168,
+    "pivot": [
+      0.5015890484745553,
+      0.23727530304119238
+    ]
+  },
+  "roadDecoration:plant-date-palm-roadside-ground-0:native": {
+    "image": "plant-date-palm-roadside-ground-0-native.png",
+    "width": 5.167983752348811,
+    "height": 5.167983752348811,
+    "pivot": [
+      0.49786739313410805,
+      0.24097537071197933
+    ]
+  },
+  "roadDecoration:plant-date-palm-roadside-ground-1:native": {
+    "image": "plant-date-palm-roadside-ground-1-native.png",
+    "width": 5.167390971708086,
+    "height": 5.167390971708086,
+    "pivot": [
+      0.5032901623359136,
+      0.23371196078853818
+    ]
+  },
+  "roadDecoration:plant-date-palm-roadside-ground-2:native": {
+    "image": "plant-date-palm-roadside-ground-2-native.png",
+    "width": 5.168265604301339,
+    "height": 5.168265604301339,
+    "pivot": [
+      0.5075415310050264,
+      0.23096340457451564
+    ]
+  },
+  "roadDecoration:plant-date-palm-standalone-ground-0:native": {
+    "image": "plant-date-palm-standalone-ground-0-native.png",
+    "width": 5.170713747068394,
+    "height": 5.170713747068394,
+    "pivot": [
+      0.5003361833907878,
+      0.2427649335537988
+    ]
+  },
+  "roadDecoration:plant-date-palm-standalone-ground-1:native": {
+    "image": "plant-date-palm-standalone-ground-1-native.png",
+    "width": 5.1704679174734665,
+    "height": 5.1704679174734665,
+    "pivot": [
+      0.4973797661234142,
+      0.22575632018004638
+    ]
+  },
+  "roadDecoration:plant-date-palm-standalone-ground-2:native": {
+    "image": "plant-date-palm-standalone-ground-2-native.png",
+    "width": 5.170867018819684,
+    "height": 5.170867018819684,
+    "pivot": [
+      0.5149976986542494,
+      0.2298450091469743
+    ]
+  },
+  "roadDecoration:plant-fan-palm-roadside-ground-0:native": {
+    "image": "plant-fan-palm-roadside-ground-0-native.png",
+    "width": 4.61947124809567,
+    "height": 4.61947124809567,
+    "pivot": [
+      0.4940848330248098,
+      0.24042770312613865
+    ]
+  },
+  "roadDecoration:plant-fan-palm-roadside-ground-1:native": {
+    "image": "plant-fan-palm-roadside-ground-1-native.png",
+    "width": 4.61915440795629,
+    "height": 4.61915440795629,
+    "pivot": [
+      0.5058193995663227,
+      0.23809721947146467
+    ]
+  },
+  "roadDecoration:plant-fan-palm-roadside-ground-2:native": {
+    "image": "plant-fan-palm-roadside-ground-2-native.png",
+    "width": 4.619605199075134,
+    "height": 4.619605199075134,
+    "pivot": [
+      0.5062648449205621,
+      0.23046366314959715
+    ]
+  },
+  "roadDecoration:plant-fan-palm-standalone-ground-0:native": {
+    "image": "plant-fan-palm-standalone-ground-0-native.png",
+    "width": 4.62356447136952,
+    "height": 4.62356447136952,
+    "pivot": [
+      0.49080874160156573,
+      0.2413100793867446
+    ]
+  },
+  "roadDecoration:plant-fan-palm-standalone-ground-1:native": {
+    "image": "plant-fan-palm-standalone-ground-1-native.png",
+    "width": 4.622953101259669,
+    "height": 4.622953101259669,
+    "pivot": [
+      0.5047621187797783,
+      0.2372942568936891
+    ]
+  },
+  "roadDecoration:plant-fan-palm-standalone-ground-2:native": {
+    "image": "plant-fan-palm-standalone-ground-2-native.png",
+    "width": 4.623750869028674,
+    "height": 4.623750869028674,
+    "pivot": [
+      0.5087356243915171,
+      0.22940666906708723
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-roadside-ground-0:native": {
+    "image": "plant-dwarf-coconut-roadside-ground-0-native.png",
+    "width": 5.384384835541017,
+    "height": 5.384384835541017,
+    "pivot": [
+      0.4893377611300993,
+      0.24649804310541695
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-roadside-ground-1:native": {
+    "image": "plant-dwarf-coconut-roadside-ground-1-native.png",
+    "width": 5.384455637743117,
+    "height": 5.384455637743117,
+    "pivot": [
+      0.5223165047600078,
+      0.24561336903237957
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-roadside-ground-2:native": {
+    "image": "plant-dwarf-coconut-roadside-ground-2-native.png",
+    "width": 5.385309917498264,
+    "height": 5.385309917498264,
+    "pivot": [
+      0.5152657938954083,
+      0.2215171868717689
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-standalone-ground-0:native": {
+    "image": "plant-dwarf-coconut-standalone-ground-0-native.png",
+    "width": 5.385659144351052,
+    "height": 5.385659144351052,
+    "pivot": [
+      0.48957212213777923,
+      0.24861157347725
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-standalone-ground-1:native": {
+    "image": "plant-dwarf-coconut-standalone-ground-1-native.png",
+    "width": 5.385684332906345,
+    "height": 5.385684332906345,
+    "pivot": [
+      0.5287952201622719,
+      0.25175969181267777
+    ]
+  },
+  "roadDecoration:plant-dwarf-coconut-standalone-ground-2:native": {
+    "image": "plant-dwarf-coconut-standalone-ground-2-native.png",
+    "width": 5.386519936207681,
+    "height": 5.386519936207681,
+    "pivot": [
+      0.5261552461871308,
+      0.21763032357975037
+    ]
+  },
+  "roadDecoration:plant-olive-standard-roadside-ground-0:native": {
+    "image": "plant-olive-standard-roadside-ground-0-native.png",
+    "width": 4.565096511672258,
+    "height": 4.565096511672258,
+    "pivot": [
+      0.4971252698192711,
+      0.23742499771104486
+    ]
+  },
+  "roadDecoration:plant-olive-standard-roadside-ground-1:native": {
+    "image": "plant-olive-standard-roadside-ground-1-native.png",
+    "width": 4.541289580929016,
+    "height": 4.541289580929016,
+    "pivot": [
+      0.4968190689982061,
+      0.23554322339003825
+    ]
+  },
+  "roadDecoration:plant-olive-standard-roadside-ground-2:native": {
+    "image": "plant-olive-standard-roadside-ground-2-native.png",
+    "width": 4.545606645963265,
+    "height": 4.545606645963265,
+    "pivot": [
+      0.4985495676516997,
+      0.23720013430241133
+    ]
+  },
+  "roadDecoration:plant-olive-standard-standalone-ground-0:native": {
+    "image": "plant-olive-standard-standalone-ground-0-native.png",
+    "width": 4.565096511672258,
+    "height": 4.565096511672258,
+    "pivot": [
+      0.4933788786207781,
+      0.24051676304977826
+    ]
+  },
+  "roadDecoration:plant-olive-standard-standalone-ground-1:native": {
+    "image": "plant-olive-standard-standalone-ground-1-native.png",
+    "width": 4.541289580929016,
+    "height": 4.541289580929016,
+    "pivot": [
+      0.4946429019721227,
+      0.23243717833941363
+    ]
+  },
+  "roadDecoration:plant-olive-standard-standalone-ground-2:native": {
+    "image": "plant-olive-standard-standalone-ground-2-native.png",
+    "width": 4.545606645963265,
+    "height": 4.545606645963265,
+    "pivot": [
+      0.49863418551101796,
+      0.23500600543315753
+    ]
+  },
+  "roadDecoration:plant-orange-standard-roadside-ground-0:native": {
+    "image": "plant-orange-standard-roadside-ground-0-native.png",
+    "width": 4.594654674042961,
+    "height": 4.594654674042961,
+    "pivot": [
+      0.4973076859371334,
+      0.23701843861258537
+    ]
+  },
+  "roadDecoration:plant-orange-standard-roadside-ground-1:native": {
+    "image": "plant-orange-standard-roadside-ground-1-native.png",
+    "width": 4.581628907109445,
+    "height": 4.581628907109445,
+    "pivot": [
+      0.4970135675458804,
+      0.23529646255051628
+    ]
+  },
+  "roadDecoration:plant-orange-standard-roadside-ground-2:native": {
+    "image": "plant-orange-standard-roadside-ground-2-native.png",
+    "width": 4.580888555546418,
+    "height": 4.580888555546418,
+    "pivot": [
+      0.4986568856847424,
+      0.2363951118075821
+    ]
+  },
+  "roadDecoration:plant-orange-standard-standalone-ground-0:native": {
+    "image": "plant-orange-standard-standalone-ground-0-native.png",
+    "width": 4.594654674042961,
+    "height": 4.594654674042961,
+    "pivot": [
+      0.49358893762294276,
+      0.24021274187662295
+    ]
+  },
+  "roadDecoration:plant-orange-standard-standalone-ground-1:native": {
+    "image": "plant-orange-standard-standalone-ground-1-native.png",
+    "width": 4.581628907109445,
+    "height": 4.581628907109445,
+    "pivot": [
+      0.49466480620341374,
+      0.2321681425510278
+    ]
+  },
+  "roadDecoration:plant-orange-standard-standalone-ground-2:native": {
+    "image": "plant-orange-standard-standalone-ground-2-native.png",
+    "width": 4.580888555546418,
+    "height": 4.580888555546418,
+    "pivot": [
+      0.49859678006407304,
+      0.23426348211759412
+    ]
+  },
+  "roadDecoration:plant-red-maple-roadside-ground-0:native": {
+    "image": "plant-red-maple-roadside-ground-0-native.png",
+    "width": 4.712707758526836,
+    "height": 4.712707758526836,
+    "pivot": [
+      0.49469196123886716,
+      0.24075933816108597
+    ]
+  },
+  "roadDecoration:plant-red-maple-roadside-ground-1:native": {
+    "image": "plant-red-maple-roadside-ground-1-native.png",
+    "width": 4.520418592937109,
+    "height": 4.520418592937109,
+    "pivot": [
+      0.4958160033198783,
+      0.2443341580729057
+    ]
+  },
+  "roadDecoration:plant-red-maple-roadside-ground-2:native": {
+    "image": "plant-red-maple-roadside-ground-2-native.png",
+    "width": 4.820896156727606,
+    "height": 4.820896156727606,
+    "pivot": [
+      0.4987200916851715,
+      0.24952104225736016
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-roadside-ground-0:native": {
+    "image": "plant-acacia-standard-roadside-ground-0-native.png",
+    "width": 4.418475161863636,
+    "height": 4.418475161863636,
+    "pivot": [
+      0.494817817667172,
+      0.2378400431482357
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-roadside-ground-1:native": {
+    "image": "plant-acacia-standard-roadside-ground-1-native.png",
+    "width": 4.418483809123482,
+    "height": 4.418483809123482,
+    "pivot": [
+      0.49694048345420283,
+      0.23395114796876454
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-roadside-ground-2:native": {
+    "image": "plant-acacia-standard-roadside-ground-2-native.png",
+    "width": 4.418576965162206,
+    "height": 4.418576965162206,
+    "pivot": [
+      0.49896413241764,
+      0.23312142182231926
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-standalone-ground-0:native": {
+    "image": "plant-acacia-standard-standalone-ground-0-native.png",
+    "width": 4.418475161863636,
+    "height": 4.418475161863636,
+    "pivot": [
+      0.4911113213810498,
+      0.23861046748396603
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-standalone-ground-1:native": {
+    "image": "plant-acacia-standard-standalone-ground-1-native.png",
+    "width": 4.418483809123482,
+    "height": 4.418483809123482,
+    "pivot": [
+      0.4945807742361844,
+      0.22972822900699946
+    ]
+  },
+  "roadDecoration:plant-acacia-standard-standalone-ground-2:native": {
+    "image": "plant-acacia-standard-standalone-ground-2-native.png",
+    "width": 4.418576965162206,
+    "height": 4.418576965162206,
+    "pivot": [
+      0.4987748992422781,
+      0.22861203168549854
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-roadside-ground-0:native": {
+    "image": "plant-italian-stone-pine-roadside-ground-0-native.png",
+    "width": 5.042561795814849,
+    "height": 5.042561795814849,
+    "pivot": [
+      0.495796672603288,
+      0.23715795917993482
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-roadside-ground-1:native": {
+    "image": "plant-italian-stone-pine-roadside-ground-1-native.png",
+    "width": 5.042570443074695,
+    "height": 5.042570443074695,
+    "pivot": [
+      0.49850496901783226,
+      0.23519370683994156
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-roadside-ground-2:native": {
+    "image": "plant-italian-stone-pine-roadside-ground-2-native.png",
+    "width": 5.042663599113419,
+    "height": 5.042663599113419,
+    "pivot": [
+      0.5012562168032347,
+      0.23281785464590876
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-standalone-ground-0:native": {
+    "image": "plant-italian-stone-pine-standalone-ground-0-native.png",
+    "width": 5.042561795814849,
+    "height": 5.042561795814849,
+    "pivot": [
+      0.4928254780743321,
+      0.2378911139233963
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-standalone-ground-1:native": {
+    "image": "plant-italian-stone-pine-standalone-ground-1-native.png",
+    "width": 5.042570443074695,
+    "height": 5.042570443074695,
+    "pivot": [
+      0.49887991231911266,
+      0.23361128110182972
+    ]
+  },
+  "roadDecoration:plant-italian-stone-pine-standalone-ground-2:native": {
+    "image": "plant-italian-stone-pine-standalone-ground-2-native.png",
+    "width": 5.042663599113419,
+    "height": 5.042663599113419,
+    "pivot": [
+      0.5055881931450912,
+      0.22781435161196456
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-ground-0:native": {
+    "image": "plant-bonsai-pine-roadside-ground-0-native.png",
+    "width": 1.3368475160971116,
+    "height": 1.3368475160971116,
+    "pivot": [
+      0.49996034769545633,
+      0.259718888420043
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-ground-1:native": {
+    "image": "plant-bonsai-pine-roadside-ground-1-native.png",
+    "width": 1.3376919129188332,
+    "height": 1.3376919129188332,
+    "pivot": [
+      0.5376202113371434,
+      0.25160888710492224
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-ground-2:native": {
+    "image": "plant-bonsai-pine-roadside-ground-2-native.png",
+    "width": 1.3438357254498845,
+    "height": 1.3438357254498845,
+    "pivot": [
+      0.4853800876877624,
+      0.2654972795432056
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-pot-0:native": {
+    "image": "plant-bonsai-pine-roadside-pot-0-native.png",
+    "width": 1.2503426987802446,
+    "height": 1.2503426987802446,
+    "pivot": [
+      0.49995806059222936,
+      0.22749435379299476
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-pot-1:native": {
+    "image": "plant-bonsai-pine-roadside-pot-1-native.png",
+    "width": 1.250342698707898,
+    "height": 1.250342698707898,
+    "pivot": [
+      0.5391865077007758,
+      0.21858058225421145
+    ]
+  },
+  "roadDecoration:plant-bonsai-pine-roadside-pot-2:native": {
+    "image": "plant-bonsai-pine-roadside-pot-2-native.png",
+    "width": 1.2503426987056836,
+    "height": 1.2503426987056836,
+    "pivot": [
+      0.48447132160351664,
+      0.23112870995389384
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-ground-0:native": {
+    "image": "plant-bonsai-juniper-roadside-ground-0-native.png",
+    "width": 1.1096484498729215,
+    "height": 1.1096484498729215,
+    "pivot": [
+      0.4966631168715056,
+      0.2607976863587279
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-ground-1:native": {
+    "image": "plant-bonsai-juniper-roadside-ground-1-native.png",
+    "width": 1.122357322126257,
+    "height": 1.122357322126257,
+    "pivot": [
+      0.5474671645429352,
+      0.2555300969368489
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-ground-2:native": {
+    "image": "plant-bonsai-juniper-roadside-ground-2-native.png",
+    "width": 1.108667672287823,
+    "height": 1.108667672287823,
+    "pivot": [
+      0.48631633674625746,
+      0.2649652233624855
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-pot-0:native": {
+    "image": "plant-bonsai-juniper-roadside-pot-0-native.png",
+    "width": 1.0545058937621432,
+    "height": 1.0545058937621432,
+    "pivot": [
+      0.496518697042693,
+      0.23666444039466272
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-pot-1:native": {
+    "image": "plant-bonsai-juniper-roadside-pot-1-native.png",
+    "width": 1.0545058936536078,
+    "height": 1.0545058936536078,
+    "pivot": [
+      0.5500179129918361,
+      0.22528272399558585
+    ]
+  },
+  "roadDecoration:plant-bonsai-juniper-roadside-pot-2:native": {
+    "image": "plant-bonsai-juniper-roadside-pot-2-native.png",
+    "width": 1.0545058937634344,
+    "height": 1.0545058937634344,
+    "pivot": [
+      0.48573689557038674,
+      0.24152947619973142
+    ]
+  },
+  "roadDecoration:plant-bonsai-maple-roadside-ground-0:native": {
+    "image": "plant-bonsai-maple-roadside-ground-0-native.png",
+    "width": 1.2136943062367613,
+    "height": 1.2136943062367613,
+    "pivot": [
+      0.49888686169839047,
+      0.257326504624123
+    ]
+  },
+  "roadDecoration:plant-bonsai-maple-roadside-ground-1:native": {
+    "image": "plant-bonsai-maple-roadside-ground-1-native.png",
+    "width": 1.2239063700712227,
+    "height": 1.2239063700712227,
+    "pivot": [
+      0.549506651553006,
+      0.2507281204224027
+    ]
+  },
+  "roadDecoration:plant-bonsai-maple-roadside-ground-2:native": {
+    "image": "plant-bonsai-maple-roadside-ground-2-native.png",
+    "width": 1.21453172744788,
+    "height": 1.21453172744788,
+    "pivot": [
+      0.48647052604899144,
+      0.26216424914326464
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-ground-0:native": {
+    "image": "plant-bonsai-azalea-roadside-ground-0-native.png",
+    "width": 1.0659054339849963,
+    "height": 1.0659054339849963,
+    "pivot": [
+      0.5019637180558775,
+      0.261734190590465
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-ground-1:native": {
+    "image": "plant-bonsai-azalea-roadside-ground-1-native.png",
+    "width": 1.0757447039041272,
+    "height": 1.0757447039041272,
+    "pivot": [
+      0.5430591646967989,
+      0.25845580524739753
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-ground-2:native": {
+    "image": "plant-bonsai-azalea-roadside-ground-2-native.png",
+    "width": 1.065863591545208,
+    "height": 1.065863591545208,
+    "pivot": [
+      0.4880185532201233,
+      0.2672939114342071
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-pot-0:native": {
+    "image": "plant-bonsai-azalea-roadside-pot-0-native.png",
+    "width": 1.00931282631591,
+    "height": 1.00931282631591,
+    "pivot": [
+      0.5020549045279227,
+      0.2358847482087768
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-pot-1:native": {
+    "image": "plant-bonsai-azalea-roadside-pot-1-native.png",
+    "width": 1.0093128262046698,
+    "height": 1.0093128262046698,
+    "pivot": [
+      0.5451218749341479,
+      0.22783823435394923
+    ]
+  },
+  "roadDecoration:plant-bonsai-azalea-roadside-pot-2:native": {
+    "image": "plant-bonsai-azalea-roadside-pot-2-native.png",
+    "width": 1.0093128263061788,
+    "height": 1.0093128263061788,
+    "pivot": [
+      0.487465233294973,
+      0.24184274675955614
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-ground-0:native": {
+    "image": "plant-boxwood-roadside-ground-0-native.png",
+    "width": 0.8729240358484448,
+    "height": 0.8729240358484448,
+    "pivot": [
+      0.4870554248903736,
+      0.2541560725341816
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-ground-1:native": {
+    "image": "plant-boxwood-roadside-ground-1-native.png",
+    "width": 0.9178240182053707,
+    "height": 0.9178240182053707,
+    "pivot": [
+      0.5163986316318464,
+      0.24742001776581074
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-ground-2:native": {
+    "image": "plant-boxwood-roadside-ground-2-native.png",
+    "width": 0.8926136087120051,
+    "height": 0.8926136087120051,
+    "pivot": [
+      0.4867134309899973,
+      0.2561027874492602
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-pot-0:native": {
+    "image": "plant-boxwood-roadside-pot-0-native.png",
+    "width": 1.18167835803659,
+    "height": 1.18167835803659,
+    "pivot": [
+      0.4904789707375543,
+      0.2390187011818658
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-pot-1:native": {
+    "image": "plant-boxwood-roadside-pot-1-native.png",
+    "width": 1.2265930744768938,
+    "height": 1.2265930744768938,
+    "pivot": [
+      0.512205202693645,
+      0.2345126921024469
+    ]
+  },
+  "roadDecoration:plant-boxwood-roadside-pot-2:native": {
+    "image": "plant-boxwood-roadside-pot-2-native.png",
+    "width": 1.2010595786071498,
+    "height": 1.2010595786071498,
+    "pivot": [
+      0.49016353861833384,
+      0.24060348385992725
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-ground-1:native": {
+    "image": "plant-round-boxwood-roadside-ground-1-native.png",
+    "width": 0.6833103873114212,
+    "height": 0.6833103873114212,
+    "pivot": [
+      0.4927873578248995,
+      0.26360777833781346
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-ground-2:native": {
+    "image": "plant-round-boxwood-roadside-ground-2-native.png",
+    "width": 0.7039621454849971,
+    "height": 0.7039621454849971,
+    "pivot": [
+      0.5040470855443574,
+      0.2775683192174425
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-pot-1:native": {
+    "image": "plant-round-boxwood-roadside-pot-1-native.png",
+    "width": 0.952909577397748,
+    "height": 0.952909577397748,
+    "pivot": [
+      0.4948939003677252,
+      0.23253666069760892
+    ]
+  },
+  "roadDecoration:plant-round-boxwood-roadside-pot-2:native": {
+    "image": "plant-round-boxwood-roadside-pot-2-native.png",
+    "width": 0.9782455338521819,
+    "height": 0.9782455338521819,
+    "pivot": [
+      0.5028890301628586,
+      0.24457658368484775
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-ground-0:native": {
+    "image": "plant-golden-boxwood-roadside-ground-0-native.png",
+    "width": 0.6097498376927343,
+    "height": 0.6097498376927343,
+    "pivot": [
+      0.48605184774295385,
+      0.27717123343633654
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-ground-1:native": {
+    "image": "plant-golden-boxwood-roadside-ground-1-native.png",
+    "width": 0.6335857095704555,
+    "height": 0.6335857095704555,
+    "pivot": [
+      0.5006830148499407,
+      0.2688218668859755
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-ground-2:native": {
+    "image": "plant-golden-boxwood-roadside-ground-2-native.png",
+    "width": 0.6589565132123716,
+    "height": 0.6589565132123716,
+    "pivot": [
+      0.5130315169145475,
+      0.27804201853346244
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-pot-0:native": {
+    "image": "plant-golden-boxwood-roadside-pot-0-native.png",
+    "width": 0.9178933814773376,
+    "height": 0.9178933814773376,
+    "pivot": [
+      0.49075257581299875,
+      0.24978708140844325
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-pot-1:native": {
+    "image": "plant-golden-boxwood-roadside-pot-1-native.png",
+    "width": 0.9418845434667278,
+    "height": 0.9418845434667278,
+    "pivot": [
+      0.5004577100785333,
+      0.2448569483547524
+    ]
+  },
+  "roadDecoration:plant-golden-boxwood-roadside-pot-2:native": {
+    "image": "plant-golden-boxwood-roadside-pot-2-native.png",
+    "width": 0.9670489997924155,
+    "height": 0.9670489997924155,
+    "pivot": [
+      0.5088702245672481,
+      0.2517902196091819
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-ground-0:native": {
+    "image": "plant-round-myrtle-roadside-ground-0-native.png",
+    "width": 0.6782077758565098,
+    "height": 0.6782077758565098,
+    "pivot": [
+      0.5048178728964957,
+      0.26073995598867905
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-ground-2:native": {
+    "image": "plant-round-myrtle-roadside-ground-2-native.png",
+    "width": 0.720847952197612,
+    "height": 0.720847952197612,
+    "pivot": [
+      0.5035361219393218,
+      0.26247105332665477
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-pot-0:native": {
+    "image": "plant-round-myrtle-roadside-pot-0-native.png",
+    "width": 0.9872834110558276,
+    "height": 0.9872834110558276,
+    "pivot": [
+      0.5032935323089791,
+      0.2407149632372506
+    ]
+  },
+  "roadDecoration:plant-round-myrtle-roadside-pot-2:native": {
+    "image": "plant-round-myrtle-roadside-pot-2-native.png",
+    "width": 1.0297620175521434,
+    "height": 1.0297620175521434,
+    "pivot": [
+      0.50246563261736,
+      0.24270653653217966
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-ground-0:native": {
+    "image": "plant-myrtle-roadside-ground-0-native.png",
+    "width": 1.057874967113046,
+    "height": 1.057874967113046,
+    "pivot": [
+      0.4984375732042841,
+      0.253871963315585
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-ground-1:native": {
+    "image": "plant-myrtle-roadside-ground-1-native.png",
+    "width": 1.1081577736720543,
+    "height": 1.1081577736720543,
+    "pivot": [
+      0.4966958130079914,
+      0.24709153065406653
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-pot-0:native": {
+    "image": "plant-myrtle-roadside-pot-0-native.png",
+    "width": 1.3693184447108295,
+    "height": 1.3693184447108295,
+    "pivot": [
+      0.4987959080227685,
+      0.2418165655029682
+    ]
+  },
+  "roadDecoration:plant-myrtle-roadside-pot-1:native": {
+    "image": "plant-myrtle-roadside-pot-1-native.png",
+    "width": 1.4193676595082547,
+    "height": 1.4193676595082547,
+    "pivot": [
+      0.4974293462631358,
+      0.23684338107297714
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-ground-0:native": {
+    "image": "plant-azalea-roadside-ground-0-native.png",
+    "width": 0.8628031993075994,
+    "height": 0.8628031993075994,
+    "pivot": [
+      0.4980849495142682,
+      0.25805956457864754
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-ground-1:native": {
+    "image": "plant-azalea-roadside-ground-1-native.png",
+    "width": 0.9042828680612046,
+    "height": 0.9042828680612046,
+    "pivot": [
+      0.4959475725124619,
+      0.24977551227204553
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-ground-2:native": {
+    "image": "plant-azalea-roadside-ground-2-native.png",
+    "width": 0.9381907822800193,
+    "height": 0.9381907822800193,
+    "pivot": [
+      0.502315747730935,
+      0.2538830074261499
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-pot-0:native": {
+    "image": "plant-azalea-roadside-pot-0-native.png",
+    "width": 1.1738007555259602,
+    "height": 1.1738007555259602,
+    "pivot": [
+      0.49859634913792444,
+      0.24271126393910641
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-pot-1:native": {
+    "image": "plant-azalea-roadside-pot-1-native.png",
+    "width": 1.2149936498005385,
+    "height": 1.2149936498005385,
+    "pivot": [
+      0.4969971076631938,
+      0.23691487873027328
+    ]
+  },
+  "roadDecoration:plant-azalea-roadside-pot-2:native": {
+    "image": "plant-azalea-roadside-pot-2-native.png",
+    "width": 1.2491088864058488,
+    "height": 1.2491088864058488,
+    "pivot": [
+      0.5017337008001918,
+      0.24045435328389708
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-ground-0:native": {
+    "image": "plant-white-rose-roadside-ground-0-native.png",
+    "width": 1.1007068324478542,
+    "height": 1.1007068324478542,
+    "pivot": [
+      0.503157388536919,
+      0.251861786313448
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-ground-1:native": {
+    "image": "plant-white-rose-roadside-ground-1-native.png",
+    "width": 1.1074125281682214,
+    "height": 1.1074125281682214,
+    "pivot": [
+      0.4967597105516149,
+      0.24233956946755486
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-ground-2:native": {
+    "image": "plant-white-rose-roadside-ground-2-native.png",
+    "width": 1.1813830590583625,
+    "height": 1.1813830590583625,
+    "pivot": [
+      0.5016834027859595,
+      0.24967460177463385
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-pot-0:native": {
+    "image": "plant-white-rose-roadside-pot-0-native.png",
+    "width": 1.4122853327255342,
+    "height": 1.4122853327255342,
+    "pivot": [
+      0.5024543867636053,
+      0.24065440243895186
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-pot-1:native": {
+    "image": "plant-white-rose-roadside-pot-1-native.png",
+    "width": 1.4185837871920477,
+    "height": 1.4185837871920477,
+    "pivot": [
+      0.4974815269197408,
+      0.23310085907640427
+    ]
+  },
+  "roadDecoration:plant-white-rose-roadside-pot-2:native": {
+    "image": "plant-white-rose-roadside-pot-2-native.png",
+    "width": 1.4926582844233258,
+    "height": 1.4926582844233258,
+    "pivot": [
+      0.5013287049820925,
+      0.23942607053397458
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-ground-0:native": {
+    "image": "plant-red-rose-roadside-ground-0-native.png",
+    "width": 0.9744775087885517,
+    "height": 0.9744775087885517,
+    "pivot": [
+      0.5040651128761412,
+      0.2530532822276521
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-ground-1:native": {
+    "image": "plant-red-rose-roadside-ground-1-native.png",
+    "width": 1.0870061958824226,
+    "height": 1.0870061958824226,
+    "pivot": [
+      0.4985648219229762,
+      0.24352601729507223
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-ground-2:native": {
+    "image": "plant-red-rose-roadside-ground-2-native.png",
+    "width": 1.1304297015869356,
+    "height": 1.1304297015869356,
+    "pivot": [
+      0.5000519105664344,
+      0.2504101463318464
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-pot-0:native": {
+    "image": "plant-red-rose-roadside-pot-0-native.png",
+    "width": 1.2859781816231528,
+    "height": 1.2859781816231528,
+    "pivot": [
+      0.5030711244748999,
+      0.24042321751426793
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-pot-1:native": {
+    "image": "plant-red-rose-roadside-pot-1-native.png",
+    "width": 1.3979740510395469,
+    "height": 1.3979740510395469,
+    "pivot": [
+      0.49888888153549255,
+      0.2338190223362821
+    ]
+  },
+  "roadDecoration:plant-red-rose-roadside-pot-2:native": {
+    "image": "plant-red-rose-roadside-pot-2-native.png",
+    "width": 1.4417763511997257,
+    "height": 1.4417763511997257,
+    "pivot": [
+      0.5000405868894852,
+      0.23966476547077104
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-ground-0:native": {
+    "image": "plant-lavender-roadside-ground-0-native.png",
+    "width": 0.9115709865805481,
+    "height": 0.9115709865805481,
+    "pivot": [
+      0.4940842168784469,
+      0.24455315152276752
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-ground-1:native": {
+    "image": "plant-lavender-roadside-ground-1-native.png",
+    "width": 0.9620131560986873,
+    "height": 0.9620131560986873,
+    "pivot": [
+      0.5061692130995749,
+      0.25298709889672943
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-ground-2:native": {
+    "image": "plant-lavender-roadside-ground-2-native.png",
+    "width": 0.9469691659274412,
+    "height": 0.9469691659274412,
+    "pivot": [
+      0.5020667922423784,
+      0.2490883164242204
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-pot-0:native": {
+    "image": "plant-lavender-roadside-pot-0-native.png",
+    "width": 1.2220274896358647,
+    "height": 1.2220274896358647,
+    "pivot": [
+      0.4956112766445675,
+      0.23297630091812782
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-pot-1:native": {
+    "image": "plant-lavender-roadside-pot-1-native.png",
+    "width": 1.2727536360932998,
+    "height": 1.2727536360932998,
+    "pivot": [
+      0.504647539480222,
+      0.2399586482136713
+    ]
+  },
+  "roadDecoration:plant-lavender-roadside-pot-2:native": {
+    "image": "plant-lavender-roadside-pot-2-native.png",
+    "width": 1.2573221263412189,
+    "height": 1.2573221263412189,
+    "pivot": [
+      0.501549932523191,
+      0.23669640192249441
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-ground-0:native": {
+    "image": "plant-rosemary-roadside-ground-0-native.png",
+    "width": 0.9599991730136413,
+    "height": 0.9599991730136413,
+    "pivot": [
+      0.5012591499258493,
+      0.24685019932082053
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-ground-1:native": {
+    "image": "plant-rosemary-roadside-ground-1-native.png",
+    "width": 1.0217363643004627,
+    "height": 1.0217363643004627,
+    "pivot": [
+      0.5002027027504701,
+      0.25320595281411173
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-ground-2:native": {
+    "image": "plant-rosemary-roadside-ground-2-native.png",
+    "width": 1.006301067908595,
+    "height": 1.006301067908595,
+    "pivot": [
+      0.5051021922995729,
+      0.25201967354810506
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-pot-0:native": {
+    "image": "plant-rosemary-roadside-pot-0-native.png",
+    "width": 1.2713578405428487,
+    "height": 1.2713578405428487,
+    "pivot": [
+      0.5009466216131556,
+      0.23551213578684566
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-pot-1:native": {
+    "image": "plant-rosemary-roadside-pot-1-native.png",
+    "width": 1.3327242680246663,
+    "height": 1.3327242680246663,
+    "pivot": [
+      0.5001549560136974,
+      0.2408072309970355
+    ]
+  },
+  "roadDecoration:plant-rosemary-roadside-pot-2:native": {
+    "image": "plant-rosemary-roadside-pot-2-native.png",
+    "width": 1.317348159099515,
+    "height": 1.317348159099515,
+    "pivot": [
+      0.5038851440625904,
+      0.23976977608715128
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-ground-0:native": {
+    "image": "plant-hibiscus-roadside-ground-0-native.png",
+    "width": 1.120711891751623,
+    "height": 1.120711891751623,
+    "pivot": [
+      0.5018571957151298,
+      0.24591874561154176
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-ground-1:native": {
+    "image": "plant-hibiscus-roadside-ground-1-native.png",
+    "width": 1.2510092155811303,
+    "height": 1.2510092155811303,
+    "pivot": [
+      0.49879031149384817,
+      0.2491233434471778
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-ground-2:native": {
+    "image": "plant-hibiscus-roadside-ground-2-native.png",
+    "width": 1.3017692804540806,
+    "height": 1.3017692804540806,
+    "pivot": [
+      0.5035965298134703,
+      0.2481536021804231
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-pot-0:native": {
+    "image": "plant-hibiscus-roadside-pot-0-native.png",
+    "width": 1.4322478579209652,
+    "height": 1.4322478579209652,
+    "pivot": [
+      0.5014480195734345,
+      0.2361230216660659
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-pot-1:native": {
+    "image": "plant-hibiscus-roadside-pot-1-native.png",
+    "width": 1.5624241776347647,
+    "height": 1.5624241776347647,
+    "pivot": [
+      0.499033892871422,
+      0.23948587713789088
+    ]
+  },
+  "roadDecoration:plant-hibiscus-roadside-pot-2:native": {
+    "image": "plant-hibiscus-roadside-pot-2-native.png",
+    "width": 1.613237241434936,
+    "height": 1.613237241434936,
+    "pivot": [
+      0.5028947896878943,
+      0.23902094680518077
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-ground-0:native": {
+    "image": "plant-hydrangea-roadside-ground-0-native.png",
+    "width": 0.9279502449907733,
+    "height": 0.9279502449907733,
+    "pivot": [
+      0.4983505292308988,
+      0.24957326576409922
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-ground-1:native": {
+    "image": "plant-hydrangea-roadside-ground-1-native.png",
+    "width": 0.9919646097680074,
+    "height": 0.9919646097680074,
+    "pivot": [
+      0.4939939473484198,
+      0.24535042084868752
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-ground-2:native": {
+    "image": "plant-hydrangea-roadside-ground-2-native.png",
+    "width": 1.003853257121399,
+    "height": 1.003853257121399,
+    "pivot": [
+      0.4988275816110771,
+      0.24497767146640298
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-pot-0:native": {
+    "image": "plant-hydrangea-roadside-pot-0-native.png",
+    "width": 1.238839979482249,
+    "height": 1.238839979482249,
+    "pivot": [
+      0.4987696430455471,
+      0.23708120502626956
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-pot-1:native": {
+    "image": "plant-hydrangea-roadside-pot-1-native.png",
+    "width": 1.3030225109105962,
+    "height": 1.3030225109105962,
+    "pivot": [
+      0.49544844111813025,
+      0.23453309843884834
+    ]
+  },
+  "roadDecoration:plant-hydrangea-roadside-pot-2:native": {
+    "image": "plant-hydrangea-roadside-pot-2-native.png",
+    "width": 1.314874696247905,
+    "height": 1.314874696247905,
+    "pivot": [
+      0.4991089663470555,
+      0.23433243096929585
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-ground-0:native": {
+    "image": "plant-marigold-roadside-ground-0-native.png",
+    "width": 0.6723972802232606,
+    "height": 0.6723972802232606,
+    "pivot": [
+      0.5090639190802515,
+      0.2597963700356097
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-ground-1:native": {
+    "image": "plant-marigold-roadside-ground-1-native.png",
+    "width": 0.7128308851761989,
+    "height": 0.7128308851761989,
+    "pivot": [
+      0.5187028470261961,
+      0.27186227648018274
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-ground-2:native": {
+    "image": "plant-marigold-roadside-ground-2-native.png",
+    "width": 0.7368764546835272,
+    "height": 0.7368764546835272,
+    "pivot": [
+      0.4994124544306261,
+      0.26994199740263003
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-pot-0:native": {
+    "image": "plant-marigold-roadside-pot-0-native.png",
+    "width": 0.9828385946300676,
+    "height": 0.9828385946300676,
+    "pivot": [
+      0.5061725800059845,
+      0.2406195828010197
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-pot-1:native": {
+    "image": "plant-marigold-roadside-pot-1-native.png",
+    "width": 1.0227584371636167,
+    "height": 1.0227584371636167,
+    "pivot": [
+      0.5130187355247678,
+      0.2496703233911992
+    ]
+  },
+  "roadDecoration:plant-marigold-roadside-pot-2:native": {
+    "image": "plant-marigold-roadside-pot-2-native.png",
+    "width": 1.009653582561313,
+    "height": 1.009653582561313,
+    "pivot": [
+      0.4995750138006381,
+      0.24019193593791166
+    ]
+  },
+  "roadDecoration:climbing-rose-white:native": {
+    "image": "climbing-rose-white-native.png",
+    "width": 5.09422316235333,
+    "height": 5.09422316235333,
+    "pivot": [
+      0.5030374498497543,
+      0.1505958799348161
+    ]
+  },
+  "roadDecoration:climbing-rose-red:native": {
+    "image": "climbing-rose-red-native.png",
+    "width": 5.09422316235333,
+    "height": 5.09422316235333,
+    "pivot": [
+      0.5030374498497543,
+      0.1505958799348161
+    ]
+  },
+  "roadDecoration:ivy-lattice:native": {
+    "image": "ivy-lattice-native.png",
+    "width": 4.666407945477037,
+    "height": 4.666407945477037,
+    "pivot": [
+      0.5050669500931676,
+      0.14953970907801262
+    ]
+  },
+  "roadDecoration:bamboo-grove-green:native": {
+    "image": "bamboo-grove-green-native.png",
+    "width": 8.934362722697022,
+    "height": 8.934362722697022,
+    "pivot": [
+      0.49037604988163624,
+      0.24003495834522304
+    ]
+  },
+  "roadDecoration:bamboo-grove-golden:native": {
+    "image": "bamboo-grove-golden-native.png",
+    "width": 9.217191430470075,
+    "height": 9.217191430470075,
+    "pivot": [
+      0.49290065652596216,
+      0.2423041631880678
+    ]
+  },
+  "roadDecoration:bamboo-culm-green:native": {
+    "image": "bamboo-culm-green-native.png",
+    "width": 11.05503991566949,
+    "height": 11.05503991566949,
+    "pivot": [
+      0.48613211822616514,
+      0.24196639579552193
+    ]
+  },
+  "roadDecoration:bamboo-culm-giant:native": {
+    "image": "bamboo-culm-giant-native.png",
+    "width": 12.035364035571607,
+    "height": 12.035364035571607,
+    "pivot": [
+      0.49821443044483704,
+      0.24619487437997262
+    ]
+  },
+  "roadDecoration:bamboo-culm-golden:native": {
+    "image": "bamboo-culm-golden-native.png",
+    "width": 10.555240715761249,
+    "height": 10.555240715761249,
+    "pivot": [
+      0.4979762034729739,
+      0.24716406077796788
+    ]
+  },
+  "roadDecoration:bamboo-culm-grooved:native": {
+    "image": "bamboo-culm-grooved-native.png",
+    "width": 11.64808945973063,
+    "height": 11.64808945973063,
+    "pivot": [
+      0.4921857924693222,
+      0.24395918534068906
+    ]
+  },
+  "roadDecoration:japanese-bamboo-stand:native": {
+    "image": "japanese-bamboo-stand-native.png",
+    "width": 1.7555217279366653,
+    "height": 1.7555217279366653,
+    "pivot": [
+      0.4943452134090511,
+      0.15727280415483785
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+/*
+ * Nation helmet buttons (registration scroll and development panel). The button face comes from the
+ * shared HUD skin (hud-paper.css); the checked helmet is pressed in and ringed in the theme accent.
+ * Nations wrap in four columns; narrow screens use two columns.
+ */
+.race-picker {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.race-picker .race-picker__option {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  align-content: start;
+  gap: 2px;
+  min-width: 0;
+  margin: 0;
+  padding: 6px 4px 8px;
+  color: var(--hud-ink);
+  font: 600 13px/1.2 Georgia, serif;
+  cursor: var(--cursor-pointer, pointer);
+}
+.race-picker__helmet {
+  display: block;
+  width: 100%;
+  max-width: 112px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 3px #17120c66);
+  transition: transform 120ms ease;
+  pointer-events: none;
+}
+.race-picker__name { white-space: normal; overflow-wrap: anywhere; text-align: center; }
+/* Development panel: 20% smaller than the full-width row (owner, 2026-10-12): 68px buttons, 51px helmets. */
+.race-picker--compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+  max-width: 290px;
+  justify-content: start;
+  gap: 6px;
+}
+.race-picker--compact .race-picker__option { padding: 2px 1px 4px; font-size: 11px; }
+.race-picker--compact .race-picker__helmet { max-width: 51px; }
+.race-picker .race-picker__option:not(:disabled):hover .race-picker__helmet { transform: translateY(-2px) scale(1.04); }
+:root:root:root .race-picker .race-picker__option[aria-checked="true"] {
+  color: var(--hud-ink);
+  border-color: var(--hud-accent);
+  box-shadow: var(--hud-button-shadow-pressed), 0 0 0 2px var(--hud-accent), 0 0 12px var(--hud-accent);
+  transform: translateY(var(--hud-button-press));
+}
+.race-picker .race-picker__option[aria-checked="true"] .race-picker__helmet { transform: scale(1.06); }
+.race-picker .race-picker__option:focus-visible {
+  outline: 2px solid var(--hud-focus-ring);
+  outline-offset: 3px;
+}
+@media (max-width: 480px) {
+  .race-picker--large { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .race-picker--large .race-picker__helmet { max-width: 96px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .race-picker__helmet { transition: none; }
+}

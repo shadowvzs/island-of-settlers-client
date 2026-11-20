@@ -1,0 +1,20 @@
+import { readFile } from "node:fs/promises";
+import { stageGameSession } from "../../src/app/settlement/game-session";
+import { advanceOfflineGame } from "../../src/app/settlement/offline-progress";
+import { createRoadNetwork } from "../../src/shared/settlement/road-network";
+import { groundPath } from "../../src/shared/settlement/settlement-paths";
+import type { SettlementContext } from "../../src/shared/settlement/settlement-types";
+import type { GameSaveV1 } from "../../src/shared/settlement/game-save";
+import { savedOccupancy } from "../../src/shared/settlement/save-cell-codecs";
+const s=JSON.parse(await readFile(process.argv[2]!,"utf8")) as GameSaveV1;
+const run=async(x:GameSaveV1,n:number)=>advanceOfflineGame(structuredClone(x),x.savedAt+n*1000,()=>{},{exact:true,eventCore:false});
+const mid=await run(s,30), cont=await run(s,60);
+const lm=await stageGameSession(mid), lc=await stageGameSession(cont);
+const a=lm.settlement.actors.find(a=>a.uid===583)!;
+const c=lc.settlement.actors.find(a=>a.uid===583)!;
+const source=lm.settlement.buildings.find(b=>b.uid===26)!;
+const roads=createRoadNetwork(lm.map.world);
+const context={options:{world:lm.map.world,roads},buildings:lm.settlement.buildings,actors:lm.settlement.actors,
+ occupied:savedOccupancy(lm.settlement).slice(),reservations:new Set(lm.settlement.reservations)} as unknown as SettlementContext;
+const p=groundPath(context,a,source.access,26);
+console.log(JSON.stringify({midPath:a.path.length,contPath:c.path.length,repath:p?.length,first:p?.slice(0,3),last:p?.slice(-3), contFirst:c.path.slice(0,3),contLast:c.path.slice(-3)},null,1));

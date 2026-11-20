@@ -1,0 +1,55 @@
+/* Scene overlay for a soldier order at the clicked point (military controls §6): below the window layer. */
+.army-order-marker {
+  --army-order-tone: #e8b23a;
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  z-index: 3;
+  width: 28px;
+  height: 28px;
+  pointer-events: none;
+}
+.army-order-marker[hidden] { display: none; }
+.army-order-marker::before {
+  position: absolute;
+  inset: 0;
+  border: 3px solid var(--army-order-tone);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #17120c88;
+  content: "";
+  animation: army-order-marker-ring 0.6s ease-out forwards;
+}
+.army-order-marker[data-order="attack"] { --army-order-tone: #e0533a; }
+.army-order-marker[data-order="move"] { --army-order-tone: #4aa3e0; }
+.army-order-marker[data-order="retreat"] { --army-order-tone: #e8c43a; }
+.army-order-marker[data-order="station"] { --army-order-tone: #5cc46a; }
+.army-order-marker[data-order="refused"]::before,
+.army-order-marker[data-order="refused"]::after {
+  inset: 12px -2px;
+  border: 0;
+  border-radius: 2px;
+  background: #d93025;
+  box-shadow: 0 0 0 1px #17120c88;
+  animation: army-order-marker-fade 0.6s ease-in forwards;
+}
+.army-order-marker[data-order="refused"]::before { transform: rotate(45deg); }
+.army-order-marker[data-order="refused"]::after {
+  position: absolute;
+  content: "";
+  transform: rotate(-45deg);
+}
+
+@keyframes army-order-marker-ring {
+  from { opacity: 1; transform: scale(1.4); }
+  to { opacity: 0; transform: scale(0.5); }
+}
+
+@keyframes army-order-marker-fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .army-order-marker::before,
+  .army-order-marker::after { animation: army-order-marker-fade 0.6s linear forwards; }
+}

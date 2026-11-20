@@ -1,0 +1,28 @@
+/* The cloud save line (cloud-status.tsx): a small paper pill in the bottom-left corner, under the windows. */
+.cloud-status {
+  position: absolute;
+  left: max(12px, env(safe-area-inset-left));
+  bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 4;
+  margin: 0;
+  padding: 4px 10px;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 999px;
+  background: var(--hud-paper);
+  color: var(--hud-muted);
+  font: 600 12px/1.3 Georgia, serif;
+  pointer-events: none;
+}
+.cloud-status--warning {
+  color: var(--hud-danger);
+  cursor: var(--cursor-pointer, pointer);
+  pointer-events: auto;
+}
+.cloud-status--warning:focus-visible {
+  outline: 2px solid var(--hud-focus-ring);
+  outline-offset: 2px;
+}
+/* Phones: the action bar spans the bottom, so the line sits just above it. */
+@media (max-width: 720px) {
+  .cloud-status { bottom: calc(max(12px, env(safe-area-inset-bottom)) + 84px); }
+}

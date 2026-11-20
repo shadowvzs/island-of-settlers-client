@@ -1,0 +1,11 @@
+{
+  "note": "Smart skip prototype: at departure, predict whether the next stop will have any stock/output when the carrier arrives; if not, skip the service stop (the road leg is unchanged). 6 h simulated at 0.1 s steps, median of 4 runs, current manual-load/unload model.",
+  "baseline": { "routes": 6, "carriers": 6, "flagTotalCapacity": 18, "flagWareCapacity": 6 },
+  "rows": [
+    { "cartCapacity": 8, "smartSkip": false, "stepMs": 891.3, "delivered": 3529, "produced": 2245, "services": 20716, "skippedStops": 0, "empty": 24, "saturated": 10, "cartLoad": 0.08 },
+    { "cartCapacity": 8, "smartSkip": true, "stepMs": 925.0, "delivered": 3590, "produced": 2252, "services": 9886, "skippedStops": 11427, "empty": 26, "saturated": 10, "cartLoad": 0.08 },
+    { "cartCapacity": 6, "smartSkip": false, "stepMs": 933.0, "delivered": 4597, "produced": 2785, "services": 20454, "skippedStops": 0, "empty": 23, "saturated": 12, "cartLoad": 0.15 },
+    { "cartCapacity": 6, "smartSkip": true, "stepMs": 934.7, "delivered": 3795, "produced": 2326, "services": 10823, "skippedStops": 10398, "empty": 21, "saturated": 10, "cartLoad": 0.12 }
+  ],
+  "reading": "Skip-service cuts services by ~50%, but wall time is flat (+2-4%) because building/worker/carrier movement dominates. Throughput is not a clear win: cart 8 improved slightly, cart 6 fell 17%. The prediction can skip a stop whose output appears just after arrival, and it adds a decision that must be stored in the snapshot."
+}

@@ -1,0 +1,6 @@
+"Curious Squirrel" by iRahulRajput (https://sketchfab.com/rt699448)
+Source: https://sketchfab.com/3d-models/curious-squirrel-0b5e2372910c4bd18e5c2fe2f1ee0b4c
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: simplified to 1300 triangles, the texture baked into vertex colours (no texture
+shipped), turned and scaled to island units (tools/assets/build-critter.ts); the game poses it
+(hopping, sitting up, clinging to a trunk head up or head down).

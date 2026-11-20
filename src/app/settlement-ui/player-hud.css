@@ -1,0 +1,762 @@
+/* Player corner: portrait, level, experience, gems and the quest book. */
+.player-hud {
+  position: absolute;
+  --player-hud-top: 30px;
+  top: var(--player-hud-top);
+  --player-hud-left: 22px;
+  left: var(--player-hud-left);
+  display: grid;
+  grid-template-columns: 92px auto;
+  grid-template-rows: auto auto;
+  column-gap: 22px;
+  row-gap: 4px;
+  align-items: start;
+  /* The corner layout spans empty map space on phones; only its buttons intercept input. */
+  pointer-events: none;
+  --hud-gold: #c8963e;
+  /* 32 px clear under the portrait frame, which hangs about 26 px (phone 20 px) below the medallion. */
+  --hud-second-row-gap: 54px;
+}
+.player-hud button { pointer-events: auto; }
+.player-hud__portrait {
+  /* Set from player-hud.ts, snapped to whole device pixels (72 px on phones). */
+  --portrait-size: 92px;
+  position: relative;
+  grid-row: span 2;
+  width: var(--portrait-size);
+  height: var(--portrait-size);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #d8c08c;
+  background-repeat: no-repeat;
+  /*
+   * Layer 1: the character sprite sheet (columns x rows), stepped by player-hud.ts through
+   * --portrait-column and --portrait-row; layer 2: the nation backdrop behind it.
+   */
+  background-size:
+    calc(var(--portrait-size) * var(--portrait-columns)) calc(var(--portrait-size) * var(--portrait-rows)),
+    cover;
+  background-position:
+    calc(var(--portrait-size) * var(--portrait-column, 0) * -1)
+      calc(var(--portrait-size) * var(--portrait-row, 0) * -1),
+    center;
+  /* Recessed medallion: the scene sits inside the frame, darker towards its rim. */
+  box-shadow: inset 0 0 0 1px #3b260f, inset 0 6px 14px #1d1206b0, inset 0 -3px 10px #1d120680,
+    0 6px 14px #17120c66;
+  cursor: var(--cursor-pointer, pointer);
+}
+.player-hud__frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: calc(var(--portrait-size) * 1.62);
+  height: calc(var(--portrait-size) * 1.62);
+  transform: translate(-50%, -52%);
+  pointer-events: none;
+  filter: drop-shadow(0 3px 3px #2a1a0899);
+}
+.player-hud__level {
+  position: relative;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+.player-hud__star {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 2px 2px #3d290f99);
+}
+.player-hud__level-lock {
+  position: absolute;
+  right: -5px;
+  bottom: -3px;
+  width: 17px;
+  height: 17px;
+  filter: drop-shadow(0 1px 1px #17120c99);
+}
+.player-hud__level b {
+  position: relative;
+  color: #4a2c0a;
+  font: 800 14px/1 Georgia, serif;
+  text-shadow: 0 1px #ffe9a8;
+}
+.player-hud__experience,
+.player-hud__gems {
+  min-width: 132px;
+  padding: 4px 8px;
+  color: var(--hud-ink);
+  border: 2px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-control);
+  box-shadow: inset 0 1px #fff4d699, 0 3px 6px #17120c4d;
+  cursor: var(--cursor-pointer, pointer);
+}
+:is(.player-hud__experience, .player-hud__gems):hover {
+  background: var(--hud-control-hover);
+}
+:root[data-hud-theme="dark"] :is(.player-hud__experience, .player-hud__gems) {
+  box-shadow: inset 0 1px #b58c5b66, 0 3px 6px #17120c88;
+}
+.player-hud__experience {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  font: 600 12px/1.2 Georgia, serif;
+}
+/* No experience bar (plan 9.4): the level star stands alone. */
+.player-hud__experience.player-hud__experience--compact {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+.player-hud__experience-body {
+  display: grid;
+  flex: 1;
+  gap: 3px;
+  min-width: 0;
+}
+.player-hud__counters {
+  position: relative;
+  top: calc(-1 * var(--player-hud-top));
+  grid-column: 2;
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.player-hud.is-portrait-hidden .player-hud__counters { grid-column: 1; }
+.player-hud__bar {
+  display: block;
+  height: 8px;
+  overflow: hidden;
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 5px;
+  background: #5a43284d;
+}
+.player-hud__bar i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #4aa8f0, #164b9b);
+  transition: width .4s ease-out;
+}
+.player-hud__gems {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  justify-self: start;
+  font: 700 14px/1 Georgia, serif;
+}
+.player-hud__gem {
+  width: 28px;
+  height: 28px;
+  margin: -6px 0;
+}
+/* Gem count while the game's shop switch is off: a read-only chip, flat and with no hover or press change. */
+:root:root:root .player-hud__gems--readonly.player-hud__gems--readonly:is(*, :hover, :active) {
+  background: var(--hud-control);
+  box-shadow: none;
+  cursor: var(--cursor-default, default);
+  transform: none;
+}
+/* Island population "people / limit": a read-only chip beside the gems. */
+.player-hud__population {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  color: var(--hud-ink);
+  border: 2px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  background: var(--hud-control);
+  box-shadow: inset 0 1px #fff4d699, 0 3px 6px #17120c4d;
+  font: 700 14px/1 Georgia, serif;
+  white-space: nowrap;
+}
+.player-hud__population .settlement-art-icon {
+  width: 22px;
+  height: 22px;
+}
+/* Hidden portrait: the counters move into the corner, the quest book stays below them. */
+.player-hud.is-portrait-hidden {
+  grid-template-columns: auto;
+}
+.player-hud.is-portrait-hidden .player-hud__portrait {
+  display: none;
+}
+.player-hud.is-portrait-hidden .player-hud__quests {
+  justify-self: start;
+  margin-top: 6px;
+}
+
+/* EXPLORE-01D: the entry action is a sibling of the portrait and quest buttons, on its own row. */
+.player-hud.has-exploration-entry {
+  /* The exploration (spyglass) action sits beside the portrait frame, not below it. */
+  grid-template-areas:
+    "portrait counters"
+    "portrait explore"
+    "quests quests";
+  top: calc(var(--player-hud-top) + env(safe-area-inset-top, 0px));
+  left: calc(var(--player-hud-left) + env(safe-area-inset-left, 0px));
+}
+.player-hud.has-exploration-entry .player-hud__portrait {
+  grid-area: portrait;
+  align-self: start;
+}
+.player-hud.has-exploration-entry .player-hud__counters { grid-area: counters; }
+.player-hud.has-exploration-entry .player-hud__exploration {
+  grid-area: explore;
+  justify-self: start;
+  margin-top: 4px;
+  margin-left: -20px;
+}
+.player-hud.has-exploration-entry .player-hud__quest-actions {
+  grid-area: quests;
+  margin-top: 18px;
+}
+.player-hud__exploration {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  margin-top: 16px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--hud-gold);
+  border-radius: 50%;
+  background: radial-gradient(circle, #f6e7bf 58%, #d9c08b);
+  box-shadow: 0 0 0 2px #6c4a22, 0 4px 8px #17120c55;
+  cursor: var(--cursor-pointer, pointer);
+  touch-action: manipulation;
+}
+:root[data-hud-theme="dark"] .player-hud__exploration {
+  background: radial-gradient(circle, #514332 58%, #2a2119);
+  box-shadow: 0 0 0 2px var(--hud-paper-edge), 0 4px 8px #17120c88;
+}
+/* Idle is an unboxed map action: the icon floats, shifted 8px up; hover/focus animates it. */
+.player-hud__exploration.is-idle {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  transform: translateY(-8px);
+}
+:root[data-hud-theme="dark"] .player-hud__exploration.is-idle {
+  background: none;
+  box-shadow: none;
+}
+.player-hud__exploration.is-idle:not(:disabled):is(:hover, :focus-visible) .settlement-art-icon {
+  animation: player-hud-exploration-hover 800ms ease-in-out infinite;
+}
+@keyframes player-hud-exploration-hover {
+  0%, 100% { transform: scale(1) rotate(0); }
+  40% { transform: translateY(-3px) scale(1.1) rotate(-5deg); }
+  70% { transform: translateY(-1px) scale(1.04) rotate(5deg); }
+}
+.player-hud__exploration .settlement-art-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.player-hud__exploration:disabled {
+  cursor: var(--cursor-default, default);
+  opacity: .58;
+}
+.player-hud__exploration.is-preparing .settlement-art-icon {
+  animation: player-hud-searching 1.2s ease-in-out infinite;
+}
+.player-hud__exploration-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 4px;
+  display: grid;
+  place-items: center;
+  color: #fff8e0;
+  font: 800 11px/1 Georgia, serif;
+  border-radius: 11px;
+  background: #3f5f7a;
+  box-shadow: 0 0 0 2px #fff4d6, 0 2px 3px #17120c66;
+}
+@keyframes player-hud-searching {
+  50% { transform: rotate(-12deg) scale(.92); }
+}
+.player-hud.is-portrait-hidden.has-exploration-entry {
+  grid-template-columns: auto;
+  grid-template-areas:
+    "counters"
+    "explore"
+    "quests";
+}
+.player-hud.is-portrait-hidden.has-exploration-entry .player-hud__exploration {
+  justify-self: start;
+  margin-top: 8px;
+  margin-left: 0;
+}
+.player-hud.is-portrait-hidden.has-exploration-entry .player-hud__quest-actions {
+  margin-top: 8px;
+}
+
+/* Quest book button (one for every daily quest); the badge counts the claimable ones. */
+/* Outranks the generic `.settlement-ui button { margin: 0 }` reset. */
+.player-hud .player-hud__quests {
+  margin-top: var(--hud-second-row-gap);
+}
+.player-hud__quest-actions {
+  position: relative;
+  left: calc(8px - var(--player-hud-left));
+  grid-column: 1 / -1;
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: var(--hud-second-row-gap);
+}
+.player-hud .player-hud__quest-actions .player-hud__quests {
+  margin-top: 0;
+}
+.player-hud.is-portrait-hidden .player-hud__quest-actions { margin-top: 6px; }
+.player-hud__quests {
+  position: relative;
+  grid-column: 1;
+  justify-self: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: 3px solid var(--hud-gold);
+  border-radius: 50%;
+  background: radial-gradient(circle, #f6e7bf 58%, #d9c08b);
+  box-shadow: 0 0 0 2px #6c4a22, 0 4px 8px #17120c55;
+  cursor: var(--cursor-pointer, pointer);
+}
+:root[data-hud-theme="dark"] .player-hud__quests {
+  background: radial-gradient(circle, #514332 58%, #2a2119);
+  box-shadow: 0 0 0 2px var(--hud-paper-edge), 0 4px 8px #17120c88;
+}
+.player-hud__scroll {
+  width: 42px;
+  height: 42px;
+}
+.player-hud__quests.is-ready {
+  animation: player-hud-ready 1.6s ease-in-out infinite;
+}
+.player-hud__quest-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+  display: grid;
+  place-items: center;
+  color: #fff8e0;
+  font: 800 13px/1 Georgia, serif;
+  border-radius: 11px;
+  background: #3f7a2c;
+  box-shadow: 0 0 0 2px #fff4d6, 0 2px 3px #17120c66;
+}
+.player-hud__quest-badge[hidden] {
+  display: none;
+}
+@keyframes player-hud-ready {
+  50% { box-shadow: 0 0 0 2px #6c4a22, 0 0 14px 4px #ffd36a; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .player-hud__quests.is-ready { animation: none; }
+}
+
+/* Quest book window: open quests on the left, the selected quest on the right. */
+.settlement-ui__panel.settlement-ui__quest-window {
+  left: 260px;
+  top: 12px;
+  bottom: auto;
+  height: fit-content;
+  width: min(560px, calc(100vw - 32px));
+  z-index: 4;
+}
+.settlement-ui__quest-window .quest-window {
+  flex: 0 1 auto;
+  min-height: 0;
+}
+.quest-window {
+  display: grid;
+  grid-template-columns: minmax(150px, 2fr) 3fr;
+  align-content: start;
+  gap: 10px;
+  padding: 10px;
+}
+.quest-window__list {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+}
+.quest-window__detail-pane {
+  min-width: 0;
+}
+.settlement-ui__tab.quest-window__entry {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 6px;
+  align-items: center;
+  padding: 6px 8px;
+  text-align: left;
+}
+.quest-window__entry > :first-child {
+  grid-row: span 2;
+  width: 34px;
+  height: 34px;
+}
+.quest-window__entry strong {
+  font: 700 12px/1.2 Georgia, serif;
+}
+.quest-window__entry small {
+  font-size: 10px;
+  opacity: .85;
+}
+.quest-window__entry.is-ready small {
+  color: #3f7a2c;
+  font-weight: 700;
+  opacity: 1;
+}
+:root[data-hud-theme="dark"] .quest-window__entry.is-ready small {
+  color: #a8dc8a;
+}
+.quest-window__details {
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid #94704466;
+  border-radius: 10px;
+  background: #fff4d633;
+}
+:root[data-hud-theme="dark"] .quest-window__details {
+  border-color: #ba925b66;
+  background: #b58c5b15;
+}
+.quest-window__art {
+  justify-self: center;
+  width: 72px;
+  height: 72px;
+  filter: drop-shadow(0 4px 4px #17120c44);
+}
+.quest-window__art > * {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.quest-window__details h3 {
+  margin: 0;
+  font: 700 16px/1.2 Georgia, serif;
+}
+.quest-window__details p {
+  margin: 0;
+}
+.quest-window__details small {
+  color: var(--settlement-muted);
+}
+/* Tutorial chapter: a small caps line above the step title, the chapter's reward under the notes. */
+.quest-window__details .quest-window__chapter {
+  color: var(--settlement-muted);
+  font: 700 11px/1.3 Georgia, serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.quest-window__details .quest-window__chapter-reward {
+  font-style: italic;
+}
+.quest-window__details .player-hud__bar {
+  width: 100%;
+}
+.quest-window__claim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+.quest-window__claim .settlement-ui__button img {
+  width: 30px;
+  height: 30px;
+}
+.quest-window__empty {
+  margin: 0;
+  padding: 16px 6px;
+  text-align: center;
+}
+:is(.quest-window__status, .gem-shop__balance) {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+/* Gem shop: categories on the left, offers on the right. */
+.settlement-ui__panel.settlement-ui__gem-shop-window {
+  left: 260px;
+  top: 12px;
+  bottom: auto;
+  max-height: min(740px, calc(100dvh - 140px));
+  width: min(600px, calc(100vw - 32px));
+  z-index: 4;
+}
+.settlement-ui__gem-shop-window .gem-shop {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+.gem-shop {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas: "categories offers" "balance balance";
+  gap: 10px;
+  padding: 10px;
+}
+.gem-shop__categories {
+  grid-area: categories;
+  display: grid;
+  align-content: start;
+  gap: 6px;
+}
+.gem-shop__offers {
+  grid-area: offers;
+  min-height: 0;
+  align-content: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 8px;
+  max-height: none;
+  overflow-y: auto;
+}
+.gem-shop__offer.settlement-ui__card {
+  gap: 4px;
+  padding: 8px 6px;
+}
+.gem-shop__offer.settlement-ui__card > img,
+.gem-shop__offer.settlement-ui__card > svg {
+  height: 58px;
+}
+.gem-shop__offer > span {
+  font: 700 12px/1.2 Georgia, serif;
+}
+.gem-shop .gem-shop__gem {
+  width: 22px;
+  height: 22px;
+  margin: -4px 0;
+  filter: drop-shadow(0 1px 1px #17120c66);
+}
+.gem-shop__offer .gem-shop__buy {
+  flex-direction: row;
+  width: 100%;
+  min-height: 36px;
+  font: 700 13px/1 Georgia, serif;
+}
+.gem-shop__balance {
+  grid-area: balance;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font: 700 13px/1 Georgia, serif;
+}
+.quest-window__status:empty { display: none; }
+.quest-window__status {
+  min-height: 1.2em;
+  color: var(--settlement-accent);
+  font-weight: 700;
+}
+/*
+ * BUG-02: below 560 px the counters would cover the top-right settings icons (theme toggle, tools,
+ * camera; up to 178 px wide with an 8 px margin). Reserve that strip as real grid padding instead of
+ * painting the counters lower with `top`: a relative offset never reserves its row height.
+ */
+@media (max-width: 560px) and (orientation: portrait) {
+  .player-hud,
+  .player-hud.has-exploration-entry {
+    --player-hud-top: 8px;
+    --hud-top-clearance: 44px;
+    /* The top-right icons end 48 px from the viewport top; the corner content starts just below. */
+    top: calc(var(--player-hud-top) + env(safe-area-inset-top, 0px));
+    left: calc(var(--player-hud-left) + env(safe-area-inset-left, 0px));
+    padding-top: var(--hud-top-clearance);
+  }
+  .player-hud__counters { top: auto; }
+  .player-hud.is-portrait-hidden .player-hud__quest-actions { margin-top: 8px; }
+}
+@media (max-width: 480px) and (orientation: portrait) {
+  .player-hud__quests { width: 48px; height: 48px; }
+  .player-hud__scroll { width: 34px; height: 34px; }
+  .settlement-ui__panel:is(.settlement-ui__quest-window, .settlement-ui__gem-shop-window) {
+    left: 16px;
+    top: 80px;
+  }
+  .quest-window { grid-template-columns: 1fr; }
+  .gem-shop { grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
+    grid-template-areas: "categories" "offers" "balance" "status"; }
+  .gem-shop__categories { display: flex; }
+  .gem-shop__offers { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: none; }
+}
+
+/*
+ * HUD-PORTRAIT-01: phone portrait is one explicit stacked grid. The avatar and the population chip
+ * are removed here (population stays in the summary/workforce panels); XP, gems, the exploration
+ * action and the quest actions are real rows, so nothing is painted into another row and no row is
+ * reserved when the exploration entry is absent.
+ */
+@media (max-width: 480px) and (orientation: portrait) {
+  .player-hud,
+  .player-hud.has-exploration-entry,
+  .player-hud.is-portrait-hidden,
+  .player-hud.is-portrait-hidden.has-exploration-entry {
+    --player-hud-left: 16px;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: none;
+    column-gap: 0;
+    row-gap: 6px;
+  }
+  .player-hud .player-hud__portrait { display: none; }
+  .player-hud__population { display: none; }
+  .player-hud__counters,
+  .player-hud.has-exploration-entry .player-hud__counters {
+    grid-area: auto;
+    grid-column: 1 / -1;
+    top: auto;
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .player-hud__experience {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .player-hud__experience-body small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .player-hud__gems { flex: 0 0 auto; }
+  .player-hud.has-exploration-entry .player-hud__exploration {
+    grid-area: auto;
+    grid-column: 1;
+    justify-self: start;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    margin: 0;
+    transform: none;
+  }
+  .player-hud .player-hud__quest-actions,
+  .player-hud.has-exploration-entry .player-hud__quest-actions,
+  .player-hud.is-portrait-hidden .player-hud__quest-actions,
+  .player-hud.is-portrait-hidden.has-exploration-entry .player-hud__quest-actions {
+    grid-area: auto;
+    grid-column: 1 / -1;
+    left: 0;
+    justify-self: start;
+    margin-top: 0;
+  }
+}
+
+.quest-window__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  padding: 8px;
+  color: var(--hud-ink);
+}
+.quest-window__countdown {
+  color: var(--hud-muted);
+  font-size: 10px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.player-hud__quests.is-new { animation: tutorial-quest-new 1.6s ease-in-out infinite; }
+.player-hud__quests.is-new::after {
+  content: "NEW"; position: absolute; top: -4px; left: -4px; padding: 2px 4px;
+  background: #e8c46c; color: #392e17; font: bold 9px/1.2 sans-serif; border-radius: 3px;
+}
+@keyframes tutorial-quest-new {
+  0%, 100% { box-shadow: 0 0 0 0 #d7ad5455; }
+  50% { box-shadow: 0 0 0 5px #d7ad5411; }
+}
+@media (prefers-reduced-motion: reduce) { .player-hud__quests.is-new { animation: none; } }
+
+.player-hud__inbox > :first-child { width: 36px; height: 36px; object-fit: contain; }
+
+@media (prefers-reduced-motion: reduce) {
+  .player-hud__exploration.is-idle:is(:hover, :focus-visible) .settlement-art-icon,
+  .player-hud__exploration.is-preparing .settlement-art-icon { animation: none; }
+}
+
+/*
+ * EXPLORE-01D HUD scope: CSS hides the owning layer without unmounting it, closing a window or
+ * rewriting an open/draft flag. The exploration overlay lives in the window layer, outside these
+ * roots. Account/session/recovery UI is intentionally not in this list and can still force an exit.
+ *
+ * Possessed exploration keeps the player portrait and its frame as a small identity marker on
+ * desktop/landscape (phone portrait removes it, HUD-PORTRAIT-01). Every other settlement child is
+ * hidden, and the portrait stops taking pointer input so it cannot steal a look/drag.
+ */
+:root[data-exploration-hud="hidden"] .settlement-ui > :not(.settlement-ui__hud-host),
+:root[data-exploration-hud="hidden"] .settlement-ui__hud-host > :not(.player-hud),
+:root[data-exploration-hud="hidden"] .player-hud > :not(.player-hud__portrait) {
+  display: none !important;
+}
+:root[data-exploration-hud="hidden"] .player-hud.is-portrait-hidden .player-hud__portrait {
+  display: block;
+}
+:root[data-exploration-hud="hidden"] .player-hud {
+  /* The remembered hidden layout has no portrait grid area. Once the counters disappear its
+     implicit track collapses to zero, leaving only the overflowing frame visible. */
+  display: block;
+}
+:root[data-exploration-hud="hidden"] .player-hud__portrait {
+  min-width: var(--portrait-size);
+  max-width: none;
+  pointer-events: none;
+}
+:root[data-exploration-hud="hidden"] :is(
+  .minimap,
+  .settings,
+  .military-controls,
+  .army-action-rail,
+  .selection-box,
+  .army-box-select,
+  .selected-route-overlay,
+  .map-editor,
+  .hud-theme-popover,
+  .hostile-building-tooltip,
+  .build-overlay__tooltip
+) {
+  display: none !important;
+}
+/* EXPLORE-HUD-01: only the transient possessed minimap is exempt from the normal HUD hide. */
+:root[data-exploration-hud="hidden"] .minimap.minimap--exploration {
+  display: block !important;
+}
+
+/* HUD-PORTRAIT-01: the avatar is removed on phone portrait, including the possessed identity marker. */
+@media (max-width: 480px) and (orientation: portrait) {
+  .player-hud .player-hud__portrait,
+  :root[data-exploration-hud="hidden"] .player-hud.is-portrait-hidden .player-hud__portrait {
+    display: none;
+  }
+}

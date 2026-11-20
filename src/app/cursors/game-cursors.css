@@ -1,0 +1,43 @@
+/*
+ * The game's cursor set (rendered from 3D models by tools/assets/game-cursors.ts). Stylesheets use the tokens
+ * with a system fallback, e.g. `cursor: var(--cursor-pointer, pointer)`, so the system cursors return wherever the
+ * set is off: touch screens, Settings > Misc "System cursor" (`html[data-system-cursor]`) and pages that do not
+ * load this file. Text inputs keep the system I-beam. The edge-scroll cursor (inline !important) still wins in
+ * the edge zone and army-order-cursor.css still owns the order cursors on the map. Hotspots: the arrow tip
+ * (2 2) and the gauntlet's palm (16 18).
+ */
+:root {
+  --cursor-default: default;
+  --cursor-grab: grab;
+  --cursor-grabbing: grabbing;
+  --cursor-not-allowed: not-allowed;
+  --cursor-pointer: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :root:not([data-system-cursor]) {
+    --cursor-default: image-set(url("../../../assets/ui-icons/cursors/game-default.png") 1x,
+      url("../../../assets/ui-icons/cursors/game-default@2x.png") 2x) 2 2, default;
+    --cursor-grab: image-set(url("../../../assets/ui-icons/cursors/game-grab.png") 1x,
+      url("../../../assets/ui-icons/cursors/game-grab@2x.png") 2x) 16 18, grab;
+    --cursor-grabbing: image-set(url("../../../assets/ui-icons/cursors/game-grabbing.png") 1x,
+      url("../../../assets/ui-icons/cursors/game-grabbing@2x.png") 2x) 16 18, grabbing;
+    --cursor-not-allowed: image-set(url("../../../assets/ui-icons/cursors/game-not-allowed.png") 1x,
+      url("../../../assets/ui-icons/cursors/game-not-allowed@2x.png") 2x) 2 2, not-allowed;
+    --cursor-pointer: image-set(url("../../../assets/ui-icons/cursors/game-pointer.png") 1x,
+      url("../../../assets/ui-icons/cursors/game-pointer@2x.png") 2x) 2 2, pointer;
+    /* The whole page (title, HUD, windows, map canvas) inherits the arrow; the system mode keeps `auto`. */
+    cursor: var(--cursor-default);
+  }
+
+  /* Zero specificity: feature styles keep their own choices for these elements. */
+  :where(a[href]) {
+    cursor: var(--cursor-pointer);
+  }
+
+  :where(input:not([type="button"], [type="checkbox"], [type="color"], [type="file"], [type="image"],
+    [type="radio"], [type="range"], [type="reset"], [type="submit"]), textarea,
+    [contenteditable]:not([contenteditable="false"])) {
+    cursor: text;
+  }
+}

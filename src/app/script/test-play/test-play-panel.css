@@ -1,0 +1,95 @@
+/* Play-test debug log (admin play-test pages): a compact panel in the bottom left corner. Plain DOM. */
+.test-play-layer {
+  position: absolute;
+  bottom: 96px;
+  left: 12px;
+  z-index: 3;
+  width: min(360px, 100vw - 24px);
+  pointer-events: none;
+}
+.test-play-log {
+  overflow: hidden;
+  pointer-events: auto;
+  color: var(--hud-ink);
+  background-color: var(--hud-paper);
+  background-image: var(--hud-paper-texture);
+  border: 2px solid var(--hud-paper-edge);
+  border-radius: 10px;
+  box-shadow: 0 3px 9px #17120c59, inset 0 0 0 1px #f9e6b640;
+}
+.test-play-log__header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 32px;
+  padding: 2px 4px 2px 10px;
+  color: #f8e7bd;
+  background: linear-gradient(#79563d, #493522);
+}
+.test-play-log__title {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 600 14px/1.2 Georgia, serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.settlement-ui .test-play-log__button,
+.test-play-log__button {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  min-width: 0;
+  min-height: 0;
+  padding: 2px;
+  color: var(--hud-ink);
+  background: var(--hud-control);
+  border: 1px solid var(--hud-paper-edge);
+  border-radius: 7px;
+  cursor: var(--cursor-pointer, pointer);
+}
+.test-play-log__button:hover { background: var(--hud-control-hover); }
+.test-play-log__button:focus-visible {
+  outline: 2px solid #ffe4b0;
+  outline-offset: 1px;
+}
+.test-play-log__button[aria-pressed="false"] { opacity: 0.45; }
+.test-play-log__button :is(img, svg) {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.test-play-log__empty {
+  margin: 0;
+  padding: 6px 10px;
+  color: var(--hud-muted);
+  font: 13px/1.3 system-ui, sans-serif;
+}
+.test-play-log__list {
+  max-height: min(220px, 30dvh);
+  margin: 0;
+  padding: 2px 0;
+  overflow: hidden auto;
+  list-style: none;
+  font: 12px/1.35 ui-monospace, Menlo, Consolas, monospace;
+  scrollbar-width: thin;
+}
+.test-play-log__row {
+  display: flex;
+  gap: 8px;
+  padding: 1px 10px;
+  border-left: 3px solid transparent;
+}
+.test-play-log__row[data-kind="run"] { border-left-color: #b4572b; font-weight: 700; }
+.test-play-log__row[data-kind="step"] { color: var(--hud-muted); }
+.test-play-log__row[data-kind="quest"] { border-left-color: #2f7d4f; }
+.test-play-log__row[data-kind="variable"] { border-left-color: #2f5f9d; }
+.test-play-log__time { flex: 0 0 auto; color: var(--hud-muted); font-weight: 400; }
+.test-play-log__text { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .test-play-layer { bottom: 84px; left: 6px; width: min(300px, 100vw - 12px); }
+  .test-play-log__list { max-height: 22dvh; }
+}

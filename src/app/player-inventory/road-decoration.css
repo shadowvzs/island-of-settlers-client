@@ -1,0 +1,9 @@
+.settlement-ui__panel.road-decoration-window {
+  box-sizing: border-box;
+  width: min(300px, calc(100vw - 32px));
+  min-width: 0;
+}
+.road-decoration-window__body { min-height: 0; overflow-y: auto; }
+.road-decoration-panel { display: grid; justify-items: center; gap: 12px; padding: 12px; text-align: center; }
+.road-decoration-panel p { margin: 0; }
+.road-decoration-panel__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }

@@ -1,0 +1,7 @@
+"Cattail Plant" by SXuno (https://sketchfab.com/sxuno)
+Source: https://sketchfab.com/3d-models/cattail-plant-c50630051edd4a7daa9708f6b31c021f
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+Changes: vertices merged by position and simplified from 1314 to 444 triangles; the diffuse
+textures baked into vertex colours and all textures removed (tools/assets/build-cattail.ts); in
+the game the colours are mapped onto the island palette and the clump is scaled per variant.

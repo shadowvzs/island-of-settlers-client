@@ -1,0 +1,2 @@
+export const BUILDING_BURN_SECONDS = 15;
+export const BUILDING_DEMOLITION_SECONDS = 30;

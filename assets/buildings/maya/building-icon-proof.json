@@ -1,0 +1,586 @@
+{
+  "nation": "maya",
+  "generatedAt": "2026-11-11T06:16:59.986Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "maya",
+      "nodeName": "maya_0",
+      "triangles": 16852,
+      "path": "assets/building-icons/maya-0.png",
+      "sha256": "6de2c55d4995e8566bd22de7d6ab5d0200c815f9b55a2421485f275c0d616c7a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "maya",
+      "nodeName": "maya_1",
+      "triangles": 1728,
+      "path": "assets/building-icons/maya-1.png",
+      "sha256": "49002a34071c4d25e8513d459bea87ab2887bd7e5028a3bd14b585b98fcd7522",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "maya",
+      "nodeName": "maya_2",
+      "triangles": 4470,
+      "path": "assets/building-icons/maya-2.png",
+      "sha256": "a800efb6a751e620f737700efb3fed33b8213cbf9c77e4d153a4f52cd1f4d532",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "maya",
+      "nodeName": "maya_3",
+      "triangles": 10338,
+      "path": "assets/building-icons/maya-3.png",
+      "sha256": "d4197896e5c473f0713bba72d3b52342dd59cb9552053bd715a5467c003d605b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "maya",
+      "nodeName": "maya_4",
+      "triangles": 4740,
+      "path": "assets/building-icons/maya-4.png",
+      "sha256": "baa8664106055d6bb1fb939bfa74b81ec8c04ebf8b2584213cba394763f64f20",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "maya",
+      "nodeName": "maya_5",
+      "triangles": 15212,
+      "path": "assets/building-icons/maya-5.png",
+      "sha256": "6ab0662b10e0b63118a572938be72f8a89195a44508ff52790709c29125dc5a9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "maya",
+      "nodeName": "maya_6",
+      "triangles": 13897,
+      "path": "assets/building-icons/maya-6.png",
+      "sha256": "36838933a091011771cdfcc0d0135da60d882daeb0f016f4ea5eca9976b7d48c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "maya",
+      "nodeName": "maya_7",
+      "triangles": 5570,
+      "path": "assets/building-icons/maya-7.png",
+      "sha256": "7a4e67f7e95fb6c7ffc9e16336fd12f4d08c7464c7e1ebcc042eb1f02b1491fd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "maya",
+      "nodeName": "maya_8",
+      "triangles": 9328,
+      "path": "assets/building-icons/maya-8.png",
+      "sha256": "3f674fe2cc84bf13b55e1d5d8dc11a2e263b577fab50c904ffdb2f2d345f42dd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "maya",
+      "nodeName": "maya_9",
+      "triangles": 16016,
+      "path": "assets/building-icons/maya-9.png",
+      "sha256": "fe19e1cf15e6bf4b49ac6ccd44a445c5273908f7684924e3c070a3b54e4d5621",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "maya",
+      "nodeName": "maya_10",
+      "triangles": 6406,
+      "path": "assets/building-icons/maya-10.png",
+      "sha256": "99cf65acde93964a0f1455db9d81ea4dddc1c21c4551dbdf3d7c20fdc24cbb6b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "maya",
+      "nodeName": "maya_11",
+      "triangles": 9142,
+      "path": "assets/building-icons/maya-11.png",
+      "sha256": "7ae01bacd5ad7e28dac820a1f75c7c1dc48a79fffccf762fd8dd36e6b56eafcf",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "maya",
+      "nodeName": "maya_12",
+      "triangles": 9142,
+      "path": "assets/building-icons/maya-12.png",
+      "sha256": "122fd1bdf117e4df488698e5802db09d265986d7e98190dcf576a7827970e796",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "maya",
+      "nodeName": "maya_13",
+      "triangles": 9142,
+      "path": "assets/building-icons/maya-13.png",
+      "sha256": "ea322109d77af662ce117cd8141f299ca5ddabf4d257bf4edec9a3c74e0e7e71",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "maya",
+      "nodeName": "maya_14",
+      "triangles": 1658,
+      "path": "assets/building-icons/maya-14.png",
+      "sha256": "ae1ee63948877a7a3ee359d3afe3ab75e941c33b378020b04e267d95387952ee",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "maya",
+      "nodeName": "maya_15",
+      "triangles": 12824,
+      "path": "assets/building-icons/maya-15.png",
+      "sha256": "1f1056d8f054c4b35b19f7faf53cfe3427095ebf85bb62a8e7b8a5e42cc49966",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "maya",
+      "nodeName": "maya_16",
+      "triangles": 23712,
+      "path": "assets/building-icons/maya-16.png",
+      "sha256": "9cf5e2fb166d5787cd1b6a043f6d20d9fd55a82c17ce3bed86c34ffd9fad63d9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "maya",
+      "nodeName": "maya_17",
+      "triangles": 8104,
+      "path": "assets/building-icons/maya-17.png",
+      "sha256": "07e37716872b6c04ec6efd00ff85bc4d636a329bba71d68199522cfc18835e49",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "maya",
+      "nodeName": "maya_18",
+      "triangles": 12703,
+      "path": "assets/building-icons/maya-18.png",
+      "sha256": "7836fbd7c6dffe9dce053e3d8455789cc3494c4bf57c1a5dfd5aa0a15366b09b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "maya",
+      "nodeName": "maya_19",
+      "triangles": 5664,
+      "path": "assets/building-icons/maya-19.png",
+      "sha256": "75ba48e16938a71169a69f2bf04370c6f24c6bbda3d49c51a9e947b279e7df03",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "maya",
+      "nodeName": "maya_20",
+      "triangles": 13332,
+      "path": "assets/building-icons/maya-20.png",
+      "sha256": "174989ea5065fcf675bef6c6bba75cc1304c82bb2763bcaf50fc21711c825c55",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "maya",
+      "nodeName": "maya_21",
+      "triangles": 27684,
+      "path": "assets/building-icons/maya-21.png",
+      "sha256": "3e53b352ef7043981c8b46537cecff9198355a826c8c8fd562c3f722b6f2126a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "maya",
+      "nodeName": "maya_22",
+      "triangles": 8891,
+      "path": "assets/building-icons/maya-22.png",
+      "sha256": "06aeca9cc98447d34d4c2fb018ac6a666577a04a561f7c2cd661ce5f9b9ea4fd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "maya",
+      "nodeName": "maya_23",
+      "triangles": 15388,
+      "path": "assets/building-icons/maya-23.png",
+      "sha256": "eed4223ee468c21e2c4df62737d57960f9e5af5a8b7a44249ed654b25f996800",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "maya",
+      "nodeName": "maya_24",
+      "triangles": 5010,
+      "path": "assets/building-icons/maya-24.png",
+      "sha256": "75aa7999377c82c2251380f766680a3224b5861809cc69a009ccc901d50461fb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "maya",
+      "nodeName": "maya_25",
+      "triangles": 14296,
+      "path": "assets/building-icons/maya-25.png",
+      "sha256": "09fea80d788e31e02e34485cfc5be1d7b696a088e5aa1eee49984393c2711d33",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "maya",
+      "nodeName": "maya_26",
+      "triangles": 10696,
+      "path": "assets/building-icons/maya-26.png",
+      "sha256": "3704e9471f2f66c6430b5b530e48b4cf6547efc767ace2b858c078320c664099",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "maya",
+      "nodeName": "maya_27",
+      "triangles": 12010,
+      "path": "assets/building-icons/maya-27.png",
+      "sha256": "d3df776f01dab6c5bdcd416db577116456196fd34853fed5d4d9fb0bd5a5d5a4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "maya",
+      "nodeName": "maya_28",
+      "triangles": 32010,
+      "path": "assets/building-icons/maya-28.png",
+      "sha256": "b0410c4ec864b64aee285480ad86065e11b25c54f59ff24e6c3fc0cc71db2d19",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "maya",
+      "nodeName": "maya_29",
+      "triangles": 2238,
+      "path": "assets/building-icons/maya-29.png",
+      "sha256": "33fea982b80378c2be153a786f883ab1e05469fb105be1295c78de0182049899",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "maya",
+      "nodeName": "maya_31",
+      "triangles": 7012,
+      "path": "assets/building-icons/maya-31.png",
+      "sha256": "747535797bdfc14704ee7e6acb6498c2a3e3b5c1c778713c267e61580a4e9741",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "maya",
+      "nodeName": "maya_32",
+      "triangles": 12256,
+      "path": "assets/building-icons/maya-32.png",
+      "sha256": "823269f62938cc17123655b217d443e6d16912452aecf48204ec17059893faa9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "maya",
+      "nodeName": "maya_33",
+      "triangles": 9668,
+      "path": "assets/building-icons/maya-33.png",
+      "sha256": "a0e9a5c642e81774285b7b697fd9842692c0a9964fa7e94593ee8f47c78da798",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "maya",
+      "nodeName": "maya_34",
+      "triangles": 6844,
+      "path": "assets/building-icons/maya-34.png",
+      "sha256": "e39dc1ee41d7a922309c6cae2e015efefc0acfae26c1d2686323f5b343b54af2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "maya",
+      "nodeName": "maya_35",
+      "triangles": 4584,
+      "path": "assets/building-icons/maya-35.png",
+      "sha256": "a60ab64b59b45f973e05e30d6a92fecfd467192ab162c7df77a4058d99655461",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "maya",
+      "nodeName": "maya_36",
+      "triangles": 10532,
+      "path": "assets/building-icons/maya-36.png",
+      "sha256": "d590d42aa96ad22159ab8312bb67fa16da0e8fe0ef8282d060c85db48eb16cc0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "maya",
+      "nodeName": "maya_37",
+      "triangles": 14734,
+      "path": "assets/building-icons/maya-37.png",
+      "sha256": "8bc063a6524d6d52562b4488a4d8c477a7fdfce80f32a3dd48697c833becad17",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "maya",
+      "nodeName": "maya_39",
+      "triangles": 17256,
+      "path": "assets/building-icons/maya-39.png",
+      "sha256": "1cb8462c22f923fb876209c29a940db5da014537cea2ef64ede7070d172bf68a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "maya",
+      "nodeName": "maya_40",
+      "triangles": 6980,
+      "path": "assets/building-icons/maya-40.png",
+      "sha256": "88feb51525cd81cad34554b0a77a4e64b03a72734f03563ddbac0fc11463d79d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "maya",
+      "nodeName": "maya_41",
+      "triangles": 13584,
+      "path": "assets/building-icons/maya-41.png",
+      "sha256": "f7d8ede4da0d27d6e981d7e412e2b70e14842ec41b4f40771726b6ce37699a89",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "maya",
+      "nodeName": "maya_42",
+      "triangles": 8636,
+      "path": "assets/building-icons/maya-42.png",
+      "sha256": "9c42abf2b675e9338e6ade514e1f8b3e16592114622891fd681ca794f715f450",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "maya",
+      "nodeName": "maya_43",
+      "triangles": 8256,
+      "path": "assets/building-icons/maya-43.png",
+      "sha256": "20230f24719ed753f84d0268215e27f2d85d5873cb4dee583b4491ca9ddf0b62",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "maya",
+      "nodeName": "maya_45",
+      "triangles": 13584,
+      "path": "assets/building-icons/maya-45.png",
+      "sha256": "f7d8ede4da0d27d6e981d7e412e2b70e14842ec41b4f40771726b6ce37699a89",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "maya",
+      "nodeName": "maya_46",
+      "triangles": 9788,
+      "path": "assets/building-icons/maya-46.png",
+      "sha256": "41deee3d12c3da6fdbbda942ec243aa88e8e9a54af9b735cc56730376179267e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "maya",
+      "nodeName": "maya_47",
+      "triangles": 6072,
+      "path": "assets/building-icons/maya-47.png",
+      "sha256": "55900cb33f98b4cd06c093c3dbf1e5789018ab05367fa16810c092374369af00",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "maya",
+      "nodeName": "maya_49",
+      "triangles": 13584,
+      "path": "assets/building-icons/maya-49.png",
+      "sha256": "f7d8ede4da0d27d6e981d7e412e2b70e14842ec41b4f40771726b6ce37699a89",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "maya",
+      "nodeName": "maya_50",
+      "triangles": 8636,
+      "path": "assets/building-icons/maya-50.png",
+      "sha256": "9dc29a96b3ec248a46ed4e8b8c84bc8584ffe022f551083a024f5d9d82f99bb0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "maya",
+      "nodeName": "maya_51",
+      "triangles": 5856,
+      "path": "assets/building-icons/maya-51.png",
+      "sha256": "bca8e859c327b286df67448b727927f4cd55941f4869c53ddf1d36f94b2dce1e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "maya",
+      "nodeName": "maya_53",
+      "triangles": 13584,
+      "path": "assets/building-icons/maya-53.png",
+      "sha256": "f7d8ede4da0d27d6e981d7e412e2b70e14842ec41b4f40771726b6ce37699a89",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "maya",
+      "nodeName": "maya_54",
+      "triangles": 8636,
+      "path": "assets/building-icons/maya-54.png",
+      "sha256": "c9ce42a4d45560bfc63cbb2800fd7c00c75abe825c056171d9e08ba3526e404e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "maya",
+      "nodeName": "maya_55",
+      "triangles": 6672,
+      "path": "assets/building-icons/maya-55.png",
+      "sha256": "aafb20ee50dc481377246d52876ad6cb2eab159887a9251d2427e0bfaf87ef9c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "maya",
+      "nodeName": "maya_57",
+      "triangles": 5065,
+      "path": "assets/building-icons/maya-57.png",
+      "sha256": "22b5a7e85a9f6ace42df5d7d986bc7ee7de1e9ae3d5779a1005aad9fc8068258",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "maya",
+      "nodeName": "maya_58",
+      "triangles": 9452,
+      "path": "assets/building-icons/maya-58.png",
+      "sha256": "fba8b5362e8cfe68bb5788118ebaa01eb4b6ab2bbed1e8d56c01a681d21fb26f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "maya",
+      "nodeName": "maya_59",
+      "triangles": 6776,
+      "path": "assets/building-icons/maya-59.png",
+      "sha256": "01020ff47eecda33a996d2ed93b086c6fcb98dd989a1531748b15db7b0bfee0e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "maya",
+      "nodeName": "maya_60",
+      "triangles": 10625,
+      "path": "assets/building-icons/maya-60.png",
+      "sha256": "13200ed4a045c2278bd82202a6b3d9a9cfc0643fb1c9dcd376aa722c093fec66",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "maya",
+      "nodeName": "maya_61",
+      "triangles": 8216,
+      "path": "assets/building-icons/maya-61.png",
+      "sha256": "8e77050858f9638fbc09c12861938107f0152442b8105ee772e17067ad4ba84f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "maya",
+      "nodeName": "maya_62",
+      "triangles": 2564,
+      "path": "assets/building-icons/maya-62.png",
+      "sha256": "34c412ec69f8d56d617d844112ed501a3b0d11ee24740a28eabe4226a36e0939",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    }
+  ]
+}

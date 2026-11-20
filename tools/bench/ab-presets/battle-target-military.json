@@ -1,0 +1,13 @@
+{
+  "command": ["tools/bench/military-battle-tick.ts"],
+  "env": { "FLAT_ONLY": "1", "SECONDS": "60", "SIZE": "150" },
+  "rounds": 5,
+  "warmup": 1,
+  "metrics": [
+    "flat.battleAvg=json:flat.battle.avg",
+    "flat.battleP95=json:flat.battle.p95",
+    "flat.contactAvg=json:flat.contact.avg",
+    "flat.contactP95=json:flat.contact.p95"
+  ],
+  "hashes": ["flat.endSecond=json:flat.endSecond"]
+}

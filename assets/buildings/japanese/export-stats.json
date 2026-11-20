@@ -1,0 +1,1931 @@
+{
+  "generatedAt": "2026-11-11T06:10:53.757Z",
+  "preflight": {
+    "mode": "run",
+    "testsExecutedByThisScript": false,
+    "note": "No test preflight is performed by this script."
+  },
+  "errors": [],
+  "libraries": [
+    {
+      "quality": "high",
+      "bytes": 78274944,
+      "models": 57,
+      "clips": 174
+    },
+    {
+      "quality": "minimal",
+      "bytes": 20974692,
+      "models": 57,
+      "clips": 174
+    }
+  ],
+  "buildings": [
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 25966,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 39000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 4200,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 6006,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 5812,
+      "stockTriangles": 1440,
+      "animalTriangles": 2454,
+      "residentTriangles": 2454,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 4194,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 7648,
+      "stockTriangles": 816,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 6968,
+      "stockTriangles": 1196,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [],
+      "id": 7,
+      "triangles": 24263,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 36750
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 7070,
+      "stockTriangles": 2396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 10016,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 4074,
+      "stockTriangles": 304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 6810,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 6810,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 6810,
+      "stockTriangles": 3112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 4598,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 10584,
+      "stockTriangles": 6788,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 18000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 8174,
+      "stockTriangles": 640,
+      "animalTriangles": 10632,
+      "residentTriangles": 10632,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 9000,
+      "stockTriangles": 2016,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 9694,
+      "stockTriangles": 1392,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 3954,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 12860,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 8060,
+      "stockTriangles": 2304,
+      "animalTriangles": 14724,
+      "residentTriangles": 14724,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 7068,
+      "stockTriangles": 3024,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 9844,
+      "stockTriangles": 3856,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 7790,
+      "stockTriangles": 1692,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 9278,
+      "stockTriangles": 2418,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 9168,
+      "stockTriangles": 1524,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 8904,
+      "stockTriangles": 4896,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 8224,
+      "stockTriangles": 2604,
+      "animalTriangles": 19632,
+      "residentTriangles": 19632,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 12907,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 21000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 8930,
+      "stockTriangles": 3776,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 9220,
+      "stockTriangles": 2292,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 7130,
+      "stockTriangles": 2616,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 8488,
+      "stockTriangles": 3264,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 39000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 3474,
+      "stockTriangles": 1176,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 6512,
+      "stockTriangles": 1584,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 9580,
+      "stockTriangles": 5232,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 10780,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 7478,
+      "stockTriangles": 1984,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 12860,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12860,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 9288,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 17700,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9000,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 6426,
+      "stockTriangles": 2544,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3954,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 2544,
+        "stockDelta": 2472,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 12860,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12860,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 10440,
+      "stockTriangles": 3456,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 17700,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9000,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 3456,
+        "stockDelta": 1440,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 4242,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3954,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 360,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 12860,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12860,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 9288,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 17700,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9000,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 4026,
+      "stockTriangles": 144,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3954,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 144,
+        "stockDelta": 72,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 12860,
+      "stockTriangles": 2628,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 12860,
+        "baseStockTriangles": 2628,
+        "canonicalStockTriangles": 2628,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 9288,
+      "stockTriangles": 2304,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 17700,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 9000,
+        "baseStockTriangles": 2016,
+        "canonicalStockTriangles": 2304,
+        "stockDelta": 288,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 4842,
+      "stockTriangles": 960,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 16500,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 3954,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 960,
+        "stockDelta": 888,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 2234,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 2812,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 4200,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 6202,
+      "stockTriangles": 2112,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 4228,
+      "stockTriangles": 760,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "high",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 6362,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 15000
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 0,
+      "triangles": 5410,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 6750
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 1,
+      "triangles": 840,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 2,
+      "triangles": 1536,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 3,
+      "triangles": 1226,
+      "stockTriangles": 108,
+      "animalTriangles": 490,
+      "residentTriangles": 490,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 4,
+      "triangles": 1230,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 5,
+      "triangles": 1884,
+      "stockTriangles": 576,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 6,
+      "triangles": 1972,
+      "stockTriangles": 580,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [],
+      "id": 7,
+      "triangles": 5693,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 8550
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 8,
+      "triangles": 1542,
+      "stockTriangles": 236,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "wind"
+      ],
+      "id": 9,
+      "triangles": 3050,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 10,
+      "triangles": 1178,
+      "stockTriangles": 90,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 11,
+      "triangles": 1514,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 12,
+      "triangles": 1514,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 13,
+      "triangles": 1514,
+      "stockTriangles": 450,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 14,
+      "triangles": 1106,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 15,
+      "triangles": 2062,
+      "stockTriangles": 1068,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 16,
+      "triangles": 2283,
+      "stockTriangles": 160,
+      "animalTriangles": 3012,
+      "residentTriangles": 3012,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 17,
+      "triangles": 1454,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 18,
+      "triangles": 1560,
+      "stockTriangles": 108,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 19,
+      "triangles": 744,
+      "stockTriangles": 72,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 20,
+      "triangles": 3054,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 21,
+      "triangles": 1584,
+      "stockTriangles": 240,
+      "animalTriangles": 2940,
+      "residentTriangles": 2940,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working",
+        "ambient_empty_cords"
+      ],
+      "id": 22,
+      "triangles": 1420,
+      "stockTriangles": 528,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 23,
+      "triangles": 2248,
+      "stockTriangles": 828,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 24,
+      "triangles": 2226,
+      "stockTriangles": 768,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 25,
+      "triangles": 2022,
+      "stockTriangles": 500,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 26,
+      "triangles": 2044,
+      "stockTriangles": 708,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 27,
+      "triangles": 1810,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 28,
+      "triangles": 2052,
+      "stockTriangles": 606,
+      "animalTriangles": 3920,
+      "residentTriangles": 3920,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 29,
+      "triangles": 2529,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4275
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 31,
+      "triangles": 1876,
+      "stockTriangles": 448,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 32,
+      "triangles": 1711,
+      "stockTriangles": 272,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 33,
+      "triangles": 1494,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 34,
+      "triangles": 2232,
+      "stockTriangles": 1224,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 6750
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 35,
+      "triangles": 1792,
+      "stockTriangles": 744,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 36,
+      "triangles": 1450,
+      "stockTriangles": 180,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 37,
+      "triangles": 1880,
+      "stockTriangles": 672,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 39,
+      "triangles": 2214,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 40,
+      "triangles": 1954,
+      "stockTriangles": 340,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 41,
+      "triangles": 3054,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 3054,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 42,
+      "triangles": 1310,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1454,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 43,
+      "triangles": 1752,
+      "stockTriangles": 1080,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 744,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 1080,
+        "stockDelta": 1008,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 45,
+      "triangles": 3054,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 3054,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 46,
+      "triangles": 1454,
+      "stockTriangles": 432,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1454,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 432,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 47,
+      "triangles": 888,
+      "stockTriangles": 216,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 744,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 216,
+        "stockDelta": 144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 49,
+      "triangles": 3054,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 3054,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 50,
+      "triangles": 1310,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1454,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 51,
+      "triangles": 792,
+      "stockTriangles": 120,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 744,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 120,
+        "stockDelta": 48,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 53,
+      "triangles": 3054,
+      "stockTriangles": 396,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 20,
+        "baseTriangles": 3054,
+        "baseStockTriangles": 396,
+        "canonicalStockTriangles": 396,
+        "stockDelta": 0,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 54,
+      "triangles": 1310,
+      "stockTriangles": 288,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 17,
+        "baseTriangles": 1454,
+        "baseStockTriangles": 432,
+        "canonicalStockTriangles": 288,
+        "stockDelta": -144,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 55,
+      "triangles": 912,
+      "stockTriangles": 240,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 4050,
+      "attribution": {
+        "baseId": 19,
+        "baseTriangles": 744,
+        "baseStockTriangles": 72,
+        "canonicalStockTriangles": 240,
+        "stockDelta": 168,
+        "architectureDelta": 0
+      }
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 57,
+      "triangles": 454,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 58,
+      "triangles": 636,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 59,
+      "triangles": 740,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 60,
+      "triangles": 2068,
+      "stockTriangles": 864,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 61,
+      "triangles": 1378,
+      "stockTriangles": 360,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    },
+    {
+      "quality": "minimal",
+      "clips": [
+        "construction",
+        "door",
+        "working"
+      ],
+      "id": 62,
+      "triangles": 1596,
+      "stockTriangles": 0,
+      "animalTriangles": 0,
+      "residentTriangles": 0,
+      "nation": "japanese",
+      "budget": 3450
+    }
+  ]
+}

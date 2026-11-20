@@ -1,0 +1,592 @@
+{
+  "nation": "chinese",
+  "generatedAt": "2026-11-11T06:15:16.257Z",
+  "source": "canonical createNationBuilding via building-showcase",
+  "count": 57,
+  "icons": [
+    {
+      "id": 0,
+      "nation": "chinese",
+      "nodeName": "chinese_0",
+      "triangles": 44650,
+      "path": "assets/building-icons/chinese-0.png",
+      "sha256": "0fe50d42d8d9f765db7a85b792dc659e61e69079fabae41c805832cff2836507",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 1,
+      "nation": "chinese",
+      "nodeName": "chinese_1",
+      "triangles": 9758,
+      "path": "assets/building-icons/chinese-1.png",
+      "sha256": "91c5d328873f4114ff9016bec7ac3ec92158db9b089279bb65ebf013061ce09b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "nation": "chinese",
+      "nodeName": "chinese_2",
+      "triangles": 15734,
+      "path": "assets/building-icons/chinese-2.png",
+      "sha256": "0e5e4943841df7332ec659babb7e0383bb8f8524fc8d98c397cca5a2da256075",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "nation": "chinese",
+      "nodeName": "chinese_3",
+      "triangles": 15452,
+      "path": "assets/building-icons/chinese-3.png",
+      "sha256": "b4e27f0ac2025ee62c5c36df75a318928becf3ccd6a564f08a5abbd023376997",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "nation": "chinese",
+      "nodeName": "chinese_4",
+      "triangles": 4454,
+      "path": "assets/building-icons/chinese-4.png",
+      "sha256": "44ed8ab790e2e07d3b69aa5f33edc7ce3749f482515fff19a3f0596651eeda05",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "nation": "chinese",
+      "nodeName": "chinese_5",
+      "triangles": 26148,
+      "path": "assets/building-icons/chinese-5.png",
+      "sha256": "5320eb2a87210f0bdd0ad8dc759c96eb3e3e80f197bceabfaa125f15310e979c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "nation": "chinese",
+      "nodeName": "chinese_6",
+      "triangles": 14415,
+      "path": "assets/building-icons/chinese-6.png",
+      "sha256": "e436b9e407f49ab7f6141ea44c7e65623593bf0108c2220a86b99a1f399c379e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "nation": "chinese",
+      "nodeName": "chinese_7",
+      "triangles": 28464,
+      "path": "assets/building-icons/chinese-7.png",
+      "sha256": "8ee34564620d5199f94654d22ba02e6cdff861c03248c53338352cb1cd4929cf",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "nation": "chinese",
+      "nodeName": "chinese_8",
+      "triangles": 14638,
+      "path": "assets/building-icons/chinese-8.png",
+      "sha256": "2cac1a94d883c11d95abbe0e53c58856ea2d72d97f423c65cbbde31cadf65c11",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "nation": "chinese",
+      "nodeName": "chinese_9",
+      "triangles": 20052,
+      "path": "assets/building-icons/chinese-9.png",
+      "sha256": "5c64fef668fc22b5965172bdcb74b2bb331b2e6eb6ffeb03be45b6540a3c48da",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "nation": "chinese",
+      "nodeName": "chinese_10",
+      "triangles": 8244,
+      "path": "assets/building-icons/chinese-10.png",
+      "sha256": "3cb014e3f2adb5fb1946aa55860fb5015380670183d4f0cb2c24bf2ee29ca236",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nation": "chinese",
+      "nodeName": "chinese_11",
+      "triangles": 10980,
+      "path": "assets/building-icons/chinese-11.png",
+      "sha256": "a589418d5c3cd921f04d8d97428e5d5332049b0431719504c3c0be80b445ab07",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "nation": "chinese",
+      "nodeName": "chinese_12",
+      "triangles": 10980,
+      "path": "assets/building-icons/chinese-12.png",
+      "sha256": "7da8129dc777c373625b4cefc8e7ae1b7679ef82d2cdbe18e4910e5a4af7549e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "nation": "chinese",
+      "nodeName": "chinese_13",
+      "triangles": 10980,
+      "path": "assets/building-icons/chinese-13.png",
+      "sha256": "8b88869b01e2dc75c6c7fd68dd5e14fa3bf2056b7a5dba1bd800575c57c52a6a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "nation": "chinese",
+      "nodeName": "chinese_14",
+      "triangles": 6886,
+      "path": "assets/building-icons/chinese-14.png",
+      "sha256": "e49bff6a68c867a44425a98f2ee479574df028a6d96c639fc25ca6e83a9fd672",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nation": "chinese",
+      "nodeName": "chinese_15",
+      "triangles": 17956,
+      "path": "assets/building-icons/chinese-15.png",
+      "sha256": "fa628fb2db67d58c3ff1f21f7057b57e269aab6875b946730e8fd3dac34de75c",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nation": "chinese",
+      "nodeName": "chinese_16",
+      "triangles": 18512,
+      "path": "assets/building-icons/chinese-16.png",
+      "sha256": "97f6ea8640696f25a1a19b0904f6130b25682a5bae06079945eeaab1028940e6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "nation": "chinese",
+      "nodeName": "chinese_17",
+      "triangles": 9724,
+      "path": "assets/building-icons/chinese-17.png",
+      "sha256": "56bbb0724e71f06ccaf9f0ec0ff754fe0ba9368e24f43760b047ac3e6947f594",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nation": "chinese",
+      "nodeName": "chinese_18",
+      "triangles": 15642,
+      "path": "assets/building-icons/chinese-18.png",
+      "sha256": "d9fae0e4ad3f6b97764e0e96c03c3001efc2ac04e522cb8cec7feb2fe5b4988f",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nation": "chinese",
+      "nodeName": "chinese_19",
+      "triangles": 7050,
+      "path": "assets/building-icons/chinese-19.png",
+      "sha256": "b2c3fbeb3338b443c6d0007665d2c13c821b108ea9fd3830022d343923fcc585",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "nation": "chinese",
+      "nodeName": "chinese_20",
+      "triangles": 12448,
+      "path": "assets/building-icons/chinese-20.png",
+      "sha256": "f3e9cb4a175ade18511ff02e399a6828b17891545097b1e56aff3263db14d8a0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "nation": "chinese",
+      "nodeName": "chinese_21",
+      "triangles": 29048,
+      "path": "assets/building-icons/chinese-21.png",
+      "sha256": "4c3cfd8d67281ca271888631a8079f66db8079a75dd06f918c1a1246e243d1a6",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "nation": "chinese",
+      "nodeName": "chinese_22",
+      "triangles": 10348,
+      "path": "assets/building-icons/chinese-22.png",
+      "sha256": "8505c7dabaacc85b89bc23cd4710a6c969e1c6e00af0c8c8d78b7d4ffe37b5f3",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nation": "chinese",
+      "nodeName": "chinese_23",
+      "triangles": 18352,
+      "path": "assets/building-icons/chinese-23.png",
+      "sha256": "77758a352e84d171ad7736ec9d27f46094d0c0a196107665298270eed6d3d305",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "nation": "chinese",
+      "nodeName": "chinese_24",
+      "triangles": 14466,
+      "path": "assets/building-icons/chinese-24.png",
+      "sha256": "386c78b71b6741257547409eb30bebb59c74b30f93e704f3af4029354dd46707",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "nation": "chinese",
+      "nodeName": "chinese_25",
+      "triangles": 13140,
+      "path": "assets/building-icons/chinese-25.png",
+      "sha256": "292319afce2530327678ba2a9254c7de7d1e3f3b5b45dd4027965fa6f2056812",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "nation": "chinese",
+      "nodeName": "chinese_26",
+      "triangles": 12344,
+      "path": "assets/building-icons/chinese-26.png",
+      "sha256": "585369801a2a19f56c8ecff93329cf47ae70a5d4a4c2c5af8da6af790cdcb406",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "nation": "chinese",
+      "nodeName": "chinese_27",
+      "triangles": 11468,
+      "path": "assets/building-icons/chinese-27.png",
+      "sha256": "6b5573994dc99aff8952d060f5ea0d5c451705b47df35bdbec4bf2d7d92fecff",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "nation": "chinese",
+      "nodeName": "chinese_28",
+      "triangles": 35610,
+      "path": "assets/building-icons/chinese-28.png",
+      "sha256": "700e048c77d8cb69046c56f37311664b0b2240dd0720f44d09aa8c29337b96d8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "nation": "chinese",
+      "nodeName": "chinese_29",
+      "triangles": 13054,
+      "path": "assets/building-icons/chinese-29.png",
+      "sha256": "e3e7106dad1178aa2ddaf84b8b971c5b57015c9b218dc0e65ae2fc28c82a99f5",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "nation": "chinese",
+      "nodeName": "chinese_31",
+      "triangles": 14070,
+      "path": "assets/building-icons/chinese-31.png",
+      "sha256": "761e053aa7af033817abc6d129c7b363a6456bb7ecb32cf98dcbe339ad7f3dad",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "nation": "chinese",
+      "nodeName": "chinese_32",
+      "triangles": 15274,
+      "path": "assets/building-icons/chinese-32.png",
+      "sha256": "a3aa7cdbae1430401d409b84799d06406bf2fa5c3ead044d9efc44ea54956f05",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "nation": "chinese",
+      "nodeName": "chinese_33",
+      "triangles": 11104,
+      "path": "assets/building-icons/chinese-33.png",
+      "sha256": "c611ab91bce4eb0b7bb84cb96c8c1e9ea393c469ddd344e69d30df576e5437cb",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nation": "chinese",
+      "nodeName": "chinese_34",
+      "triangles": 13578,
+      "path": "assets/building-icons/chinese-34.png",
+      "sha256": "01fcd3484c90f9faaa4893ba8f1c3d11c78ff27e07196db61d76837ea1f664bd",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nation": "chinese",
+      "nodeName": "chinese_35",
+      "triangles": 8534,
+      "path": "assets/building-icons/chinese-35.png",
+      "sha256": "c75976b85f56155e209ab89243760ccf259752cbd8f5b2595dc43c90e5dc4f74",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "nation": "chinese",
+      "nodeName": "chinese_36",
+      "triangles": 9076,
+      "path": "assets/building-icons/chinese-36.png",
+      "sha256": "25945af1556d5708253d802d13013734c5c6644a6be003569ff258a6aa830eb0",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nation": "chinese",
+      "nodeName": "chinese_37",
+      "triangles": 23122,
+      "path": "assets/building-icons/chinese-37.png",
+      "sha256": "efb73fd3afc70b83faf7465605fb5d3466a642cf2fb58605d7ecc76fbdb53261",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nation": "chinese",
+      "nodeName": "chinese_39",
+      "triangles": 18406,
+      "path": "assets/building-icons/chinese-39.png",
+      "sha256": "9f084946c4ddd4851c0f79b8c33dc0c7f594c0e33d92bbec7c085176cd9d9a4d",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "nation": "chinese",
+      "nodeName": "chinese_40",
+      "triangles": 10232,
+      "path": "assets/building-icons/chinese-40.png",
+      "sha256": "a23528fb1e54191adac0152f370fd3919bc805f1721205a4e8e2501155b38808",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "nation": "chinese",
+      "nodeName": "chinese_41",
+      "triangles": 12672,
+      "path": "assets/building-icons/chinese-41.png",
+      "sha256": "f21f785fd214c60626a47751f923472044c07cc91de6e5c984b498943f04f315",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "nation": "chinese",
+      "nodeName": "chinese_42",
+      "triangles": 10010,
+      "path": "assets/building-icons/chinese-42.png",
+      "sha256": "2d9d2ede86f7d79512297270e397bb4ca5cdf4872bfc50a5b30a6bd863e428f2",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "nation": "chinese",
+      "nodeName": "chinese_43",
+      "triangles": 9636,
+      "path": "assets/building-icons/chinese-43.png",
+      "sha256": "b0cae0bde27d3cfe23f342347db296380ef1d779af8c0248556e13fc476ecc3b",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "nation": "chinese",
+      "nodeName": "chinese_45",
+      "triangles": 12672,
+      "path": "assets/building-icons/chinese-45.png",
+      "sha256": "f21f785fd214c60626a47751f923472044c07cc91de6e5c984b498943f04f315",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nation": "chinese",
+      "nodeName": "chinese_46",
+      "triangles": 11162,
+      "path": "assets/building-icons/chinese-46.png",
+      "sha256": "3c24954192fe01594da43e635cd7a2cc95df0fb8c3ba0f13168e1c1ccf8e4389",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nation": "chinese",
+      "nodeName": "chinese_47",
+      "triangles": 7452,
+      "path": "assets/building-icons/chinese-47.png",
+      "sha256": "90ceaa471448e8cf2fce3b0b01a42823b47cc10d6cc17f34ca3ef719d27f6ff8",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nation": "chinese",
+      "nodeName": "chinese_49",
+      "triangles": 12672,
+      "path": "assets/building-icons/chinese-49.png",
+      "sha256": "f21f785fd214c60626a47751f923472044c07cc91de6e5c984b498943f04f315",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "nation": "chinese",
+      "nodeName": "chinese_50",
+      "triangles": 10010,
+      "path": "assets/building-icons/chinese-50.png",
+      "sha256": "dad1fbe91eec27b01e07731cfe9cf1ccaca90069bad7b882149ca15492af6bb4",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "nation": "chinese",
+      "nodeName": "chinese_51",
+      "triangles": 7236,
+      "path": "assets/building-icons/chinese-51.png",
+      "sha256": "e7f2b02e21dd290e364581fc02f144eac9f660ec2f44a3eba0cbd6c10bf9c13a",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "nation": "chinese",
+      "nodeName": "chinese_53",
+      "triangles": 12672,
+      "path": "assets/building-icons/chinese-53.png",
+      "sha256": "f21f785fd214c60626a47751f923472044c07cc91de6e5c984b498943f04f315",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "nation": "chinese",
+      "nodeName": "chinese_54",
+      "triangles": 10010,
+      "path": "assets/building-icons/chinese-54.png",
+      "sha256": "4602cc4682c72df582595f2c1c11544a0c629834514f372530160ae64e5d6717",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "nation": "chinese",
+      "nodeName": "chinese_55",
+      "triangles": 8052,
+      "path": "assets/building-icons/chinese-55.png",
+      "sha256": "538fdb4fff8dcfa430e71b95e086076766459c64c16800e1d1fea833b94a123e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "nation": "chinese",
+      "nodeName": "chinese_57",
+      "triangles": 8518,
+      "path": "assets/building-icons/chinese-57.png",
+      "sha256": "b27780249181da5c4046b0919ea0d1b5bd4e01bbc9529bb0c2366c92bca8eb2e",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "nation": "chinese",
+      "nodeName": "chinese_58",
+      "triangles": 13376,
+      "path": "assets/building-icons/chinese-58.png",
+      "sha256": "91be2a74d12a479b1b76c1b6d3b1ba2aff638780f04c90f61a14452565e3f020",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "nation": "chinese",
+      "nodeName": "chinese_59",
+      "triangles": 14208,
+      "path": "assets/building-icons/chinese-59.png",
+      "sha256": "7858a6eb7cef0ec11ba891993fdfef776744dac7613a2b8a82d0c59f83063989",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "nation": "chinese",
+      "nodeName": "chinese_60",
+      "triangles": 13966,
+      "path": "assets/building-icons/chinese-60.png",
+      "sha256": "01b8b4309f0924f90ecb27e5ba3e88bf72678322c7105f8818dd3c8316d569b9",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "nation": "chinese",
+      "nodeName": "chinese_61",
+      "triangles": 16560,
+      "path": "assets/building-icons/chinese-61.png",
+      "sha256": "7c0a6837439a55f133c73b7539cb9cc7dde10fb9d7ad39cccb5f0547d9c17895",
+      "quality": "high",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "nation": "chinese",
+      "nodeName": "chinese_62",
+      "triangles": 8965,
+      "path": "assets/building-icons/chinese-62.png",
+      "sha256": "b044b3ec1d4a88ddddf16c6d071f7ea8c22c5c34e184c6549dc58a6694281bce",
+      "quality": "high",
+      "level": 1
+    }
+  ],
+  "partialUpdates": [
+    {
+      "id": 18,
+      "generatedAt": "2026-11-11T15:02:39.000Z",
+      "source": "codex-building-export/report.json",
+      "sourceSha256": "0a4b27be65ee30cc4a37fbd02bfe887ecc2a53c9ec9c351933f4228851c77eec"
+    },
+    {
+      "id": 17,
+      "generatedAt": "2026-11-11T15:04:45.135Z",
+      "source": "codex-chinese-export/report.json",
+      "sourceSha256": "d2a720286b49ca34b786b6aebcc9c03235fa7097ad2f7ec963127e30c4372a3b"
+    }
+  ]
+}
